@@ -24,6 +24,14 @@ npm run preview
 
 프리뷰는 **http://127.0.0.1:4286/** 에서 실행합니다. 서버는 loopback에만 연결됩니다. 포트 충돌 시 임의로 다른 앱을 종료하지 않습니다.
 
+## GitHub 연동 자동 배포
+
+기존 Vercel 프로젝트 `melatonin-game`은 GitHub 저장소 `kimyounggaur/Melatonin_Game`에 연결되어 있습니다. 원격 `main`의 새 커밋을 push하면 production 배포가 자동으로 시작됩니다. 빌드가 READY로 완료되면 **https://melatonin-game.vercel.app/** 에 새 버전이 반영됩니다.
+
+로컬에서 `git commit`만 하는 것은 배포를 시작하지 않습니다. 커밋을 원격 저장소에 전송하는 `git push origin main`이 자동 배포의 trigger입니다. 전송할 새 커밋이 없는 push도 새 배포를 만들지 않습니다.
+
+Vercel은 연결된 커밋에서 `npm ci`와 `npm run build`를 실행하고 `dist/`를 배포합니다. 배포 목록에서 커밋 SHA·production·READY를 확인하세요. 이 연결에는 별도의 배포 토큰이나 중복 GitHub Actions 배포 작업이 필요하지 않습니다. 교육자·청음·미술의 pending 승인 상태와 교육 출고 gate는 그대로 유지됩니다.
+
 ## 플레이
 
 - 추천 순서: **L01 → L02 → L03 → L04 → L06 → L07 → L05 → L08 → L09**. 점수 잠금 없이 다른 수업도 선택할 수 있습니다.
