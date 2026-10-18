@@ -1,0 +1,8 @@
+{
+  "contentVersion": "1.0.0",
+  "recommendedOrder": ["L01", "L02", "L03", "L04", "L06", "L07", "L05", "L08", "L09"],
+  "scoreLocks": false,
+  "completionOpensNext": true,
+  "optionalPrerequisites": {"L05": ["L04", "L07"]},
+  "v2Enabled": false
+}

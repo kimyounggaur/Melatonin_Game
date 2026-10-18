@@ -1,0 +1,8 @@
+* text=auto eol=lf
+public/assets/** -text
+reference/** -text
+docs/reference-fixtures/** -text
+*.png binary
+*.webp binary
+*.zip binary
+*.cmd text eol=crlf

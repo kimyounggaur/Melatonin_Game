@@ -1,0 +1,160 @@
+{
+  "fixtureKind": "L02InputReplay",
+  "quarterBpm": 72,
+  "N": 3,
+  "cases": [
+    {
+      "name": "perfect",
+      "edges": [
+        {
+          "sequence": 1,
+          "edge": "down",
+          "atTick": 0,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 2,
+          "edge": "up",
+          "atTick": 960,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 3,
+          "edge": "down",
+          "atTick": 1440,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 4,
+          "edge": "up",
+          "atTick": 1500,
+          "ownerToken": "keyboard:Space"
+        }
+      ],
+      "expectedEarned": 3,
+      "expectedExtra": 0,
+      "expectedScore": 100
+    },
+    {
+      "name": "tie_broken_and_restrike",
+      "edges": [
+        {
+          "sequence": 1,
+          "edge": "down",
+          "atTick": 0,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 2,
+          "edge": "up",
+          "atTick": 480,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 3,
+          "edge": "down",
+          "atTick": 480,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 4,
+          "edge": "up",
+          "atTick": 960,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 5,
+          "edge": "down",
+          "atTick": 1440,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 6,
+          "edge": "up",
+          "atTick": 1500,
+          "ownerToken": "keyboard:Space"
+        }
+      ],
+      "expectedEarned": 2,
+      "expectedExtra": 1,
+      "expectedScore": 58
+    },
+    {
+      "name": "hold_onset_missing_then_up",
+      "edges": [
+        {
+          "sequence": 1,
+          "edge": "up",
+          "atTick": 960,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 2,
+          "edge": "down",
+          "atTick": 1440,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 3,
+          "edge": "up",
+          "atTick": 1500,
+          "ownerToken": "keyboard:Space"
+        }
+      ],
+      "expectedEarned": 1,
+      "expectedExtra": 0,
+      "expectedScore": 33
+    },
+    {
+      "name": "rest_intrusion",
+      "edges": [
+        {
+          "sequence": 1,
+          "edge": "down",
+          "atTick": 0,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 2,
+          "edge": "up",
+          "atTick": 960,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 3,
+          "edge": "down",
+          "atTick": 1200,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 4,
+          "edge": "up",
+          "atTick": 1210,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 5,
+          "edge": "down",
+          "atTick": 1440,
+          "ownerToken": "keyboard:Space"
+        },
+        {
+          "sequence": 6,
+          "edge": "up",
+          "atTick": 1500,
+          "ownerToken": "keyboard:Space"
+        }
+      ],
+      "expectedEarned": 3,
+      "expectedExtra": 1,
+      "expectedScore": 92
+    },
+    {
+      "name": "no_input",
+      "edges": [],
+      "expectedEarned": 0,
+      "expectedExtra": 0,
+      "expectedScore": 0
+    }
+  ]
+}

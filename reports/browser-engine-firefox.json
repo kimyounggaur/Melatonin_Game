@@ -1,0 +1,10 @@
+{
+  "browserName": "firefox",
+  "version": "142.0.1",
+  "node": "v24.14.0",
+  "headless": true,
+  "isolatedContext": true,
+  "baseURL": "http://127.0.0.1:5286",
+  "physicalListening": false,
+  "observedAt": "2026-10-18T16:54:36.947Z"
+}

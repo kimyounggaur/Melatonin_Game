@@ -1,0 +1,15 @@
+{
+  "fixtureKind": "halfMicrosecondSymmetry",
+  "cases": [
+    {
+      "correctedErrorMs": 45.0005,
+      "roundedAbsoluteErrorUs": 45001,
+      "expectedPoints": 0.75
+    },
+    {
+      "correctedErrorMs": -45.0005,
+      "roundedAbsoluteErrorUs": 45001,
+      "expectedPoints": 0.75
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\playwright.config.ts",
+    "rootDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [
+          "/all-levels\\.spec\\.ts/",
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "all-levels.spec.ts",
+      "file": "all-levels.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "E01 E14: remaining eight complete real-time Chrome sessions",
+          "file": "all-levels.spec.ts",
+          "line": 116,
+          "column": 6,
+          "specs": [
+            {
+              "title": "L03: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 99824,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-18T16:36:32.901Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5b31b6d9b2d22abbd823-01bbfde43a486d874945",
+              "file": "all-levels.spec.ts",
+              "line": 122,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "webkit-static.spec.ts",
+      "file": "webkit-static.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "WebKit Windows capability: absent Web Audio gives retry guidance and never silently enters PLAY",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1786,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:38:15.087Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4a9e2cb1beefb2afad72-a664da9cdf2b9121fe6d",
+          "file": "webkit-static.spec.ts",
+          "line": 32,
+          "column": 1
+        },
+        {
+          "title": "WebKit rendering: legitimate map link opens nine source-notation lessons, five viewport layouts and 200% text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8908,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:38:17.024Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4a9e2cb1beefb2afad72-36beced28b9f3bf1b513",
+          "file": "webkit-static.spec.ts",
+          "line": 72,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-18T16:36:31.696Z",
+    "duration": 114383.395,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

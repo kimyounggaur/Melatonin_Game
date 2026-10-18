@@ -1,0 +1,30 @@
+{
+  "purpose": "Independent trusted multi-pointer CDP harness verification; no application code or AudioContext",
+  "events": [
+    {
+      "type": "pointerdown",
+      "pointerId": 2,
+      "isPrimary": true,
+      "isTrusted": true
+    },
+    {
+      "type": "pointerdown",
+      "pointerId": 3,
+      "isPrimary": false,
+      "isTrusted": true
+    },
+    {
+      "type": "pointerup",
+      "pointerId": 3,
+      "isPrimary": false,
+      "isTrusted": true
+    },
+    {
+      "type": "pointerup",
+      "pointerId": 2,
+      "isPrimary": true,
+      "isTrusted": true
+    }
+  ],
+  "passed": true
+}

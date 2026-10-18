@@ -1,0 +1,269 @@
+{
+  "fixtureKind": "invalidLevelMutations",
+  "cases": [
+    {
+      "id": "short_bar",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "remove",
+          "path": "/bars/0/events/4"
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "BAR_LENGTH"
+      ]
+    },
+    {
+      "id": "overlap_at",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "replace",
+          "path": "/bars/0/events/1/at",
+          "value": 400
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "EVENT_CONTIGUITY"
+      ]
+    },
+    {
+      "id": "gap_at",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "replace",
+          "path": "/bars/0/events/1/at",
+          "value": 500
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "EVENT_CONTIGUITY"
+      ]
+    },
+    {
+      "id": "dotted_quarter_wrong_ticks",
+      "sourceLevel": "L04",
+      "patch": [
+        {
+          "op": "replace",
+          "path": "/bars/0/events/0/ticks",
+          "value": 480
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "DURATION_MISMATCH"
+      ]
+    },
+    {
+      "id": "pitch_midi_mismatch",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "replace",
+          "path": "/bars/0/events/0/midi",
+          "value": 74
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "PITCH_MIDI_MISMATCH"
+      ]
+    },
+    {
+      "id": "different_pitch_tie",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "replace",
+          "path": "/bars/0/events/1/pitchName",
+          "value": "D5"
+        },
+        {
+          "op": "replace",
+          "path": "/bars/0/events/1/midi",
+          "value": 74
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "TIE_PITCH_MISMATCH"
+      ]
+    },
+    {
+      "id": "rest_inside_tie",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "remove",
+          "path": "/bars/0/events/1/tieGroup"
+        },
+        {
+          "op": "add",
+          "path": "/bars/0/events/3/tieGroup",
+          "value": "t1"
+        },
+        {
+          "op": "replace",
+          "path": "/bars/0/events/3/pitchName",
+          "value": "C5"
+        },
+        {
+          "op": "replace",
+          "path": "/bars/0/events/3/midi",
+          "value": 72
+        },
+        {
+          "op": "replace",
+          "path": "/bars/0/events/3/interaction",
+          "value": "hold"
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "TIE_CONTIGUITY"
+      ]
+    },
+    {
+      "id": "rest_with_tie",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "add",
+          "path": "/bars/0/events/2/tieGroup",
+          "value": "bad"
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "SCHEMA"
+      ]
+    },
+    {
+      "id": "dangling_tie",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "remove",
+          "path": "/bars/0/events/1/tieGroup"
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "TIE_TOO_SHORT"
+      ]
+    },
+    {
+      "id": "tap_tie",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "replace",
+          "path": "/bars/0/events/1/interaction",
+          "value": "tap"
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "TIE_INTERACTION"
+      ]
+    },
+    {
+      "id": "wrong_compound_grouping",
+      "sourceLevel": "L07",
+      "patch": [
+        {
+          "op": "replace",
+          "path": "/meter/groupingEighths",
+          "value": [
+            2,
+            2,
+            2
+          ]
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "SCHEMA"
+      ]
+    },
+    {
+      "id": "duplicate_id",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "replace",
+          "path": "/bars/0/events/1/id",
+          "value": "a"
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "DUPLICATE_EVENT_ID"
+      ]
+    },
+    {
+      "id": "unknown_property",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "add",
+          "path": "/bpm",
+          "value": 72
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "SCHEMA"
+      ]
+    },
+    {
+      "id": "fictional_review_approval",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "replace",
+          "path": "/reviewState",
+          "value": "approved"
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "SCHEMA"
+      ]
+    },
+    {
+      "id": "rest_with_pitch",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "add",
+          "path": "/bars/0/events/2/pitchName",
+          "value": "C5"
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "SCHEMA"
+      ]
+    },
+    {
+      "id": "zero_ticks",
+      "sourceLevel": "L02",
+      "patch": [
+        {
+          "op": "replace",
+          "path": "/bars/0/events/0/ticks",
+          "value": 0
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "SCHEMA"
+      ]
+    },
+    {
+      "id": "unrepresented_swing_320",
+      "sourceLevel": "L06",
+      "patch": [
+        {
+          "op": "replace",
+          "path": "/bars/0/events/0/ticks",
+          "value": 320
+        }
+      ],
+      "mustIncludeErrorCodes": [
+        "DURATION_MISMATCH"
+      ]
+    }
+  ]
+}

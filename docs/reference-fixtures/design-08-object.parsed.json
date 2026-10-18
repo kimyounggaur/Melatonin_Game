@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "L07",
+  "title": "셋씩 접히는 두 칸",
+  "scene": "folding-room",
+  "ppq": 480,
+  "meter": {
+    "n": 6,
+    "d": 8,
+    "groupingEighths": [
+      3,
+      3
+    ]
+  },
+  "quarterBpm": 90,
+  "sourceIds": [
+    "032-3"
+  ],
+  "skillIds": [
+    "compound-duple"
+  ],
+  "sequence": {
+    "countInBars": 1,
+    "listenRepeats": 2,
+    "listenTailBars": 1,
+    "practiceRepeats": 2,
+    "playRepeats": 4,
+    "outroBars": 1
+  },
+  "reviewState": "math_checked_art_audio_review_pending",
+  "bars": [
+    {
+      "events": [
+        {
+          "id": "a",
+          "at": 0,
+          "ticks": 240,
+          "kind": "note",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          },
+          "pitchName": "C5",
+          "midi": 72,
+          "interaction": "tap"
+        },
+        {
+          "id": "b",
+          "at": 240,
+          "ticks": 240,
+          "kind": "note",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          },
+          "pitchName": "C5",
+          "midi": 72,
+          "interaction": "tap"
+        },
+        {
+          "id": "c",
+          "at": 480,
+          "ticks": 240,
+          "kind": "note",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          },
+          "pitchName": "C5",
+          "midi": 72,
+          "interaction": "tap"
+        },
+        {
+          "id": "d",
+          "at": 720,
+          "ticks": 240,
+          "kind": "note",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          },
+          "pitchName": "C5",
+          "midi": 72,
+          "interaction": "tap"
+        },
+        {
+          "id": "e",
+          "at": 960,
+          "ticks": 240,
+          "kind": "note",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          },
+          "pitchName": "C5",
+          "midi": 72,
+          "interaction": "tap"
+        },
+        {
+          "id": "f",
+          "at": 1200,
+          "ticks": 240,
+          "kind": "note",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          },
+          "pitchName": "C5",
+          "midi": 72,
+          "interaction": "tap"
+        }
+      ]
+    }
+  ]
+}

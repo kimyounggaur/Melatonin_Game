@@ -1,0 +1,75 @@
+{
+  "fixtureKind": "judgeBoundaries",
+  "cases": [
+    {
+      "kind": "onset",
+      "errorUs": 45000,
+      "expectedPoints": 1
+    },
+    {
+      "kind": "onset",
+      "errorUs": 45001,
+      "expectedPoints": 0.75
+    },
+    {
+      "kind": "onset",
+      "errorUs": -45000,
+      "expectedPoints": 1
+    },
+    {
+      "kind": "onset",
+      "errorUs": -45001,
+      "expectedPoints": 0.75
+    },
+    {
+      "kind": "onset",
+      "errorUs": 90000,
+      "expectedPoints": 0.75
+    },
+    {
+      "kind": "onset",
+      "errorUs": 90001,
+      "expectedPoints": 0.4
+    },
+    {
+      "kind": "onset",
+      "errorUs": 140000,
+      "expectedPoints": 0.4
+    },
+    {
+      "kind": "onset",
+      "errorUs": 140001,
+      "expectedPoints": 0
+    },
+    {
+      "kind": "release",
+      "errorUs": 60000,
+      "expectedPoints": 1
+    },
+    {
+      "kind": "release",
+      "errorUs": 60001,
+      "expectedPoints": 0.75
+    },
+    {
+      "kind": "release",
+      "errorUs": 110000,
+      "expectedPoints": 0.75
+    },
+    {
+      "kind": "release",
+      "errorUs": 110001,
+      "expectedPoints": 0.4
+    },
+    {
+      "kind": "release",
+      "errorUs": 160000,
+      "expectedPoints": 0.4
+    },
+    {
+      "kind": "release",
+      "errorUs": 160001,
+      "expectedPoints": 0
+    }
+  ]
+}

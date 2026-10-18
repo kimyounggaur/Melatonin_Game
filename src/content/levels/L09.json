@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "L09",
+  "title": "가벼운 구름 편지",
+  "scene": "cloud-post",
+  "ppq": 480,
+  "meter": {
+    "n": 4,
+    "d": 4,
+    "groupingEighths": [
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "quarterBpm": 108,
+  "sourceIds": [
+    "004",
+    "030-1"
+  ],
+  "skillIds": [
+    "tempo"
+  ],
+  "sequence": {
+    "countInBars": 1,
+    "listenRepeats": 2,
+    "listenTailBars": 1,
+    "practiceRepeats": 2,
+    "playRepeats": 4,
+    "outroBars": 1
+  },
+  "bars": [
+    {
+      "events": [
+        {
+          "id": "a",
+          "at": 0,
+          "ticks": 240,
+          "kind": "note",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          },
+          "pitchName": "C5",
+          "midi": 72,
+          "interaction": "tap"
+        },
+        {
+          "id": "b",
+          "at": 240,
+          "ticks": 240,
+          "kind": "rest",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          }
+        },
+        {
+          "id": "c",
+          "at": 480,
+          "ticks": 240,
+          "kind": "note",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          },
+          "pitchName": "D5",
+          "midi": 74,
+          "interaction": "tap"
+        },
+        {
+          "id": "d",
+          "at": 720,
+          "ticks": 240,
+          "kind": "rest",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          }
+        },
+        {
+          "id": "e",
+          "at": 960,
+          "ticks": 240,
+          "kind": "note",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          },
+          "pitchName": "E5",
+          "midi": 76,
+          "interaction": "tap"
+        },
+        {
+          "id": "f",
+          "at": 1200,
+          "ticks": 240,
+          "kind": "rest",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          }
+        },
+        {
+          "id": "g",
+          "at": 1440,
+          "ticks": 240,
+          "kind": "note",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          },
+          "pitchName": "G5",
+          "midi": 79,
+          "interaction": "tap"
+        },
+        {
+          "id": "h",
+          "at": 1680,
+          "ticks": 240,
+          "kind": "rest",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          }
+        }
+      ]
+    }
+  ],
+  "reviewState": "math_checked_art_audio_review_pending"
+}

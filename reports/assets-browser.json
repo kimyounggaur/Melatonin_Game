@@ -1,0 +1,3583 @@
+{
+  "date": "2026-10-18T16:16:02.664Z",
+  "browser": "headless Google Chrome via Playwright; dedicated workspace temporary profile",
+  "runtime": "155.0.8059.80",
+  "physicalDevice": "not run",
+  "listening": "not run",
+  "results": [
+    {
+      "name": "actual WebP browser decode: 17 primary files",
+      "passed": true,
+      "details": {
+        "capability": true,
+        "decodes": [
+          {
+            "id": "scene_a_thread_bridge",
+            "width": 1152,
+            "height": 768,
+            "correct": true
+          },
+          {
+            "id": "scene_b_crescent_greenhouse",
+            "width": 1152,
+            "height": 768,
+            "correct": true
+          },
+          {
+            "id": "scene_c_folding_room",
+            "width": 1152,
+            "height": 768,
+            "correct": true
+          },
+          {
+            "id": "scene_d_cloud_post_station",
+            "width": 1152,
+            "height": 768,
+            "correct": true
+          },
+          {
+            "id": "character.yeoul.idle",
+            "width": 512,
+            "height": 512,
+            "correct": true
+          },
+          {
+            "id": "character.yeoul.prepare",
+            "width": 512,
+            "height": 512,
+            "correct": true
+          },
+          {
+            "id": "character.yeoul.release",
+            "width": 512,
+            "height": 512,
+            "correct": true
+          },
+          {
+            "id": "character.yeoul.press",
+            "width": 512,
+            "height": 512,
+            "correct": true
+          },
+          {
+            "id": "character.yeoul.hold",
+            "width": 512,
+            "height": 512,
+            "correct": true
+          },
+          {
+            "id": "character.yeoul.miss",
+            "width": 512,
+            "height": 512,
+            "correct": true
+          },
+          {
+            "id": "object.greenhouse.flower_closed",
+            "width": 512,
+            "height": 512,
+            "correct": true
+          },
+          {
+            "id": "object.greenhouse.flower_opening_2",
+            "width": 512,
+            "height": 512,
+            "correct": true
+          },
+          {
+            "id": "object.greenhouse.flower_open",
+            "width": 512,
+            "height": 512,
+            "correct": true
+          },
+          {
+            "id": "object.greenhouse.flower_opening_1",
+            "width": 512,
+            "height": 512,
+            "correct": true
+          },
+          {
+            "id": "somsae_count",
+            "width": 384,
+            "height": 384,
+            "correct": true
+          },
+          {
+            "id": "somsae_demo",
+            "width": 384,
+            "height": 384,
+            "correct": true
+          },
+          {
+            "id": "somsae_encourage",
+            "width": 384,
+            "height": 384,
+            "correct": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "inline capability decode agrees with real WebP support",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "thread-bridge/390: exact current profile, real decoded primary files",
+      "passed": true,
+      "details": {
+        "ids": [
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "scene_a_thread_bridge",
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_release",
+          "icon_release_hc",
+          "icon_hold_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "bridge_release",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "bridge_onset",
+          "bridge_tie_knot",
+          "bridge_onset_hc",
+          "bridge_release_hc",
+          "bridge_tie_knot_hc",
+          "bridge_bar_pillar",
+          "bridge_needle_eye",
+          "bridge_spool",
+          "bridge_ribbon_tile",
+          "bridge_ribbon_broken",
+          "bridge_lantern_idle",
+          "bridge_lantern_active"
+        ],
+        "diagnostics": [
+          {
+            "id": "character.yeoul.idle",
+            "selectedPath": "characters/yeoul_idle.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.prepare",
+            "selectedPath": "characters/yeoul_prepare.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.release",
+            "selectedPath": "characters/yeoul_release.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.press",
+            "selectedPath": "characters/yeoul_press.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.hold",
+            "selectedPath": "characters/yeoul_hold.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.miss",
+            "selectedPath": "characters/yeoul_miss.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_count",
+            "selectedPath": "characters/somsae_count.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_demo",
+            "selectedPath": "characters/somsae_demo.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_encourage",
+            "selectedPath": "characters/somsae_encourage.webp",
+            "fallback": false
+          },
+          {
+            "id": "scene_a_thread_bridge",
+            "selectedPath": "backgrounds/scene_a_thread_bridge.webp",
+            "fallback": false
+          },
+          {
+            "id": "icon_press",
+            "selectedPath": "ui/icon_press.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_press_hc",
+            "selectedPath": "ui/icon_press_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold",
+            "selectedPath": "ui/icon_hold.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release",
+            "selectedPath": "ui/icon_release.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release_hc",
+            "selectedPath": "ui/icon_release_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold_hc",
+            "selectedPath": "ui/icon_hold_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait",
+            "selectedPath": "ui/icon_wait.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait_hc",
+            "selectedPath": "ui/icon_wait_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound",
+            "selectedPath": "ui/icon_sound.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound_hc",
+            "selectedPath": "ui/icon_sound_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause",
+            "selectedPath": "ui/icon_pause.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause_hc",
+            "selectedPath": "ui/icon_pause_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume",
+            "selectedPath": "ui/icon_resume.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume_hc",
+            "selectedPath": "ui/icon_resume_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry",
+            "selectedPath": "ui/icon_retry.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry_hc",
+            "selectedPath": "ui/icon_retry_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home",
+            "selectedPath": "ui/icon_home.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home_hc",
+            "selectedPath": "ui/icon_home_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help",
+            "selectedPath": "ui/icon_help.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help_hc",
+            "selectedPath": "ui/icon_help_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast",
+            "selectedPath": "ui/icon_contrast.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast_hc",
+            "selectedPath": "ui/icon_contrast_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion",
+            "selectedPath": "ui/icon_reduced_motion.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion_hc",
+            "selectedPath": "ui/icon_reduced_motion_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_normal",
+            "selectedPath": "ui/button_normal.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_pressed",
+            "selectedPath": "ui/button_pressed.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_focus",
+            "selectedPath": "ui/button_focus.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_disabled",
+            "selectedPath": "ui/button_disabled.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_release",
+            "selectedPath": "objects/bridge_release.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_success",
+            "selectedPath": "ui/feedback_knot_success.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_miss",
+            "selectedPath": "ui/feedback_knot_miss.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_onset",
+            "selectedPath": "objects/bridge_onset.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_tie_knot",
+            "selectedPath": "objects/bridge_tie_knot.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_onset_hc",
+            "selectedPath": "objects/bridge_onset_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_release_hc",
+            "selectedPath": "objects/bridge_release_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_tie_knot_hc",
+            "selectedPath": "objects/bridge_tie_knot_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_bar_pillar",
+            "selectedPath": "objects/bridge_bar_pillar.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_needle_eye",
+            "selectedPath": "objects/bridge_needle_eye.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_spool",
+            "selectedPath": "objects/bridge_spool.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_ribbon_tile",
+            "selectedPath": "objects/bridge_ribbon_tile.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_ribbon_broken",
+            "selectedPath": "objects/bridge_ribbon_broken.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_lantern_idle",
+            "selectedPath": "objects/bridge_lantern_idle.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_lantern_active",
+            "selectedPath": "objects/bridge_lantern_active.svg",
+            "fallback": false
+          }
+        ],
+        "expected": [
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "scene_a_thread_bridge",
+          "bridge_onset",
+          "bridge_release",
+          "bridge_tie_knot",
+          "bridge_onset_hc",
+          "bridge_release_hc",
+          "bridge_tie_knot_hc",
+          "bridge_bar_pillar",
+          "bridge_needle_eye",
+          "bridge_spool",
+          "bridge_ribbon_tile",
+          "bridge_ribbon_broken",
+          "bridge_lantern_idle",
+          "bridge_lantern_active"
+        ],
+        "background": "scene_a_thread_bridge",
+        "width": 390,
+        "height": 292.5,
+        "backingWidth": 780,
+        "dpr": 3,
+        "alpha": 255
+      }
+    },
+    {
+      "name": "thread-bridge/390: 4:3 or 16:9 canvas and capped DPR",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "height": 292.5,
+        "backingWidth": 780,
+        "dpr": 3
+      }
+    },
+    {
+      "name": "thread-bridge/390: rendered opaque pixels",
+      "passed": true,
+      "details": 255
+    },
+    {
+      "name": "crescent-greenhouse/390: exact current profile, real decoded primary files",
+      "passed": true,
+      "details": {
+        "ids": [
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "scene_b_crescent_greenhouse",
+          "object.greenhouse.flower_closed",
+          "object.greenhouse.flower_opening_2",
+          "object.greenhouse.flower_open",
+          "object.greenhouse.flower_opening_1",
+          "greenhouse_time_strip_3u",
+          "greenhouse_container_1u",
+          "greenhouse_container_2u",
+          "greenhouse_rest_cover",
+          "greenhouse_dew_idle",
+          "greenhouse_dew_active"
+        ],
+        "diagnostics": [
+          {
+            "id": "icon_press",
+            "selectedPath": "ui/icon_press.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_press_hc",
+            "selectedPath": "ui/icon_press_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold",
+            "selectedPath": "ui/icon_hold.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold_hc",
+            "selectedPath": "ui/icon_hold_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release",
+            "selectedPath": "ui/icon_release.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release_hc",
+            "selectedPath": "ui/icon_release_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait",
+            "selectedPath": "ui/icon_wait.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait_hc",
+            "selectedPath": "ui/icon_wait_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound",
+            "selectedPath": "ui/icon_sound.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound_hc",
+            "selectedPath": "ui/icon_sound_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause",
+            "selectedPath": "ui/icon_pause.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause_hc",
+            "selectedPath": "ui/icon_pause_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume",
+            "selectedPath": "ui/icon_resume.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume_hc",
+            "selectedPath": "ui/icon_resume_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry",
+            "selectedPath": "ui/icon_retry.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry_hc",
+            "selectedPath": "ui/icon_retry_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home",
+            "selectedPath": "ui/icon_home.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home_hc",
+            "selectedPath": "ui/icon_home_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help",
+            "selectedPath": "ui/icon_help.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help_hc",
+            "selectedPath": "ui/icon_help_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast",
+            "selectedPath": "ui/icon_contrast.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast_hc",
+            "selectedPath": "ui/icon_contrast_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion",
+            "selectedPath": "ui/icon_reduced_motion.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion_hc",
+            "selectedPath": "ui/icon_reduced_motion_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_normal",
+            "selectedPath": "ui/button_normal.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_pressed",
+            "selectedPath": "ui/button_pressed.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_focus",
+            "selectedPath": "ui/button_focus.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_disabled",
+            "selectedPath": "ui/button_disabled.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_success",
+            "selectedPath": "ui/feedback_knot_success.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_miss",
+            "selectedPath": "ui/feedback_knot_miss.svg",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.idle",
+            "selectedPath": "characters/yeoul_idle.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.prepare",
+            "selectedPath": "characters/yeoul_prepare.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.release",
+            "selectedPath": "characters/yeoul_release.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.press",
+            "selectedPath": "characters/yeoul_press.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.hold",
+            "selectedPath": "characters/yeoul_hold.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.miss",
+            "selectedPath": "characters/yeoul_miss.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_count",
+            "selectedPath": "characters/somsae_count.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_demo",
+            "selectedPath": "characters/somsae_demo.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_encourage",
+            "selectedPath": "characters/somsae_encourage.webp",
+            "fallback": false
+          },
+          {
+            "id": "scene_b_crescent_greenhouse",
+            "selectedPath": "backgrounds/scene_b_crescent_greenhouse.webp",
+            "fallback": false
+          },
+          {
+            "id": "object.greenhouse.flower_closed",
+            "selectedPath": "objects/flower_closed.webp",
+            "fallback": false
+          },
+          {
+            "id": "object.greenhouse.flower_opening_2",
+            "selectedPath": "objects/flower_opening_2.webp",
+            "fallback": false
+          },
+          {
+            "id": "object.greenhouse.flower_open",
+            "selectedPath": "objects/flower_open.webp",
+            "fallback": false
+          },
+          {
+            "id": "object.greenhouse.flower_opening_1",
+            "selectedPath": "objects/flower_opening_1.webp",
+            "fallback": false
+          },
+          {
+            "id": "greenhouse_time_strip_3u",
+            "selectedPath": "objects/greenhouse_time_strip_3u.svg",
+            "fallback": false
+          },
+          {
+            "id": "greenhouse_container_1u",
+            "selectedPath": "objects/greenhouse_container_1u.svg",
+            "fallback": false
+          },
+          {
+            "id": "greenhouse_container_2u",
+            "selectedPath": "objects/greenhouse_container_2u.svg",
+            "fallback": false
+          },
+          {
+            "id": "greenhouse_rest_cover",
+            "selectedPath": "objects/greenhouse_rest_cover.svg",
+            "fallback": false
+          },
+          {
+            "id": "greenhouse_dew_idle",
+            "selectedPath": "objects/greenhouse_dew_idle.svg",
+            "fallback": false
+          },
+          {
+            "id": "greenhouse_dew_active",
+            "selectedPath": "objects/greenhouse_dew_active.svg",
+            "fallback": false
+          }
+        ],
+        "expected": [
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "scene_b_crescent_greenhouse",
+          "object.greenhouse.flower_closed",
+          "object.greenhouse.flower_opening_2",
+          "object.greenhouse.flower_open",
+          "object.greenhouse.flower_opening_1",
+          "greenhouse_container_2u",
+          "greenhouse_container_1u",
+          "greenhouse_time_strip_3u",
+          "greenhouse_rest_cover",
+          "greenhouse_dew_idle",
+          "greenhouse_dew_active"
+        ],
+        "background": "scene_b_crescent_greenhouse",
+        "width": 390,
+        "height": 292.5,
+        "backingWidth": 780,
+        "dpr": 3,
+        "alpha": 255
+      }
+    },
+    {
+      "name": "crescent-greenhouse/390: 4:3 or 16:9 canvas and capped DPR",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "height": 292.5,
+        "backingWidth": 780,
+        "dpr": 3
+      }
+    },
+    {
+      "name": "crescent-greenhouse/390: rendered opaque pixels",
+      "passed": true,
+      "details": 255
+    },
+    {
+      "name": "folding-room/390: exact current profile, real decoded primary files",
+      "passed": true,
+      "details": {
+        "ids": [
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "scene_c_folding_room",
+          "room_tile_idle",
+          "room_tile_active",
+          "room_hinge_2u",
+          "room_brackets_222",
+          "room_hinge_3u",
+          "room_floor_222",
+          "room_brackets_33",
+          "room_floor_33"
+        ],
+        "diagnostics": [
+          {
+            "id": "icon_press",
+            "selectedPath": "ui/icon_press.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_press_hc",
+            "selectedPath": "ui/icon_press_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold",
+            "selectedPath": "ui/icon_hold.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold_hc",
+            "selectedPath": "ui/icon_hold_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release",
+            "selectedPath": "ui/icon_release.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release_hc",
+            "selectedPath": "ui/icon_release_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait",
+            "selectedPath": "ui/icon_wait.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait_hc",
+            "selectedPath": "ui/icon_wait_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound",
+            "selectedPath": "ui/icon_sound.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound_hc",
+            "selectedPath": "ui/icon_sound_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause",
+            "selectedPath": "ui/icon_pause.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause_hc",
+            "selectedPath": "ui/icon_pause_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume",
+            "selectedPath": "ui/icon_resume.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume_hc",
+            "selectedPath": "ui/icon_resume_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry",
+            "selectedPath": "ui/icon_retry.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry_hc",
+            "selectedPath": "ui/icon_retry_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home",
+            "selectedPath": "ui/icon_home.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home_hc",
+            "selectedPath": "ui/icon_home_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help",
+            "selectedPath": "ui/icon_help.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help_hc",
+            "selectedPath": "ui/icon_help_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast",
+            "selectedPath": "ui/icon_contrast.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast_hc",
+            "selectedPath": "ui/icon_contrast_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion",
+            "selectedPath": "ui/icon_reduced_motion.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion_hc",
+            "selectedPath": "ui/icon_reduced_motion_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_normal",
+            "selectedPath": "ui/button_normal.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_pressed",
+            "selectedPath": "ui/button_pressed.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_focus",
+            "selectedPath": "ui/button_focus.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_disabled",
+            "selectedPath": "ui/button_disabled.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_success",
+            "selectedPath": "ui/feedback_knot_success.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_miss",
+            "selectedPath": "ui/feedback_knot_miss.svg",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.idle",
+            "selectedPath": "characters/yeoul_idle.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.prepare",
+            "selectedPath": "characters/yeoul_prepare.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.release",
+            "selectedPath": "characters/yeoul_release.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.press",
+            "selectedPath": "characters/yeoul_press.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.hold",
+            "selectedPath": "characters/yeoul_hold.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.miss",
+            "selectedPath": "characters/yeoul_miss.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_count",
+            "selectedPath": "characters/somsae_count.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_demo",
+            "selectedPath": "characters/somsae_demo.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_encourage",
+            "selectedPath": "characters/somsae_encourage.webp",
+            "fallback": false
+          },
+          {
+            "id": "scene_c_folding_room",
+            "selectedPath": "backgrounds/scene_c_folding_room.webp",
+            "fallback": false
+          },
+          {
+            "id": "room_tile_idle",
+            "selectedPath": "objects/room_tile_idle.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_tile_active",
+            "selectedPath": "objects/room_tile_active.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_hinge_2u",
+            "selectedPath": "objects/room_hinge_2u.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_brackets_222",
+            "selectedPath": "objects/room_brackets_222.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_hinge_3u",
+            "selectedPath": "objects/room_hinge_3u.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_floor_222",
+            "selectedPath": "objects/room_floor_222.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_brackets_33",
+            "selectedPath": "objects/room_brackets_33.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_floor_33",
+            "selectedPath": "objects/room_floor_33.svg",
+            "fallback": false
+          }
+        ],
+        "expected": [
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "scene_c_folding_room",
+          "room_tile_idle",
+          "room_tile_active",
+          "room_hinge_2u",
+          "room_hinge_3u",
+          "room_brackets_222",
+          "room_floor_222",
+          "room_brackets_33",
+          "room_floor_33"
+        ],
+        "background": "scene_c_folding_room",
+        "width": 390,
+        "height": 292.5,
+        "backingWidth": 780,
+        "dpr": 3,
+        "alpha": 255
+      }
+    },
+    {
+      "name": "folding-room/390: 4:3 or 16:9 canvas and capped DPR",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "height": 292.5,
+        "backingWidth": 780,
+        "dpr": 3
+      }
+    },
+    {
+      "name": "folding-room/390: rendered opaque pixels",
+      "passed": true,
+      "details": 255
+    },
+    {
+      "name": "cloud-post/390: exact current profile, real decoded primary files",
+      "passed": true,
+      "details": {
+        "ids": [
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "post_letter_idle",
+          "post_letter_folded",
+          "post_letter_success_star",
+          "post_counter",
+          "scene_d_cloud_post_station"
+        ],
+        "diagnostics": [
+          {
+            "id": "icon_press",
+            "selectedPath": "ui/icon_press.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_press_hc",
+            "selectedPath": "ui/icon_press_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold",
+            "selectedPath": "ui/icon_hold.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold_hc",
+            "selectedPath": "ui/icon_hold_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release",
+            "selectedPath": "ui/icon_release.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release_hc",
+            "selectedPath": "ui/icon_release_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait",
+            "selectedPath": "ui/icon_wait.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait_hc",
+            "selectedPath": "ui/icon_wait_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound",
+            "selectedPath": "ui/icon_sound.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound_hc",
+            "selectedPath": "ui/icon_sound_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause",
+            "selectedPath": "ui/icon_pause.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause_hc",
+            "selectedPath": "ui/icon_pause_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume",
+            "selectedPath": "ui/icon_resume.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume_hc",
+            "selectedPath": "ui/icon_resume_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry",
+            "selectedPath": "ui/icon_retry.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry_hc",
+            "selectedPath": "ui/icon_retry_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home",
+            "selectedPath": "ui/icon_home.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home_hc",
+            "selectedPath": "ui/icon_home_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help",
+            "selectedPath": "ui/icon_help.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help_hc",
+            "selectedPath": "ui/icon_help_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast",
+            "selectedPath": "ui/icon_contrast.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast_hc",
+            "selectedPath": "ui/icon_contrast_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion",
+            "selectedPath": "ui/icon_reduced_motion.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion_hc",
+            "selectedPath": "ui/icon_reduced_motion_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_normal",
+            "selectedPath": "ui/button_normal.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_pressed",
+            "selectedPath": "ui/button_pressed.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_focus",
+            "selectedPath": "ui/button_focus.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_disabled",
+            "selectedPath": "ui/button_disabled.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_success",
+            "selectedPath": "ui/feedback_knot_success.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_miss",
+            "selectedPath": "ui/feedback_knot_miss.svg",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.idle",
+            "selectedPath": "characters/yeoul_idle.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.prepare",
+            "selectedPath": "characters/yeoul_prepare.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.release",
+            "selectedPath": "characters/yeoul_release.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.press",
+            "selectedPath": "characters/yeoul_press.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.hold",
+            "selectedPath": "characters/yeoul_hold.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.miss",
+            "selectedPath": "characters/yeoul_miss.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_count",
+            "selectedPath": "characters/somsae_count.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_demo",
+            "selectedPath": "characters/somsae_demo.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_encourage",
+            "selectedPath": "characters/somsae_encourage.webp",
+            "fallback": false
+          },
+          {
+            "id": "post_letter_idle",
+            "selectedPath": "objects/post_letter_idle.svg",
+            "fallback": false
+          },
+          {
+            "id": "post_letter_folded",
+            "selectedPath": "objects/post_letter_folded.svg",
+            "fallback": false
+          },
+          {
+            "id": "post_letter_success_star",
+            "selectedPath": "objects/post_letter_success_star.svg",
+            "fallback": false
+          },
+          {
+            "id": "post_counter",
+            "selectedPath": "objects/post_counter.svg",
+            "fallback": false
+          },
+          {
+            "id": "scene_d_cloud_post_station",
+            "selectedPath": "backgrounds/scene_d_cloud_post_station.webp",
+            "fallback": false
+          }
+        ],
+        "expected": [
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "scene_d_cloud_post_station",
+          "post_letter_idle",
+          "post_letter_folded",
+          "post_letter_success_star",
+          "post_counter"
+        ],
+        "background": "scene_d_cloud_post_station",
+        "width": 390,
+        "height": 292.5,
+        "backingWidth": 780,
+        "dpr": 3,
+        "alpha": 255
+      }
+    },
+    {
+      "name": "cloud-post/390: 4:3 or 16:9 canvas and capped DPR",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "height": 292.5,
+        "backingWidth": 780,
+        "dpr": 3
+      }
+    },
+    {
+      "name": "cloud-post/390: rendered opaque pixels",
+      "passed": true,
+      "details": 255
+    },
+    {
+      "name": "thread-bridge/844: exact current profile, real decoded primary files",
+      "passed": true,
+      "details": {
+        "ids": [
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "bridge_onset",
+          "bridge_release",
+          "bridge_tie_knot",
+          "bridge_onset_hc",
+          "bridge_release_hc",
+          "bridge_tie_knot_hc",
+          "bridge_bar_pillar",
+          "bridge_needle_eye",
+          "bridge_spool",
+          "bridge_ribbon_tile",
+          "bridge_ribbon_broken",
+          "bridge_lantern_idle",
+          "bridge_lantern_active",
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "scene_a_thread_bridge"
+        ],
+        "diagnostics": [
+          {
+            "id": "icon_press",
+            "selectedPath": "ui/icon_press.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_press_hc",
+            "selectedPath": "ui/icon_press_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold",
+            "selectedPath": "ui/icon_hold.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold_hc",
+            "selectedPath": "ui/icon_hold_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release",
+            "selectedPath": "ui/icon_release.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release_hc",
+            "selectedPath": "ui/icon_release_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait",
+            "selectedPath": "ui/icon_wait.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait_hc",
+            "selectedPath": "ui/icon_wait_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound",
+            "selectedPath": "ui/icon_sound.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound_hc",
+            "selectedPath": "ui/icon_sound_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause",
+            "selectedPath": "ui/icon_pause.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause_hc",
+            "selectedPath": "ui/icon_pause_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume",
+            "selectedPath": "ui/icon_resume.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume_hc",
+            "selectedPath": "ui/icon_resume_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry",
+            "selectedPath": "ui/icon_retry.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry_hc",
+            "selectedPath": "ui/icon_retry_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home",
+            "selectedPath": "ui/icon_home.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home_hc",
+            "selectedPath": "ui/icon_home_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help",
+            "selectedPath": "ui/icon_help.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help_hc",
+            "selectedPath": "ui/icon_help_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast",
+            "selectedPath": "ui/icon_contrast.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast_hc",
+            "selectedPath": "ui/icon_contrast_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion",
+            "selectedPath": "ui/icon_reduced_motion.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion_hc",
+            "selectedPath": "ui/icon_reduced_motion_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_normal",
+            "selectedPath": "ui/button_normal.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_pressed",
+            "selectedPath": "ui/button_pressed.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_focus",
+            "selectedPath": "ui/button_focus.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_disabled",
+            "selectedPath": "ui/button_disabled.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_success",
+            "selectedPath": "ui/feedback_knot_success.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_miss",
+            "selectedPath": "ui/feedback_knot_miss.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_onset",
+            "selectedPath": "objects/bridge_onset.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_release",
+            "selectedPath": "objects/bridge_release.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_tie_knot",
+            "selectedPath": "objects/bridge_tie_knot.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_onset_hc",
+            "selectedPath": "objects/bridge_onset_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_release_hc",
+            "selectedPath": "objects/bridge_release_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_tie_knot_hc",
+            "selectedPath": "objects/bridge_tie_knot_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_bar_pillar",
+            "selectedPath": "objects/bridge_bar_pillar.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_needle_eye",
+            "selectedPath": "objects/bridge_needle_eye.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_spool",
+            "selectedPath": "objects/bridge_spool.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_ribbon_tile",
+            "selectedPath": "objects/bridge_ribbon_tile.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_ribbon_broken",
+            "selectedPath": "objects/bridge_ribbon_broken.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_lantern_idle",
+            "selectedPath": "objects/bridge_lantern_idle.svg",
+            "fallback": false
+          },
+          {
+            "id": "bridge_lantern_active",
+            "selectedPath": "objects/bridge_lantern_active.svg",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.idle",
+            "selectedPath": "characters/yeoul_idle.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.prepare",
+            "selectedPath": "characters/yeoul_prepare.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.release",
+            "selectedPath": "characters/yeoul_release.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.press",
+            "selectedPath": "characters/yeoul_press.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.hold",
+            "selectedPath": "characters/yeoul_hold.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.miss",
+            "selectedPath": "characters/yeoul_miss.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_count",
+            "selectedPath": "characters/somsae_count.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_demo",
+            "selectedPath": "characters/somsae_demo.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_encourage",
+            "selectedPath": "characters/somsae_encourage.webp",
+            "fallback": false
+          },
+          {
+            "id": "scene_a_thread_bridge",
+            "selectedPath": "backgrounds/scene_a_thread_bridge.webp",
+            "fallback": false
+          }
+        ],
+        "expected": [
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "scene_a_thread_bridge",
+          "bridge_onset",
+          "bridge_release",
+          "bridge_tie_knot",
+          "bridge_onset_hc",
+          "bridge_release_hc",
+          "bridge_tie_knot_hc",
+          "bridge_bar_pillar",
+          "bridge_needle_eye",
+          "bridge_spool",
+          "bridge_ribbon_tile",
+          "bridge_ribbon_broken",
+          "bridge_lantern_idle",
+          "bridge_lantern_active"
+        ],
+        "background": "scene_a_thread_bridge",
+        "width": 844,
+        "height": 474.75,
+        "backingWidth": 1688,
+        "dpr": 3,
+        "alpha": 255
+      }
+    },
+    {
+      "name": "thread-bridge/844: 4:3 or 16:9 canvas and capped DPR",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "height": 474.75,
+        "backingWidth": 1688,
+        "dpr": 3
+      }
+    },
+    {
+      "name": "thread-bridge/844: rendered opaque pixels",
+      "passed": true,
+      "details": 255
+    },
+    {
+      "name": "crescent-greenhouse/844: exact current profile, real decoded primary files",
+      "passed": true,
+      "details": {
+        "ids": [
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "greenhouse_container_2u",
+          "greenhouse_container_1u",
+          "greenhouse_time_strip_3u",
+          "greenhouse_rest_cover",
+          "greenhouse_dew_idle",
+          "greenhouse_dew_active",
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "scene_b_crescent_greenhouse",
+          "object.greenhouse.flower_closed",
+          "object.greenhouse.flower_opening_2",
+          "object.greenhouse.flower_open",
+          "object.greenhouse.flower_opening_1"
+        ],
+        "diagnostics": [
+          {
+            "id": "icon_press",
+            "selectedPath": "ui/icon_press.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_press_hc",
+            "selectedPath": "ui/icon_press_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold",
+            "selectedPath": "ui/icon_hold.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold_hc",
+            "selectedPath": "ui/icon_hold_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release",
+            "selectedPath": "ui/icon_release.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release_hc",
+            "selectedPath": "ui/icon_release_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait",
+            "selectedPath": "ui/icon_wait.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait_hc",
+            "selectedPath": "ui/icon_wait_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound",
+            "selectedPath": "ui/icon_sound.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound_hc",
+            "selectedPath": "ui/icon_sound_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause",
+            "selectedPath": "ui/icon_pause.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause_hc",
+            "selectedPath": "ui/icon_pause_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume",
+            "selectedPath": "ui/icon_resume.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume_hc",
+            "selectedPath": "ui/icon_resume_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry",
+            "selectedPath": "ui/icon_retry.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry_hc",
+            "selectedPath": "ui/icon_retry_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home",
+            "selectedPath": "ui/icon_home.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home_hc",
+            "selectedPath": "ui/icon_home_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help",
+            "selectedPath": "ui/icon_help.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help_hc",
+            "selectedPath": "ui/icon_help_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast",
+            "selectedPath": "ui/icon_contrast.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast_hc",
+            "selectedPath": "ui/icon_contrast_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion",
+            "selectedPath": "ui/icon_reduced_motion.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion_hc",
+            "selectedPath": "ui/icon_reduced_motion_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_normal",
+            "selectedPath": "ui/button_normal.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_pressed",
+            "selectedPath": "ui/button_pressed.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_focus",
+            "selectedPath": "ui/button_focus.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_disabled",
+            "selectedPath": "ui/button_disabled.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_success",
+            "selectedPath": "ui/feedback_knot_success.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_miss",
+            "selectedPath": "ui/feedback_knot_miss.svg",
+            "fallback": false
+          },
+          {
+            "id": "greenhouse_container_2u",
+            "selectedPath": "objects/greenhouse_container_2u.svg",
+            "fallback": false
+          },
+          {
+            "id": "greenhouse_container_1u",
+            "selectedPath": "objects/greenhouse_container_1u.svg",
+            "fallback": false
+          },
+          {
+            "id": "greenhouse_time_strip_3u",
+            "selectedPath": "objects/greenhouse_time_strip_3u.svg",
+            "fallback": false
+          },
+          {
+            "id": "greenhouse_rest_cover",
+            "selectedPath": "objects/greenhouse_rest_cover.svg",
+            "fallback": false
+          },
+          {
+            "id": "greenhouse_dew_idle",
+            "selectedPath": "objects/greenhouse_dew_idle.svg",
+            "fallback": false
+          },
+          {
+            "id": "greenhouse_dew_active",
+            "selectedPath": "objects/greenhouse_dew_active.svg",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.idle",
+            "selectedPath": "characters/yeoul_idle.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.prepare",
+            "selectedPath": "characters/yeoul_prepare.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.release",
+            "selectedPath": "characters/yeoul_release.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.press",
+            "selectedPath": "characters/yeoul_press.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.hold",
+            "selectedPath": "characters/yeoul_hold.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.miss",
+            "selectedPath": "characters/yeoul_miss.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_count",
+            "selectedPath": "characters/somsae_count.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_demo",
+            "selectedPath": "characters/somsae_demo.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_encourage",
+            "selectedPath": "characters/somsae_encourage.webp",
+            "fallback": false
+          },
+          {
+            "id": "scene_b_crescent_greenhouse",
+            "selectedPath": "backgrounds/scene_b_crescent_greenhouse.webp",
+            "fallback": false
+          },
+          {
+            "id": "object.greenhouse.flower_closed",
+            "selectedPath": "objects/flower_closed.webp",
+            "fallback": false
+          },
+          {
+            "id": "object.greenhouse.flower_opening_2",
+            "selectedPath": "objects/flower_opening_2.webp",
+            "fallback": false
+          },
+          {
+            "id": "object.greenhouse.flower_open",
+            "selectedPath": "objects/flower_open.webp",
+            "fallback": false
+          },
+          {
+            "id": "object.greenhouse.flower_opening_1",
+            "selectedPath": "objects/flower_opening_1.webp",
+            "fallback": false
+          }
+        ],
+        "expected": [
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "scene_b_crescent_greenhouse",
+          "object.greenhouse.flower_closed",
+          "object.greenhouse.flower_opening_2",
+          "object.greenhouse.flower_open",
+          "object.greenhouse.flower_opening_1",
+          "greenhouse_container_2u",
+          "greenhouse_container_1u",
+          "greenhouse_time_strip_3u",
+          "greenhouse_rest_cover",
+          "greenhouse_dew_idle",
+          "greenhouse_dew_active"
+        ],
+        "background": "scene_b_crescent_greenhouse",
+        "width": 844,
+        "height": 474.75,
+        "backingWidth": 1688,
+        "dpr": 3,
+        "alpha": 255
+      }
+    },
+    {
+      "name": "crescent-greenhouse/844: 4:3 or 16:9 canvas and capped DPR",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "height": 474.75,
+        "backingWidth": 1688,
+        "dpr": 3
+      }
+    },
+    {
+      "name": "crescent-greenhouse/844: rendered opaque pixels",
+      "passed": true,
+      "details": 255
+    },
+    {
+      "name": "folding-room/844: exact current profile, real decoded primary files",
+      "passed": true,
+      "details": {
+        "ids": [
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "room_tile_idle",
+          "room_tile_active",
+          "room_hinge_2u",
+          "room_hinge_3u",
+          "room_brackets_222",
+          "room_floor_222",
+          "room_brackets_33",
+          "room_floor_33",
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "scene_c_folding_room"
+        ],
+        "diagnostics": [
+          {
+            "id": "icon_press",
+            "selectedPath": "ui/icon_press.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_press_hc",
+            "selectedPath": "ui/icon_press_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold",
+            "selectedPath": "ui/icon_hold.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold_hc",
+            "selectedPath": "ui/icon_hold_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release",
+            "selectedPath": "ui/icon_release.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release_hc",
+            "selectedPath": "ui/icon_release_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait",
+            "selectedPath": "ui/icon_wait.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait_hc",
+            "selectedPath": "ui/icon_wait_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound",
+            "selectedPath": "ui/icon_sound.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound_hc",
+            "selectedPath": "ui/icon_sound_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause",
+            "selectedPath": "ui/icon_pause.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause_hc",
+            "selectedPath": "ui/icon_pause_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume",
+            "selectedPath": "ui/icon_resume.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume_hc",
+            "selectedPath": "ui/icon_resume_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry",
+            "selectedPath": "ui/icon_retry.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry_hc",
+            "selectedPath": "ui/icon_retry_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home",
+            "selectedPath": "ui/icon_home.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home_hc",
+            "selectedPath": "ui/icon_home_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help",
+            "selectedPath": "ui/icon_help.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help_hc",
+            "selectedPath": "ui/icon_help_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast",
+            "selectedPath": "ui/icon_contrast.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast_hc",
+            "selectedPath": "ui/icon_contrast_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion",
+            "selectedPath": "ui/icon_reduced_motion.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion_hc",
+            "selectedPath": "ui/icon_reduced_motion_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_normal",
+            "selectedPath": "ui/button_normal.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_pressed",
+            "selectedPath": "ui/button_pressed.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_focus",
+            "selectedPath": "ui/button_focus.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_disabled",
+            "selectedPath": "ui/button_disabled.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_success",
+            "selectedPath": "ui/feedback_knot_success.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_miss",
+            "selectedPath": "ui/feedback_knot_miss.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_tile_idle",
+            "selectedPath": "objects/room_tile_idle.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_tile_active",
+            "selectedPath": "objects/room_tile_active.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_hinge_2u",
+            "selectedPath": "objects/room_hinge_2u.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_hinge_3u",
+            "selectedPath": "objects/room_hinge_3u.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_brackets_222",
+            "selectedPath": "objects/room_brackets_222.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_floor_222",
+            "selectedPath": "objects/room_floor_222.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_brackets_33",
+            "selectedPath": "objects/room_brackets_33.svg",
+            "fallback": false
+          },
+          {
+            "id": "room_floor_33",
+            "selectedPath": "objects/room_floor_33.svg",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.idle",
+            "selectedPath": "characters/yeoul_idle.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.prepare",
+            "selectedPath": "characters/yeoul_prepare.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.release",
+            "selectedPath": "characters/yeoul_release.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.press",
+            "selectedPath": "characters/yeoul_press.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.hold",
+            "selectedPath": "characters/yeoul_hold.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.miss",
+            "selectedPath": "characters/yeoul_miss.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_count",
+            "selectedPath": "characters/somsae_count.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_demo",
+            "selectedPath": "characters/somsae_demo.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_encourage",
+            "selectedPath": "characters/somsae_encourage.webp",
+            "fallback": false
+          },
+          {
+            "id": "scene_c_folding_room",
+            "selectedPath": "backgrounds/scene_c_folding_room.webp",
+            "fallback": false
+          }
+        ],
+        "expected": [
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "scene_c_folding_room",
+          "room_tile_idle",
+          "room_tile_active",
+          "room_hinge_2u",
+          "room_hinge_3u",
+          "room_brackets_222",
+          "room_floor_222",
+          "room_brackets_33",
+          "room_floor_33"
+        ],
+        "background": "scene_c_folding_room",
+        "width": 844,
+        "height": 474.75,
+        "backingWidth": 1688,
+        "dpr": 3,
+        "alpha": 255
+      }
+    },
+    {
+      "name": "folding-room/844: 4:3 or 16:9 canvas and capped DPR",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "height": 474.75,
+        "backingWidth": 1688,
+        "dpr": 3
+      }
+    },
+    {
+      "name": "folding-room/844: rendered opaque pixels",
+      "passed": true,
+      "details": 255
+    },
+    {
+      "name": "cloud-post/844: exact current profile, real decoded primary files",
+      "passed": true,
+      "details": {
+        "ids": [
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "post_letter_idle",
+          "post_letter_folded",
+          "post_letter_success_star",
+          "post_counter",
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "scene_d_cloud_post_station"
+        ],
+        "diagnostics": [
+          {
+            "id": "icon_press",
+            "selectedPath": "ui/icon_press.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_press_hc",
+            "selectedPath": "ui/icon_press_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold",
+            "selectedPath": "ui/icon_hold.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_hold_hc",
+            "selectedPath": "ui/icon_hold_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release",
+            "selectedPath": "ui/icon_release.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_release_hc",
+            "selectedPath": "ui/icon_release_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait",
+            "selectedPath": "ui/icon_wait.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_wait_hc",
+            "selectedPath": "ui/icon_wait_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound",
+            "selectedPath": "ui/icon_sound.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_sound_hc",
+            "selectedPath": "ui/icon_sound_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause",
+            "selectedPath": "ui/icon_pause.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_pause_hc",
+            "selectedPath": "ui/icon_pause_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume",
+            "selectedPath": "ui/icon_resume.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_resume_hc",
+            "selectedPath": "ui/icon_resume_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry",
+            "selectedPath": "ui/icon_retry.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_retry_hc",
+            "selectedPath": "ui/icon_retry_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home",
+            "selectedPath": "ui/icon_home.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_home_hc",
+            "selectedPath": "ui/icon_home_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help",
+            "selectedPath": "ui/icon_help.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_help_hc",
+            "selectedPath": "ui/icon_help_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast",
+            "selectedPath": "ui/icon_contrast.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_contrast_hc",
+            "selectedPath": "ui/icon_contrast_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion",
+            "selectedPath": "ui/icon_reduced_motion.svg",
+            "fallback": false
+          },
+          {
+            "id": "icon_reduced_motion_hc",
+            "selectedPath": "ui/icon_reduced_motion_hc.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_normal",
+            "selectedPath": "ui/button_normal.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_pressed",
+            "selectedPath": "ui/button_pressed.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_focus",
+            "selectedPath": "ui/button_focus.svg",
+            "fallback": false
+          },
+          {
+            "id": "button_disabled",
+            "selectedPath": "ui/button_disabled.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_success",
+            "selectedPath": "ui/feedback_knot_success.svg",
+            "fallback": false
+          },
+          {
+            "id": "feedback_knot_miss",
+            "selectedPath": "ui/feedback_knot_miss.svg",
+            "fallback": false
+          },
+          {
+            "id": "post_letter_idle",
+            "selectedPath": "objects/post_letter_idle.svg",
+            "fallback": false
+          },
+          {
+            "id": "post_letter_folded",
+            "selectedPath": "objects/post_letter_folded.svg",
+            "fallback": false
+          },
+          {
+            "id": "post_letter_success_star",
+            "selectedPath": "objects/post_letter_success_star.svg",
+            "fallback": false
+          },
+          {
+            "id": "post_counter",
+            "selectedPath": "objects/post_counter.svg",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.idle",
+            "selectedPath": "characters/yeoul_idle.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.prepare",
+            "selectedPath": "characters/yeoul_prepare.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.release",
+            "selectedPath": "characters/yeoul_release.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.press",
+            "selectedPath": "characters/yeoul_press.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.hold",
+            "selectedPath": "characters/yeoul_hold.webp",
+            "fallback": false
+          },
+          {
+            "id": "character.yeoul.miss",
+            "selectedPath": "characters/yeoul_miss.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_count",
+            "selectedPath": "characters/somsae_count.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_demo",
+            "selectedPath": "characters/somsae_demo.webp",
+            "fallback": false
+          },
+          {
+            "id": "somsae_encourage",
+            "selectedPath": "characters/somsae_encourage.webp",
+            "fallback": false
+          },
+          {
+            "id": "scene_d_cloud_post_station",
+            "selectedPath": "backgrounds/scene_d_cloud_post_station.webp",
+            "fallback": false
+          }
+        ],
+        "expected": [
+          "character.yeoul.idle",
+          "character.yeoul.prepare",
+          "character.yeoul.release",
+          "character.yeoul.press",
+          "character.yeoul.hold",
+          "character.yeoul.miss",
+          "somsae_count",
+          "somsae_demo",
+          "somsae_encourage",
+          "icon_press",
+          "icon_press_hc",
+          "icon_hold",
+          "icon_hold_hc",
+          "icon_release",
+          "icon_release_hc",
+          "icon_wait",
+          "icon_wait_hc",
+          "icon_sound",
+          "icon_sound_hc",
+          "icon_pause",
+          "icon_pause_hc",
+          "icon_resume",
+          "icon_resume_hc",
+          "icon_retry",
+          "icon_retry_hc",
+          "icon_home",
+          "icon_home_hc",
+          "icon_help",
+          "icon_help_hc",
+          "icon_contrast",
+          "icon_contrast_hc",
+          "icon_reduced_motion",
+          "icon_reduced_motion_hc",
+          "button_normal",
+          "button_pressed",
+          "button_focus",
+          "button_disabled",
+          "feedback_knot_success",
+          "feedback_knot_miss",
+          "scene_d_cloud_post_station",
+          "post_letter_idle",
+          "post_letter_folded",
+          "post_letter_success_star",
+          "post_counter"
+        ],
+        "background": "scene_d_cloud_post_station",
+        "width": 844,
+        "height": 474.75,
+        "backingWidth": 1688,
+        "dpr": 3,
+        "alpha": 255
+      }
+    },
+    {
+      "name": "cloud-post/844: 4:3 or 16:9 canvas and capped DPR",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "height": 474.75,
+        "backingWidth": 1688,
+        "dpr": 3
+      }
+    },
+    {
+      "name": "cloud-post/844: rendered opaque pixels",
+      "passed": true,
+      "details": 255
+    },
+    {
+      "name": "release hole stays clear of ribbon pixels before and at target arrival",
+      "passed": true,
+      "details": [
+        {
+          "tick": 0,
+          "unchangedInnerPixels": true,
+          "before": [
+            [
+              10,
+              32,
+              45,
+              255
+            ],
+            [
+              10,
+              32,
+              46,
+              255
+            ],
+            [
+              9,
+              32,
+              45,
+              255
+            ]
+          ],
+          "after": [
+            [
+              10,
+              32,
+              45,
+              255
+            ],
+            [
+              10,
+              32,
+              46,
+              255
+            ],
+            [
+              9,
+              32,
+              45,
+              255
+            ]
+          ]
+        },
+        {
+          "tick": 480,
+          "unchangedInnerPixels": true,
+          "before": [
+            [
+              10,
+              32,
+              46,
+              255
+            ],
+            [
+              9,
+              32,
+              45,
+              255
+            ],
+            [
+              10,
+              33,
+              46,
+              255
+            ]
+          ],
+          "after": [
+            [
+              10,
+              32,
+              46,
+              255
+            ],
+            [
+              9,
+              32,
+              45,
+              255
+            ],
+            [
+              10,
+              33,
+              46,
+              255
+            ]
+          ]
+        },
+        {
+          "tick": 959,
+          "unchangedInnerPixels": true,
+          "before": [
+            [
+              20,
+              42,
+              53,
+              255
+            ],
+            [
+              20,
+              42,
+              53,
+              255
+            ],
+            [
+              20,
+              42,
+              53,
+              255
+            ]
+          ],
+          "after": [
+            [
+              20,
+              42,
+              53,
+              255
+            ],
+            [
+              20,
+              42,
+              53,
+              255
+            ],
+            [
+              20,
+              42,
+              53,
+              255
+            ]
+          ]
+        },
+        {
+          "tick": 960,
+          "unchangedInnerPixels": true,
+          "before": [
+            [
+              20,
+              42,
+              53,
+              255
+            ],
+            [
+              20,
+              42,
+              53,
+              255
+            ],
+            [
+              20,
+              42,
+              53,
+              255
+            ]
+          ],
+          "after": [
+            [
+              20,
+              42,
+              53,
+              255
+            ],
+            [
+              20,
+              42,
+              53,
+              255
+            ],
+            [
+              20,
+              42,
+              53,
+              255
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "individual WebP network/decode failure selects one real PNG",
+      "passed": true,
+      "details": [
+        {
+          "id": "character.yeoul.idle",
+          "selectedPath": "characters/yeoul_idle.webp",
+          "fallback": false
+        },
+        {
+          "id": "icon_press",
+          "selectedPath": "ui/icon_press.svg",
+          "fallback": false
+        },
+        {
+          "id": "character.yeoul.release",
+          "selectedPath": "characters/yeoul_release.webp",
+          "fallback": false
+        },
+        {
+          "id": "icon_hold",
+          "selectedPath": "ui/icon_hold.svg",
+          "fallback": false
+        },
+        {
+          "id": "character.yeoul.miss",
+          "selectedPath": "characters/yeoul_miss.webp",
+          "fallback": false
+        },
+        {
+          "id": "icon_hold_hc",
+          "selectedPath": "ui/icon_hold_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_press_hc",
+          "selectedPath": "ui/icon_press_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_release",
+          "selectedPath": "ui/icon_release.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_release_hc",
+          "selectedPath": "ui/icon_release_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_wait",
+          "selectedPath": "ui/icon_wait.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_wait_hc",
+          "selectedPath": "ui/icon_wait_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_sound_hc",
+          "selectedPath": "ui/icon_sound_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_sound",
+          "selectedPath": "ui/icon_sound.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_pause_hc",
+          "selectedPath": "ui/icon_pause_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_pause",
+          "selectedPath": "ui/icon_pause.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_resume",
+          "selectedPath": "ui/icon_resume.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_resume_hc",
+          "selectedPath": "ui/icon_resume_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_retry",
+          "selectedPath": "ui/icon_retry.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_retry_hc",
+          "selectedPath": "ui/icon_retry_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_home",
+          "selectedPath": "ui/icon_home.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_home_hc",
+          "selectedPath": "ui/icon_home_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_help",
+          "selectedPath": "ui/icon_help.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_help_hc",
+          "selectedPath": "ui/icon_help_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_contrast",
+          "selectedPath": "ui/icon_contrast.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_contrast_hc",
+          "selectedPath": "ui/icon_contrast_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_reduced_motion_hc",
+          "selectedPath": "ui/icon_reduced_motion_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "button_normal",
+          "selectedPath": "ui/button_normal.svg",
+          "fallback": false
+        },
+        {
+          "id": "button_pressed",
+          "selectedPath": "ui/button_pressed.svg",
+          "fallback": false
+        },
+        {
+          "id": "button_focus",
+          "selectedPath": "ui/button_focus.svg",
+          "fallback": false
+        },
+        {
+          "id": "button_disabled",
+          "selectedPath": "ui/button_disabled.svg",
+          "fallback": false
+        },
+        {
+          "id": "icon_reduced_motion",
+          "selectedPath": "ui/icon_reduced_motion.svg",
+          "fallback": false
+        },
+        {
+          "id": "feedback_knot_success",
+          "selectedPath": "ui/feedback_knot_success.svg",
+          "fallback": false
+        },
+        {
+          "id": "feedback_knot_miss",
+          "selectedPath": "ui/feedback_knot_miss.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_release",
+          "selectedPath": "objects/bridge_release.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_onset",
+          "selectedPath": "objects/bridge_onset.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_tie_knot",
+          "selectedPath": "objects/bridge_tie_knot.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_onset_hc",
+          "selectedPath": "objects/bridge_onset_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_release_hc",
+          "selectedPath": "objects/bridge_release_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_tie_knot_hc",
+          "selectedPath": "objects/bridge_tie_knot_hc.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_needle_eye",
+          "selectedPath": "objects/bridge_needle_eye.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_spool",
+          "selectedPath": "objects/bridge_spool.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_bar_pillar",
+          "selectedPath": "objects/bridge_bar_pillar.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_ribbon_tile",
+          "selectedPath": "objects/bridge_ribbon_tile.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_ribbon_broken",
+          "selectedPath": "objects/bridge_ribbon_broken.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_lantern_idle",
+          "selectedPath": "objects/bridge_lantern_idle.svg",
+          "fallback": false
+        },
+        {
+          "id": "bridge_lantern_active",
+          "selectedPath": "objects/bridge_lantern_active.svg",
+          "fallback": false
+        },
+        {
+          "id": "somsae_count",
+          "selectedPath": "characters/somsae_count.webp",
+          "fallback": false
+        },
+        {
+          "id": "character.yeoul.prepare",
+          "selectedPath": "characters/yeoul_prepare.webp",
+          "fallback": false
+        },
+        {
+          "id": "character.yeoul.press",
+          "selectedPath": "characters/yeoul_press.webp",
+          "fallback": false
+        },
+        {
+          "id": "somsae_demo",
+          "selectedPath": "characters/somsae_demo.webp",
+          "fallback": false
+        },
+        {
+          "id": "somsae_encourage",
+          "selectedPath": "characters/somsae_encourage.webp",
+          "fallback": false
+        },
+        {
+          "id": "scene_a_thread_bridge",
+          "selectedPath": "backgrounds/scene_a_thread_bridge.webp",
+          "fallback": false
+        },
+        {
+          "id": "character.yeoul.hold",
+          "selectedPath": "png_fallbacks/characters/yeoul_hold.png",
+          "fallback": true
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\assets\\thread-bridge-390.png",
+    "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\assets\\crescent-greenhouse-390.png",
+    "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\assets\\folding-room-390.png",
+    "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\assets\\cloud-post-390.png",
+    "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\assets\\thread-bridge-844.png",
+    "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\assets\\crescent-greenhouse-844.png",
+    "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\assets\\folding-room-844.png",
+    "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\assets\\cloud-post-844.png"
+  ],
+  "browserErrors": []
+}

@@ -1,0 +1,796 @@
+{
+  "assetCount": 75,
+  "mathValidation": "passed",
+  "checks": [
+    {
+      "check": "L01/0/a/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L01/0/a/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L01/0/b/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L01/0/b/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L01/0/c/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L01/0/c/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L01/0/bar",
+      "status": "passed",
+      "detail": "Bar duration matches the meter."
+    },
+    {
+      "check": "L02/0/a/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L02/0/a/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L02/0/b/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L02/0/b/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L02/0/c/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L02/0/c/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L02/0/d/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L02/0/d/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L02/0/e/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L02/0/e/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L02/0/bar",
+      "status": "passed",
+      "detail": "Bar duration matches the meter."
+    },
+    {
+      "check": "L02/t1/same-pitch",
+      "status": "passed",
+      "detail": "All tied notes have identical pitch spelling and MIDI."
+    },
+    {
+      "check": "L02/t1/adjacent",
+      "status": "passed",
+      "detail": "Tied events remain contiguous across barlines."
+    },
+    {
+      "check": "L03/0/a/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L03/0/a/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L03/0/b/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L03/0/b/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L03/0/c/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L03/0/c/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L03/0/bar",
+      "status": "passed",
+      "detail": "Bar duration matches the meter."
+    },
+    {
+      "check": "L03/1/d/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L03/1/d/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L03/1/e/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L03/1/e/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L03/1/f/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L03/1/f/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L03/1/bar",
+      "status": "passed",
+      "detail": "Bar duration matches the meter."
+    },
+    {
+      "check": "L03/t2/same-pitch",
+      "status": "passed",
+      "detail": "All tied notes have identical pitch spelling and MIDI."
+    },
+    {
+      "check": "L03/t2/adjacent",
+      "status": "passed",
+      "detail": "Tied events remain contiguous across barlines."
+    },
+    {
+      "check": "L04/0/a/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L04/0/a/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L04/0/b/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L04/0/b/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L04/0/c/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L04/0/c/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L04/0/d/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L04/0/d/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L04/0/bar",
+      "status": "passed",
+      "detail": "Bar duration matches the meter."
+    },
+    {
+      "check": "L05/0/a/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L05/0/a/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L05/0/b/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L05/0/b/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L05/0/c/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L05/0/c/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L05/0/d/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L05/0/d/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L05/0/bar",
+      "status": "passed",
+      "detail": "Bar duration matches the meter."
+    },
+    {
+      "check": "L05/1/e/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L05/1/e/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L05/1/f/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L05/1/f/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L05/1/bar",
+      "status": "passed",
+      "detail": "Bar duration matches the meter."
+    },
+    {
+      "check": "L06/0/a/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L06/0/a/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L06/0/b/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L06/0/b/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L06/0/c/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L06/0/c/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L06/0/d/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L06/0/d/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L06/0/e/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L06/0/e/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L06/0/f/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L06/0/f/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L06/0/bar",
+      "status": "passed",
+      "detail": "Bar duration matches the meter."
+    },
+    {
+      "check": "L07/0/a/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L07/0/a/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L07/0/b/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L07/0/b/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L07/0/c/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L07/0/c/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L07/0/d/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L07/0/d/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L07/0/e/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L07/0/e/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L07/0/f/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L07/0/f/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L07/0/bar",
+      "status": "passed",
+      "detail": "Bar duration matches the meter."
+    },
+    {
+      "check": "L08/0/a/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L08/0/a/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L08/0/b/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L08/0/b/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L08/0/c/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L08/0/c/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L08/0/d/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L08/0/d/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L08/0/e/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L08/0/e/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L08/0/f/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L08/0/f/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L08/0/g/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L08/0/g/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L08/0/h/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L08/0/h/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L08/0/bar",
+      "status": "passed",
+      "detail": "Bar duration matches the meter."
+    },
+    {
+      "check": "L09/0/a/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L09/0/a/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L09/0/b/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L09/0/b/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L09/0/c/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L09/0/c/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L09/0/d/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L09/0/d/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L09/0/e/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L09/0/e/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L09/0/f/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L09/0/f/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L09/0/g/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L09/0/g/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L09/0/h/contiguous",
+      "status": "passed",
+      "detail": "No gaps or overlaps in source sequence."
+    },
+    {
+      "check": "L09/0/h/duration",
+      "status": "passed",
+      "detail": "Denominator and dot count match ticks."
+    },
+    {
+      "check": "L09/0/bar",
+      "status": "passed",
+      "detail": "Bar duration matches the meter."
+    },
+    {
+      "check": "container-fill-ratio",
+      "status": "passed",
+      "detail": "128×96 and 64×96 exactly equal-height rectangles, 2:1 areas; no rounded clipping."
+    },
+    {
+      "check": "meter-identical-inputs",
+      "status": "passed",
+      "detail": "Six eighths and pitch sequence identical in both levels."
+    },
+    {
+      "check": "tempo-identical-pattern",
+      "status": "passed",
+      "detail": "Only quarterBpm changes; the full note/rest and pitch sequence is identical."
+    },
+    {
+      "check": "asset-count",
+      "status": "passed",
+      "detail": "75 assets within requested MVP range."
+    },
+    {
+      "check": "no-external-svg-dependencies",
+      "status": "passed",
+      "detail": "No remote image, font, script, linked stylesheet or other href in SVG."
+    },
+    {
+      "check": "no-svg-text-elements",
+      "status": "passed",
+      "detail": "All notation/numbers are outline geometry; Korean labels live in JSON for DOM rendering."
+    },
+    {
+      "check": "raster-container-fill-exact-2-to-1",
+      "status": "passed",
+      "detail": "Opaque teal liquid pixels are exactly 6,144 and 12,288."
+    },
+    {
+      "check": "raster-onset-release-center-distinction",
+      "status": "passed",
+      "detail": "Both variants have opaque onset center and alpha-transparent release center."
+    },
+    {
+      "check": "all-education-release-gates-closed",
+      "status": "passed",
+      "detail": "All 10 education variants remain human-review pending."
+    }
+  ],
+  "notationReview": "pending-human",
+  "listeningReview": "pending-human",
+  "releaseApproved": false,
+  "rasterInspection": "agent-contact-sheet-review-passed",
+  "rasterRender": "passed",
+  "realDeviceAccessibility": "not-run",
+  "fontFallbackRisk": "none: outlines only",
+  "externalReferences": 0,
+  "countsByCategory": {
+    "objects": 35,
+    "ui": 30,
+    "education": 10
+  },
+  "renderedPngCount": 75,
+  "pngDimensions": "passed",
+  "transparentRegion": "passed",
+  "containerFillPixels": {
+    "oneUnit": 6144,
+    "twoUnits": 12288,
+    "ratio": 2.0
+  },
+  "cueCenterAlpha": {
+    "bridge_onset": 255,
+    "bridge_release": 0,
+    "bridge_onset_hc": 255,
+    "bridge_release_hc": 0
+  },
+  "notes": [
+    "Visual QA is recorded separately after opening rendered sheets.",
+    "No human music review, listening review, real-device test, or screen-reader test has been claimed.",
+    "Font outlines come from installed Noto Music and DejaVu Sans; licenses included in docs."
+  ],
+  "visualInspection": {
+    "status": "passed-agent-visual-inspection",
+    "reviewDate": "2026-10-18",
+    "scope": "75 rasterized assets across four contact sheets, full-size tie card, and both lantern states. Visual production QA, not qualified human music approval.",
+    "reviewedRenderer": "Inkscape 1.4",
+    "checked": [
+      "No clipped content or unexpected backgrounds in separated assets.",
+      "Filled onset, hollow release and small woven tie have visibly distinct silhouettes.",
+      "Both containers retain identical fill height and equal unit widths.",
+      "Six equal floor tiles keep the same geometry under both grouping overlays.",
+      "Music rest glyphs, note dots, beams and visible cross-barline tie are legible.",
+      "Korean labels remain separate for DOM rendering; no missing glyphs.",
+      "Button and feedback states differ by shape as well as color.",
+      "Basic educational cards hide tick counts; advanced variants reveal them.",
+      "Reusable lantern idle/active retain the same outer frame and anchor; active adds an interior star/rays, idle has a dash."
+    ],
+    "correctionsMade": [
+      "Added repeat-edge separators to prevent doubled ribbon cell widths at tiling seams.",
+      "Moved greenhouse unit marks outside liquid to preserve exact raster fill area 2:1.",
+      "Confined the L03 staff barline to staff height so it does not cross the lower tie curve.",
+      "Split basic education cards from optional advanced tick-count variants."
+    ],
+    "limitations": [
+      "Human notation review pending.",
+      "Listening review pending; no audio created by this task.",
+      "Browser interaction, real-device, screen-reader, color-vision-user tests not run."
+    ],
+    "reviewedSvgHashes": {
+      "bridge_onset": "f892c88fb73f6c9e67aa2afcd31ce200d2c91132facd2b04425beecb50db3e0d",
+      "bridge_release": "647c6f65cc13cf79dbef27a249cf33698f73cdbf6a605652f4700378957b8232",
+      "bridge_tie_knot": "c337e97127e6ef6d8c9c5c8294c2ca2abe36490fa2e5909a72343c5e3f1e140b",
+      "bridge_onset_hc": "d17a862219580b9c47d59023d59245ccb6a4fdff327d8394a7833c0440d85b36",
+      "bridge_release_hc": "83dcb7b39b8f06a0858c204e93f08e5f88cb2ebc70e32aaa28a70ac284a40323",
+      "bridge_tie_knot_hc": "b86d9626bc144607ca4aa1479edb2c1c0188bdf31d2077c000b16c40755ba188",
+      "bridge_bar_pillar": "d5dbc3a9770ff47c8a71dd5784a0b92e95090afe84ea6b29f0fedd0e0737fc4f",
+      "bridge_needle_eye": "409afb6dc4250e42f5ac9f738a11a83e008c896235a391ba615641066aba0bd7",
+      "bridge_spool": "f8e5d04d0134a57e035d6b78f1c635cac43fab31184821d35dfdb1edd945bb00",
+      "bridge_ribbon_tile": "30193ceec163ce99cb9ec6afca4a4d1dd94913da17c406238f874be6387724f7",
+      "bridge_ribbon_broken": "b9544b843dbc6201a3b72fc5c8aeacb3b4a9d5e35d8d093b79b62c4cf834a1c8",
+      "bridge_lantern_idle": "fd64edcde43ff753f041a1a27439c2622a340b57396e58cbd780c9d9b2e3893e",
+      "bridge_lantern_active": "6b887d543412035581bdf2b86b344307cc8e70b1942c35b4ef389a791ffb0777",
+      "greenhouse_container_2u": "418da5ea99603b0d66831a7603b336349d945b66759c43dd245f5d01cee257e0",
+      "greenhouse_container_1u": "aaff7e13184cecf21df8290ab0b7abdd46832523d8a653fe23244eb91e5fc60e",
+      "greenhouse_time_strip_3u": "72509e09f466fe35dcb9f91a9380e3c5b9f837234432b77539ee10ce882b7ba7",
+      "greenhouse_rest_cover": "5ca19f99343b3938a0b4585e1015d9a53d54c4abe39c070c229d218acdd4c646",
+      "greenhouse_dew_idle": "6be53c9df448f06f1b338141d5ccfd4217b3932f125fcff5e85fc7b0a932549d",
+      "greenhouse_dew_active": "bf853abf7c87351f973dea24f096ceac0b18989b5bc44baa71666c0e1f134a19",
+      "greenhouse_flower_0": "1dfb1f93a1a786a0db4a39a55589d88006101e3ace3e7a13baabea07c1a5c1e2",
+      "greenhouse_flower_1": "112f38da46de9d01113550fc3ab329b23308ba1e6c0ccedcc7149e4c5c46ed78",
+      "greenhouse_flower_2": "c8d43482bcd341a2ca26190112866f2a08c5a5ff261d5fe8dc4fd719d1f570b7",
+      "greenhouse_flower_3": "f6719be5f7c2f5483db2acc862e76eb0264120f31302327aaaaa779ae7888d30",
+      "room_tile_idle": "dc553d35039a3b087e156109f7868e08437281cd91873bb5396b18a913df395b",
+      "room_tile_active": "ef89ded58de92c1dcd606fd862a4bfe3673811a8cef89da45562409516fa77b1",
+      "room_hinge_2u": "4130d11a5adceefd8b172b2d1f59b908d4ea2792e62b4a3be86e372970957ed9",
+      "room_hinge_3u": "21333c588bc703f1651a26e8b4801aa429f725bf0b52c717821788a2dfcdbf53",
+      "room_brackets_222": "bf56afb1a142780c123000bc37e00a4a5f608ddf5dcb1f26519350e7900d4468",
+      "room_floor_222": "df10514eaa75bbe5897a6f699b5ebff1d5962d68fb99075d9aab045e3ac52734",
+      "room_brackets_33": "faadd6761ff2ff1c216db4fbc865a1542afd874eaff959c71fbd4fabc03c178d",
+      "room_floor_33": "a4b57a000f8883ea23044c2f55d4b1a80b04afc85a017a4164969f1be85f5484",
+      "post_letter_idle": "fc311bf13d2ee085d6ece25cf7f37a07fe8dc6729c339da4b79ad8617b094435",
+      "post_letter_folded": "1cb3ee9de7a81645cdd204cd9cf732d4060e3feaf3abc082180aeb3dcd805d3b",
+      "post_letter_success_star": "810b8a0530c1d6d9660b2378b09292eddcfe8271c8b9b047a918ca284eee918b",
+      "post_counter": "6c8100a257f8e6bb30b006304620e12333373124a181a893536254b69225cc31",
+      "icon_press": "90e724b55b97538c55f655ce652fea76bc034e6f0409df2991fa259c2997a689",
+      "icon_press_hc": "fca2845e06a5087b324744c243cacc723a15640977ee0a1b88b4a16668d751b0",
+      "icon_hold": "cfa2a9887a4790c3bee76f437638f62400da683a699ef16e39ea02d98dcef422",
+      "icon_hold_hc": "c161d58c9907c03b69fe05ae38554dda1dc1fd9c5a9b6b3ac9661c9fbc2c1b93",
+      "icon_release": "0790c6b7e06048b4d193c9e5a6c39111174bbd3696cce7c07d3d9e66330510f5",
+      "icon_release_hc": "e4d23f55d0da0bba5d264c289b01d4eeb5a7aff41d2096cb2565c2c4c2f89426",
+      "icon_wait": "9f33eacd1c74a53b26f2852ad3fe57a0a0ef5e0a7d35cd873f26dca0799e1838",
+      "icon_wait_hc": "b306ab48033c42d7497226fc707ccd3ca2f200bae9ce80e729002f3f6a7abddd",
+      "icon_sound": "861d5c39e6da75add0a1ecbd288335cfa8a0f321dc050f2b0873bf75f4b842b2",
+      "icon_sound_hc": "022fad01e521517c1d343937d1db12799bbad2917884ffca2aeb4620b5469507",
+      "icon_pause": "d90e6f4a149ddddea652d2fab166bf9a8a99724aace5e25818f98bee37a54695",
+      "icon_pause_hc": "16a4e4fac731a3ddefce0a78d67ccadc1cc9f3e5f35df15e147c31d07c110c65",
+      "icon_resume": "0019411a98c3f2cb880a777d1c01ec118929777754f31aab4a33b0172467f87d",
+      "icon_resume_hc": "f80969e86253ecaa9926f7aaea04594ad998fcd3d41be879704384dbfd86fb29",
+      "icon_retry": "084494bd2f65781c3cc825701c7a2507ceba3454b4a1090281697fd347da587a",
+      "icon_retry_hc": "ca87d64b46f6e71c138feb4f7854629a5fc7b4946f5dc844dfd5b311108f3d2f",
+      "icon_home": "6f28470264a35796262d93c8bca2c02dac709481808deb94748a49dfaf445704",
+      "icon_home_hc": "9e07ef1257ed6d95813d2c8ec2125fb285c42d6f6c83916290f52e0b52eae3f8",
+      "icon_help": "f32874e26b7a070bb327fd1e678d539af6805f68a47830b014187f6cf8524007",
+      "icon_help_hc": "fea4706cbf514ae93d1487fa8778517f7ce17f4579ee4a4d675d043fa0f8d392",
+      "icon_contrast": "3183e8a280884c6c48c1af1d48029200dff211ff2a59e6d01a3adb0f73a388e6",
+      "icon_contrast_hc": "0d282e43bd4a1277f2c9cf3c4a6f83742e527258eec432fc133abea2e7903efb",
+      "icon_reduced_motion": "2cca8b18bd042a7f9512a4288fef71097044573e65440ffd9d0f05b5bf9b7773",
+      "icon_reduced_motion_hc": "83e5c94260c57540de60975eba1294241a9c7043b08fd583039690fef5025d7d",
+      "button_normal": "d41807f738c0ac29f2415d03550cd41dd630a2ecfad6496bb0e59a7f89bf9302",
+      "button_pressed": "72861573a0f1a1f21c5432623224855f20c3e799f496cfcd45fb300d8fd916bf",
+      "button_focus": "fda6811f56621734862a5c4e045c5d47ec6d93b1356ed54d1a296b658fd54b17",
+      "button_disabled": "7f3b2b34686c41c94a597f30e654ec55e88068388a95ddc5951609cc9513da06",
+      "feedback_knot_success": "f00e325834de4d654e65c74e573464065ed279d2c3c721fe57e42683c383ae82",
+      "feedback_knot_miss": "be028dd5b590fd8ea2f4caee699867f0398c8de75a24302d68d146da1865dd39",
+      "education_duration": "95e337d06ba7d5bff33ebe73aeba1ab65d734265b96144958d306283d7dc43f9",
+      "education_duration_advanced": "b9b3602c8c5389a8e1a0690e3bdbd4cedd1b5e92770834da63da0029f2f5b1e8",
+      "education_tie": "43e2b1e6f321be84f36f25fde73d052ccb925b4be8c078427b8410e2a9a30f2a",
+      "education_tie_advanced": "9443c6971b655ebb03465ef31bc7f446c1e8c459e273de2ccb7b5ec54551d893",
+      "education_dot": "1854de2a38cd06423242055672a454b902fe1c6cdbcd827a5e37c1e39eab6b83",
+      "education_dot_advanced": "bd58c418ce39ccf324cc7453dad1f41c17d6566061f96a0521159e8ba3ee2ca7",
+      "education_dotted_rest": "523ac67a32009d03066ac5ff4b3715e22940d4b1e73b669f9c5540df2e4acb23",
+      "education_dotted_rest_advanced": "733aeda9df20fea3711f449a9f1f91a9c82bd841a1e669b47edd296189381085",
+      "education_meter": "49fecd29a9d38e2c61c64c0a873ed13def401da344e2c937c106a1e9eed17f95",
+      "education_tempo": "c6ea34070274df9389846b523838027d83c59fe22cf1abed30449813760c174d"
+    }
+  },
+  "renderer": "Inkscape 1.4",
+  "determinismSamples": [
+    {
+      "assetId": "bridge_onset",
+      "sha256Matches": true
+    },
+    {
+      "assetId": "education_tie_advanced",
+      "sha256Matches": true
+    }
+  ],
+  "finalManifestIntegrity": "passed: 150 listed files match hashes and dimensions",
+  "totalVectorAssets": 75
+}

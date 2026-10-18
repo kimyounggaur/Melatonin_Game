@@ -1,0 +1,14 @@
+h1,h2{word-break:keep-all}
+.action-pad:hover{background:#efca7a}
+.action-pad.held:hover{background:#f3d99b}
+.meter-question{border-top:1px solid #f3e8c926;padding-top:20px;margin-top:12px;display:grid;gap:10px}
+@media(min-width:900px) and (min-height:601px){
+  .stage{width:min(100%,calc((100dvh - 340px)*16/9));max-width:100%;margin-inline:auto}
+  .play-screen{padding-bottom:0}
+  .play-hud{height:60px}
+  .action-container{min-height:128px;padding-top:16px;padding-bottom:8px}
+  .stage-legend{padding-top:0}
+}
+@media(orientation:landscape) and (max-height:600px){
+  .stage{width:min(100%,calc((100dvh - 114px)*16/9));max-height:none;margin:auto}
+}

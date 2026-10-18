@@ -1,0 +1,545 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\playwright.config.ts",
+    "rootDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [
+          "/all-levels\\.spec\\.ts/",
+          "/webkit-static\\.spec\\.ts/",
+          "/calibration\\.spec\\.ts/"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "calibration.spec.ts",
+      "file": "calibration.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "E12 calibration -250ms: real keyboard reaches first onset, every hold/release and standard 100 without changing targets",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 45277,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:42:29.586Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c323294bba3442441f3-9ce98939b49095148b2d",
+          "file": "calibration.spec.ts",
+          "line": 24,
+          "column": 3
+        },
+        {
+          "title": "E12 calibration 250ms: real keyboard reaches first onset, every hold/release and standard 100 without changing targets",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 43582,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:43:15.451Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c323294bba3442441f3-9b41645f21744c87bc96",
+          "file": "calibration.spec.ts",
+          "line": 24,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "night-thread.spec.ts",
+      "file": "night-thread.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "E01 E08 E09: nine lessons expose exact source notation, pitch, ties, grouping and tempo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4419,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:43:59.079Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-88ab5487ca7fa96d683a",
+          "file": "night-thread.spec.ts",
+          "line": 130,
+          "column": 1
+        },
+        {
+          "title": "E06: five viewport layouts, readable 200% text, keyboard settings and semantic controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5442,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:44:03.527Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-4425ad27c8fb3143a5ac",
+          "file": "night-thread.spec.ts",
+          "line": 169,
+          "column": 1
+        },
+        {
+          "title": "E01 E14: real-time L02 listen → practice → PLAY no-input earns zero and emits no lead/player attacks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 46840,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:44:08.988Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-5900bc68a06a6873e35f",
+          "file": "night-thread.spec.ts",
+          "line": 249,
+          "column": 1
+        },
+        {
+          "title": "E02 E03 E04: trusted keyboard and pointer hold/release, secondary owner ignored, pause/resume fresh count-in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 52872,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:44:55.842Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-1b36037b140347cb0d20",
+          "file": "night-thread.spec.ts",
+          "line": 327,
+          "column": 1
+        },
+        {
+          "title": "E05: real browser screen orientation change interrupts and user resume starts a fresh count-in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1358,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:45:48.731Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-f00341a8479afacb622f",
+          "file": "night-thread.spec.ts",
+          "line": 467,
+          "column": 1
+        },
+        {
+          "title": "E01 E08 E09: nine lessons expose exact source notation, pitch, ties, grouping and tempo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7582,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:45:51.761Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-071423c4aeddb08f409b",
+          "file": "night-thread.spec.ts",
+          "line": 130,
+          "column": 1
+        },
+        {
+          "title": "E06: five viewport layouts, readable 200% text, keyboard settings and semantic controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5915,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:45:59.960Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-d386e23514735c5aa9c8",
+          "file": "night-thread.spec.ts",
+          "line": 169,
+          "column": 1
+        },
+        {
+          "title": "E01 E14: real-time L02 listen → practice → PLAY no-input earns zero and emits no lead/player attacks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 48725,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:46:05.893Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-4b482684abda0ece5037",
+          "file": "night-thread.spec.ts",
+          "line": 249,
+          "column": 1
+        },
+        {
+          "title": "E02 E03 E04: trusted keyboard and pointer hold/release, secondary owner ignored, pause/resume fresh count-in",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 33790,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m0\u001b[39m\nReceived:   \u001b[31m31.69066666666666\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m0\u001b[39m\nReceived:   \u001b[31m31.69066666666666\u001b[39m\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:218:43",
+                    "location": {
+                      "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                      "column": 43,
+                      "line": 218
+                    },
+                    "snippet": "  216 |   await action(page,'resume').click();const resumed=await waitRun(page,'play');\n  217 |   expect(resumed.paused).toBe(false);expect(resumed.epoch).not.toBe(initial.epoch);\n> 218 |   expect(resumed.audioNow-resumed.epoch!).toBeLessThan(resumed.restartSec);\n      |                                           ^\n  219 |   expect(resumed.snapshot?.earned).toBe(0);\n  220 |   await page.keyboard.up('Space');\n  221 |   await page.locator('#action-pad').scrollIntoViewIfNeeded();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                        "column": 43,
+                        "line": 218
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m0\u001b[39m\nReceived:   \u001b[31m31.69066666666666\u001b[39m\n\n  216 |   await action(page,'resume').click();const resumed=await waitRun(page,'play');\n  217 |   expect(resumed.paused).toBe(false);expect(resumed.epoch).not.toBe(initial.epoch);\n> 218 |   expect(resumed.audioNow-resumed.epoch!).toBeLessThan(resumed.restartSec);\n      |                                           ^\n  219 |   expect(resumed.snapshot?.earned).toBe(0);\n  220 |   await page.keyboard.up('Space');\n  221 |   await page.locator('#action-pad').scrollIntoViewIfNeeded();\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:218:43"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:46:54.641Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E02-E03-E04-t-c3cab-pause-resume-fresh-count-in-firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E02-E03-E04-t-c3cab-pause-resume-fresh-count-in-firefox\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E02-E03-E04-t-c3cab-pause-resume-fresh-count-in-firefox\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                    "column": 43,
+                    "line": 218
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-2f79a4f146a514baaed6",
+          "file": "night-thread.spec.ts",
+          "line": 327,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-18T16:42:27.630Z",
+    "duration": 301959.563,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

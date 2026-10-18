@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "L04",
+  "title": "꽃잎 하나를 더",
+  "scene": "crescent-greenhouse",
+  "ppq": 480,
+  "meter": {
+    "n": 4,
+    "d": 4,
+    "groupingEighths": [
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "quarterBpm": 80,
+  "sourceIds": [
+    "004",
+    "006"
+  ],
+  "skillIds": [
+    "dot"
+  ],
+  "sequence": {
+    "countInBars": 1,
+    "listenRepeats": 2,
+    "listenTailBars": 1,
+    "practiceRepeats": 2,
+    "playRepeats": 4,
+    "outroBars": 1
+  },
+  "reviewState": "math_checked_art_audio_review_pending",
+  "bars": [
+    {
+      "events": [
+        {
+          "id": "a",
+          "at": 0,
+          "ticks": 720,
+          "kind": "note",
+          "notation": {
+            "denominator": 4,
+            "dots": 1
+          },
+          "pitchName": "C5",
+          "midi": 72,
+          "interaction": "hold"
+        },
+        {
+          "id": "b",
+          "at": 720,
+          "ticks": 240,
+          "kind": "rest",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          }
+        },
+        {
+          "id": "c",
+          "at": 960,
+          "ticks": 720,
+          "kind": "note",
+          "notation": {
+            "denominator": 4,
+            "dots": 1
+          },
+          "pitchName": "E5",
+          "midi": 76,
+          "interaction": "hold"
+        },
+        {
+          "id": "d",
+          "at": 1680,
+          "ticks": 240,
+          "kind": "rest",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          }
+        }
+      ]
+    }
+  ]
+}

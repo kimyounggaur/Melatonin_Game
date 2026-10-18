@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "L05",
+  "title": "꽃이 잠드는 큰박",
+  "scene": "crescent-greenhouse",
+  "ppq": 480,
+  "meter": {"n": 6, "d": 8, "groupingEighths": [3, 3]},
+  "quarterBpm": 90,
+  "sourceIds": ["007", "032-3"],
+  "skillIds": ["dotted-rest", "compound-duple"],
+  "sequence": {"countInBars": 1, "listenRepeats": 2, "listenTailBars": 1, "practiceRepeats": 2, "playRepeats": 4, "outroBars": 1},
+  "reviewState": "math_checked_art_audio_review_pending",
+  "bars": [
+    {"events": [
+      {"id": "a", "at": 0, "ticks": 720, "kind": "rest", "notation": {"denominator": 4, "dots": 1}},
+      {"id": "b", "at": 720, "ticks": 240, "kind": "note", "notation": {"denominator": 8, "dots": 0}, "pitchName": "C5", "midi": 72, "interaction": "tap"},
+      {"id": "c", "at": 960, "ticks": 240, "kind": "note", "notation": {"denominator": 8, "dots": 0}, "pitchName": "D5", "midi": 74, "interaction": "tap"},
+      {"id": "d", "at": 1200, "ticks": 240, "kind": "note", "notation": {"denominator": 8, "dots": 0}, "pitchName": "E5", "midi": 76, "interaction": "tap"}
+    ]},
+    {"events": [
+      {"id": "e", "at": 0, "ticks": 720, "kind": "note", "notation": {"denominator": 4, "dots": 1}, "pitchName": "G5", "midi": 79, "interaction": "hold"},
+      {"id": "f", "at": 720, "ticks": 720, "kind": "rest", "notation": {"denominator": 4, "dots": 1}}
+    ]}
+  ]
+}

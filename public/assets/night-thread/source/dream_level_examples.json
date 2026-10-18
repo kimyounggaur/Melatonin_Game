@@ -1,0 +1,989 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "L01",
+    "title": "짧은 실과 긴 실",
+    "scene": "thread-bridge",
+    "ppq": 480,
+    "meter": {
+      "n": 4,
+      "d": 4,
+      "groupingEighths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "quarterBpm": 72,
+    "sourceIds": [
+      "004"
+    ],
+    "skillIds": [
+      "duration"
+    ],
+    "sequence": {
+      "countInBars": 1,
+      "listenRepeats": 2,
+      "listenTailBars": 1,
+      "practiceRepeats": 2,
+      "playRepeats": 4,
+      "outroBars": 1
+    },
+    "bars": [
+      {
+        "events": [
+          {
+            "id": "a",
+            "at": 0,
+            "ticks": 480,
+            "kind": "note",
+            "notation": {
+              "denominator": 4,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "hold"
+          },
+          {
+            "id": "b",
+            "at": 480,
+            "ticks": 480,
+            "kind": "rest",
+            "notation": {
+              "denominator": 4,
+              "dots": 0
+            }
+          },
+          {
+            "id": "c",
+            "at": 960,
+            "ticks": 960,
+            "kind": "note",
+            "notation": {
+              "denominator": 2,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "hold"
+          }
+        ]
+      }
+    ],
+    "reviewState": "math_checked_art_audio_review_pending"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "L02",
+    "title": "중간 매듭에서는 계속",
+    "scene": "thread-bridge",
+    "ppq": 480,
+    "meter": {
+      "n": 4,
+      "d": 4,
+      "groupingEighths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "quarterBpm": 72,
+    "sourceIds": [
+      "004",
+      "017"
+    ],
+    "skillIds": [
+      "tie"
+    ],
+    "sequence": {
+      "countInBars": 1,
+      "listenRepeats": 2,
+      "listenTailBars": 1,
+      "practiceRepeats": 2,
+      "playRepeats": 4,
+      "outroBars": 1
+    },
+    "bars": [
+      {
+        "events": [
+          {
+            "id": "a",
+            "at": 0,
+            "ticks": 480,
+            "kind": "note",
+            "notation": {
+              "denominator": 4,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "hold",
+            "tieGroup": "t1"
+          },
+          {
+            "id": "b",
+            "at": 480,
+            "ticks": 480,
+            "kind": "note",
+            "notation": {
+              "denominator": 4,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "hold",
+            "tieGroup": "t1"
+          },
+          {
+            "id": "c",
+            "at": 960,
+            "ticks": 480,
+            "kind": "rest",
+            "notation": {
+              "denominator": 4,
+              "dots": 0
+            }
+          },
+          {
+            "id": "d",
+            "at": 1440,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "E5",
+            "midi": 76,
+            "interaction": "tap"
+          },
+          {
+            "id": "e",
+            "at": 1680,
+            "ticks": 240,
+            "kind": "rest",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            }
+          }
+        ]
+      }
+    ],
+    "reviewState": "math_checked_art_audio_review_pending"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "L03",
+    "title": "기둥을 넘어 잇기",
+    "scene": "thread-bridge",
+    "ppq": 480,
+    "meter": {
+      "n": 4,
+      "d": 4,
+      "groupingEighths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "quarterBpm": 72,
+    "sourceIds": [
+      "004",
+      "017"
+    ],
+    "skillIds": [
+      "cross-bar-tie"
+    ],
+    "sequence": {
+      "countInBars": 1,
+      "listenRepeats": 2,
+      "listenTailBars": 1,
+      "practiceRepeats": 2,
+      "playRepeats": 4,
+      "outroBars": 1
+    },
+    "bars": [
+      {
+        "events": [
+          {
+            "id": "a",
+            "at": 0,
+            "ticks": 960,
+            "kind": "rest",
+            "notation": {
+              "denominator": 2,
+              "dots": 0
+            }
+          },
+          {
+            "id": "b",
+            "at": 960,
+            "ticks": 480,
+            "kind": "rest",
+            "notation": {
+              "denominator": 4,
+              "dots": 0
+            }
+          },
+          {
+            "id": "c",
+            "at": 1440,
+            "ticks": 480,
+            "kind": "note",
+            "notation": {
+              "denominator": 4,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "hold",
+            "tieGroup": "t2"
+          }
+        ]
+      },
+      {
+        "events": [
+          {
+            "id": "d",
+            "at": 0,
+            "ticks": 960,
+            "kind": "note",
+            "notation": {
+              "denominator": 2,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "hold",
+            "tieGroup": "t2"
+          },
+          {
+            "id": "e",
+            "at": 960,
+            "ticks": 480,
+            "kind": "rest",
+            "notation": {
+              "denominator": 4,
+              "dots": 0
+            }
+          },
+          {
+            "id": "f",
+            "at": 1440,
+            "ticks": 480,
+            "kind": "note",
+            "notation": {
+              "denominator": 4,
+              "dots": 0
+            },
+            "pitchName": "E5",
+            "midi": 76,
+            "interaction": "hold"
+          }
+        ]
+      }
+    ],
+    "reviewState": "math_checked_art_audio_review_pending"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "L04",
+    "title": "꽃잎 하나를 더",
+    "scene": "crescent-greenhouse",
+    "ppq": 480,
+    "meter": {
+      "n": 4,
+      "d": 4,
+      "groupingEighths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "quarterBpm": 80,
+    "sourceIds": [
+      "004",
+      "006"
+    ],
+    "skillIds": [
+      "dot"
+    ],
+    "sequence": {
+      "countInBars": 1,
+      "listenRepeats": 2,
+      "listenTailBars": 1,
+      "practiceRepeats": 2,
+      "playRepeats": 4,
+      "outroBars": 1
+    },
+    "bars": [
+      {
+        "events": [
+          {
+            "id": "a",
+            "at": 0,
+            "ticks": 720,
+            "kind": "note",
+            "notation": {
+              "denominator": 4,
+              "dots": 1
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "hold"
+          },
+          {
+            "id": "b",
+            "at": 720,
+            "ticks": 240,
+            "kind": "rest",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            }
+          },
+          {
+            "id": "c",
+            "at": 960,
+            "ticks": 720,
+            "kind": "note",
+            "notation": {
+              "denominator": 4,
+              "dots": 1
+            },
+            "pitchName": "E5",
+            "midi": 76,
+            "interaction": "hold"
+          },
+          {
+            "id": "d",
+            "at": 1680,
+            "ticks": 240,
+            "kind": "rest",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            }
+          }
+        ]
+      }
+    ],
+    "reviewState": "math_checked_art_audio_review_pending"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "L05",
+    "title": "꽃이 잠드는 큰박",
+    "scene": "crescent-greenhouse",
+    "ppq": 480,
+    "meter": {
+      "n": 6,
+      "d": 8,
+      "groupingEighths": [
+        3,
+        3
+      ]
+    },
+    "quarterBpm": 90,
+    "sourceIds": [
+      "007",
+      "032-3"
+    ],
+    "skillIds": [
+      "dotted-rest",
+      "compound-duple"
+    ],
+    "sequence": {
+      "countInBars": 1,
+      "listenRepeats": 2,
+      "listenTailBars": 1,
+      "practiceRepeats": 2,
+      "playRepeats": 4,
+      "outroBars": 1
+    },
+    "bars": [
+      {
+        "events": [
+          {
+            "id": "a",
+            "at": 0,
+            "ticks": 720,
+            "kind": "rest",
+            "notation": {
+              "denominator": 4,
+              "dots": 1
+            }
+          },
+          {
+            "id": "b",
+            "at": 720,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "c",
+            "at": 960,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "D5",
+            "midi": 74,
+            "interaction": "tap"
+          },
+          {
+            "id": "d",
+            "at": 1200,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "E5",
+            "midi": 76,
+            "interaction": "tap"
+          }
+        ]
+      },
+      {
+        "events": [
+          {
+            "id": "e",
+            "at": 0,
+            "ticks": 720,
+            "kind": "note",
+            "notation": {
+              "denominator": 4,
+              "dots": 1
+            },
+            "pitchName": "G5",
+            "midi": 79,
+            "interaction": "hold"
+          },
+          {
+            "id": "f",
+            "at": 720,
+            "ticks": 720,
+            "kind": "rest",
+            "notation": {
+              "denominator": 4,
+              "dots": 1
+            }
+          }
+        ]
+      }
+    ],
+    "reviewState": "math_checked_art_audio_review_pending"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "L06",
+    "title": "둘씩 접히는 세 칸",
+    "scene": "folding-room",
+    "ppq": 480,
+    "meter": {
+      "n": 3,
+      "d": 4,
+      "groupingEighths": [
+        2,
+        2,
+        2
+      ]
+    },
+    "quarterBpm": 90,
+    "sourceIds": [
+      "032-3"
+    ],
+    "skillIds": [
+      "simple-triple"
+    ],
+    "sequence": {
+      "countInBars": 1,
+      "listenRepeats": 2,
+      "listenTailBars": 1,
+      "practiceRepeats": 2,
+      "playRepeats": 4,
+      "outroBars": 1
+    },
+    "bars": [
+      {
+        "events": [
+          {
+            "id": "a",
+            "at": 0,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "b",
+            "at": 240,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "c",
+            "at": 480,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "d",
+            "at": 720,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "e",
+            "at": 960,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "f",
+            "at": 1200,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          }
+        ]
+      }
+    ],
+    "reviewState": "math_checked_art_audio_review_pending"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "L07",
+    "title": "셋씩 접히는 두 칸",
+    "scene": "folding-room",
+    "ppq": 480,
+    "meter": {
+      "n": 6,
+      "d": 8,
+      "groupingEighths": [
+        3,
+        3
+      ]
+    },
+    "quarterBpm": 90,
+    "sourceIds": [
+      "032-3"
+    ],
+    "skillIds": [
+      "compound-duple"
+    ],
+    "sequence": {
+      "countInBars": 1,
+      "listenRepeats": 2,
+      "listenTailBars": 1,
+      "practiceRepeats": 2,
+      "playRepeats": 4,
+      "outroBars": 1
+    },
+    "bars": [
+      {
+        "events": [
+          {
+            "id": "a",
+            "at": 0,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "b",
+            "at": 240,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "c",
+            "at": 480,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "d",
+            "at": 720,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "e",
+            "at": 960,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "f",
+            "at": 1200,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          }
+        ]
+      }
+    ],
+    "reviewState": "math_checked_art_audio_review_pending"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "L08",
+    "title": "느린 구름 편지",
+    "scene": "cloud-post",
+    "ppq": 480,
+    "meter": {
+      "n": 4,
+      "d": 4,
+      "groupingEighths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "quarterBpm": 72,
+    "sourceIds": [
+      "004",
+      "030-1"
+    ],
+    "skillIds": [
+      "tempo"
+    ],
+    "sequence": {
+      "countInBars": 1,
+      "listenRepeats": 2,
+      "listenTailBars": 1,
+      "practiceRepeats": 2,
+      "playRepeats": 4,
+      "outroBars": 1
+    },
+    "bars": [
+      {
+        "events": [
+          {
+            "id": "a",
+            "at": 0,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "b",
+            "at": 240,
+            "ticks": 240,
+            "kind": "rest",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            }
+          },
+          {
+            "id": "c",
+            "at": 480,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "D5",
+            "midi": 74,
+            "interaction": "tap"
+          },
+          {
+            "id": "d",
+            "at": 720,
+            "ticks": 240,
+            "kind": "rest",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            }
+          },
+          {
+            "id": "e",
+            "at": 960,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "E5",
+            "midi": 76,
+            "interaction": "tap"
+          },
+          {
+            "id": "f",
+            "at": 1200,
+            "ticks": 240,
+            "kind": "rest",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            }
+          },
+          {
+            "id": "g",
+            "at": 1440,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "G5",
+            "midi": 79,
+            "interaction": "tap"
+          },
+          {
+            "id": "h",
+            "at": 1680,
+            "ticks": 240,
+            "kind": "rest",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            }
+          }
+        ]
+      }
+    ],
+    "reviewState": "math_checked_art_audio_review_pending"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "L09",
+    "title": "가벼운 구름 편지",
+    "scene": "cloud-post",
+    "ppq": 480,
+    "meter": {
+      "n": 4,
+      "d": 4,
+      "groupingEighths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "quarterBpm": 108,
+    "sourceIds": [
+      "004",
+      "030-1"
+    ],
+    "skillIds": [
+      "tempo"
+    ],
+    "sequence": {
+      "countInBars": 1,
+      "listenRepeats": 2,
+      "listenTailBars": 1,
+      "practiceRepeats": 2,
+      "playRepeats": 4,
+      "outroBars": 1
+    },
+    "bars": [
+      {
+        "events": [
+          {
+            "id": "a",
+            "at": 0,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "C5",
+            "midi": 72,
+            "interaction": "tap"
+          },
+          {
+            "id": "b",
+            "at": 240,
+            "ticks": 240,
+            "kind": "rest",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            }
+          },
+          {
+            "id": "c",
+            "at": 480,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "D5",
+            "midi": 74,
+            "interaction": "tap"
+          },
+          {
+            "id": "d",
+            "at": 720,
+            "ticks": 240,
+            "kind": "rest",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            }
+          },
+          {
+            "id": "e",
+            "at": 960,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "E5",
+            "midi": 76,
+            "interaction": "tap"
+          },
+          {
+            "id": "f",
+            "at": 1200,
+            "ticks": 240,
+            "kind": "rest",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            }
+          },
+          {
+            "id": "g",
+            "at": 1440,
+            "ticks": 240,
+            "kind": "note",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            },
+            "pitchName": "G5",
+            "midi": 79,
+            "interaction": "tap"
+          },
+          {
+            "id": "h",
+            "at": 1680,
+            "ticks": 240,
+            "kind": "rest",
+            "notation": {
+              "denominator": 8,
+              "dots": 0
+            }
+          }
+        ]
+      }
+    ],
+    "reviewState": "math_checked_art_audio_review_pending"
+  }
+]

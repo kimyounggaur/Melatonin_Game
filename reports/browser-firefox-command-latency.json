@@ -1,0 +1,1646 @@
+{
+  "status": {
+    "screen": "result",
+    "selectedId": "L02",
+    "mode": "play",
+    "epoch": 35.73533333333334,
+    "audioNow": 52.6,
+    "contextTime": 52.6,
+    "snapshot": {
+      "score": 90,
+      "earned": 10.75,
+      "extra": 0,
+      "expectationCount": 12,
+      "metrics": {
+        "restCleanCount": 8,
+        "restCount": 8,
+        "restCleanRatio": 1,
+        "tieContinuousCount": 4,
+        "tieCount": 4,
+        "tieContinuousRatio": 1,
+        "releaseInWindowCount": 4,
+        "holdCount": 4,
+        "releaseInWindowRatio": 1,
+        "onsetMedianAbsError": 44.16666666666558,
+        "reentrySuccessCount": 7,
+        "reentryCount": 7,
+        "reentryRatio": 1,
+        "meterConceptCorrect": null
+      },
+      "notes": [
+        {
+          "noteId": "L02:PLAY:0:a",
+          "status": "RELEASED",
+          "onsetPoints": 1,
+          "releasePoints": 1,
+          "onsetErrorMs": 42.00000000000159,
+          "releaseErrorMs": 33.999999999996476,
+          "final": true,
+          "reason": "release_hit",
+          "downSec": 0.04200000000000159,
+          "upSec": 1.7006666666666632
+        },
+        {
+          "noteId": "L02:PLAY:0:d",
+          "status": "HIT",
+          "onsetPoints": 1,
+          "releasePoints": 0,
+          "onsetErrorMs": 44.66666666666441,
+          "releaseErrorMs": null,
+          "final": true,
+          "reason": "onset_hit",
+          "downSec": 2.5446666666666644,
+          "upSec": 2.5649999999999977
+        },
+        {
+          "noteId": "L02:PLAY:1:a",
+          "status": "RELEASED",
+          "onsetPoints": 0.75,
+          "releasePoints": 0.75,
+          "onsetErrorMs": 51.33333333332723,
+          "releaseErrorMs": 63.66666666666276,
+          "final": true,
+          "reason": "release_hit",
+          "downSec": 3.3846666666666607,
+          "upSec": 5.063666666666663
+        },
+        {
+          "noteId": "L02:PLAY:1:d",
+          "status": "HIT",
+          "onsetPoints": 1,
+          "releasePoints": 0,
+          "onsetErrorMs": 31.33333333333166,
+          "releaseErrorMs": null,
+          "final": true,
+          "reason": "onset_hit",
+          "downSec": 5.864666666666665,
+          "upSec": 5.903666666666666
+        },
+        {
+          "noteId": "L02:PLAY:2:a",
+          "status": "RELEASED",
+          "onsetPoints": 0.75,
+          "releasePoints": 1,
+          "onsetErrorMs": 48.66666666665953,
+          "releaseErrorMs": 49.33333333332435,
+          "final": true,
+          "reason": "release_hit",
+          "downSec": 6.7153333333333265,
+          "upSec": 8.382666666666658
+        },
+        {
+          "noteId": "L02:PLAY:2:d",
+          "status": "HIT",
+          "onsetPoints": 0.75,
+          "releasePoints": 0,
+          "onsetErrorMs": 49.99999999999538,
+          "releaseErrorMs": null,
+          "final": true,
+          "reason": "onset_hit",
+          "downSec": 9.216666666666661,
+          "upSec": 9.244999999999997
+        },
+        {
+          "noteId": "L02:PLAY:3:a",
+          "status": "RELEASED",
+          "onsetPoints": 1,
+          "releasePoints": 0.75,
+          "onsetErrorMs": 34.33333333332911,
+          "releaseErrorMs": 99.33333333333216,
+          "final": true,
+          "reason": "release_hit",
+          "downSec": 10.034333333333329,
+          "upSec": 11.765999999999998
+        },
+        {
+          "noteId": "L02:PLAY:3:d",
+          "status": "HIT",
+          "onsetPoints": 1,
+          "releasePoints": 0,
+          "onsetErrorMs": 43.66666666666674,
+          "releaseErrorMs": null,
+          "final": true,
+          "reason": "onset_hit",
+          "downSec": 12.543666666666667,
+          "upSec": 12.624666666666663
+        }
+      ],
+      "finished": true,
+      "invalidatedFrom": null,
+      "restartTick": 5760,
+      "completedPhrases": 4,
+      "sessionId": "session-4"
+    },
+    "paused": false,
+    "ready": null,
+    "notes": [
+      {
+        "id": "L02:PLAY:0:a",
+        "occurrenceId": "L02:PLAY:0:a",
+        "phraseIndex": 0,
+        "startTick": 0,
+        "endTick": 960,
+        "startSec": 0,
+        "endSec": 1.6666666666666667,
+        "interaction": "hold",
+        "pitchName": "C5",
+        "midi": 72,
+        "sourceNotationIds": [
+          "a",
+          "b"
+        ],
+        "tieBoundaries": [
+          480
+        ],
+        "onsetWindow": {
+          "perfectMs": 45,
+          "goodMs": 90,
+          "lateMs": 140,
+          "perfectUs": 45000,
+          "goodUs": 90000,
+          "lateUs": 140000
+        },
+        "releaseWindow": {
+          "perfectMs": 60,
+          "goodMs": 110,
+          "lateMs": 160,
+          "perfectUs": 60000,
+          "goodUs": 110000,
+          "lateUs": 160000
+        }
+      },
+      {
+        "id": "L02:PLAY:0:d",
+        "occurrenceId": "L02:PLAY:0:d",
+        "phraseIndex": 0,
+        "startTick": 1440,
+        "endTick": 1680,
+        "startSec": 2.5,
+        "endSec": 2.9166666666666665,
+        "interaction": "tap",
+        "pitchName": "E5",
+        "midi": 76,
+        "sourceNotationIds": [
+          "d"
+        ],
+        "tieBoundaries": [],
+        "onsetWindow": {
+          "perfectMs": 45,
+          "goodMs": 90,
+          "lateMs": 140,
+          "perfectUs": 45000,
+          "goodUs": 90000,
+          "lateUs": 140000
+        },
+        "releaseWindow": {
+          "perfectMs": 60,
+          "goodMs": 110,
+          "lateMs": 160,
+          "perfectUs": 60000,
+          "goodUs": 110000,
+          "lateUs": 160000
+        }
+      },
+      {
+        "id": "L02:PLAY:1:a",
+        "occurrenceId": "L02:PLAY:1:a",
+        "phraseIndex": 1,
+        "startTick": 1920,
+        "endTick": 2880,
+        "startSec": 3.3333333333333335,
+        "endSec": 5,
+        "interaction": "hold",
+        "pitchName": "C5",
+        "midi": 72,
+        "sourceNotationIds": [
+          "a",
+          "b"
+        ],
+        "tieBoundaries": [
+          2400
+        ],
+        "onsetWindow": {
+          "perfectMs": 45,
+          "goodMs": 90,
+          "lateMs": 140,
+          "perfectUs": 45000,
+          "goodUs": 90000,
+          "lateUs": 140000
+        },
+        "releaseWindow": {
+          "perfectMs": 60,
+          "goodMs": 110,
+          "lateMs": 160,
+          "perfectUs": 60000,
+          "goodUs": 110000,
+          "lateUs": 160000
+        }
+      },
+      {
+        "id": "L02:PLAY:1:d",
+        "occurrenceId": "L02:PLAY:1:d",
+        "phraseIndex": 1,
+        "startTick": 3360,
+        "endTick": 3600,
+        "startSec": 5.833333333333333,
+        "endSec": 6.25,
+        "interaction": "tap",
+        "pitchName": "E5",
+        "midi": 76,
+        "sourceNotationIds": [
+          "d"
+        ],
+        "tieBoundaries": [],
+        "onsetWindow": {
+          "perfectMs": 45,
+          "goodMs": 90,
+          "lateMs": 140,
+          "perfectUs": 45000,
+          "goodUs": 90000,
+          "lateUs": 140000
+        },
+        "releaseWindow": {
+          "perfectMs": 60,
+          "goodMs": 110,
+          "lateMs": 160,
+          "perfectUs": 60000,
+          "goodUs": 110000,
+          "lateUs": 160000
+        }
+      },
+      {
+        "id": "L02:PLAY:2:a",
+        "occurrenceId": "L02:PLAY:2:a",
+        "phraseIndex": 2,
+        "startTick": 3840,
+        "endTick": 4800,
+        "startSec": 6.666666666666667,
+        "endSec": 8.333333333333334,
+        "interaction": "hold",
+        "pitchName": "C5",
+        "midi": 72,
+        "sourceNotationIds": [
+          "a",
+          "b"
+        ],
+        "tieBoundaries": [
+          4320
+        ],
+        "onsetWindow": {
+          "perfectMs": 45,
+          "goodMs": 90,
+          "lateMs": 140,
+          "perfectUs": 45000,
+          "goodUs": 90000,
+          "lateUs": 140000
+        },
+        "releaseWindow": {
+          "perfectMs": 60,
+          "goodMs": 110,
+          "lateMs": 160,
+          "perfectUs": 60000,
+          "goodUs": 110000,
+          "lateUs": 160000
+        }
+      },
+      {
+        "id": "L02:PLAY:2:d",
+        "occurrenceId": "L02:PLAY:2:d",
+        "phraseIndex": 2,
+        "startTick": 5280,
+        "endTick": 5520,
+        "startSec": 9.166666666666666,
+        "endSec": 9.583333333333334,
+        "interaction": "tap",
+        "pitchName": "E5",
+        "midi": 76,
+        "sourceNotationIds": [
+          "d"
+        ],
+        "tieBoundaries": [],
+        "onsetWindow": {
+          "perfectMs": 45,
+          "goodMs": 90,
+          "lateMs": 140,
+          "perfectUs": 45000,
+          "goodUs": 90000,
+          "lateUs": 140000
+        },
+        "releaseWindow": {
+          "perfectMs": 60,
+          "goodMs": 110,
+          "lateMs": 160,
+          "perfectUs": 60000,
+          "goodUs": 110000,
+          "lateUs": 160000
+        }
+      },
+      {
+        "id": "L02:PLAY:3:a",
+        "occurrenceId": "L02:PLAY:3:a",
+        "phraseIndex": 3,
+        "startTick": 5760,
+        "endTick": 6720,
+        "startSec": 10,
+        "endSec": 11.666666666666666,
+        "interaction": "hold",
+        "pitchName": "C5",
+        "midi": 72,
+        "sourceNotationIds": [
+          "a",
+          "b"
+        ],
+        "tieBoundaries": [
+          6240
+        ],
+        "onsetWindow": {
+          "perfectMs": 45,
+          "goodMs": 90,
+          "lateMs": 140,
+          "perfectUs": 45000,
+          "goodUs": 90000,
+          "lateUs": 140000
+        },
+        "releaseWindow": {
+          "perfectMs": 60,
+          "goodMs": 110,
+          "lateMs": 160,
+          "perfectUs": 60000,
+          "goodUs": 110000,
+          "lateUs": 160000
+        }
+      },
+      {
+        "id": "L02:PLAY:3:d",
+        "occurrenceId": "L02:PLAY:3:d",
+        "phraseIndex": 3,
+        "startTick": 7200,
+        "endTick": 7440,
+        "startSec": 12.5,
+        "endSec": 12.916666666666666,
+        "interaction": "tap",
+        "pitchName": "E5",
+        "midi": 76,
+        "sourceNotationIds": [
+          "d"
+        ],
+        "tieBoundaries": [],
+        "onsetWindow": {
+          "perfectMs": 45,
+          "goodMs": 90,
+          "lateMs": 140,
+          "perfectUs": 45000,
+          "goodUs": 90000,
+          "lateUs": 140000
+        },
+        "releaseWindow": {
+          "perfectMs": 60,
+          "goodMs": 110,
+          "lateMs": 160,
+          "perfectUs": 60000,
+          "goodUs": 110000,
+          "lateUs": 160000
+        }
+      }
+    ],
+    "diagnostics": [
+      {
+        "event": "unlocked",
+        "contextSec": 0.010666666666666666,
+        "perfMs": 1527
+      },
+      {
+        "event": "unlocked",
+        "contextSec": 1.032,
+        "perfMs": 2554
+      },
+      {
+        "event": "attack",
+        "id": "pulse-0",
+        "contextSec": 1.2,
+        "perfMs": 2713,
+        "details": "start=1.3219999999999996;end=1.3669999999999995;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-1",
+        "contextSec": 1.6,
+        "perfMs": 3117,
+        "details": "start=1.7386666666666666;end=1.7686666666666666;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-2",
+        "contextSec": 2.021333333333333,
+        "perfMs": 3550,
+        "details": "start=2.155333333333333;end=2.185333333333333;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-3",
+        "contextSec": 2.4506666666666668,
+        "perfMs": 3967,
+        "details": "start=2.5719999999999996;end=2.6019999999999994;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-4",
+        "contextSec": 2.84,
+        "perfMs": 4371,
+        "details": "start=2.988666666666666;end=3.018666666666666;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-5",
+        "contextSec": 3.3013333333333335,
+        "perfMs": 4817,
+        "details": "start=3.405333333333333;end=3.435333333333333;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-6",
+        "contextSec": 3.672,
+        "perfMs": 5203,
+        "details": "start=3.8219999999999996;end=3.8519999999999994;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-7",
+        "contextSec": 4.101333333333334,
+        "perfMs": 5619,
+        "details": "start=4.238666666666666;end=4.268666666666666;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "demo-session-1-L02:PLAY:0:a",
+        "contextSec": 4.52,
+        "perfMs": 6041,
+        "details": "start=4.655333333333333;end=6.322;bus=guide"
+      },
+      {
+        "event": "attack",
+        "id": "drone-24",
+        "contextSec": 4.52,
+        "perfMs": 6041,
+        "details": "start=4.655333333333333;end=7.988666666666667;bus=bgm"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-8",
+        "contextSec": 4.52,
+        "perfMs": 6041,
+        "details": "start=4.655333333333333;end=4.700333333333333;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-9",
+        "contextSec": 4.941333333333334,
+        "perfMs": 6458,
+        "details": "start=5.072;end=5.102;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-10",
+        "contextSec": 5.36,
+        "perfMs": 6876,
+        "details": "start=5.488666666666666;end=5.518666666666666;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-11",
+        "contextSec": 5.770666666666667,
+        "perfMs": 7284,
+        "details": "start=5.905333333333333;end=5.935333333333333;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-12",
+        "contextSec": 6.210666666666667,
+        "perfMs": 7728,
+        "details": "start=6.322;end=6.352;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-13",
+        "contextSec": 6.592,
+        "perfMs": 8109,
+        "details": "start=6.738666666666667;end=6.768666666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "demo-session-1-L02:PLAY:0:d",
+        "contextSec": 7.021333333333334,
+        "perfMs": 8539,
+        "details": "start=7.155333333333333;end=7.571999999999999;bus=guide"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-14",
+        "contextSec": 7.021333333333334,
+        "perfMs": 8539,
+        "details": "start=7.155333333333333;end=7.185333333333333;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-15",
+        "contextSec": 7.44,
+        "perfMs": 8959,
+        "details": "start=7.571999999999999;end=7.601999999999999;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "demo-session-1-L02:PLAY:1:a",
+        "contextSec": 7.84,
+        "perfMs": 9358,
+        "details": "start=7.988666666666667;end=9.655333333333333;bus=guide"
+      },
+      {
+        "event": "attack",
+        "id": "drone-25",
+        "contextSec": 7.84,
+        "perfMs": 9358,
+        "details": "start=7.988666666666667;end=11.322;bus=bgm"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-16",
+        "contextSec": 7.84,
+        "perfMs": 9358,
+        "details": "start=7.988666666666667;end=8.033666666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-17",
+        "contextSec": 8.261333333333333,
+        "perfMs": 9774,
+        "details": "start=8.405333333333333;end=8.435333333333332;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-18",
+        "contextSec": 8.672,
+        "perfMs": 10186,
+        "details": "start=8.822;end=8.851999999999999;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-19",
+        "contextSec": 9.12,
+        "perfMs": 10638,
+        "details": "start=9.238666666666667;end=9.268666666666666;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-20",
+        "contextSec": 9.512,
+        "perfMs": 11045,
+        "details": "start=9.655333333333333;end=9.685333333333332;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-21",
+        "contextSec": 9.941333333333333,
+        "perfMs": 11455,
+        "details": "start=10.072;end=10.101999999999999;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "demo-session-1-L02:PLAY:1:d",
+        "contextSec": 10.36,
+        "perfMs": 11878,
+        "details": "start=10.488666666666667;end=10.905333333333333;bus=guide"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-22",
+        "contextSec": 10.36,
+        "perfMs": 11878,
+        "details": "start=10.488666666666667;end=10.518666666666666;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-23",
+        "contextSec": 10.781333333333333,
+        "perfMs": 12302,
+        "details": "start=10.905333333333333;end=10.935333333333332;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-26",
+        "contextSec": 11.181333333333333,
+        "perfMs": 12700,
+        "details": "start=11.322;end=11.366999999999999;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-27",
+        "contextSec": 11.610666666666667,
+        "perfMs": 13126,
+        "details": "start=11.738666666666665;end=11.768666666666665;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-28",
+        "contextSec": 12.021333333333333,
+        "perfMs": 13540,
+        "details": "start=12.155333333333333;end=12.185333333333332;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-29",
+        "contextSec": 12.450666666666667,
+        "perfMs": 13975,
+        "details": "start=12.572;end=12.601999999999999;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-30",
+        "contextSec": 12.872,
+        "perfMs": 14391,
+        "details": "start=12.988666666666665;end=13.018666666666665;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-31",
+        "contextSec": 13.272,
+        "perfMs": 14787,
+        "details": "start=13.405333333333333;end=13.435333333333332;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-32",
+        "contextSec": 13.701333333333332,
+        "perfMs": 15221,
+        "details": "start=13.822;end=13.851999999999999;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-33",
+        "contextSec": 14.090666666666667,
+        "perfMs": 15607,
+        "details": "start=14.238666666666665;end=14.268666666666665;bus=metronome"
+      },
+      {
+        "event": "unlocked",
+        "contextSec": 15.770666666666667,
+        "perfMs": 17285
+      },
+      {
+        "event": "attack",
+        "id": "pulse-34",
+        "contextSec": 15.952,
+        "perfMs": 17494,
+        "details": "start=16.071333333333335;end=16.116333333333337;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-35",
+        "contextSec": 16.341333333333335,
+        "perfMs": 17875,
+        "details": "start=16.488;end=16.518;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-36",
+        "contextSec": 16.770666666666667,
+        "perfMs": 18288,
+        "details": "start=16.904666666666667;end=16.93466666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-37",
+        "contextSec": 17.2,
+        "perfMs": 18720,
+        "details": "start=17.321333333333335;end=17.351333333333336;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-38",
+        "contextSec": 17.592,
+        "perfMs": 19121,
+        "details": "start=17.738;end=17.768;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-39",
+        "contextSec": 18.061333333333334,
+        "perfMs": 19575,
+        "details": "start=18.154666666666667;end=18.18466666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-40",
+        "contextSec": 18.461333333333332,
+        "perfMs": 19974,
+        "details": "start=18.571333333333335;end=18.601333333333336;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-41",
+        "contextSec": 18.872,
+        "perfMs": 20397,
+        "details": "start=18.988;end=19.018;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "drone-58",
+        "contextSec": 19.272,
+        "perfMs": 20788,
+        "details": "start=19.404666666666667;end=22.738;bus=bgm"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-42",
+        "contextSec": 19.272,
+        "perfMs": 20788,
+        "details": "start=19.404666666666667;end=19.44966666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-43",
+        "contextSec": 19.672,
+        "perfMs": 21192,
+        "details": "start=19.821333333333335;end=19.851333333333336;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-44",
+        "contextSec": 20.090666666666667,
+        "perfMs": 21608,
+        "details": "start=20.238;end=20.268;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-45",
+        "contextSec": 20.541333333333334,
+        "perfMs": 22058,
+        "details": "start=20.654666666666667;end=20.68466666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-46",
+        "contextSec": 20.952,
+        "perfMs": 22471,
+        "details": "start=21.071333333333335;end=21.101333333333336;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-47",
+        "contextSec": 21.341333333333335,
+        "perfMs": 22856,
+        "details": "start=21.488;end=21.518;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-48",
+        "contextSec": 21.76,
+        "perfMs": 23276,
+        "details": "start=21.904666666666667;end=21.93466666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-49",
+        "contextSec": 22.21066666666667,
+        "perfMs": 23726,
+        "details": "start=22.321333333333335;end=22.351333333333336;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "drone-59",
+        "contextSec": 22.621333333333332,
+        "perfMs": 24138,
+        "details": "start=22.738;end=26.071333333333335;bus=bgm"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-50",
+        "contextSec": 22.621333333333332,
+        "perfMs": 24138,
+        "details": "start=22.738;end=22.783;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-51",
+        "contextSec": 23.032,
+        "perfMs": 24548,
+        "details": "start=23.154666666666667;end=23.18466666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-52",
+        "contextSec": 23.44,
+        "perfMs": 24957,
+        "details": "start=23.571333333333335;end=23.601333333333336;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-53",
+        "contextSec": 23.850666666666665,
+        "perfMs": 25377,
+        "details": "start=23.988;end=24.018;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-54",
+        "contextSec": 24.272,
+        "perfMs": 25785,
+        "details": "start=24.404666666666667;end=24.43466666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-55",
+        "contextSec": 24.68,
+        "perfMs": 26206,
+        "details": "start=24.821333333333335;end=24.851333333333336;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-56",
+        "contextSec": 25.112,
+        "perfMs": 26624,
+        "details": "start=25.238;end=25.268;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-57",
+        "contextSec": 25.512,
+        "perfMs": 27040,
+        "details": "start=25.654666666666667;end=25.68466666666667;bus=metronome"
+      },
+      {
+        "event": "unlocked",
+        "contextSec": 26.290666666666667,
+        "perfMs": 27802
+      },
+      {
+        "event": "attack",
+        "id": "pulse-60",
+        "contextSec": 26.461333333333332,
+        "perfMs": 27973,
+        "details": "start=26.580666666666666;end=26.625666666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-61",
+        "contextSec": 26.850666666666665,
+        "perfMs": 28382,
+        "details": "start=26.99733333333333;end=27.02733333333333;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-62",
+        "contextSec": 27.312,
+        "perfMs": 28826,
+        "details": "start=27.413999999999998;end=27.444;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-63",
+        "contextSec": 27.701333333333334,
+        "perfMs": 29228,
+        "details": "start=27.830666666666666;end=27.860666666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-64",
+        "contextSec": 28.12,
+        "perfMs": 29641,
+        "details": "start=28.24733333333333;end=28.27733333333333;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-65",
+        "contextSec": 28.52,
+        "perfMs": 30041,
+        "details": "start=28.663999999999998;end=28.694;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-66",
+        "contextSec": 28.941333333333333,
+        "perfMs": 30457,
+        "details": "start=29.080666666666666;end=29.110666666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-67",
+        "contextSec": 29.352,
+        "perfMs": 30888,
+        "details": "start=29.49733333333333;end=29.52733333333333;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "drone-100",
+        "contextSec": 29.792,
+        "perfMs": 31304,
+        "details": "start=29.913999999999998;end=33.24733333333333;bus=bgm"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-68",
+        "contextSec": 29.792,
+        "perfMs": 31304,
+        "details": "start=29.913999999999998;end=29.959;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "L02:PLAY:0:a",
+        "contextSec": 29.96,
+        "perfMs": 31483,
+        "details": "start=29.963;end=31.740666666666666;bus=player"
+      },
+      {
+        "event": "live-note",
+        "id": "L02:PLAY:0:a",
+        "contextSec": 29.96,
+        "perfMs": 31483,
+        "details": "targetEnd=31.580666666666666;actualStart=29.963"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-69",
+        "contextSec": 30.221333333333334,
+        "perfMs": 31741,
+        "details": "start=30.330666666666666;end=30.360666666666667;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-70",
+        "contextSec": 30.621333333333332,
+        "perfMs": 32143,
+        "details": "start=30.74733333333333;end=30.77733333333333;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-71",
+        "contextSec": 31.032,
+        "perfMs": 32549,
+        "details": "start=31.163999999999998;end=31.194;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-72",
+        "contextSec": 31.461333333333332,
+        "perfMs": 32975,
+        "details": "start=31.580666666666666;end=31.610666666666667;bus=metronome"
+      },
+      {
+        "event": "release",
+        "id": "L02:PLAY:0:a",
+        "contextSec": 31.610666666666667,
+        "perfMs": 33126,
+        "details": "at=31.610666666666667;stop=31.618666666666666"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-73",
+        "contextSec": 31.861333333333334,
+        "perfMs": 33376,
+        "details": "start=31.99733333333333;end=32.02733333333333;bus=metronome"
+      },
+      {
+        "event": "unlocked",
+        "contextSec": 32.112,
+        "perfMs": 33631
+      },
+      {
+        "event": "attack",
+        "id": "pulse-104",
+        "contextSec": 32.272,
+        "perfMs": 33790,
+        "details": "start=32.402;end=32.447;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-105",
+        "contextSec": 32.690666666666665,
+        "perfMs": 34219,
+        "details": "start=32.81866666666667;end=32.848666666666674;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-106",
+        "contextSec": 33.12,
+        "perfMs": 34633,
+        "details": "start=33.23533333333334;end=33.26533333333334;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-107",
+        "contextSec": 33.541333333333334,
+        "perfMs": 35058,
+        "details": "start=33.652;end=33.682;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-108",
+        "contextSec": 33.952,
+        "perfMs": 35469,
+        "details": "start=34.06866666666667;end=34.098666666666674;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-109",
+        "contextSec": 34.352,
+        "perfMs": 35866,
+        "details": "start=34.48533333333334;end=34.51533333333334;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-110",
+        "contextSec": 34.76,
+        "perfMs": 36291,
+        "details": "start=34.902;end=34.932;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-111",
+        "contextSec": 35.181333333333335,
+        "perfMs": 36717,
+        "details": "start=35.31866666666667;end=35.348666666666674;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "drone-144",
+        "contextSec": 35.61066666666667,
+        "perfMs": 37135,
+        "details": "start=35.73533333333334;end=39.06866666666667;bus=bgm"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-112",
+        "contextSec": 35.61066666666667,
+        "perfMs": 37135,
+        "details": "start=35.73533333333334;end=35.78033333333334;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "L02:PLAY:0:a",
+        "contextSec": 35.781333333333336,
+        "perfMs": 37306,
+        "details": "start=35.784333333333336;end=37.562;bus=player"
+      },
+      {
+        "event": "live-note",
+        "id": "L02:PLAY:0:a",
+        "contextSec": 35.781333333333336,
+        "perfMs": 37306,
+        "details": "targetEnd=37.402;actualStart=35.784333333333336"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-113",
+        "contextSec": 36.032,
+        "perfMs": 37547,
+        "details": "start=36.152;end=36.182;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-114",
+        "contextSec": 36.461333333333336,
+        "perfMs": 37975,
+        "details": "start=36.56866666666667;end=36.598666666666674;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-115",
+        "contextSec": 36.85066666666667,
+        "perfMs": 38372,
+        "details": "start=36.98533333333334;end=37.01533333333334;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-116",
+        "contextSec": 37.28,
+        "perfMs": 38801,
+        "details": "start=37.402;end=37.432;bus=metronome"
+      },
+      {
+        "event": "release",
+        "id": "L02:PLAY:0:a",
+        "contextSec": 37.44,
+        "perfMs": 38962,
+        "details": "at=37.44;stop=37.448"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-117",
+        "contextSec": 37.68,
+        "perfMs": 39200,
+        "details": "start=37.81866666666667;end=37.848666666666674;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-118",
+        "contextSec": 38.112,
+        "perfMs": 39632,
+        "details": "start=38.23533333333334;end=38.26533333333334;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "L02:PLAY:0:d",
+        "contextSec": 38.28,
+        "perfMs": 39794,
+        "details": "start=38.283;end=38.652;bus=player"
+      },
+      {
+        "event": "live-note",
+        "id": "L02:PLAY:0:d",
+        "contextSec": 38.28,
+        "perfMs": 39794,
+        "details": "targetEnd=38.652;actualStart=38.283"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-119",
+        "contextSec": 38.52,
+        "perfMs": 40035,
+        "details": "start=38.652;end=38.682;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "drone-145",
+        "contextSec": 38.952,
+        "perfMs": 40476,
+        "details": "start=39.06866666666667;end=42.402;bus=bgm"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-120",
+        "contextSec": 38.952,
+        "perfMs": 40476,
+        "details": "start=39.06866666666667;end=39.113666666666674;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "L02:PLAY:1:a",
+        "contextSec": 39.12,
+        "perfMs": 40639,
+        "details": "start=39.123;end=40.89533333333333;bus=player"
+      },
+      {
+        "event": "live-note",
+        "id": "L02:PLAY:1:a",
+        "contextSec": 39.12,
+        "perfMs": 40639,
+        "details": "targetEnd=40.73533333333334;actualStart=39.123"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-121",
+        "contextSec": 39.34133333333333,
+        "perfMs": 40857,
+        "details": "start=39.48533333333334;end=39.51533333333334;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-122",
+        "contextSec": 39.76,
+        "perfMs": 41289,
+        "details": "start=39.902;end=39.932;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-123",
+        "contextSec": 40.17066666666667,
+        "perfMs": 41685,
+        "details": "start=40.31866666666667;end=40.348666666666674;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-124",
+        "contextSec": 40.62133333333333,
+        "perfMs": 42133,
+        "details": "start=40.73533333333334;end=40.76533333333334;bus=metronome"
+      },
+      {
+        "event": "release",
+        "id": "L02:PLAY:1:a",
+        "contextSec": 40.8,
+        "perfMs": 42317,
+        "details": "at=40.8;stop=40.808"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-125",
+        "contextSec": 41.04,
+        "perfMs": 42554,
+        "details": "start=41.152;end=41.182;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-126",
+        "contextSec": 41.44,
+        "perfMs": 42956,
+        "details": "start=41.56866666666667;end=41.598666666666674;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "L02:PLAY:1:d",
+        "contextSec": 41.6,
+        "perfMs": 43133,
+        "details": "start=41.603;end=41.98533333333334;bus=player"
+      },
+      {
+        "event": "live-note",
+        "id": "L02:PLAY:1:d",
+        "contextSec": 41.6,
+        "perfMs": 43133,
+        "details": "targetEnd=41.98533333333334;actualStart=41.603"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-127",
+        "contextSec": 41.85066666666667,
+        "perfMs": 43364,
+        "details": "start=41.98533333333334;end=42.01533333333334;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "drone-146",
+        "contextSec": 42.26133333333333,
+        "perfMs": 43772,
+        "details": "start=42.402;end=45.73533333333334;bus=bgm"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-128",
+        "contextSec": 42.26133333333333,
+        "perfMs": 43772,
+        "details": "start=42.402;end=42.447;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "L02:PLAY:2:a",
+        "contextSec": 42.45066666666666,
+        "perfMs": 43975,
+        "details": "start=42.45366666666666;end=44.22866666666667;bus=player"
+      },
+      {
+        "event": "live-note",
+        "id": "L02:PLAY:2:a",
+        "contextSec": 42.45066666666666,
+        "perfMs": 43975,
+        "details": "targetEnd=44.06866666666667;actualStart=42.45366666666666"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-129",
+        "contextSec": 42.672,
+        "perfMs": 44190,
+        "details": "start=42.81866666666667;end=42.848666666666674;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-130",
+        "contextSec": 43.112,
+        "perfMs": 44631,
+        "details": "start=43.23533333333334;end=43.26533333333334;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-131",
+        "contextSec": 43.52,
+        "perfMs": 45044,
+        "details": "start=43.652;end=43.682;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-132",
+        "contextSec": 43.94133333333333,
+        "perfMs": 45457,
+        "details": "start=44.06866666666667;end=44.098666666666674;bus=metronome"
+      },
+      {
+        "event": "release",
+        "id": "L02:PLAY:2:a",
+        "contextSec": 44.12,
+        "perfMs": 45640,
+        "details": "at=44.12;stop=44.128"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-133",
+        "contextSec": 44.34133333333333,
+        "perfMs": 45855,
+        "details": "start=44.48533333333334;end=44.51533333333334;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-134",
+        "contextSec": 44.781333333333336,
+        "perfMs": 46309,
+        "details": "start=44.902;end=44.932;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "L02:PLAY:2:d",
+        "contextSec": 44.952,
+        "perfMs": 46468,
+        "details": "start=44.955;end=45.31866666666667;bus=player"
+      },
+      {
+        "event": "live-note",
+        "id": "L02:PLAY:2:d",
+        "contextSec": 44.952,
+        "perfMs": 46468,
+        "details": "targetEnd=45.31866666666667;actualStart=44.955"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-135",
+        "contextSec": 45.192,
+        "perfMs": 46709,
+        "details": "start=45.31866666666667;end=45.348666666666674;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "drone-147",
+        "contextSec": 45.62133333333333,
+        "perfMs": 47136,
+        "details": "start=45.73533333333334;end=49.06866666666667;bus=bgm"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-136",
+        "contextSec": 45.62133333333333,
+        "perfMs": 47136,
+        "details": "start=45.73533333333334;end=45.78033333333334;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "L02:PLAY:3:a",
+        "contextSec": 45.77066666666666,
+        "perfMs": 47296,
+        "details": "start=45.773666666666664;end=47.562;bus=player"
+      },
+      {
+        "event": "live-note",
+        "id": "L02:PLAY:3:a",
+        "contextSec": 45.77066666666666,
+        "perfMs": 47296,
+        "details": "targetEnd=47.402;actualStart=45.773666666666664"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-137",
+        "contextSec": 46.010666666666665,
+        "perfMs": 47533,
+        "details": "start=46.152;end=46.182;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-138",
+        "contextSec": 46.42133333333334,
+        "perfMs": 47941,
+        "details": "start=46.56866666666667;end=46.598666666666674;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-139",
+        "contextSec": 46.88,
+        "perfMs": 48398,
+        "details": "start=46.98533333333334;end=47.01533333333334;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-140",
+        "contextSec": 47.28,
+        "perfMs": 48796,
+        "details": "start=47.402;end=47.432;bus=metronome"
+      },
+      {
+        "event": "release",
+        "id": "L02:PLAY:3:a",
+        "contextSec": 47.501333333333335,
+        "perfMs": 49020,
+        "details": "at=47.501333333333335;stop=47.50933333333334"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-141",
+        "contextSec": 47.672,
+        "perfMs": 49196,
+        "details": "start=47.81866666666667;end=47.848666666666674;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-142",
+        "contextSec": 48.090666666666664,
+        "perfMs": 49607,
+        "details": "start=48.23533333333334;end=48.26533333333334;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "L02:PLAY:3:d",
+        "contextSec": 48.28,
+        "perfMs": 49805,
+        "details": "start=48.283;end=48.652;bus=player"
+      },
+      {
+        "event": "live-note",
+        "id": "L02:PLAY:3:d",
+        "contextSec": 48.28,
+        "perfMs": 49805,
+        "details": "targetEnd=48.652;actualStart=48.283"
+      },
+      {
+        "event": "attack",
+        "id": "pulse-143",
+        "contextSec": 48.512,
+        "perfMs": 50024,
+        "details": "start=48.652;end=48.682;bus=metronome"
+      },
+      {
+        "event": "attack",
+        "id": "drone-148",
+        "contextSec": 49.090666666666664,
+        "perfMs": 50607,
+        "details": "start=49.122;end=52.455333333333336;bus=bgm"
+      }
+    ],
+    "config": {
+      "key": "Space",
+      "reducedMotion": false,
+      "highContrast": false,
+      "toggleHold": false,
+      "wideWindows": false,
+      "guide": false,
+      "showBeat": false,
+      "visualOffsetMs": 0,
+      "inputOffsetMs": 0,
+      "volume": 0,
+      "clickVolume": 0.7,
+      "guideVolume": 0.8,
+      "bgmVolume": 0.45,
+      "sfxVolume": 0.6,
+      "vibration": false,
+      "keyCode": "Space",
+      "practiceSpeed": 0.75,
+      "showCounts": false
+    },
+    "physicalOwner": null,
+    "logicalHold": null,
+    "focusBars": null,
+    "restartSec": 0,
+    "countStart": 32.402,
+    "mappingMethod": "output-timestamp",
+    "voices": 0,
+    "pending": 0,
+    "assetDiagnostics": []
+  },
+  "inputLog": [
+    {
+      "type": "pointerdown",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 1199
+    },
+    {
+      "type": "pointerup",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 1221
+    },
+    {
+      "type": "pointerdown",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 1894
+    },
+    {
+      "type": "pointerup",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 1899
+    },
+    {
+      "type": "pointerdown",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 2182
+    },
+    {
+      "type": "pointerup",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 2189
+    },
+    {
+      "type": "pointerdown",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 2493
+    },
+    {
+      "type": "pointerup",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 2526
+    },
+    {
+      "type": "pointerdown",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 17257
+    },
+    {
+      "type": "pointerup",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 17260
+    },
+    {
+      "type": "pointerdown",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 27788
+    },
+    {
+      "type": "pointerup",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 27790
+    },
+    {
+      "type": "pointerdown",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 33441
+    },
+    {
+      "type": "pointerup",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 33452
+    },
+    {
+      "type": "pointerdown",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 33604
+    },
+    {
+      "type": "pointerup",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 33608
+    },
+    {
+      "type": "pointerdown",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 37302
+    },
+    {
+      "type": "pointerup",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 38958
+    },
+    {
+      "type": "lostpointercapture",
+      "pointerId": 0,
+      "pointerType": "mouse",
+      "isPrimary": true,
+      "trusted": true,
+      "timeStamp": 38958
+    }
+  ]
+}

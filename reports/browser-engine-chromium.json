@@ -1,0 +1,10 @@
+{
+  "browserName": "chromium",
+  "version": "155.0.8059.80",
+  "node": "v24.14.0",
+  "headless": true,
+  "isolatedContext": true,
+  "baseURL": "http://127.0.0.1:5286",
+  "physicalListening": false,
+  "observedAt": "2026-10-18T16:43:59.088Z"
+}

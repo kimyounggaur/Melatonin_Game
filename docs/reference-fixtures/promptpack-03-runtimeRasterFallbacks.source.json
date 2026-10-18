@@ -1,0 +1,192 @@
+{
+  "fixtureKind": "runtimeRasterFallbacks",
+  "entries": [
+    {
+      "assetId": "scene_a_thread_bridge",
+      "primaryPath": "backgrounds/scene_a_thread_bridge.webp",
+      "pngFallbackPath": "png_fallbacks/backgrounds/scene_a_thread_bridge.png",
+      "width": 1152,
+      "height": 768,
+      "anchorPx": [
+        576.0,
+        384.0
+      ]
+    },
+    {
+      "assetId": "scene_b_crescent_greenhouse",
+      "primaryPath": "backgrounds/scene_b_crescent_greenhouse.webp",
+      "pngFallbackPath": "png_fallbacks/backgrounds/scene_b_crescent_greenhouse.png",
+      "width": 1152,
+      "height": 768,
+      "anchorPx": [
+        576.0,
+        384.0
+      ]
+    },
+    {
+      "assetId": "scene_c_folding_room",
+      "primaryPath": "backgrounds/scene_c_folding_room.webp",
+      "pngFallbackPath": "png_fallbacks/backgrounds/scene_c_folding_room.png",
+      "width": 1152,
+      "height": 768,
+      "anchorPx": [
+        576.0,
+        384.0
+      ]
+    },
+    {
+      "assetId": "scene_d_cloud_post_station",
+      "primaryPath": "backgrounds/scene_d_cloud_post_station.webp",
+      "pngFallbackPath": "png_fallbacks/backgrounds/scene_d_cloud_post_station.png",
+      "width": 1152,
+      "height": 768,
+      "anchorPx": [
+        576.0,
+        384.0
+      ]
+    },
+    {
+      "assetId": "character.yeoul.idle",
+      "primaryPath": "characters/yeoul_idle.webp",
+      "pngFallbackPath": "png_fallbacks/characters/yeoul_idle.png",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        273.5566,
+        480.9697
+      ]
+    },
+    {
+      "assetId": "character.yeoul.prepare",
+      "primaryPath": "characters/yeoul_prepare.webp",
+      "pngFallbackPath": "png_fallbacks/characters/yeoul_prepare.png",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        273.5566,
+        480.9697
+      ]
+    },
+    {
+      "assetId": "character.yeoul.release",
+      "primaryPath": "characters/yeoul_release.webp",
+      "pngFallbackPath": "png_fallbacks/characters/yeoul_release.png",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        273.5566,
+        480.9697
+      ]
+    },
+    {
+      "assetId": "character.yeoul.press",
+      "primaryPath": "characters/yeoul_press.webp",
+      "pngFallbackPath": "png_fallbacks/characters/yeoul_press.png",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        273.5566,
+        480.9697
+      ]
+    },
+    {
+      "assetId": "character.yeoul.hold",
+      "primaryPath": "characters/yeoul_hold.webp",
+      "pngFallbackPath": "png_fallbacks/characters/yeoul_hold.png",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        273.5566,
+        480.9697
+      ]
+    },
+    {
+      "assetId": "character.yeoul.miss",
+      "primaryPath": "characters/yeoul_miss.webp",
+      "pngFallbackPath": "png_fallbacks/characters/yeoul_miss.png",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        273.5566,
+        480.9697
+      ]
+    },
+    {
+      "assetId": "object.greenhouse.flower_closed",
+      "primaryPath": "objects/flower_closed.webp",
+      "pngFallbackPath": "png_fallbacks/objects/flower_closed.png",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        272.3317,
+        477.7033
+      ]
+    },
+    {
+      "assetId": "object.greenhouse.flower_opening_2",
+      "primaryPath": "objects/flower_opening_2.webp",
+      "pngFallbackPath": "png_fallbacks/objects/flower_opening_2.png",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        272.3317,
+        477.7033
+      ]
+    },
+    {
+      "assetId": "object.greenhouse.flower_open",
+      "primaryPath": "objects/flower_open.webp",
+      "pngFallbackPath": "png_fallbacks/objects/flower_open.png",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        272.3317,
+        477.7033
+      ]
+    },
+    {
+      "assetId": "object.greenhouse.flower_opening_1",
+      "primaryPath": "objects/flower_opening_1.webp",
+      "pngFallbackPath": "png_fallbacks/objects/flower_opening_1.png",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        272.3317,
+        477.7033
+      ]
+    },
+    {
+      "assetId": "somsae_count",
+      "primaryPath": "characters/somsae_count.webp",
+      "pngFallbackPath": "png_fallbacks/characters/somsae_count.png",
+      "width": 384,
+      "height": 384,
+      "anchorPx": [
+        208.2297,
+        350.622
+      ]
+    },
+    {
+      "assetId": "somsae_demo",
+      "primaryPath": "characters/somsae_demo.webp",
+      "pngFallbackPath": "png_fallbacks/characters/somsae_demo.png",
+      "width": 384,
+      "height": 384,
+      "anchorPx": [
+        208.2297,
+        357.0526
+      ]
+    },
+    {
+      "assetId": "somsae_encourage",
+      "primaryPath": "characters/somsae_encourage.webp",
+      "pngFallbackPath": "png_fallbacks/characters/somsae_encourage.png",
+      "width": 384,
+      "height": 384,
+      "anchorPx": [
+        208.2297,
+        350.622
+      ]
+    }
+  ]
+}

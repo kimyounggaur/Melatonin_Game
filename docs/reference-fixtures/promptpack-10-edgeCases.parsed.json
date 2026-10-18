@@ -1,0 +1,95 @@
+{
+  "fixtureKind": "edgeCases",
+  "cases": [
+    {
+      "id": "early_reentry",
+      "level": "L02",
+      "event": "down",
+      "targetTick": 1440,
+      "errorMs": -100,
+      "expected": "onset grade 0.40; no extra; preceding rest clean"
+    },
+    {
+      "id": "normal_release_into_rest",
+      "level": "L02",
+      "event": "up",
+      "targetTick": 960,
+      "errorMs": 100,
+      "expected": "release grade 0.75; preceding hold sound stops on up; following rest clean"
+    },
+    {
+      "id": "overhold",
+      "level": "L02",
+      "event": "up",
+      "targetTick": 960,
+      "errorMs": 170,
+      "expected": "release 0; sound stopped at target+160ms; owner clears on up; following rest dirty; no extra for up"
+    },
+    {
+      "id": "same_stamp_boundary",
+      "level": "L01",
+      "atTick": 1920,
+      "edgesInSequence": [
+        "up",
+        "down"
+      ],
+      "expected": "previous release and next onset each judged once"
+    },
+    {
+      "id": "repeat_key",
+      "count": 20,
+      "repeat": true,
+      "expected": "no extra; no new expectation; owner unchanged"
+    },
+    {
+      "id": "other_pointer_up",
+      "owner": "pointer:1",
+      "eventOwner": "pointer:2",
+      "expected": "owner hold remains active"
+    },
+    {
+      "id": "dispatch_in_grace",
+      "targetMs": 10000,
+      "windowMs": 140,
+      "graceMs": 100,
+      "eventMs": 10130,
+      "receiptMs": 10220,
+      "expected": "normal grade 0.40"
+    },
+    {
+      "id": "dispatch_after_timeout",
+      "targetMs": 10000,
+      "windowMs": 140,
+      "graceMs": 100,
+      "eventMs": 10130,
+      "receiptMs": 10250,
+      "expected": "technical rollback because timeout finalized; receipt delay120ms does not rescue it"
+    },
+    {
+      "id": "receipt_201",
+      "eventMs": 10000,
+      "receiptMs": 10201,
+      "expected": "technical interrupt, not user miss"
+    },
+    {
+      "id": "hit_then_real_restrike",
+      "expectedState": "HIT",
+      "newDownInSameWindow": true,
+      "expected": "EXTRA_DOWN, no technical rollback"
+    },
+    {
+      "id": "duplicate_transport_edge",
+      "sameSessionAndSequence": true,
+      "expected": "dedupe, no score change"
+    },
+    {
+      "id": "old_invalidated_epoch",
+      "expected": "discard from current judge; never remap into resumed onset"
+    },
+    {
+      "id": "result_then_late_valid_edge",
+      "previousFinalReason": "release_timeout",
+      "expected": "revoke attempt and dependent best evidence; restart affected phrase; preserve earlier valid phrase evidence"
+    }
+  ]
+}

@@ -1,0 +1,5913 @@
+{
+  "schemaVersion": 1,
+  "packVersion": "night-thread-art/1.0.0",
+  "title": "밤실 공방 이미지 에셋",
+  "createdDate": "2026-10-18",
+  "designSource": "melatonin_music_theory_game_design.md v1.0; section15 implementation prompts",
+  "standaloneVibePromptPackFound": false,
+  "palette": {
+    "navy": "#142A35",
+    "cream": "#F3E8C9",
+    "gold": "#E3B85D",
+    "teal": "#65A69A",
+    "coral": "#D77467"
+  },
+  "units": {
+    "assetDimensions": "native pixels",
+    "anchors": "pixels in untrimmed full canvas",
+    "musicTiming": "PPQ480 source JSON; never pixel-derived"
+  },
+  "logicalAssetCount": 92,
+  "categories": {
+    "background": 4,
+    "character": 9,
+    "decorative-object": 4,
+    "gameplay-object": 35,
+    "ui": 30,
+    "education": 10
+  },
+  "representations": {
+    "rasterOriginals": 17,
+    "svgWithPng": 75
+  },
+  "reviewStatus": {
+    "staticVisual": "passed",
+    "fileIntegrity": "passed",
+    "vectorGeometry": "see vector_QA.json",
+    "humanNotation": "pending",
+    "listening": "pending",
+    "runtimeAnimation": "notRun",
+    "browserDevice": "notRun",
+    "releaseApproved": false
+  },
+  "levelSceneBindings": {
+    "L01": "thread-bridge",
+    "L02": "thread-bridge",
+    "L03": "thread-bridge",
+    "L04": "crescent-greenhouse",
+    "L05": "crescent-greenhouse",
+    "L06": "folding-room",
+    "L07": "folding-room",
+    "L08": "cloud-post",
+    "L09": "cloud-post"
+  },
+  "characterStateBindings": {
+    "yeoul": [
+      "idle",
+      "prepare",
+      "press",
+      "hold",
+      "release",
+      "miss"
+    ],
+    "somsae": [
+      "count",
+      "demo",
+      "encourage"
+    ]
+  },
+  "notes": [
+    "Source master pack; lazy-load individual scenes and poses. No 8MB initial-load or mobile performance claim.",
+    "These are static key poses; not a rig or validated flipbook.",
+    "Do not let ribbon fill the hollow release center. Tie knots are not onset cues.",
+    "Original game/reference/textbook PNGs and commercial music are excluded.",
+    "Raster source provenance and prompts remain in generation manifests; text/symbol mathematics come from deterministic vector source."
+  ],
+  "assets": [
+    {
+      "assetId": "scene_a_thread_bridge",
+      "path": "backgrounds/scene_a_thread_bridge.png",
+      "scene": "thread-bridge",
+      "category": "background",
+      "state": "static",
+      "usage": "Opaque decorative scene; never contains hit detection or answer data.",
+      "anchorPx": [
+        768,
+        512
+      ],
+      "width": 1536,
+      "height": 1024,
+      "fileFormat": "PNG",
+      "mode": "RGB",
+      "bytes": 2267932,
+      "sha256": "58f6a24f1bce9d06507e92327d5d23efa304987f1992499b3c2d3c7585d7080d",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "opaque": true
+      },
+      "cropRects": {
+        "mobile4x3": [
+          85.333333,
+          0,
+          1365.333333,
+          1024
+        ],
+        "desktop16x9": [
+          0,
+          80,
+          1536,
+          864
+        ]
+      },
+      "safeGameplayMasterNormalized": [
+        0.22,
+        0.36,
+        0.56,
+        0.3
+      ],
+      "reducedMotionPath": "backgrounds/scene_a_thread_bridge.png",
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "scene_b_crescent_greenhouse",
+      "path": "backgrounds/scene_b_crescent_greenhouse.png",
+      "scene": "crescent-greenhouse",
+      "category": "background",
+      "state": "static",
+      "usage": "Opaque decorative scene; never contains hit detection or answer data.",
+      "anchorPx": [
+        768,
+        512
+      ],
+      "width": 1536,
+      "height": 1024,
+      "fileFormat": "PNG",
+      "mode": "RGB",
+      "bytes": 2480105,
+      "sha256": "7f6df5c200d231421b1135f20c790dbe264166c12c72277ce846d56426ded4c7",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "opaque": true
+      },
+      "cropRects": {
+        "mobile4x3": [
+          85.333333,
+          0,
+          1365.333333,
+          1024
+        ],
+        "desktop16x9": [
+          0,
+          80,
+          1536,
+          864
+        ]
+      },
+      "safeGameplayMasterNormalized": [
+        0.22,
+        0.36,
+        0.56,
+        0.3
+      ],
+      "reducedMotionPath": "backgrounds/scene_b_crescent_greenhouse.png",
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "scene_c_folding_room",
+      "path": "backgrounds/scene_c_folding_room.png",
+      "scene": "folding-room",
+      "category": "background",
+      "state": "static",
+      "usage": "Opaque decorative scene; never contains hit detection or answer data.",
+      "anchorPx": [
+        768,
+        512
+      ],
+      "width": 1536,
+      "height": 1024,
+      "fileFormat": "PNG",
+      "mode": "RGB",
+      "bytes": 2286402,
+      "sha256": "1171d05e012170e7d5d59290ec9f7e13393ee46c0f2865fc89aaf3fb55f7845c",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "opaque": true
+      },
+      "cropRects": {
+        "mobile4x3": [
+          85.333333,
+          0,
+          1365.333333,
+          1024
+        ],
+        "desktop16x9": [
+          0,
+          80,
+          1536,
+          864
+        ]
+      },
+      "safeGameplayMasterNormalized": [
+        0.22,
+        0.36,
+        0.56,
+        0.3
+      ],
+      "reducedMotionPath": "backgrounds/scene_c_folding_room.png",
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "scene_d_cloud_post_station",
+      "path": "backgrounds/scene_d_cloud_post_station.png",
+      "scene": "cloud-post",
+      "category": "background",
+      "state": "static",
+      "usage": "Opaque decorative scene; never contains hit detection or answer data.",
+      "anchorPx": [
+        768,
+        512
+      ],
+      "width": 1536,
+      "height": 1024,
+      "fileFormat": "PNG",
+      "mode": "RGB",
+      "bytes": 2694538,
+      "sha256": "cbe71c79aed4952528faffc5d44dc69914fe2131ec666f55ce305ae584075efc",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "opaque": true
+      },
+      "cropRects": {
+        "mobile4x3": [
+          85.333333,
+          0,
+          1365.333333,
+          1024
+        ],
+        "desktop16x9": [
+          0,
+          80,
+          1536,
+          864
+        ]
+      },
+      "safeGameplayMasterNormalized": [
+        0.22,
+        0.36,
+        0.56,
+        0.3
+      ],
+      "reducedMotionPath": "backgrounds/scene_d_cloud_post_station.png",
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "character.yeoul.idle",
+      "path": "characters/yeoul_idle.png",
+      "category": "character",
+      "scene": "shared",
+      "state": "idle",
+      "usage": "Static Yeoul key pose; switch from engine events, not timing authority.",
+      "anchorPx": [
+        670,
+        1178
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 1092528,
+      "sha256": "d6e62285860470f3c5aeb82d8fa649a8383f7a503663ddb708cb7e3ca4807d42",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.53429,
+        0.939394
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          0,
+          3,
+          1210,
+          1229
+        ],
+        "visibleBoundsAlpha128": [
+          354,
+          97,
+          886,
+          1176
+        ],
+        "fullyTransparentFraction": 0.76062,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "character.yeoul.prepare",
+      "path": "characters/yeoul_prepare.png",
+      "category": "character",
+      "scene": "shared",
+      "state": "prepare",
+      "usage": "Static Yeoul key pose; switch from engine events, not timing authority.",
+      "anchorPx": [
+        670,
+        1178
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 1072487,
+      "sha256": "964ad1478c995528f67d3dbcbd16b6bdcb8f2db08c06891a68ece5db3429974e",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.53429,
+        0.939394
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          33,
+          39,
+          1186,
+          1254
+        ],
+        "visibleBoundsAlpha128": [
+          346,
+          107,
+          909,
+          1178
+        ],
+        "fullyTransparentFraction": 0.749784,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "character.yeoul.release",
+      "path": "characters/yeoul_release.png",
+      "category": "character",
+      "scene": "shared",
+      "state": "release",
+      "usage": "Static Yeoul key pose; switch from engine events, not timing authority.",
+      "anchorPx": [
+        670,
+        1178
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 1048229,
+      "sha256": "0f1d96415eecf69db0930b474ce0a7d24075e0a072d3b980cc1a7aa1bceb5ed0",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.53429,
+        0.939394
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          25,
+          22,
+          1240,
+          1230
+        ],
+        "visibleBoundsAlpha128": [
+          347,
+          97,
+          988,
+          1178
+        ],
+        "fullyTransparentFraction": 0.749835,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "character.yeoul.press",
+      "path": "characters/yeoul_press.png",
+      "category": "character",
+      "scene": "shared",
+      "state": "press",
+      "usage": "Static Yeoul key pose; switch from engine events, not timing authority.",
+      "anchorPx": [
+        670,
+        1178
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 1058289,
+      "sha256": "e81f54d313f5f36f38fcbf0417c8dd9e827467dd03d79bdf03ce6b2f727bab2e",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.53429,
+        0.939394
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          27,
+          55,
+          1202,
+          1206
+        ],
+        "visibleBoundsAlpha128": [
+          344,
+          86,
+          889,
+          1180
+        ],
+        "fullyTransparentFraction": 0.751329,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "character.yeoul.hold",
+      "path": "characters/yeoul_hold.png",
+      "category": "character",
+      "scene": "shared",
+      "state": "hold",
+      "usage": "Static Yeoul key pose; switch from engine events, not timing authority.",
+      "anchorPx": [
+        670,
+        1178
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 1067149,
+      "sha256": "3d0f9946df63c26ab20f44db092cd97e1820c314773b6b8084f433dbfd4fa820",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.53429,
+        0.939394
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          49,
+          17,
+          1158,
+          1230
+        ],
+        "visibleBoundsAlpha128": [
+          345,
+          100,
+          988,
+          1177
+        ],
+        "fullyTransparentFraction": 0.751599,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "character.yeoul.miss",
+      "path": "characters/yeoul_miss.png",
+      "category": "character",
+      "scene": "shared",
+      "state": "miss",
+      "usage": "Static Yeoul key pose; switch from engine events, not timing authority.",
+      "anchorPx": [
+        670,
+        1178
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 947510,
+      "sha256": "098dfc56c91e33ec8d6add7e33ef04c27e4c8dd833de1ec3fabcc1f94a6b199b",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.53429,
+        0.939394
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          41,
+          33,
+          1214,
+          1228
+        ],
+        "visibleBoundsAlpha128": [
+          363,
+          97,
+          879,
+          1178
+        ],
+        "fullyTransparentFraction": 0.772655,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "object.greenhouse.flower_closed",
+      "path": "objects/flower_closed.png",
+      "category": "decorative-object",
+      "scene": "crescent-greenhouse",
+      "state": "closed",
+      "usage": "Decorative flower state; exact duration always represented by separate three-unit strip.",
+      "anchorPx": [
+        667,
+        1170
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 1154157,
+      "sha256": "13ed4fc925b5c204d3f3bfb136da1e0657fa60c887b6b99312fcdae7124937ad",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.531898,
+        0.933014
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          0,
+          21,
+          1226,
+          1220
+        ],
+        "visibleBoundsAlpha128": [
+          243,
+          114,
+          1028,
+          1167
+        ],
+        "fullyTransparentFraction": 0.740195,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "object.greenhouse.flower_opening_2",
+      "path": "objects/flower_opening_2.png",
+      "category": "decorative-object",
+      "scene": "crescent-greenhouse",
+      "state": "opening_2",
+      "usage": "Decorative flower state; exact duration always represented by separate three-unit strip.",
+      "anchorPx": [
+        667,
+        1170
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 1188375,
+      "sha256": "852e3d4d8e998c16b16c451dedb9a21db1b17d8a969651305500a1bb6840d79d",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.531898,
+        0.933014
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          33,
+          23,
+          1232,
+          1228
+        ],
+        "visibleBoundsAlpha128": [
+          242,
+          127,
+          1030,
+          1168
+        ],
+        "fullyTransparentFraction": 0.71755,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "object.greenhouse.flower_open",
+      "path": "objects/flower_open.png",
+      "category": "decorative-object",
+      "scene": "crescent-greenhouse",
+      "state": "open",
+      "usage": "Decorative flower state; exact duration always represented by separate three-unit strip.",
+      "anchorPx": [
+        667,
+        1170
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 1352238,
+      "sha256": "c106e4d99b3c0eaad8b6bc063f8b195811880e961e265d25b1950575020fd1c1",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.531898,
+        0.933014
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          0,
+          17,
+          1244,
+          1206
+        ],
+        "visibleBoundsAlpha128": [
+          242,
+          107,
+          1041,
+          1169
+        ],
+        "fullyTransparentFraction": 0.675647,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "object.greenhouse.flower_opening_1",
+      "path": "objects/flower_opening_1.png",
+      "category": "decorative-object",
+      "scene": "crescent-greenhouse",
+      "state": "opening_1",
+      "usage": "Decorative flower state; exact duration always represented by separate three-unit strip.",
+      "anchorPx": [
+        667,
+        1170
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 1073892,
+      "sha256": "1f20920f0f16e14a60e74865a44c15fdb484cfbdfa7b0e3300e9e30ca5cee7b5",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.531898,
+        0.933014
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          49,
+          33,
+          1240,
+          1254
+        ],
+        "visibleBoundsAlpha128": [
+          244,
+          113,
+          1029,
+          1168
+        ],
+        "fullyTransparentFraction": 0.738414,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "somsae_count",
+      "path": "characters/somsae_count.png",
+      "category": "character",
+      "scene": "shared",
+      "state": "count",
+      "usage": "Static Somsae demonstration/encouragement key pose; keep away from exact timing target.",
+      "anchorPx": [
+        680,
+        1145
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 1077947,
+      "sha256": "3995622cdf19965f63b43514ae0dc03265be53334efcab13e89382caf42b89b0",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.542265,
+        0.913078
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          0,
+          0,
+          1240,
+          1254
+        ],
+        "visibleBoundsAlpha128": [
+          218,
+          130,
+          1000,
+          1144
+        ],
+        "fullyTransparentFraction": 0.743311,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "somsae_demo",
+      "path": "characters/somsae_demo.png",
+      "category": "character",
+      "scene": "shared",
+      "state": "demo",
+      "usage": "Static Somsae demonstration/encouragement key pose; keep away from exact timing target.",
+      "anchorPx": [
+        680,
+        1166
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 1149480,
+      "sha256": "da10f4023cc7601258b5a7468208e5d7302ecd2d66c9fc3209e86dd8b8a00f10",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.542265,
+        0.929825
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          2,
+          23,
+          1236,
+          1254
+        ],
+        "visibleBoundsAlpha128": [
+          220,
+          98,
+          1062,
+          1165
+        ],
+        "fullyTransparentFraction": 0.703167,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "somsae_encourage",
+      "path": "characters/somsae_encourage.png",
+      "category": "character",
+      "scene": "shared",
+      "state": "encourage",
+      "usage": "Static Somsae demonstration/encouragement key pose; keep away from exact timing target.",
+      "anchorPx": [
+        680,
+        1145
+      ],
+      "width": 1254,
+      "height": 1254,
+      "fileFormat": "PNG",
+      "mode": "RGBA",
+      "bytes": 1028754,
+      "sha256": "6a62c291751b76ee4af55ad87b34a40df52be4de8ba363f740bdb3ca93e96cda",
+      "sourceType": "built-in-imagegen",
+      "anchorNormalized": [
+        0.542265,
+        0.913078
+      ],
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0/2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNotes": "Newly generated original artwork; no third-party game assets used. Copyright eligibility not warranted.",
+      "correctionNotes": "Exact generator output preserved. Low-alpha residue documented; no image-derived answers.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "rendererVersion": "imagegen-output-original",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated file QA + assistant visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "releaseGate": "user art approval and runtime integration pending",
+      "visualInspection": "passed-static",
+      "runtimeAnimationQA": "notRun",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "nonzeroBounds": [
+          25,
+          32,
+          1224,
+          1181
+        ],
+        "visibleBoundsAlpha128": [
+          217,
+          124,
+          989,
+          1147
+        ],
+        "fullyTransparentFraction": 0.733746,
+        "convention": "straight RGBA PNG; import according to renderer alpha handling",
+        "note": "Low-alpha=1 residue may extend outside the visible silhouette; original unmodified."
+      },
+      "exactGeneratorCopy": true
+    },
+    {
+      "assetId": "bridge_onset",
+      "path": "objects/bridge_onset.svg",
+      "pngPath": "objects/bridge_onset.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "hit": [
+          48,
+          48
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Filled circle marks a new onset. No inner hole.",
+      "state": "ready",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "f892c88fb73f6c9e67aa2afcd31ce200d2c91132facd2b04425beecb50db3e0d",
+      "semantic": "onset",
+      "shape": "filled-circle",
+      "pngSha256": "fefd9f908041ddf906b694ab40f9164fc69bf19ca73e367ba8ba182d2c1a2a39",
+      "alphaBounds": [
+        15,
+        15,
+        81,
+        81
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_onset.svg",
+        "png": "objects/bridge_onset.png"
+      },
+      "bytes": {
+        "svg": 315,
+        "png": 2664
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "bridge_release",
+      "path": "objects/bridge_release.svg",
+      "pngPath": "objects/bridge_release.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "hit": [
+          48,
+          48
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Hollow ring marks release; center remains transparent.",
+      "state": "ready",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "647c6f65cc13cf79dbef27a249cf33698f73cdbf6a605652f4700378957b8232",
+      "semantic": "release",
+      "shape": "hollow-circle",
+      "pngSha256": "149ca8762ae2f0cd801265fae40387558f698e343388c01c51a6b6e0c81249ef",
+      "alphaBounds": [
+        12,
+        12,
+        84,
+        84
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_release.svg",
+        "png": "objects/bridge_release.png"
+      },
+      "bytes": {
+        "svg": 353,
+        "png": 4600
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "bridge_tie_knot",
+      "path": "objects/bridge_tie_knot.svg",
+      "pngPath": "objects/bridge_tie_knot.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "boundary": [
+          48,
+          48
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Flattened woven knot marks uninterrupted hold. Never trigger onset, click, pulse or sparkle.",
+      "state": "continuous",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "c337e97127e6ef6d8c9c5c8294c2ca2abe36490fa2e5909a72343c5e3f1e140b",
+      "semantic": "tie-boundary",
+      "shape": "oblong-crossed-thread",
+      "inputRequired": false,
+      "pngSha256": "4738c25f97dc756ecfc9d4c80dae3bfdfb37da5d17c3892e43a20f413731ee16",
+      "alphaBounds": [
+        6,
+        29,
+        90,
+        66
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_tie_knot.svg",
+        "png": "objects/bridge_tie_knot.png"
+      },
+      "bytes": {
+        "svg": 800,
+        "png": 3579
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "bridge_onset_hc",
+      "path": "objects/bridge_onset_hc.svg",
+      "pngPath": "objects/bridge_onset_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "hit": [
+          48,
+          48
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Filled circle marks a new onset. No inner hole.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "d17a862219580b9c47d59023d59245ccb6a4fdff327d8394a7833c0440d85b36",
+      "semantic": "onset",
+      "shape": "filled-circle",
+      "pngSha256": "ed31c83487fb50459d18b468acffb75c6f9fb687fa31123605dae676eb3fe741",
+      "alphaBounds": [
+        15,
+        15,
+        81,
+        81
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_onset_hc.svg",
+        "png": "objects/bridge_onset_hc.png"
+      },
+      "bytes": {
+        "svg": 318,
+        "png": 2088
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "bridge_release_hc",
+      "path": "objects/bridge_release_hc.svg",
+      "pngPath": "objects/bridge_release_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "hit": [
+          48,
+          48
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Hollow ring marks release; center remains transparent.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "83dcb7b39b8f06a0858c204e93f08e5f88cb2ebc70e32aaa28a70ac284a40323",
+      "semantic": "release",
+      "shape": "hollow-circle",
+      "pngSha256": "247cbff4e479cb1516f925611d2d2269ee7eef55b423b0e7780e666f44398c12",
+      "alphaBounds": [
+        12,
+        12,
+        84,
+        84
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_release_hc.svg",
+        "png": "objects/bridge_release_hc.png"
+      },
+      "bytes": {
+        "svg": 356,
+        "png": 3447
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "bridge_tie_knot_hc",
+      "path": "objects/bridge_tie_knot_hc.svg",
+      "pngPath": "objects/bridge_tie_knot_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "boundary": [
+          48,
+          48
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Flattened woven knot marks uninterrupted hold. Never trigger onset, click, pulse or sparkle.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "b86d9626bc144607ca4aa1479edb2c1c0188bdf31d2077c000b16c40755ba188",
+      "semantic": "tie-boundary",
+      "shape": "oblong-crossed-thread",
+      "inputRequired": false,
+      "pngSha256": "da2b7a31f043926d061251e8edc44f8f9189a306152a6218ae21a486a5c80e68",
+      "alphaBounds": [
+        6,
+        29,
+        90,
+        66
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_tie_knot_hc.svg",
+        "png": "objects/bridge_tie_knot_hc.png"
+      },
+      "bytes": {
+        "svg": 803,
+        "png": 2747
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "bridge_bar_pillar",
+      "path": "objects/bridge_bar_pillar.svg",
+      "pngPath": "objects/bridge_bar_pillar.png",
+      "width": 128,
+      "height": 320,
+      "viewBox": [
+        0,
+        0,
+        128,
+        320
+      ],
+      "anchors": {
+        "barline": [
+          64,
+          160
+        ],
+        "base": [
+          64,
+          304
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Render below continuous ribbon. Crossing a barline does not split its gate.",
+      "state": "behind-ribbon",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "d5dbc3a9770ff47c8a71dd5784a0b92e95090afe84ea6b29f0fedd0e0737fc4f",
+      "pngSha256": "f556a51d7f3b6aee7eb408181b5e5524c398e2ab2b49ed7bfbab8749e9cad873",
+      "alphaBounds": [
+        16,
+        14,
+        112,
+        305
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_bar_pillar.svg",
+        "png": "objects/bridge_bar_pillar.png"
+      },
+      "bytes": {
+        "svg": 720,
+        "png": 2967
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "bridge_needle_eye",
+      "path": "objects/bridge_needle_eye.svg",
+      "pngPath": "objects/bridge_needle_eye.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "anchors": {
+        "hit": [
+          128,
+          112
+        ],
+        "tip": [
+          128,
+          246
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Fixed target needle eye stays open at internal tie boundaries.",
+      "state": "open",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "409afb6dc4250e42f5ac9f738a11a83e008c896235a391ba615641066aba0bd7",
+      "pngSha256": "cdc564ca3b1adb553c0bd2a33ba579f9f8bf12a8e7ead7861e4723b1972f9e2e",
+      "alphaBounds": [
+        79,
+        9,
+        177,
+        249
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_needle_eye.svg",
+        "png": "objects/bridge_needle_eye.png"
+      },
+      "bytes": {
+        "svg": 672,
+        "png": 13404
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "bridge_spool",
+      "path": "objects/bridge_spool.svg",
+      "pngPath": "objects/bridge_spool.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "anchors": {
+        "ribbonExit": [
+          198,
+          124
+        ],
+        "base": [
+          128,
+          228
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Stationary thread spool at the left-side anchor.",
+      "state": "idle",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "f8e5d04d0134a57e035d6b78f1c635cac43fab31184821d35dfdb1edd945bb00",
+      "pngSha256": "391f87ddbf7ef0b99d467968f7898c6b6c2711e8368cb851403ec5a62640c86a",
+      "alphaBounds": [
+        39,
+        25,
+        242,
+        230
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_spool.svg",
+        "png": "objects/bridge_spool.png"
+      },
+      "bytes": {
+        "svg": 2051,
+        "png": 7195
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "bridge_ribbon_tile",
+      "path": "objects/bridge_ribbon_tile.svg",
+      "pngPath": "objects/bridge_ribbon_tile.png",
+      "width": 128,
+      "height": 64,
+      "viewBox": [
+        0,
+        0,
+        128,
+        64
+      ],
+      "anchors": {
+        "left": [
+          0,
+          32
+        ],
+        "right": [
+          128,
+          32
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Horizontal repeat tile. Equal internal cells; no onset marker in the tile.",
+      "state": "continuous",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "30193ceec163ce99cb9ec6afca4a4d1dd94913da17c406238f874be6387724f7",
+      "repeatAxis": "x",
+      "unitWidth": 64,
+      "pngSha256": "cb911e9d54ec651316ce50067675ea780998e271248b252576693c134a9ac052",
+      "alphaBounds": [
+        0,
+        15,
+        128,
+        49
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_ribbon_tile.svg",
+        "png": "objects/bridge_ribbon_tile.png"
+      },
+      "bytes": {
+        "svg": 995,
+        "png": 451
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "bridge_ribbon_broken",
+      "path": "objects/bridge_ribbon_broken.svg",
+      "pngPath": "objects/bridge_ribbon_broken.png",
+      "width": 256,
+      "height": 80,
+      "viewBox": [
+        0,
+        0,
+        256,
+        80
+      ],
+      "anchors": {
+        "break": [
+          120,
+          41
+        ],
+        "left": [
+          4,
+          41
+        ],
+        "right": [
+          250,
+          41
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Broken visible edge followed by a dashed remainder; time continues.",
+      "state": "miss",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "b9544b843dbc6201a3b72fc5c8aeacb3b4a9d5e35d8d093b79b62c4cf834a1c8",
+      "pngSha256": "c486a8977e075c3466ce9603933a2cd919e035f21743742c5af5c814e8fceaac",
+      "alphaBounds": [
+        2,
+        8,
+        253,
+        72
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_ribbon_broken.svg",
+        "png": "objects/bridge_ribbon_broken.png"
+      },
+      "bytes": {
+        "svg": 688,
+        "png": 1850
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "bridge_lantern_idle",
+      "path": "objects/bridge_lantern_idle.svg",
+      "pngPath": "objects/bridge_lantern_idle.png",
+      "width": 128,
+      "height": 160,
+      "viewBox": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "anchors": {
+        "lightCenter": [
+          64,
+          86
+        ],
+        "hang": [
+          64,
+          12
+        ],
+        "base": [
+          64,
+          140
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Instantiate four times behind the ribbon as a basic-beat cue. State follows the beat, never an internal tie boundary. Static pose; no flashing animation supplied.",
+      "state": "idle",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "fd64edcde43ff753f041a1a27439c2622a340b57396e58cbd780c9d9b2e3893e",
+      "semantic": "beat-cue",
+      "reuseCount": 4,
+      "isInputTarget": false,
+      "stateShape": "short unlit dash",
+      "sharedFrameGeometry": true,
+      "pngSha256": "b92508495041163e1e6b413357ea89b6f9761e4f70a17d1b286e74167ce70c28",
+      "alphaBounds": [
+        23,
+        10,
+        105,
+        142
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_lantern_idle.svg",
+        "png": "objects/bridge_lantern_idle.png"
+      },
+      "bytes": {
+        "svg": 1102,
+        "png": 2867
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "bridge_lantern_active",
+      "path": "objects/bridge_lantern_active.svg",
+      "pngPath": "objects/bridge_lantern_active.png",
+      "width": 128,
+      "height": 160,
+      "viewBox": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "anchors": {
+        "lightCenter": [
+          64,
+          86
+        ],
+        "hang": [
+          64,
+          12
+        ],
+        "base": [
+          64,
+          140
+        ]
+      },
+      "scene": "thread-bridge",
+      "usage": "Instantiate four times behind the ribbon as a basic-beat cue. State follows the beat, never an internal tie boundary. Static pose; no flashing animation supplied.",
+      "state": "active",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "6b887d543412035581bdf2b86b344307cc8e70b1942c35b4ef389a791ffb0777",
+      "semantic": "beat-cue",
+      "reuseCount": 4,
+      "isInputTarget": false,
+      "stateShape": "four-ray star",
+      "sharedFrameGeometry": true,
+      "pngSha256": "e5e66b45d0b73a3b428a698abfa1a659a01a30b9da6eaa125f2ee5a837566abc",
+      "alphaBounds": [
+        23,
+        10,
+        105,
+        142
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/bridge_lantern_active.svg",
+        "png": "objects/bridge_lantern_active.png"
+      },
+      "bytes": {
+        "svg": 1620,
+        "png": 4209
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "greenhouse_container_2u",
+      "path": "objects/greenhouse_container_2u.svg",
+      "pngPath": "objects/greenhouse_container_2u.png",
+      "width": 176,
+      "height": 184,
+      "viewBox": [
+        0,
+        0,
+        176,
+        184
+      ],
+      "anchors": {
+        "base": [
+          88.0,
+          166
+        ],
+        "fillOrigin": [
+          24,
+          56
+        ]
+      },
+      "scene": "crescent-greenhouse",
+      "usage": "Equal unit width and fill height. Compare water area, not outer bottle silhouette.",
+      "state": "filled",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "418da5ea99603b0d66831a7603b336349d945b66759c43dd245f5d01cee257e0",
+      "geometry": {
+        "unitWidth": 64,
+        "fillRect": [
+          24,
+          56,
+          128,
+          96
+        ],
+        "fillArea": 12288,
+        "eighthUnits": 2,
+        "ticks": 480
+      },
+      "pngSha256": "004d322b3a2dd8c21e659d8c71c9b20b6af0fb43269457d6647cc6bac8d251e5",
+      "alphaBounds": [
+        14,
+        10,
+        162,
+        166
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/greenhouse_container_2u.svg",
+        "png": "objects/greenhouse_container_2u.png"
+      },
+      "bytes": {
+        "svg": 1240,
+        "png": 1777
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "greenhouse_container_1u",
+      "path": "objects/greenhouse_container_1u.svg",
+      "pngPath": "objects/greenhouse_container_1u.png",
+      "width": 112,
+      "height": 184,
+      "viewBox": [
+        0,
+        0,
+        112,
+        184
+      ],
+      "anchors": {
+        "base": [
+          56.0,
+          166
+        ],
+        "fillOrigin": [
+          24,
+          56
+        ]
+      },
+      "scene": "crescent-greenhouse",
+      "usage": "Equal unit width and fill height. Compare water area, not outer bottle silhouette.",
+      "state": "filled",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "aaff7e13184cecf21df8290ab0b7abdd46832523d8a653fe23244eb91e5fc60e",
+      "geometry": {
+        "unitWidth": 64,
+        "fillRect": [
+          24,
+          56,
+          64,
+          96
+        ],
+        "fillArea": 6144,
+        "eighthUnits": 1,
+        "ticks": 240
+      },
+      "pngSha256": "06e5b1f875f6bb2da087c7d86d3304161a803a7416d71930c19739ba88b6726d",
+      "alphaBounds": [
+        14,
+        10,
+        98,
+        166
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/greenhouse_container_1u.svg",
+        "png": "objects/greenhouse_container_1u.png"
+      },
+      "bytes": {
+        "svg": 1041,
+        "png": 1684
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "greenhouse_time_strip_3u",
+      "path": "objects/greenhouse_time_strip_3u.svg",
+      "pngPath": "objects/greenhouse_time_strip_3u.png",
+      "width": 216,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        216,
+        96
+      ],
+      "anchors": {
+        "start": [
+          12,
+          44
+        ],
+        "release": [
+          204,
+          44
+        ]
+      },
+      "scene": "crescent-greenhouse",
+      "usage": "Three equal eighth-units, 720 ticks total. Internal boundaries are not new attacks.",
+      "state": "hold",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "72509e09f466fe35dcb9f91a9380e3c5b9f837234432b77539ee10ce882b7ba7",
+      "unitWidth": 64,
+      "unitTicks": 240,
+      "totalTicks": 720,
+      "pngSha256": "b8f338e8c98e08ed890b9d3c2f9920955a40bb38914058bceed6bc8bb0344b7f",
+      "alphaBounds": [
+        4,
+        19,
+        215,
+        79
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/greenhouse_time_strip_3u.svg",
+        "png": "objects/greenhouse_time_strip_3u.png"
+      },
+      "bytes": {
+        "svg": 872,
+        "png": 2337
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "greenhouse_rest_cover",
+      "path": "objects/greenhouse_rest_cover.svg",
+      "pngPath": "objects/greenhouse_rest_cover.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "anchors": {
+        "target": [
+          128,
+          115
+        ],
+        "base": [
+          128,
+          228
+        ]
+      },
+      "scene": "crescent-greenhouse",
+      "usage": "Closed flower cover means the player voice rests while the accompaniment and pulse continue.",
+      "state": "closed",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "5ca19f99343b3938a0b4585e1015d9a53d54c4abe39c070c229d218acdd4c646",
+      "semantic": "rest",
+      "notPause": true,
+      "pngSha256": "c7c85135b759811734d0a5986b6f76217e51609dc2c59194fc8c90af8ebd25e8",
+      "alphaBounds": [
+        33,
+        30,
+        223,
+        228
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/greenhouse_rest_cover.svg",
+        "png": "objects/greenhouse_rest_cover.png"
+      },
+      "bytes": {
+        "svg": 1143,
+        "png": 10916
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "greenhouse_dew_idle",
+      "path": "objects/greenhouse_dew_idle.svg",
+      "pngPath": "objects/greenhouse_dew_idle.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "crescent-greenhouse",
+      "usage": "A single equal eighth-unit dew tile; active gains a check shape, not color alone.",
+      "state": "idle",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "6be53c9df448f06f1b338141d5ccfd4217b3932f125fcff5e85fc7b0a932549d",
+      "unitTicks": 240,
+      "pngSha256": "30001bd7c8d65a948fd3c32c5496e5c7a27d96f22426c2880d16b37e28c29dba",
+      "alphaBounds": [
+        6,
+        6,
+        90,
+        90
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/greenhouse_dew_idle.svg",
+        "png": "objects/greenhouse_dew_idle.png"
+      },
+      "bytes": {
+        "svg": 623,
+        "png": 3857
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "greenhouse_dew_active",
+      "path": "objects/greenhouse_dew_active.svg",
+      "pngPath": "objects/greenhouse_dew_active.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "crescent-greenhouse",
+      "usage": "A single equal eighth-unit dew tile; active gains a check shape, not color alone.",
+      "state": "active",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "bf853abf7c87351f973dea24f096ceac0b18989b5bc44baa71666c0e1f134a19",
+      "unitTicks": 240,
+      "pngSha256": "ba437967bdb4a91aea6972853417bcaf612eedeae704ff29fece2fff751132cc",
+      "alphaBounds": [
+        6,
+        6,
+        90,
+        90
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/greenhouse_dew_active.svg",
+        "png": "objects/greenhouse_dew_active.png"
+      },
+      "bytes": {
+        "svg": 813,
+        "png": 4220
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "greenhouse_flower_0",
+      "path": "objects/greenhouse_flower_0.svg",
+      "pngPath": "objects/greenhouse_flower_0.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "anchors": {
+        "target": [
+          128,
+          149
+        ],
+        "base": [
+          128,
+          239
+        ]
+      },
+      "scene": "crescent-greenhouse",
+      "usage": "Three equal time-stage reveals. Petal area is decoration, not duration evidence.",
+      "state": "open-0-of-3",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "1dfb1f93a1a786a0db4a39a55589d88006101e3ace3e7a13baabea07c1a5c1e2",
+      "filledTimeUnits": 0,
+      "totalTimeUnits": 3,
+      "pngSha256": "41db19b1f53e00c0a8934d511c65abe41dea9f2413b7037de95ceb8cabd4d354",
+      "alphaBounds": [
+        67,
+        41,
+        190,
+        243
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/greenhouse_flower_0.svg",
+        "png": "objects/greenhouse_flower_0.png"
+      },
+      "bytes": {
+        "svg": 923,
+        "png": 10559
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "greenhouse_flower_1",
+      "path": "objects/greenhouse_flower_1.svg",
+      "pngPath": "objects/greenhouse_flower_1.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "anchors": {
+        "target": [
+          128,
+          149
+        ],
+        "base": [
+          128,
+          239
+        ]
+      },
+      "scene": "crescent-greenhouse",
+      "usage": "Three equal time-stage reveals. Petal area is decoration, not duration evidence.",
+      "state": "open-1-of-3",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "112f38da46de9d01113550fc3ab329b23308ba1e6c0ccedcc7149e4c5c46ed78",
+      "filledTimeUnits": 1,
+      "totalTimeUnits": 3,
+      "pngSha256": "eaccc327e359a772a97723912edf7890bca8bccd34d8ba50e437aa9fd39bcef8",
+      "alphaBounds": [
+        39,
+        17,
+        217,
+        243
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/greenhouse_flower_1.svg",
+        "png": "objects/greenhouse_flower_1.png"
+      },
+      "bytes": {
+        "svg": 1617,
+        "png": 15051
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "greenhouse_flower_2",
+      "path": "objects/greenhouse_flower_2.svg",
+      "pngPath": "objects/greenhouse_flower_2.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "anchors": {
+        "target": [
+          128,
+          149
+        ],
+        "base": [
+          128,
+          239
+        ]
+      },
+      "scene": "crescent-greenhouse",
+      "usage": "Three equal time-stage reveals. Petal area is decoration, not duration evidence.",
+      "state": "open-2-of-3",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "c8d43482bcd341a2ca26190112866f2a08c5a5ff261d5fe8dc4fd719d1f570b7",
+      "filledTimeUnits": 2,
+      "totalTimeUnits": 3,
+      "pngSha256": "4407e651a479bb6923952476ce8d385f4cd0595e3538b3ab2a1c9ab5a0b1ccbc",
+      "alphaBounds": [
+        39,
+        17,
+        217,
+        243
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/greenhouse_flower_2.svg",
+        "png": "objects/greenhouse_flower_2.png"
+      },
+      "bytes": {
+        "svg": 1435,
+        "png": 15193
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "greenhouse_flower_3",
+      "path": "objects/greenhouse_flower_3.svg",
+      "pngPath": "objects/greenhouse_flower_3.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "anchors": {
+        "target": [
+          128,
+          149
+        ],
+        "base": [
+          128,
+          239
+        ]
+      },
+      "scene": "crescent-greenhouse",
+      "usage": "Three equal time-stage reveals. Petal area is decoration, not duration evidence.",
+      "state": "open-3-of-3",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "f6719be5f7c2f5483db2acc862e76eb0264120f31302327aaaaa779ae7888d30",
+      "filledTimeUnits": 3,
+      "totalTimeUnits": 3,
+      "pngSha256": "c157e6da68ab3c1ed90150a7141cdde57e803729f8c64211ae29c4955e3078fe",
+      "alphaBounds": [
+        39,
+        17,
+        217,
+        243
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/greenhouse_flower_3.svg",
+        "png": "objects/greenhouse_flower_3.png"
+      },
+      "bytes": {
+        "svg": 1251,
+        "png": 14828
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "room_tile_idle",
+      "path": "objects/room_tile_idle.svg",
+      "pngPath": "objects/room_tile_idle.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          44
+        ],
+        "left": [
+          8,
+          44
+        ],
+        "right": [
+          88,
+          44
+        ]
+      },
+      "scene": "folding-room",
+      "usage": "Identical width in both meters; action state adds a check mark.",
+      "state": "idle",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "dc553d35039a3b087e156109f7868e08437281cd91873bb5396b18a913df395b",
+      "tileWidth": 80,
+      "unitTicks": 240,
+      "pngSha256": "21eabcf3ff268d5fd85543ffba13dcdf5c589668e24cc465b626ea7275518ba9",
+      "alphaBounds": [
+        6,
+        10,
+        90,
+        87
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/room_tile_idle.svg",
+        "png": "objects/room_tile_idle.png"
+      },
+      "bytes": {
+        "svg": 563,
+        "png": 1275
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "room_tile_active",
+      "path": "objects/room_tile_active.svg",
+      "pngPath": "objects/room_tile_active.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          44
+        ],
+        "left": [
+          8,
+          44
+        ],
+        "right": [
+          88,
+          44
+        ]
+      },
+      "scene": "folding-room",
+      "usage": "Identical width in both meters; action state adds a check mark.",
+      "state": "active",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "ef89ded58de92c1dcd606fd862a4bfe3673811a8cef89da45562409516fa77b1",
+      "tileWidth": 80,
+      "unitTicks": 240,
+      "pngSha256": "7ff4981fdf5e3f917081053354b8f068e754e7ccb052c55b8b9d4da7830bb580",
+      "alphaBounds": [
+        6,
+        10,
+        90,
+        87
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/room_tile_active.svg",
+        "png": "objects/room_tile_active.png"
+      },
+      "bytes": {
+        "svg": 691,
+        "png": 1910
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "room_hinge_2u",
+      "path": "objects/room_hinge_2u.svg",
+      "pngPath": "objects/room_hinge_2u.png",
+      "width": 184,
+      "height": 88,
+      "viewBox": [
+        0,
+        0,
+        184,
+        88
+      ],
+      "anchors": {
+        "left": [
+          12,
+          58
+        ],
+        "right": [
+          172,
+          58
+        ],
+        "hinge": [
+          92.0,
+          52
+        ]
+      },
+      "scene": "folding-room",
+      "usage": "A single broad hinge spans the exact number of equal floor tiles.",
+      "state": "group-2",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "4130d11a5adceefd8b172b2d1f59b908d4ea2792e62b4a3be86e372970957ed9",
+      "spanUnits": 2,
+      "tileWidth": 80,
+      "pngSha256": "6fd68a87ec750ec10c93cd82c530c8ee3a5414055b50dd593528b6633aacbe89",
+      "alphaBounds": [
+        9,
+        30,
+        175,
+        74
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/room_hinge_2u.svg",
+        "png": "objects/room_hinge_2u.png"
+      },
+      "bytes": {
+        "svg": 726,
+        "png": 3107
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "room_hinge_3u",
+      "path": "objects/room_hinge_3u.svg",
+      "pngPath": "objects/room_hinge_3u.png",
+      "width": 264,
+      "height": 88,
+      "viewBox": [
+        0,
+        0,
+        264,
+        88
+      ],
+      "anchors": {
+        "left": [
+          12,
+          58
+        ],
+        "right": [
+          252,
+          58
+        ],
+        "hinge": [
+          132.0,
+          52
+        ]
+      },
+      "scene": "folding-room",
+      "usage": "A single broad hinge spans the exact number of equal floor tiles.",
+      "state": "group-3",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "21333c588bc703f1651a26e8b4801aa429f725bf0b52c717821788a2dfcdbf53",
+      "spanUnits": 3,
+      "tileWidth": 80,
+      "pngSha256": "3b22b2c5aceced89290ac3a5e8cbfa25ee2970cc9b1d205c97bcb9acf36cfe77",
+      "alphaBounds": [
+        9,
+        30,
+        255,
+        74
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/room_hinge_3u.svg",
+        "png": "objects/room_hinge_3u.png"
+      },
+      "bytes": {
+        "svg": 730,
+        "png": 3607
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "room_brackets_222",
+      "path": "objects/room_brackets_222.svg",
+      "pngPath": "objects/room_brackets_222.png",
+      "width": 512,
+      "height": 104,
+      "viewBox": [
+        0,
+        0,
+        512,
+        104
+      ],
+      "anchors": {
+        "floorOrigin": [
+          16,
+          88
+        ]
+      },
+      "scene": "folding-room",
+      "usage": "Overlay on six unchanged 80 px tiles. Grouping is conveyed by curve count and span.",
+      "state": "grouped",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "bf56afb1a142780c123000bc37e00a4a5f608ddf5dcb1f26519350e7900d4468",
+      "groups": [
+        2,
+        2,
+        2
+      ],
+      "tileCount": 6,
+      "tileWidth": 80,
+      "totalTicks": 1440,
+      "pngSha256": "df41821d2da9e3aaae6cccb3a9ee134343168b930356bd0c5e6d12c43cc3734e",
+      "alphaBounds": [
+        18,
+        24,
+        494,
+        89
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/room_brackets_222.svg",
+        "png": "objects/room_brackets_222.png"
+      },
+      "bytes": {
+        "svg": 1490,
+        "png": 4935
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "room_floor_222",
+      "path": "objects/room_floor_222.svg",
+      "pngPath": "objects/room_floor_222.png",
+      "width": 512,
+      "height": 160,
+      "viewBox": [
+        0,
+        0,
+        512,
+        160
+      ],
+      "anchors": {
+        "floorOrigin": [
+          16,
+          78
+        ]
+      },
+      "scene": "folding-room",
+      "usage": "Six equal 80 px tiles with grouping overlay. Both assets have identical floor geometry.",
+      "state": "grouped",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "df10514eaa75bbe5897a6f699b5ebff1d5962d68fb99075d9aab045e3ac52734",
+      "groups": [
+        2,
+        2,
+        2
+      ],
+      "tileCount": 6,
+      "tileWidth": 80,
+      "totalTicks": 1440,
+      "pngSha256": "d59ef03c41f2398a2d2865c2d64442c98b0018c3d2dbc08db0ef2db35182afbc",
+      "alphaBounds": [
+        14,
+        32,
+        498,
+        144
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/room_floor_222.svg",
+        "png": "objects/room_floor_222.png"
+      },
+      "bytes": {
+        "svg": 2246,
+        "png": 6147
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "room_brackets_33",
+      "path": "objects/room_brackets_33.svg",
+      "pngPath": "objects/room_brackets_33.png",
+      "width": 512,
+      "height": 104,
+      "viewBox": [
+        0,
+        0,
+        512,
+        104
+      ],
+      "anchors": {
+        "floorOrigin": [
+          16,
+          88
+        ]
+      },
+      "scene": "folding-room",
+      "usage": "Overlay on six unchanged 80 px tiles. Grouping is conveyed by curve count and span.",
+      "state": "grouped",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "faadd6761ff2ff1c216db4fbc865a1542afd874eaff959c71fbd4fabc03c178d",
+      "groups": [
+        3,
+        3
+      ],
+      "tileCount": 6,
+      "tileWidth": 80,
+      "totalTicks": 1440,
+      "pngSha256": "8e8977a4e6408ca6afa7093dfe850d617d4bcf3732cc04aa88cde3a5c25a7b7b",
+      "alphaBounds": [
+        18,
+        24,
+        494,
+        89
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/room_brackets_33.svg",
+        "png": "objects/room_brackets_33.png"
+      },
+      "bytes": {
+        "svg": 1070,
+        "png": 5448
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "room_floor_33",
+      "path": "objects/room_floor_33.svg",
+      "pngPath": "objects/room_floor_33.png",
+      "width": 512,
+      "height": 160,
+      "viewBox": [
+        0,
+        0,
+        512,
+        160
+      ],
+      "anchors": {
+        "floorOrigin": [
+          16,
+          78
+        ]
+      },
+      "scene": "folding-room",
+      "usage": "Six equal 80 px tiles with grouping overlay. Both assets have identical floor geometry.",
+      "state": "grouped",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "a4b57a000f8883ea23044c2f55d4b1a80b04afc85a017a4164969f1be85f5484",
+      "groups": [
+        3,
+        3
+      ],
+      "tileCount": 6,
+      "tileWidth": 80,
+      "totalTicks": 1440,
+      "pngSha256": "3ed9a2b58f5920fd70e425d33a57f6cd900c114e865cf136ad7488d44faae965",
+      "alphaBounds": [
+        14,
+        32,
+        498,
+        144
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/room_floor_33.svg",
+        "png": "objects/room_floor_33.png"
+      },
+      "bytes": {
+        "svg": 2119,
+        "png": 6802
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "post_letter_idle",
+      "path": "objects/post_letter_idle.svg",
+      "pngPath": "objects/post_letter_idle.png",
+      "width": 256,
+      "height": 200,
+      "viewBox": [
+        0,
+        0,
+        256,
+        200
+      ],
+      "anchors": {
+        "hit": [
+          128,
+          106
+        ]
+      },
+      "scene": "cloud-post",
+      "usage": "Cloud-backed letter; identical for 72 and 108 quarter-note BPM.",
+      "state": "idle",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "fc311bf13d2ee085d6ece25cf7f37a07fe8dc6729c339da4b79ad8617b094435",
+      "sharedBetweenLevels": [
+        "L08",
+        "L09"
+      ],
+      "pngSha256": "05e5d53c539918cce2f269cd4d88dbab7e1f6e1fbf6b312c76eedea4582391ca",
+      "alphaBounds": [
+        6,
+        45,
+        250,
+        164
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/post_letter_idle.svg",
+        "png": "objects/post_letter_idle.png"
+      },
+      "bytes": {
+        "svg": 893,
+        "png": 8221
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "post_letter_folded",
+      "path": "objects/post_letter_folded.svg",
+      "pngPath": "objects/post_letter_folded.png",
+      "width": 256,
+      "height": 200,
+      "viewBox": [
+        0,
+        0,
+        256,
+        200
+      ],
+      "anchors": {
+        "hit": [
+          128,
+          106
+        ]
+      },
+      "scene": "cloud-post",
+      "usage": "Folded paper transition pose; no inferred timing change.",
+      "state": "folded",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "1cb3ee9de7a81645cdd204cd9cf732d4060e3feaf3abc082180aeb3dcd805d3b",
+      "pngSha256": "a2b44b4816fc9c5f658a5fc7e39bf48b1c003dbaeda1a675905afd9453e711ee",
+      "alphaBounds": [
+        40,
+        30,
+        216,
+        176
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/post_letter_folded.svg",
+        "png": "objects/post_letter_folded.png"
+      },
+      "bytes": {
+        "svg": 638,
+        "png": 8593
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "post_letter_success_star",
+      "path": "objects/post_letter_success_star.svg",
+      "pngPath": "objects/post_letter_success_star.png",
+      "width": 256,
+      "height": 200,
+      "viewBox": [
+        0,
+        0,
+        256,
+        200
+      ],
+      "anchors": {
+        "center": [
+          128,
+          101
+        ]
+      },
+      "scene": "cloud-post",
+      "usage": "Star silhouette and check mark communicate success without reliance on color.",
+      "state": "success",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "810b8a0530c1d6d9660b2378b09292eddcfe8271c8b9b047a918ca284eee918b",
+      "pngSha256": "6323a3dfda2c0e12f799d2a6e358fc61c33b3af88b6074f29b2dc084e26ea1ee",
+      "alphaBounds": [
+        49,
+        34,
+        205,
+        168
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/post_letter_success_star.svg",
+        "png": "objects/post_letter_success_star.png"
+      },
+      "bytes": {
+        "svg": 991,
+        "png": 9074
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "post_counter",
+      "path": "objects/post_counter.svg",
+      "pngPath": "objects/post_counter.png",
+      "width": 384,
+      "height": 256,
+      "viewBox": [
+        0,
+        0,
+        384,
+        256
+      ],
+      "anchors": {
+        "window": [
+          192,
+          105
+        ],
+        "counterTop": [
+          192,
+          158
+        ],
+        "base": [
+          192,
+          233
+        ]
+      },
+      "scene": "cloud-post",
+      "usage": "Stationary postal window. Keep target area clear for incoming letters.",
+      "state": "idle",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "6c8100a257f8e6bb30b006304620e12333373124a181a893536254b69225cc31",
+      "pngSha256": "7272fa471a01e03db9bb43b26450caf66471db9d9c672055b82a1a6ca0c3c880",
+      "alphaBounds": [
+        14,
+        28,
+        370,
+        234
+      ],
+      "category": "gameplay-object",
+      "representationPaths": {
+        "svg": "objects/post_counter.svg",
+        "png": "objects/post_counter.png"
+      },
+      "bytes": {
+        "svg": 949,
+        "png": 6209
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_press",
+      "path": "ui/icon_press.svg",
+      "pngPath": "ui/icon_press.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Press icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "default",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "90e724b55b97538c55f655ce652fea76bc034e6f0409df2991fa259c2997a689",
+      "labelKey": "ui.press",
+      "minimumTargetCssPx": 44,
+      "highContrast": false,
+      "pngSha256": "dce7bcc00605381dfcbb0fd4cdc46e2488e38298035f1c41e5affa0064a102ff",
+      "alphaBounds": [
+        4,
+        4,
+        92,
+        92
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_press.svg",
+        "png": "ui/icon_press.png"
+      },
+      "bytes": {
+        "svg": 617,
+        "png": 3372
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_press_hc",
+      "path": "ui/icon_press_hc.svg",
+      "pngPath": "ui/icon_press_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Press icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "fca2845e06a5087b324744c243cacc723a15640977ee0a1b88b4a16668d751b0",
+      "labelKey": "ui.press",
+      "minimumTargetCssPx": 44,
+      "highContrast": true,
+      "pngSha256": "696dd753af4df386ee75b94fdfdf8e87f333abaa8fa3cf842951cf686d7ca229",
+      "alphaBounds": [
+        3,
+        3,
+        93,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_press_hc.svg",
+        "png": "ui/icon_press_hc.png"
+      },
+      "bytes": {
+        "svg": 497,
+        "png": 2332
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_hold",
+      "path": "ui/icon_hold.svg",
+      "pngPath": "ui/icon_hold.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Hold icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "default",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "cfa2a9887a4790c3bee76f437638f62400da683a699ef16e39ea02d98dcef422",
+      "labelKey": "ui.hold",
+      "minimumTargetCssPx": 44,
+      "highContrast": false,
+      "pngSha256": "3b4c1c8d7035e3fa741cdcd06f0a6b75641b3af1cb2dcb3de07368e569b0a4da",
+      "alphaBounds": [
+        4,
+        4,
+        92,
+        92
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_hold.svg",
+        "png": "ui/icon_hold.png"
+      },
+      "bytes": {
+        "svg": 715,
+        "png": 3090
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_hold_hc",
+      "path": "ui/icon_hold_hc.svg",
+      "pngPath": "ui/icon_hold_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Hold icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "c161d58c9907c03b69fe05ae38554dda1dc1fd9c5a9b6b3ac9661c9fbc2c1b93",
+      "labelKey": "ui.hold",
+      "minimumTargetCssPx": 44,
+      "highContrast": true,
+      "pngSha256": "009ef1b733e04b6b6549f89932cb95c8a8bbbf196876d01c57e4a7d5c9b84569",
+      "alphaBounds": [
+        3,
+        3,
+        93,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_hold_hc.svg",
+        "png": "ui/icon_hold_hc.png"
+      },
+      "bytes": {
+        "svg": 595,
+        "png": 2149
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_release",
+      "path": "ui/icon_release.svg",
+      "pngPath": "ui/icon_release.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Release icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "default",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "0790c6b7e06048b4d193c9e5a6c39111174bbd3696cce7c07d3d9e66330510f5",
+      "labelKey": "ui.release",
+      "minimumTargetCssPx": 44,
+      "highContrast": false,
+      "pngSha256": "699547909ad8f30d31ee94cfb16ead4ac32b94f389db774792f43fa988c5772d",
+      "alphaBounds": [
+        4,
+        4,
+        92,
+        92
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_release.svg",
+        "png": "ui/icon_release.png"
+      },
+      "bytes": {
+        "svg": 652,
+        "png": 3953
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_release_hc",
+      "path": "ui/icon_release_hc.svg",
+      "pngPath": "ui/icon_release_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Release icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "e4d23f55d0da0bba5d264c289b01d4eeb5a7aff41d2096cb2565c2c4c2f89426",
+      "labelKey": "ui.release",
+      "minimumTargetCssPx": 44,
+      "highContrast": true,
+      "pngSha256": "7f51de5895e409c2cd96a94f76a3ea7a2ea49474f2ad639b22f519245b73004d",
+      "alphaBounds": [
+        3,
+        3,
+        93,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_release_hc.svg",
+        "png": "ui/icon_release_hc.png"
+      },
+      "bytes": {
+        "svg": 532,
+        "png": 2837
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_wait",
+      "path": "ui/icon_wait.svg",
+      "pngPath": "ui/icon_wait.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Wait icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "default",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "9f33eacd1c74a53b26f2852ad3fe57a0a0ef5e0a7d35cd873f26dca0799e1838",
+      "labelKey": "ui.wait",
+      "minimumTargetCssPx": 44,
+      "highContrast": false,
+      "pngSha256": "2e166782466bdd89b2a809c2eb1977f52123d0f4878ae753f19493cb28542277",
+      "alphaBounds": [
+        4,
+        4,
+        92,
+        92
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_wait.svg",
+        "png": "ui/icon_wait.png"
+      },
+      "bytes": {
+        "svg": 676,
+        "png": 4446
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_wait_hc",
+      "path": "ui/icon_wait_hc.svg",
+      "pngPath": "ui/icon_wait_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Wait icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "b306ab48033c42d7497226fc707ccd3ca2f200bae9ce80e729002f3f6a7abddd",
+      "labelKey": "ui.wait",
+      "minimumTargetCssPx": 44,
+      "highContrast": true,
+      "pngSha256": "5ef255872c517e158e231d6e0b06b5ee06413c0b027a18adb5f8516a780c2900",
+      "alphaBounds": [
+        3,
+        3,
+        93,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_wait_hc.svg",
+        "png": "ui/icon_wait_hc.png"
+      },
+      "bytes": {
+        "svg": 556,
+        "png": 3294
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_sound",
+      "path": "ui/icon_sound.svg",
+      "pngPath": "ui/icon_sound.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Sound icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "default",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "861d5c39e6da75add0a1ecbd288335cfa8a0f321dc050f2b0873bf75f4b842b2",
+      "labelKey": "ui.sound",
+      "minimumTargetCssPx": 44,
+      "highContrast": false,
+      "pngSha256": "965dd3648a4314c334f4e6434d5ab56d2624e1d49ad6bb272fdfa155ffefa373",
+      "alphaBounds": [
+        4,
+        4,
+        92,
+        92
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_sound.svg",
+        "png": "ui/icon_sound.png"
+      },
+      "bytes": {
+        "svg": 645,
+        "png": 4139
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_sound_hc",
+      "path": "ui/icon_sound_hc.svg",
+      "pngPath": "ui/icon_sound_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Sound icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "022fad01e521517c1d343937d1db12799bbad2917884ffca2aeb4620b5469507",
+      "labelKey": "ui.sound",
+      "minimumTargetCssPx": 44,
+      "highContrast": true,
+      "pngSha256": "33a56cd5b1850c373ff025f0b6ed9aaacb5f1cf2c757b54b9d8d7b2d73e40aee",
+      "alphaBounds": [
+        3,
+        3,
+        93,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_sound_hc.svg",
+        "png": "ui/icon_sound_hc.png"
+      },
+      "bytes": {
+        "svg": 525,
+        "png": 3127
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_pause",
+      "path": "ui/icon_pause.svg",
+      "pngPath": "ui/icon_pause.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Pause icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "default",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "d90e6f4a149ddddea652d2fab166bf9a8a99724aace5e25818f98bee37a54695",
+      "labelKey": "ui.pause",
+      "minimumTargetCssPx": 44,
+      "highContrast": false,
+      "pngSha256": "e2bc19a26a53287acc8a3cdfb3514636c291414c985a103f138d7fd72cd843e1",
+      "alphaBounds": [
+        4,
+        4,
+        92,
+        92
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_pause.svg",
+        "png": "ui/icon_pause.png"
+      },
+      "bytes": {
+        "svg": 564,
+        "png": 2774
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_pause_hc",
+      "path": "ui/icon_pause_hc.svg",
+      "pngPath": "ui/icon_pause_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Pause icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "16a4e4fac731a3ddefce0a78d67ccadc1cc9f3e5f35df15e147c31d07c110c65",
+      "labelKey": "ui.pause",
+      "minimumTargetCssPx": 44,
+      "highContrast": true,
+      "pngSha256": "ebab84ef71b58e0b10fc23968b2df43ee268cc55da74a81e96469f7dc4511c0e",
+      "alphaBounds": [
+        3,
+        3,
+        93,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_pause_hc.svg",
+        "png": "ui/icon_pause_hc.png"
+      },
+      "bytes": {
+        "svg": 444,
+        "png": 1764
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_resume",
+      "path": "ui/icon_resume.svg",
+      "pngPath": "ui/icon_resume.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Resume icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "default",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "0019411a98c3f2cb880a777d1c01ec118929777754f31aab4a33b0172467f87d",
+      "labelKey": "ui.resume",
+      "minimumTargetCssPx": 44,
+      "highContrast": false,
+      "pngSha256": "000adc982f7788703b0f225151d50a8b867acd384cf687527a66238d9bf5d526",
+      "alphaBounds": [
+        4,
+        4,
+        92,
+        92
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_resume.svg",
+        "png": "ui/icon_resume.png"
+      },
+      "bytes": {
+        "svg": 481,
+        "png": 3139
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_resume_hc",
+      "path": "ui/icon_resume_hc.svg",
+      "pngPath": "ui/icon_resume_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Resume icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "f80969e86253ecaa9926f7aaea04594ad998fcd3d41be879704384dbfd86fb29",
+      "labelKey": "ui.resume",
+      "minimumTargetCssPx": 44,
+      "highContrast": true,
+      "pngSha256": "5e503207e8817a68748dfac8306d6f517c07b6a35625d30fa76164f2001bf6ea",
+      "alphaBounds": [
+        3,
+        3,
+        93,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_resume_hc.svg",
+        "png": "ui/icon_resume_hc.png"
+      },
+      "bytes": {
+        "svg": 361,
+        "png": 2120
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_retry",
+      "path": "ui/icon_retry.svg",
+      "pngPath": "ui/icon_retry.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Retry icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "default",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "084494bd2f65781c3cc825701c7a2507ceba3454b4a1090281697fd347da587a",
+      "labelKey": "ui.retry",
+      "minimumTargetCssPx": 44,
+      "highContrast": false,
+      "pngSha256": "8f2a04838f99cae0f5899f509e1ca541fbdfdc1ade6d13d4235eaabe47d954eb",
+      "alphaBounds": [
+        4,
+        4,
+        92,
+        92
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_retry.svg",
+        "png": "ui/icon_retry.png"
+      },
+      "bytes": {
+        "svg": 687,
+        "png": 4940
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_retry_hc",
+      "path": "ui/icon_retry_hc.svg",
+      "pngPath": "ui/icon_retry_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Retry icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "ca87d64b46f6e71c138feb4f7854629a5fc7b4946f5dc844dfd5b311108f3d2f",
+      "labelKey": "ui.retry",
+      "minimumTargetCssPx": 44,
+      "highContrast": true,
+      "pngSha256": "6822cfd9d168d9dabea1cdfbf3747a4039cecb92f53bf382fb7f6ec386105412",
+      "alphaBounds": [
+        3,
+        3,
+        93,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_retry_hc.svg",
+        "png": "ui/icon_retry_hc.png"
+      },
+      "bytes": {
+        "svg": 567,
+        "png": 3626
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_home",
+      "path": "ui/icon_home.svg",
+      "pngPath": "ui/icon_home.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Dream map icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "default",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "6f28470264a35796262d93c8bca2c02dac709481808deb94748a49dfaf445704",
+      "labelKey": "ui.home",
+      "minimumTargetCssPx": 44,
+      "highContrast": false,
+      "pngSha256": "92728fd0ea3742c28e6c60958ad90c6ec09889c92238c7f52cf57eef05df06c3",
+      "alphaBounds": [
+        4,
+        4,
+        92,
+        92
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_home.svg",
+        "png": "ui/icon_home.png"
+      },
+      "bytes": {
+        "svg": 654,
+        "png": 3599
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_home_hc",
+      "path": "ui/icon_home_hc.svg",
+      "pngPath": "ui/icon_home_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Dream map icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "9e07ef1257ed6d95813d2c8ec2125fb285c42d6f6c83916290f52e0b52eae3f8",
+      "labelKey": "ui.home",
+      "minimumTargetCssPx": 44,
+      "highContrast": true,
+      "pngSha256": "103719cb10ffdb1aaf6bbdbeb36bf11c0b8e8d802428777e30fd8f984d83a37e",
+      "alphaBounds": [
+        3,
+        3,
+        93,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_home_hc.svg",
+        "png": "ui/icon_home_hc.png"
+      },
+      "bytes": {
+        "svg": 534,
+        "png": 2507
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_help",
+      "path": "ui/icon_help.svg",
+      "pngPath": "ui/icon_help.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Help icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "default",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "f32874e26b7a070bb327fd1e678d539af6805f68a47830b014187f6cf8524007",
+      "labelKey": "ui.help",
+      "minimumTargetCssPx": 44,
+      "highContrast": false,
+      "pngSha256": "dd2156aca9fc365e9471b6a1fce4a99bad43fcdb1b0de05090facb97d7f4a577",
+      "alphaBounds": [
+        4,
+        4,
+        92,
+        92
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_help.svg",
+        "png": "ui/icon_help.png"
+      },
+      "bytes": {
+        "svg": 702,
+        "png": 6112
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_help_hc",
+      "path": "ui/icon_help_hc.svg",
+      "pngPath": "ui/icon_help_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Help icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "fea4706cbf514ae93d1487fa8778517f7ce17f4579ee4a4d675d043fa0f8d392",
+      "labelKey": "ui.help",
+      "minimumTargetCssPx": 44,
+      "highContrast": true,
+      "pngSha256": "995c67e4ed4995adbbfb64cd6068f325338d9d55a5e787c1021d887d4c7de982",
+      "alphaBounds": [
+        3,
+        3,
+        93,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_help_hc.svg",
+        "png": "ui/icon_help_hc.png"
+      },
+      "bytes": {
+        "svg": 582,
+        "png": 4401
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_contrast",
+      "path": "ui/icon_contrast.svg",
+      "pngPath": "ui/icon_contrast.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "High contrast icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "default",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "3183e8a280884c6c48c1af1d48029200dff211ff2a59e6d01a3adb0f73a388e6",
+      "labelKey": "ui.contrast",
+      "minimumTargetCssPx": 44,
+      "highContrast": false,
+      "pngSha256": "6132d49f5fd0c016c8772412d1bb1332547eda84217d0900454f239cb92a5c2f",
+      "alphaBounds": [
+        4,
+        4,
+        92,
+        92
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_contrast.svg",
+        "png": "ui/icon_contrast.png"
+      },
+      "bytes": {
+        "svg": 573,
+        "png": 4480
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_contrast_hc",
+      "path": "ui/icon_contrast_hc.svg",
+      "pngPath": "ui/icon_contrast_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "High contrast icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "0d282e43bd4a1277f2c9cf3c4a6f83742e527258eec432fc133abea2e7903efb",
+      "labelKey": "ui.contrast",
+      "minimumTargetCssPx": 44,
+      "highContrast": true,
+      "pngSha256": "1e7383323dd3dfe9ca3c4caa6366ea50de8d86da7c322e42518e86d8e2ec62ca",
+      "alphaBounds": [
+        3,
+        3,
+        93,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_contrast_hc.svg",
+        "png": "ui/icon_contrast_hc.png"
+      },
+      "bytes": {
+        "svg": 453,
+        "png": 3244
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_reduced_motion",
+      "path": "ui/icon_reduced_motion.svg",
+      "pngPath": "ui/icon_reduced_motion.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Reduced motion icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "default",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "2cca8b18bd042a7f9512a4288fef71097044573e65440ffd9d0f05b5bf9b7773",
+      "labelKey": "ui.reduced_motion",
+      "minimumTargetCssPx": 44,
+      "highContrast": false,
+      "pngSha256": "188b648d43355e9acabaa1c7bfed63b74b4d01e8a89c73e9163c2ad0ea8e7462",
+      "alphaBounds": [
+        4,
+        4,
+        92,
+        92
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_reduced_motion.svg",
+        "png": "ui/icon_reduced_motion.png"
+      },
+      "bytes": {
+        "svg": 717,
+        "png": 3062
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "icon_reduced_motion_hc",
+      "path": "ui/icon_reduced_motion_hc.svg",
+      "pngPath": "ui/icon_reduced_motion_hc.png",
+      "width": 96,
+      "height": 96,
+      "viewBox": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Reduced motion icon. Pair with real DOM label and keyboard-accessible control.",
+      "state": "high-contrast",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "83e5c94260c57540de60975eba1294241a9c7043b08fd583039690fef5025d7d",
+      "labelKey": "ui.reduced_motion",
+      "minimumTargetCssPx": 44,
+      "highContrast": true,
+      "pngSha256": "63717e885edd1d12cb0fc05d0709b2a4f82c0e625e0bfc74029767c888826e31",
+      "alphaBounds": [
+        3,
+        3,
+        93,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/icon_reduced_motion_hc.svg",
+        "png": "ui/icon_reduced_motion_hc.png"
+      },
+      "bytes": {
+        "svg": 597,
+        "png": 2046
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "button_normal",
+      "path": "ui/button_normal.svg",
+      "pngPath": "ui/button_normal.png",
+      "width": 384,
+      "height": 112,
+      "viewBox": [
+        0,
+        0,
+        384,
+        112
+      ],
+      "anchors": {
+        "labelCenter": [
+          192,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Nine-slice surface. Keep DOM text and focus/disabled semantics outside this image.",
+      "state": "normal",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "d41807f738c0ac29f2415d03550cd41dd630a2ecfad6496bb0e59a7f89bf9302",
+      "nineSlice": [
+        34,
+        30,
+        34,
+        29
+      ],
+      "minimumActionHeightCssPx": 72,
+      "stateShape": "raised edge",
+      "pngSha256": "8bbb8c0d78bb0d02ae6753981ffecbcc0f45c6685453a12358b35302c096253f",
+      "alphaBounds": [
+        13,
+        8,
+        371,
+        100
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/button_normal.svg",
+        "png": "ui/button_normal.png"
+      },
+      "bytes": {
+        "svg": 557,
+        "png": 3420
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "button_pressed",
+      "path": "ui/button_pressed.svg",
+      "pngPath": "ui/button_pressed.png",
+      "width": 384,
+      "height": 112,
+      "viewBox": [
+        0,
+        0,
+        384,
+        112
+      ],
+      "anchors": {
+        "labelCenter": [
+          192,
+          55
+        ]
+      },
+      "scene": "shared",
+      "usage": "Nine-slice surface. Keep DOM text and focus/disabled semantics outside this image.",
+      "state": "pressed",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "72861573a0f1a1f21c5432623224855f20c3e799f496cfcd45fb300d8fd916bf",
+      "nineSlice": [
+        34,
+        30,
+        34,
+        29
+      ],
+      "minimumActionHeightCssPx": 72,
+      "stateShape": "inset line and downward offset",
+      "pngSha256": "7e340c20dfa4d68902f65d1ea7c6ae5b2d7618e5109d15059dd981342034de29",
+      "alphaBounds": [
+        13,
+        15,
+        371,
+        95
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/button_pressed.svg",
+        "png": "ui/button_pressed.png"
+      },
+      "bytes": {
+        "svg": 550,
+        "png": 2929
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "button_focus",
+      "path": "ui/button_focus.svg",
+      "pngPath": "ui/button_focus.png",
+      "width": 384,
+      "height": 112,
+      "viewBox": [
+        0,
+        0,
+        384,
+        112
+      ],
+      "anchors": {
+        "labelCenter": [
+          192,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Nine-slice surface. Keep DOM text and focus/disabled semantics outside this image.",
+      "state": "focus",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "fda6811f56621734862a5c4e045c5d47ec6d93b1356ed54d1a296b658fd54b17",
+      "nineSlice": [
+        34,
+        30,
+        34,
+        29
+      ],
+      "minimumActionHeightCssPx": 72,
+      "stateShape": "double outer outline",
+      "pngSha256": "91f525c57cfef07d9310a644a523692b3f0cb99a70f447142fe98f9b2dbff231",
+      "alphaBounds": [
+        2,
+        0,
+        382,
+        107
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/button_focus.svg",
+        "png": "ui/button_focus.png"
+      },
+      "bytes": {
+        "svg": 753,
+        "png": 6762
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "button_disabled",
+      "path": "ui/button_disabled.svg",
+      "pngPath": "ui/button_disabled.png",
+      "width": 384,
+      "height": 112,
+      "viewBox": [
+        0,
+        0,
+        384,
+        112
+      ],
+      "anchors": {
+        "labelCenter": [
+          192,
+          48
+        ]
+      },
+      "scene": "shared",
+      "usage": "Nine-slice surface. Keep DOM text and focus/disabled semantics outside this image.",
+      "state": "disabled",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "7f3b2b34686c41c94a597f30e654ec55e88068388a95ddc5951609cc9513da06",
+      "nineSlice": [
+        34,
+        30,
+        34,
+        29
+      ],
+      "minimumActionHeightCssPx": 72,
+      "stateShape": "dashed edge and hatch caps",
+      "pngSha256": "7e827ce8992b850db27c641befce9b5f1bba99f229475f5474155d2d627dfc36",
+      "alphaBounds": [
+        13,
+        8,
+        371,
+        88
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/button_disabled.svg",
+        "png": "ui/button_disabled.png"
+      },
+      "bytes": {
+        "svg": 1048,
+        "png": 3670
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "feedback_knot_success",
+      "path": "ui/feedback_knot_success.svg",
+      "pngPath": "ui/feedback_knot_success.png",
+      "width": 128,
+      "height": 128,
+      "viewBox": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "anchors": {
+        "center": [
+          64,
+          64
+        ]
+      },
+      "scene": "shared",
+      "usage": "Closed linked knot + check for success; separated frayed strands + exclamation for miss.",
+      "state": "success",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "f00e325834de4d654e65c74e573464065ed279d2c3c721fe57e42683c383ae82",
+      "labelKey": "ui.feedback.success",
+      "pngSha256": "6854f7ddd849da804844bb5d6a6e110715ad680f863cde23547e62db8f6a0cde",
+      "alphaBounds": [
+        7,
+        32,
+        121,
+        95
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/feedback_knot_success.svg",
+        "png": "ui/feedback_knot_success.png"
+      },
+      "bytes": {
+        "svg": 746,
+        "png": 6607
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "feedback_knot_miss",
+      "path": "ui/feedback_knot_miss.svg",
+      "pngPath": "ui/feedback_knot_miss.png",
+      "width": 128,
+      "height": 128,
+      "viewBox": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "anchors": {
+        "center": [
+          64,
+          64
+        ]
+      },
+      "scene": "shared",
+      "usage": "Closed linked knot + check for success; separated frayed strands + exclamation for miss.",
+      "state": "miss",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "be028dd5b590fd8ea2f4caee699867f0398c8de75a24302d68d146da1865dd39",
+      "labelKey": "ui.feedback.miss",
+      "pngSha256": "9828341bd5dfc8cdb8b93fecf78910b306d048b1606170b39937c39d7e5c24b9",
+      "alphaBounds": [
+        7,
+        29,
+        121,
+        93
+      ],
+      "category": "ui",
+      "representationPaths": {
+        "svg": "ui/feedback_knot_miss.svg",
+        "png": "ui/feedback_knot_miss.png"
+      },
+      "bytes": {
+        "svg": 773,
+        "png": 5059
+      },
+      "rightsStatus": "owned",
+      "sourceRevision": "design-1.0/2026-10-18",
+      "originalSourceId": null,
+      "sourceUrl": null,
+      "correctionNotes": "Deterministic vector; do not derive musical timing from artwork pixels.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "notApplicable",
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "reviewer": "automated geometry checks + assistant static visual inspection",
+      "reviewedAt": "2026-10-18",
+      "releaseApproved": false,
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "education_duration",
+      "path": "education/education_duration.svg",
+      "pngPath": "education/education_duration.png",
+      "width": 1024,
+      "height": 640,
+      "viewBox": [
+        0,
+        0,
+        1024,
+        640
+      ],
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "scene": "education",
+      "usage": "8분·4분·2분 길이는 같은 작은 칸 1·2·4개입니다. 한 칸은 240 tick이며 실제 초는 빠르기에 따라 달라집니다.",
+      "state": "review-pending",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "95e337d06ba7d5bff33ebe73aeba1ab65d734265b96144958d306283d7dc43f9",
+      "labelKey": "education.duration",
+      "conceptId": "duration",
+      "originalSourceId": [
+        "004"
+      ],
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0 / 2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNote": "Original diagram composition and geometry; font outlines separately licensed. No source textbook image copied.",
+      "correctionNotes": "8분·4분·2분 길이는 같은 작은 칸 1·2·4개입니다. 한 칸은 240 tick이며 실제 초는 빠르기에 따라 달라집니다.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "passed",
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "releaseApproved": false,
+      "validationData": {
+        "ppq": 480,
+        "unitTicks": 240,
+        "lengths": [
+          240,
+          480,
+          960
+        ],
+        "equalUnitPx": 112,
+        "ratios": [
+          1,
+          2,
+          4
+        ]
+      },
+      "audience": "development review; requires human educational approval before release",
+      "pngSha256": "53ecacad053ba2dcb6fdc35b844a441c9878cb68ffc17ecbaa7b03b198c509d1",
+      "alphaBounds": [
+        10,
+        10,
+        1014,
+        630
+      ],
+      "category": "education",
+      "representationPaths": {
+        "svg": "education/education_duration.svg",
+        "png": "education/education_duration.png"
+      },
+      "bytes": {
+        "svg": 2902,
+        "png": 16131
+      },
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "education_duration_advanced",
+      "path": "education/education_duration_advanced.svg",
+      "pngPath": "education/education_duration_advanced.png",
+      "width": 1024,
+      "height": 640,
+      "viewBox": [
+        0,
+        0,
+        1024,
+        640
+      ],
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "scene": "education",
+      "usage": "8분·4분·2분 길이는 같은 작은 칸 1·2·4개입니다. 한 칸은 240 tick이며 실제 초는 빠르기에 따라 달라집니다.",
+      "state": "review-pending",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "b9b3602c8c5389a8e1a0690e3bdbd4cedd1b5e92770834da63da0029f2f5b1e8",
+      "labelKey": "education.duration",
+      "conceptId": "duration",
+      "originalSourceId": [
+        "004"
+      ],
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0 / 2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNote": "Original diagram composition and geometry; font outlines separately licensed. No source textbook image copied.",
+      "correctionNotes": "8분·4분·2분 길이는 같은 작은 칸 1·2·4개입니다. 한 칸은 240 tick이며 실제 초는 빠르기에 따라 달라집니다.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "passed",
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "releaseApproved": false,
+      "validationData": {
+        "ppq": 480,
+        "unitTicks": 240,
+        "lengths": [
+          240,
+          480,
+          960
+        ],
+        "equalUnitPx": 112,
+        "ratios": [
+          1,
+          2,
+          4
+        ]
+      },
+      "audience": "development review; requires human educational approval before release",
+      "advancedOnly": true,
+      "variantOf": "education_duration",
+      "pngSha256": "f076c5f86d936fcb055f09f62e005fe0b0fa5d9273467db103e32e1c7d86ba69",
+      "alphaBounds": [
+        10,
+        10,
+        1014,
+        630
+      ],
+      "category": "education",
+      "representationPaths": {
+        "svg": "education/education_duration_advanced.svg",
+        "png": "education/education_duration_advanced.png"
+      },
+      "bytes": {
+        "svg": 6804,
+        "png": 23665
+      },
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "education_tie",
+      "path": "education/education_tie.svg",
+      "pngPath": "education/education_tie.png",
+      "width": 1024,
+      "height": 640,
+      "viewBox": [
+        0,
+        0,
+        1024,
+        640
+      ],
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "scene": "education",
+      "usage": "위는 같은 C5의 4분+4분 붙임줄로 960 tick, 아래는 L03의 실제 마디선을 넘는 4분+2분 발췌로 1440 tick입니다. 두 경우 중간에 새로 누르지 않습니다.",
+      "state": "review-pending",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "43e2b1e6f321be84f36f25fde73d052ccb925b4be8c078427b8410e2a9a30f2a",
+      "labelKey": "education.tie",
+      "conceptId": "tie",
+      "originalSourceId": [
+        "017"
+      ],
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0 / 2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNote": "Original diagram composition and geometry; font outlines separately licensed. No source textbook image copied.",
+      "correctionNotes": "위는 같은 C5의 4분+4분 붙임줄로 960 tick, 아래는 L03의 실제 마디선을 넘는 4분+2분 발췌로 1440 tick입니다. 두 경우 중간에 새로 누르지 않습니다.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "passed",
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "releaseApproved": false,
+      "validationData": {
+        "samePitch": "C5",
+        "midi": 72,
+        "L02": {
+          "ticks": [
+            480,
+            480
+          ],
+          "total": 960,
+          "attackCount": 1
+        },
+        "L03": {
+          "absoluteStart": 1440,
+          "barline": 1920,
+          "absoluteEnd": 2880,
+          "ticks": [
+            480,
+            960
+          ],
+          "total": 1440,
+          "attackCount": 1
+        }
+      },
+      "audience": "development review; requires human educational approval before release",
+      "pngSha256": "aa79d5aa890dc2a18b8b024509ef2b7c345f2faf70cd3fd6dd188fcb1a195af9",
+      "alphaBounds": [
+        10,
+        10,
+        1014,
+        630
+      ],
+      "category": "education",
+      "representationPaths": {
+        "svg": "education/education_tie.svg",
+        "png": "education/education_tie.png"
+      },
+      "bytes": {
+        "svg": 7972,
+        "png": 34902
+      },
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "education_tie_advanced",
+      "path": "education/education_tie_advanced.svg",
+      "pngPath": "education/education_tie_advanced.png",
+      "width": 1024,
+      "height": 640,
+      "viewBox": [
+        0,
+        0,
+        1024,
+        640
+      ],
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "scene": "education",
+      "usage": "위는 같은 C5의 4분+4분 붙임줄로 960 tick, 아래는 L03의 실제 마디선을 넘는 4분+2분 발췌로 1440 tick입니다. 두 경우 중간에 새로 누르지 않습니다.",
+      "state": "review-pending",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "9443c6971b655ebb03465ef31bc7f446c1e8c459e273de2ccb7b5ec54551d893",
+      "labelKey": "education.tie",
+      "conceptId": "tie",
+      "originalSourceId": [
+        "017"
+      ],
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0 / 2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNote": "Original diagram composition and geometry; font outlines separately licensed. No source textbook image copied.",
+      "correctionNotes": "위는 같은 C5의 4분+4분 붙임줄로 960 tick, 아래는 L03의 실제 마디선을 넘는 4분+2분 발췌로 1440 tick입니다. 두 경우 중간에 새로 누르지 않습니다.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "passed",
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "releaseApproved": false,
+      "validationData": {
+        "samePitch": "C5",
+        "midi": 72,
+        "L02": {
+          "ticks": [
+            480,
+            480
+          ],
+          "total": 960,
+          "attackCount": 1
+        },
+        "L03": {
+          "absoluteStart": 1440,
+          "barline": 1920,
+          "absoluteEnd": 2880,
+          "ticks": [
+            480,
+            960
+          ],
+          "total": 1440,
+          "attackCount": 1
+        }
+      },
+      "audience": "development review; requires human educational approval before release",
+      "advancedOnly": true,
+      "variantOf": "education_tie",
+      "pngSha256": "2d298beba86d6679e559386580c52b873e0f11703e18083f2ac43fd1701b3008",
+      "alphaBounds": [
+        10,
+        10,
+        1014,
+        630
+      ],
+      "category": "education",
+      "representationPaths": {
+        "svg": "education/education_tie_advanced.svg",
+        "png": "education/education_tie_advanced.png"
+      },
+      "bytes": {
+        "svg": 17076,
+        "png": 47460
+      },
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "education_dot",
+      "path": "education/education_dot.svg",
+      "pngPath": "education/education_dot.png",
+      "width": 1024,
+      "height": 640,
+      "viewBox": [
+        0,
+        0,
+        1024,
+        640
+      ],
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "scene": "education",
+      "usage": "4분음표 두 칸 480 tick에 그 절반인 한 칸 240 tick을 더해 점4분음표 세 칸 720 tick이 됩니다. 점을 언제나 반박이라고 부르지 않습니다.",
+      "state": "review-pending",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "1854de2a38cd06423242055672a454b902fe1c6cdbcd827a5e37c1e39eab6b83",
+      "labelKey": "education.dot",
+      "conceptId": "dot",
+      "originalSourceId": [
+        "006"
+      ],
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0 / 2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNote": "Original diagram composition and geometry; font outlines separately licensed. No source textbook image copied.",
+      "correctionNotes": "4분음표 두 칸 480 tick에 그 절반인 한 칸 240 tick을 더해 점4분음표 세 칸 720 tick이 됩니다. 점을 언제나 반박이라고 부르지 않습니다.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "passed",
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "releaseApproved": false,
+      "validationData": {
+        "baseTicks": 480,
+        "additionTicks": 240,
+        "dottedTicks": 720,
+        "unitWidth": 80,
+        "fillHeight": 74,
+        "areas": [
+          11840,
+          5920,
+          17760
+        ],
+        "areaRatio": [
+          2,
+          1,
+          3
+        ]
+      },
+      "audience": "development review; requires human educational approval before release",
+      "pngSha256": "d5b76700d5458aa3fafe520933e2eac97ee8e8bf4aee4a4b3b6f344c56eb3688",
+      "alphaBounds": [
+        10,
+        10,
+        1014,
+        630
+      ],
+      "category": "education",
+      "representationPaths": {
+        "svg": "education/education_dot.svg",
+        "png": "education/education_dot.png"
+      },
+      "bytes": {
+        "svg": 5272,
+        "png": 17782
+      },
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "education_dot_advanced",
+      "path": "education/education_dot_advanced.svg",
+      "pngPath": "education/education_dot_advanced.png",
+      "width": 1024,
+      "height": 640,
+      "viewBox": [
+        0,
+        0,
+        1024,
+        640
+      ],
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "scene": "education",
+      "usage": "4분음표 두 칸 480 tick에 그 절반인 한 칸 240 tick을 더해 점4분음표 세 칸 720 tick이 됩니다. 점을 언제나 반박이라고 부르지 않습니다.",
+      "state": "review-pending",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "bd58c418ce39ccf324cc7453dad1f41c17d6566061f96a0521159e8ba3ee2ca7",
+      "labelKey": "education.dot",
+      "conceptId": "dot",
+      "originalSourceId": [
+        "006"
+      ],
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0 / 2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNote": "Original diagram composition and geometry; font outlines separately licensed. No source textbook image copied.",
+      "correctionNotes": "4분음표 두 칸 480 tick에 그 절반인 한 칸 240 tick을 더해 점4분음표 세 칸 720 tick이 됩니다. 점을 언제나 반박이라고 부르지 않습니다.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "passed",
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "releaseApproved": false,
+      "validationData": {
+        "baseTicks": 480,
+        "additionTicks": 240,
+        "dottedTicks": 720,
+        "unitWidth": 80,
+        "fillHeight": 74,
+        "areas": [
+          11840,
+          5920,
+          17760
+        ],
+        "areaRatio": [
+          2,
+          1,
+          3
+        ]
+      },
+      "audience": "development review; requires human educational approval before release",
+      "advancedOnly": true,
+      "variantOf": "education_dot",
+      "pngSha256": "b4a66698ad84c25f3aa8492ba42216a55058b5d9c45f3f6b77485f23c1b29e9f",
+      "alphaBounds": [
+        10,
+        10,
+        1014,
+        630
+      ],
+      "category": "education",
+      "representationPaths": {
+        "svg": "education/education_dot_advanced.svg",
+        "png": "education/education_dot_advanced.png"
+      },
+      "bytes": {
+        "svg": 9139,
+        "png": 24687
+      },
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "education_dotted_rest",
+      "path": "education/education_dotted_rest.svg",
+      "pngPath": "education/education_dotted_rest.png",
+      "width": 1024,
+      "height": 640,
+      "viewBox": [
+        0,
+        0,
+        1024,
+        640
+      ],
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "scene": "education",
+      "usage": "L05 첫 마디: 6/8에서 점4분쉼표 720 tick 뒤 C5·D5·E5 8분음표 세 개입니다. 첫 세 작은 칸은 담당 성부만 쉬고, 반주와 작은 박은 계속 갑니다.",
+      "state": "review-pending",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "523ac67a32009d03066ac5ff4b3715e22940d4b1e73b669f9c5540df2e4acb23",
+      "labelKey": "education.dotted_rest",
+      "conceptId": "dotted-rest",
+      "originalSourceId": [
+        "007",
+        "032-3"
+      ],
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0 / 2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNote": "Original diagram composition and geometry; font outlines separately licensed. No source textbook image copied.",
+      "correctionNotes": "L05 첫 마디: 6/8에서 점4분쉼표 720 tick 뒤 C5·D5·E5 8분음표 세 개입니다. 첫 세 작은 칸은 담당 성부만 쉬고, 반주와 작은 박은 계속 갑니다.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "passed",
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "releaseApproved": false,
+      "validationData": {
+        "level": "L05",
+        "bar": 0,
+        "meter": [
+          6,
+          8
+        ],
+        "groups": [
+          3,
+          3
+        ],
+        "eventTicks": [
+          720,
+          240,
+          240,
+          240
+        ],
+        "restTicks": 720,
+        "noteTicks": [
+          240,
+          240,
+          240
+        ],
+        "totalTicks": 1440,
+        "unitWidth": 116
+      },
+      "audience": "development review; requires human educational approval before release",
+      "pngSha256": "c8e751cbb6d0cde3b1360c22abaf7d68f2062baa17507804a3744f8addd98d6e",
+      "alphaBounds": [
+        10,
+        10,
+        1014,
+        630
+      ],
+      "category": "education",
+      "representationPaths": {
+        "svg": "education/education_dotted_rest.svg",
+        "png": "education/education_dotted_rest.png"
+      },
+      "bytes": {
+        "svg": 7586,
+        "png": 28518
+      },
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "education_dotted_rest_advanced",
+      "path": "education/education_dotted_rest_advanced.svg",
+      "pngPath": "education/education_dotted_rest_advanced.png",
+      "width": 1024,
+      "height": 640,
+      "viewBox": [
+        0,
+        0,
+        1024,
+        640
+      ],
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "scene": "education",
+      "usage": "L05 첫 마디: 6/8에서 점4분쉼표 720 tick 뒤 C5·D5·E5 8분음표 세 개입니다. 첫 세 작은 칸은 담당 성부만 쉬고, 반주와 작은 박은 계속 갑니다.",
+      "state": "review-pending",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "733aeda9df20fea3711f449a9f1f91a9c82bd841a1e669b47edd296189381085",
+      "labelKey": "education.dotted_rest",
+      "conceptId": "dotted-rest",
+      "originalSourceId": [
+        "007",
+        "032-3"
+      ],
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0 / 2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNote": "Original diagram composition and geometry; font outlines separately licensed. No source textbook image copied.",
+      "correctionNotes": "L05 첫 마디: 6/8에서 점4분쉼표 720 tick 뒤 C5·D5·E5 8분음표 세 개입니다. 첫 세 작은 칸은 담당 성부만 쉬고, 반주와 작은 박은 계속 갑니다.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "passed",
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "releaseApproved": false,
+      "validationData": {
+        "level": "L05",
+        "bar": 0,
+        "meter": [
+          6,
+          8
+        ],
+        "groups": [
+          3,
+          3
+        ],
+        "eventTicks": [
+          720,
+          240,
+          240,
+          240
+        ],
+        "restTicks": 720,
+        "noteTicks": [
+          240,
+          240,
+          240
+        ],
+        "totalTicks": 1440,
+        "unitWidth": 116
+      },
+      "audience": "development review; requires human educational approval before release",
+      "advancedOnly": true,
+      "variantOf": "education_dotted_rest",
+      "pngSha256": "4be8638b2743adb378ca08f53989081bcc83106c103c2b87ce490be561e8b176",
+      "alphaBounds": [
+        10,
+        10,
+        1014,
+        630
+      ],
+      "category": "education",
+      "representationPaths": {
+        "svg": "education/education_dotted_rest_advanced.svg",
+        "png": "education/education_dotted_rest_advanced.png"
+      },
+      "bytes": {
+        "svg": 12169,
+        "png": 35292
+      },
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "education_meter",
+      "path": "education/education_meter.svg",
+      "pngPath": "education/education_meter.png",
+      "width": 1024,
+      "height": 640,
+      "viewBox": [
+        0,
+        0,
+        1024,
+        640
+      ],
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "scene": "education",
+      "usage": "3/4는 2+2+2로 세 큰박, 6/8은 이 수업에서 3+3으로 두 큰박입니다. 두 레벨은 모두 quarterBpm=90이므로 8분음표 길이와 여섯 번 입력은 같습니다.",
+      "state": "review-pending",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "49fecd29a9d38e2c61c64c0a873ed13def401da344e2c937c106a1e9eed17f95",
+      "labelKey": "education.meter",
+      "conceptId": "meter",
+      "originalSourceId": [
+        "032-3"
+      ],
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0 / 2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNote": "Original diagram composition and geometry; font outlines separately licensed. No source textbook image copied.",
+      "correctionNotes": "3/4는 2+2+2로 세 큰박, 6/8은 이 수업에서 3+3으로 두 큰박입니다. 두 레벨은 모두 quarterBpm=90이므로 8분음표 길이와 여섯 번 입력은 같습니다.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "passed",
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "releaseApproved": false,
+      "validationData": {
+        "levels": [
+          "L06",
+          "L07"
+        ],
+        "unitTicks": 240,
+        "unitPx": 108,
+        "totalTicks": 1440,
+        "groups": [
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "quarterBpm": [
+          90,
+          90
+        ],
+        "displayTempo": [
+          {
+            "denominator": 4,
+            "dots": 0,
+            "bpm": 90
+          },
+          {
+            "denominator": 4,
+            "dots": 1,
+            "bpm": 60
+          }
+        ],
+        "eighthMs": [
+          333.3333333333333,
+          333.3333333333333
+        ]
+      },
+      "audience": "development review; requires human educational approval before release",
+      "pngSha256": "81831499486dbff471d0bb201712ad194263088400b1453656dedee245228019",
+      "alphaBounds": [
+        10,
+        10,
+        1014,
+        630
+      ],
+      "category": "education",
+      "representationPaths": {
+        "svg": "education/education_meter.svg",
+        "png": "education/education_meter.png"
+      },
+      "bytes": {
+        "svg": 14937,
+        "png": 30435
+      },
+      "runtimeAnimationQA": "notRun"
+    },
+    {
+      "assetId": "education_tempo",
+      "path": "education/education_tempo.svg",
+      "pngPath": "education/education_tempo.png",
+      "width": 1024,
+      "height": 640,
+      "viewBox": [
+        0,
+        0,
+        1024,
+        640
+      ],
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "scene": "education",
+      "usage": "L08과 L09는 같은 4/4의 8분음표·8분쉼표 네 쌍입니다. 같은 4분음표 기준 72와108 BPM에서 8분 길이는416.667 ms와277.778 ms, 한 마디는3.333 s와2.222 s입니다.",
+      "state": "review-pending",
+      "transparentOutsideArtwork": true,
+      "sourceType": "deterministic-code-native-vector",
+      "rendererVersion": "night-thread-vectors/1.0.0",
+      "svgSha256": "c6ea34070274df9389846b523838027d83c59fe22cf1abed30449813760c174d",
+      "labelKey": "education.tempo",
+      "conceptId": "tempo",
+      "originalSourceId": [
+        "004",
+        "030-1"
+      ],
+      "sourceUrl": null,
+      "sourceRevision": "design-1.0 / 2026-10-18",
+      "rightsStatus": "owned",
+      "rightsNote": "Original diagram composition and geometry; font outlines separately licensed. No source textbook image copied.",
+      "correctionNotes": "L08과 L09는 같은 4/4의 8분음표·8분쉼표 네 쌍입니다. 같은 4분음표 기준 72와108 BPM에서 8분 길이는416.667 ms와277.778 ms, 한 마디는3.333 s와2.222 s입니다.",
+      "dataHash": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "mathValidation": "passed",
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "releaseApproved": false,
+      "validationData": {
+        "levels": [
+          "L08",
+          "L09"
+        ],
+        "quarterBpm": [
+          72,
+          108
+        ],
+        "patternTicks": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240,
+          240
+        ],
+        "patternKinds": [
+          "note",
+          "rest",
+          "note",
+          "rest",
+          "note",
+          "rest",
+          "note",
+          "rest"
+        ],
+        "pitchOrder": [
+          "C5",
+          "D5",
+          "E5",
+          "G5"
+        ],
+        "quarterTempoReference": true,
+        "eighthMs": [
+          416.6666666666667,
+          277.77777777777777
+        ],
+        "barSeconds": [
+          3.3333333333333335,
+          2.2222222222222223
+        ],
+        "rulerPxPerSecond": 120
+      },
+      "audience": "development review; requires human educational approval before release",
+      "pngSha256": "f2cda249404a18cc24ddded67dc0a66938dd380446672efcaa64e6790f26fd49",
+      "alphaBounds": [
+        10,
+        10,
+        1014,
+        630
+      ],
+      "category": "education",
+      "representationPaths": {
+        "svg": "education/education_tempo.svg",
+        "png": "education/education_tempo.png"
+      },
+      "bytes": {
+        "svg": 24868,
+        "png": 38460
+      },
+      "runtimeAnimationQA": "notRun"
+    }
+  ]
+}

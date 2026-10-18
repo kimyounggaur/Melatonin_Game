@@ -1,0 +1,196 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\playwright.config.ts",
+    "rootDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [
+          "/all-levels\\.spec\\.ts/",
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "night-thread.spec.ts",
+      "file": "night-thread.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "E02 E03 E04: trusted keyboard and pointer hold/release, secondary owner ignored, pause/resume fresh count-in",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 54825,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:261:36",
+                    "location": {
+                      "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                      "column": 36,
+                      "line": 261
+                    },
+                    "snippet": "  259 |     const touchUps=inputLog.filter(e=>e.type==='pointerup'&&e.pointerType==='touch');\n  260 |     expect(touchUps).toHaveLength(2);\n> 261 |     expect(touchUps[0]!.isPrimary).toBe(false);expect(touchUps[1]!.isPrimary).toBe(true);\n      |                                    ^\n  262 |   }\n  263 |   await fs.writeFile(report(`input-owner-pause-${browserName}`),JSON.stringify({category:browserName==='chromium'?'Browser trusted keyboard + CDP multitouch controls; not physical device testing':'Browser trusted keyboard + mouse capture; multitouch not run because this browser has no CDP touch interface',initial,owner,paused,resumed,beforeSecond,afterSecond,afterRelease,final,inputLog},null,2));\n  264 | });"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                        "column": 36,
+                        "line": 261
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n\n  259 |     const touchUps=inputLog.filter(e=>e.type==='pointerup'&&e.pointerType==='touch');\n  260 |     expect(touchUps).toHaveLength(2);\n> 261 |     expect(touchUps[0]!.isPrimary).toBe(false);expect(touchUps[1]!.isPrimary).toBe(true);\n      |                                    ^\n  262 |   }\n  263 |   await fs.writeFile(report(`input-owner-pause-${browserName}`),JSON.stringify({category:browserName==='chromium'?'Browser trusted keyboard + CDP multitouch controls; not physical device testing':'Browser trusted keyboard + mouse capture; multitouch not run because this browser has no CDP touch interface',initial,owner,paused,resumed,beforeSecond,afterSecond,afterRelease,final,inputLog},null,2));\n  264 | });\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:261:36"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:20:18.835Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E02-E03-E04-t-c3cab-pause-resume-fresh-count-in-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E02-E03-E04-t-c3cab-pause-resume-fresh-count-in-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E02-E03-E04-t-c3cab-pause-resume-fresh-count-in-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                    "column": 36,
+                    "line": 261
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-1b36037b140347cb0d20",
+          "file": "night-thread.spec.ts",
+          "line": 317,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-18T16:20:18.038Z",
+    "duration": 57522.407,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

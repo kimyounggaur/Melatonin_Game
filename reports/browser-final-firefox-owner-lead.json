@@ -1,0 +1,197 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\playwright.config.ts",
+    "rootDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [
+          "/all-levels\\.spec\\.ts/",
+          "/webkit-static\\.spec\\.ts/",
+          "/calibration\\.spec\\.ts/"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "night-thread.spec.ts",
+      "file": "night-thread.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "E02 E03 E04: trusted keyboard and pointer hold/release, secondary owner ignored, pause/resume fresh count-in",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 55966,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m9.5\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m9.5\u001b[39m\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:265:34",
+                    "location": {
+                      "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                      "column": 34,
+                      "line": 265
+                    },
+                    "snippet": "  263 |   await expect(page.locator('.score-number')).toBeVisible({timeout:15_000});\n  264 |   const final=await status(page);\n> 265 |   expect(final.snapshot?.earned).toBe(12);expect(final.snapshot?.score).toBe(100);expect(final.snapshot?.extra).toBe(0);\n      |                                  ^\n  266 |   await page.screenshot({path:artifact(`browser-${browserName}-L02-positive-result.png`),fullPage:true});\n  267 |   const inputLog=await page.evaluate(()=>window.__browserInputLog);\n  268 |   expect(inputLog.filter(e=>e.type==='pointerdown'||e.type==='pointerup').every(e=>e.trusted)).toBe(true);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                        "column": 34,
+                        "line": 265
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m9.5\u001b[39m\n\n  263 |   await expect(page.locator('.score-number')).toBeVisible({timeout:15_000});\n  264 |   const final=await status(page);\n> 265 |   expect(final.snapshot?.earned).toBe(12);expect(final.snapshot?.score).toBe(100);expect(final.snapshot?.extra).toBe(0);\n      |                                  ^\n  266 |   await page.screenshot({path:artifact(`browser-${browserName}-L02-positive-result.png`),fullPage:true});\n  267 |   const inputLog=await page.evaluate(()=>window.__browserInputLog);\n  268 |   expect(inputLog.filter(e=>e.type==='pointerdown'||e.type==='pointerup').every(e=>e.trusted)).toBe(true);\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:265:34"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:52:02.303Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E02-E03-E04-t-c3cab-pause-resume-fresh-count-in-firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E02-E03-E04-t-c3cab-pause-resume-fresh-count-in-firefox\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E02-E03-E04-t-c3cab-pause-resume-fresh-count-in-firefox\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                    "column": 34,
+                    "line": 265
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-2f79a4f146a514baaed6",
+          "file": "night-thread.spec.ts",
+          "line": 330,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-18T16:52:01.355Z",
+    "duration": 58829.877,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

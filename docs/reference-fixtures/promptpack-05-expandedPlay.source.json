@@ -1,0 +1,98 @@
+{
+  "fixtureKind": "expandedPlay",
+  "levelId": "L02",
+  "phase": "PLAY",
+  "repetitions": 4,
+  "playOriginAudioSec": 10,
+  "countInTicks": 1920,
+  "playTicks": 7680,
+  "playSecondsFraction": [
+    40,
+    3
+  ],
+  "N": 12,
+  "expectedGuideLeadAttacksInPlay": 0,
+  "expectedPlayerAttacksForPerfectInput": 8,
+  "expectations": [
+    {
+      "occurrenceId": "L02:PLAY:0:a",
+      "phraseId": "L02:PLAY:0",
+      "onsetTick": 0,
+      "endTick": 960,
+      "interaction": "hold",
+      "pitchMidi": 72,
+      "tieBoundaryTicks": [
+        480
+      ]
+    },
+    {
+      "occurrenceId": "L02:PLAY:0:d",
+      "phraseId": "L02:PLAY:0",
+      "onsetTick": 1440,
+      "endTick": 1680,
+      "interaction": "tap",
+      "pitchMidi": 76,
+      "tieBoundaryTicks": []
+    },
+    {
+      "occurrenceId": "L02:PLAY:1:a",
+      "phraseId": "L02:PLAY:1",
+      "onsetTick": 1920,
+      "endTick": 2880,
+      "interaction": "hold",
+      "pitchMidi": 72,
+      "tieBoundaryTicks": [
+        2400
+      ]
+    },
+    {
+      "occurrenceId": "L02:PLAY:1:d",
+      "phraseId": "L02:PLAY:1",
+      "onsetTick": 3360,
+      "endTick": 3600,
+      "interaction": "tap",
+      "pitchMidi": 76,
+      "tieBoundaryTicks": []
+    },
+    {
+      "occurrenceId": "L02:PLAY:2:a",
+      "phraseId": "L02:PLAY:2",
+      "onsetTick": 3840,
+      "endTick": 4800,
+      "interaction": "hold",
+      "pitchMidi": 72,
+      "tieBoundaryTicks": [
+        4320
+      ]
+    },
+    {
+      "occurrenceId": "L02:PLAY:2:d",
+      "phraseId": "L02:PLAY:2",
+      "onsetTick": 5280,
+      "endTick": 5520,
+      "interaction": "tap",
+      "pitchMidi": 76,
+      "tieBoundaryTicks": []
+    },
+    {
+      "occurrenceId": "L02:PLAY:3:a",
+      "phraseId": "L02:PLAY:3",
+      "onsetTick": 5760,
+      "endTick": 6720,
+      "interaction": "hold",
+      "pitchMidi": 72,
+      "tieBoundaryTicks": [
+        6240
+      ]
+    },
+    {
+      "occurrenceId": "L02:PLAY:3:d",
+      "phraseId": "L02:PLAY:3",
+      "onsetTick": 7200,
+      "endTick": 7440,
+      "interaction": "tap",
+      "pitchMidi": 76,
+      "tieBoundaryTicks": []
+    }
+  ]
+}

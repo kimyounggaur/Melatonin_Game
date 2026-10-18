@@ -1,0 +1,280 @@
+{
+  "purpose": "Read-only source excerpt and parsed-equivalent test oracle archive; not implementation-derived expected values",
+  "files": [
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### A1. Draft2020-12 Level schema",
+      "sourceLine": 932,
+      "fixtureKind": "level-schema",
+      "sourceFile": "promptpack-01-level-schema.source.json",
+      "parsedFile": "promptpack-01-level-schema.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "412439879271fae832933059a490f74d6eae0848faa7fb2e3ac05cc6b0128c5a",
+      "parsedSha256": "da8fb9a730d4594aba1ecfcd51b9de376b0286ca4e4efcb8f126bfb23da72827"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### A2. 정규 Level 배열 전체",
+      "sourceLine": 1207,
+      "fixtureKind": "level-array",
+      "sourceFile": "promptpack-02-level-array.source.json",
+      "parsedFile": "promptpack-02-level-array.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "d7b608c79ca28214329607b1ea4773d6c810b269f2ce23ccfb9e18a1e1c2c6ce",
+      "parsedSha256": "2182f2d8df3baa6db1c8d472b358dbe33a17401e465c629818e3269f706a3229"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### B3. PNG 폴백 경로",
+      "sourceLine": 2316,
+      "fixtureKind": "runtimeRasterFallbacks",
+      "sourceFile": "promptpack-03-runtimeRasterFallbacks.source.json",
+      "parsedFile": "promptpack-03-runtimeRasterFallbacks.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "80ac1964f9b0c1adb3f38d4684579826c1b2f22f4291160a11d1528ba70a9c72",
+      "parsedSha256": "7f74bc11fdc7455b266214bd94082f3d3c29d1a88370968f585c9ef2e59b1dcf"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### C1. 9레벨 golden 결과",
+      "sourceLine": 2549,
+      "fixtureKind": "compiledLevelGolden",
+      "sourceFile": "promptpack-04-compiledLevelGolden.source.json",
+      "parsedFile": "promptpack-04-compiledLevelGolden.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "58b644a9722627effc06e7b7afcd97b4ce2daa0dc1d98e37f125b01021131aa7",
+      "parsedSha256": "a2d56e8bb2ffe7be58efb101ca8dd90a5df9013f3abbabf9d9efb3616233ddaa"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### C2. L02 PLAY4회 완전 확장",
+      "sourceLine": 3242,
+      "fixtureKind": "expandedPlay",
+      "sourceFile": "promptpack-05-expandedPlay.source.json",
+      "parsedFile": "promptpack-05-expandedPlay.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "b95dbf5fa4678ed604a45fd15ffe515e7e685b536e63acd204296800023aa642",
+      "parsedSha256": "94546a7d4fe00055c997d168a71495c7fef9fca96a93c9723c415ff37454a740"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### D1. window 계산 오라클",
+      "sourceLine": 3360,
+      "fixtureKind": "judgeWindows",
+      "sourceFile": "promptpack-06-judgeWindows.source.json",
+      "parsedFile": "promptpack-06-judgeWindows.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "bd04bf71eeb1e48456ce3b11b67421d75de9d80929f52a209bc62f9a7c465f72",
+      "parsedSha256": "f2b3a62ed70ca1f6f8c7ba9abe4033a3b84baf15fe7f01e7dd3c0ab2e689325b"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### D1. window 계산 오라클",
+      "sourceLine": 3458,
+      "fixtureKind": "judgeBoundaries",
+      "sourceFile": "promptpack-07-judgeBoundaries.source.json",
+      "parsedFile": "promptpack-07-judgeBoundaries.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "935a8f84efaaac410f5d36792c6235447e0bb97b6594b63052e21c8898d97031",
+      "parsedSha256": "4827e0a8bfeafb93c44c7583d3272ea18d5deb59274c9a15c6bf8786d672870e"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### D1b. 정확한 반μs 부호 대칭",
+      "sourceLine": 3538,
+      "fixtureKind": "halfMicrosecondSymmetry",
+      "sourceFile": "promptpack-08-halfMicrosecondSymmetry.source.json",
+      "parsedFile": "promptpack-08-halfMicrosecondSymmetry.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "274cfe91d71da1f554fa305a1cdf4cce8ce886994f55b7cce39cf1d1938c901c",
+      "parsedSha256": "08f193737ff3a3680b813915706ba3656c406e6b3bcc7da783a49d9b94ed120e"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### D2. L02 모티프 입력 로그",
+      "sourceLine": 3560,
+      "fixtureKind": "L02InputReplay",
+      "sourceFile": "promptpack-09-L02InputReplay.source.json",
+      "parsedFile": "promptpack-09-L02InputReplay.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "d6aaaa54c6087082b15564f99136ee5a63decbb0d845da7d4f36c0d425c5cf78",
+      "parsedSha256": "371c75f874a4f43ad60985b314dc9aebf85f962dd6052cbde8a40313ac795a53"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### D3. rest·owner·dispatch 경계 사례",
+      "sourceLine": 3727,
+      "fixtureKind": "edgeCases",
+      "sourceFile": "promptpack-10-edgeCases.source.json",
+      "parsedFile": "promptpack-10-edgeCases.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "dafa3facc3ed4d9c69e1c007ad71e0812a15999c2d8c0815ce2631e4823864d1",
+      "parsedSha256": "61b3f484ebff6ecd4a20d862e9f126325451af6a4ff7f66de3bdd99570ad1341"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### D4. 보정·점수·진도·문항 계산",
+      "sourceLine": 3829,
+      "fixtureKind": "calibrationAndScore",
+      "sourceFile": "promptpack-11-calibrationAndScore.source.json",
+      "parsedFile": "promptpack-11-calibrationAndScore.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "cca69e63ffed3b9f8373dd92591d4758cfeaac7a37faabec6b95204432e032f2",
+      "parsedSha256": "77ec55a721e503fdc5097ef8e270a747df322ba45cd2b2b624fe13186344b6c8"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "## 부록 E. 잘못된 저작 데이터가 반드시 실패하는 fixture",
+      "sourceLine": 3925,
+      "fixtureKind": "invalidLevelMutations",
+      "sourceFile": "promptpack-12-invalidLevelMutations.source.json",
+      "parsedFile": "promptpack-12-invalidLevelMutations.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "ade0ca181c65c55add267f100cf3f1fa62326f3a33a4be0b7f822628bd32f3de",
+      "parsedSha256": "713b219cbb535215982fd62ea8342492912491cd3c615103dbc0d0e9bb30e480"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### F1. 레이아웃 토큰 제안",
+      "sourceLine": 4213,
+      "fixtureKind": "layoutTokens",
+      "sourceFile": "promptpack-13-layoutTokens.source.json",
+      "parsedFile": "promptpack-13-layoutTokens.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "5fa7678f0538a119c375b00ebd7ad5bedb04a07279b45faa580074ce2428609e",
+      "parsedSha256": "b9a26dd83f0243d875f6046c905c48bbaade9f0034f70aa4d874dcdde540503c"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### F2. runtime 상태 envelope 예시",
+      "sourceLine": 4298,
+      "fixtureKind": "sessionEnvelope",
+      "sourceFile": "promptpack-14-sessionEnvelope.source.json",
+      "parsedFile": "promptpack-14-sessionEnvelope.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "72ff5d9c5433df578eb21003b4bfd2175598dbe62aa9f2bbdaf182a58703e80f",
+      "parsedSha256": "999b535b07059755e35c93e85cf3ea911509e9802fd7e9c2bc9f766255d1bc87"
+    },
+    {
+      "source": "reference/promptpack.md",
+      "heading": "### F3. 최소 저장 모델 예시",
+      "sourceLine": 4341,
+      "fixtureKind": "initialProgressExample",
+      "sourceFile": "promptpack-15-initialProgressExample.source.json",
+      "parsedFile": "promptpack-15-initialProgressExample.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "5363d05528a104b420a50014375f9df9ad88f677de6a6d4bfe0be6bd56ee6f52",
+      "parsedSha256": "6d582c8a745f36c05dfc92db2974604600c64b02a6dc783bf33c24905bf9e4e0"
+    },
+    {
+      "source": "reference/design.md",
+      "heading": "### 8.2 핵심 JSON Schema",
+      "sourceLine": 426,
+      "fixtureKind": "level-schema",
+      "sourceFile": "design-01-level-schema.source.json",
+      "parsedFile": "design-01-level-schema.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "412439879271fae832933059a490f74d6eae0848faa7fb2e3ac05cc6b0128c5a",
+      "parsedSha256": "da8fb9a730d4594aba1ecfcd51b9de376b0286ca4e4efcb8f126bfb23da72827"
+    },
+    {
+      "source": "reference/design.md",
+      "heading": "#### L01: 짧은 실과 긴 실",
+      "sourceLine": 707,
+      "fixtureKind": "object",
+      "sourceFile": "design-02-object.source.json",
+      "parsedFile": "design-02-object.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "c93b4483e6514774e52aba77fff13936cfe9256bbf84576ec3802fb1df067075",
+      "parsedSha256": "f7874ef83766ecbc6ef5fac86f60d4485c007286e4683a0415e485554501747f"
+    },
+    {
+      "source": "reference/design.md",
+      "heading": "#### L02: 중간 매듭에서는 계속",
+      "sourceLine": 734,
+      "fixtureKind": "object",
+      "sourceFile": "design-03-object.source.json",
+      "parsedFile": "design-03-object.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "7b9b637e8706ec730b989ebcb87581c104b3d0ea74ef70b7f239dad878babdd5",
+      "parsedSha256": "97e151f4f73f6f664ac484487127fffcd98b789561eb4a99a0b8af405e6f7170"
+    },
+    {
+      "source": "reference/design.md",
+      "heading": "#### L03: 기둥을 넘어 잇기",
+      "sourceLine": 763,
+      "fixtureKind": "object",
+      "sourceFile": "design-04-object.source.json",
+      "parsedFile": "design-04-object.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "57b8a1f17a9358602a81271389b8046a79eb90f9273be09a4cce7c9f93a9a345",
+      "parsedSha256": "4bd8fad5aac52d35e434c18968e9ce0a36904067700d35acab6110dbbc590bd4"
+    },
+    {
+      "source": "reference/design.md",
+      "heading": "#### L04: 꽃잎 하나를 더",
+      "sourceLine": 795,
+      "fixtureKind": "object",
+      "sourceFile": "design-05-object.source.json",
+      "parsedFile": "design-05-object.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "0dee2468d01ee5c265a42cbf806cdf90ee9b4ae494803243cc7d96827fbbf3d2",
+      "parsedSha256": "cda8175a5ed07057564a264cc28d77e9387374b697fecd4c4e492a6daceffbea"
+    },
+    {
+      "source": "reference/design.md",
+      "heading": "#### L05: 꽃이 잠드는 큰박",
+      "sourceLine": 823,
+      "fixtureKind": "object",
+      "sourceFile": "design-06-object.source.json",
+      "parsedFile": "design-06-object.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "2c73cbb4de858c1564f118ada8989bfd7497f6078ce7a275f5fb457b5d04754b",
+      "parsedSha256": "a9a9f0a238f6e4c1b8758883674655dbf8f81892d71bd4cb5cabbe1070a820a9"
+    },
+    {
+      "source": "reference/design.md",
+      "heading": "#### L06: 둘씩 접히는 세 칸",
+      "sourceLine": 855,
+      "fixtureKind": "object",
+      "sourceFile": "design-07-object.source.json",
+      "parsedFile": "design-07-object.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "11f6d7e1fe106b5d4f64192b6d92c35ac3bd531b8770c7817a5654dcc17f65d9",
+      "parsedSha256": "a9b460c3a60493263241efa058d29810eaa814418d15a3bee1e171a43d8759df"
+    },
+    {
+      "source": "reference/design.md",
+      "heading": "#### L07: 셋씩 접히는 두 칸",
+      "sourceLine": 885,
+      "fixtureKind": "object",
+      "sourceFile": "design-08-object.source.json",
+      "parsedFile": "design-08-object.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "31dbb7244e4b4dc8814b7e0a2205942e274ae4c3e766ee6470d7e6e0e87c426d",
+      "parsedSha256": "24f12fb04359b1cc94f76973b3cad627642d74f4453e3a2b0cfa7f1d3dc87f5c"
+    },
+    {
+      "source": "reference/design.md",
+      "heading": "#### L08: 느린 구름 편지",
+      "sourceLine": 915,
+      "fixtureKind": "object",
+      "sourceFile": "design-09-object.source.json",
+      "parsedFile": "design-09-object.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "2ec98ec034d91184eaa03949c7296af86563463777ac248ec9f907cbcac7ec1b",
+      "parsedSha256": "73f8d314088400c72b0a0b7bf1ed1df549e743a9e8899d989251dc6c701e0dc6"
+    },
+    {
+      "source": "reference/design.md",
+      "heading": "#### L09: 가벼운 구름 편지",
+      "sourceLine": 947,
+      "fixtureKind": "object",
+      "sourceFile": "design-10-object.source.json",
+      "parsedFile": "design-10-object.parsed.json",
+      "parsedObjectEqual": true,
+      "sourceSha256": "8dd3cdbfb003ef73e4f7db97aa7c2582bf3f6c8509bd0203a99cba7ce7069788",
+      "parsedSha256": "cc0444e1bf72634f2bea7cdee7c5bb921a289d061dd6000e38fe46a9788d2ccb"
+    }
+  ]
+}

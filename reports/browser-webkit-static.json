@@ -1,0 +1,131 @@
+{
+  "version": "26.0",
+  "levels": [
+    {
+      "id": "L01",
+      "sourceEvents": 3,
+      "meter": "4/4 · 4분음표=72 · 2+2+2+2 묶음"
+    },
+    {
+      "id": "L02",
+      "sourceEvents": 5,
+      "meter": "4/4 · 4분음표=72 · 2+2+2+2 묶음"
+    },
+    {
+      "id": "L03",
+      "sourceEvents": 6,
+      "meter": "4/4 · 4분음표=72 · 2+2+2+2 묶음"
+    },
+    {
+      "id": "L04",
+      "sourceEvents": 4,
+      "meter": "4/4 · 4분음표=80 · 2+2+2+2 묶음"
+    },
+    {
+      "id": "L05",
+      "sourceEvents": 6,
+      "meter": "6/8 · 점4분음표=60 · 3+3 묶음"
+    },
+    {
+      "id": "L06",
+      "sourceEvents": 6,
+      "meter": "3/4 · 4분음표=90 · 2+2+2 묶음"
+    },
+    {
+      "id": "L07",
+      "sourceEvents": 6,
+      "meter": "6/8 · 점4분음표=60 · 3+3 묶음"
+    },
+    {
+      "id": "L08",
+      "sourceEvents": 8,
+      "meter": "4/4 · 4분음표=72 · 2+2+2+2 묶음"
+    },
+    {
+      "id": "L09",
+      "sourceEvents": 8,
+      "meter": "4/4 · 4분음표=108 · 2+2+2+2 묶음"
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568,
+      "map": {
+        "width": 320,
+        "scroll": 320
+      },
+      "lesson": {
+        "width": 320,
+        "scroll": 320
+      },
+      "gameplay": "not run: Web Audio unavailable"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "map": {
+        "width": 390,
+        "scroll": 390
+      },
+      "lesson": {
+        "width": 390,
+        "scroll": 390
+      },
+      "gameplay": "not run: Web Audio unavailable"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "map": {
+        "width": 768,
+        "scroll": 768
+      },
+      "lesson": {
+        "width": 768,
+        "scroll": 768
+      },
+      "gameplay": "not run: Web Audio unavailable"
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "map": {
+        "width": 844,
+        "scroll": 844
+      },
+      "lesson": {
+        "width": 844,
+        "scroll": 844
+      },
+      "gameplay": "not run: Web Audio unavailable"
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "map": {
+        "width": 1366,
+        "scroll": 1366
+      },
+      "lesson": {
+        "width": 1366,
+        "scroll": 1366
+      },
+      "gameplay": "not run: Web Audio unavailable"
+    }
+  ],
+  "zoom": {
+    "width": 390,
+    "scroll": 390
+  },
+  "textZoom": {
+    "originalBodyPx": 16,
+    "enlargedBodyPx": 32,
+    "ratio": 2
+  },
+  "manualNumberBounds": {
+    "input1000": 250,
+    "visualMinus1000": -250
+  },
+  "scope": "Actual Windows Playwright WebKit rendering and semantic UI; no musical gameplay, no physical device or native Safari claim"
+}

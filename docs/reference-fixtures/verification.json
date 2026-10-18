@@ -1,0 +1,2315 @@
+{
+  "scope": "Static independent source/oracle consistency only; does not test game implementation, browser decoding, physical audio, devices, or educator approval.",
+  "sourcePromptpackSha256": "0a1000132378d81cc771ddce5b5a8b631dc8237f316166bf79ed4c7b31ebd8a4",
+  "checks": 540,
+  "passed": 540,
+  "failed": 0,
+  "jsonBlockCount": 25,
+  "levelSummaries": [
+    {
+      "levelId": "L01",
+      "barTicks": 1920,
+      "motifTicks": 1920,
+      "motifSeconds": 3.3333333333333335,
+      "N": 4,
+      "playN": 16,
+      "gateCount": 2,
+      "restCount": 1,
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960,
+        1440
+      ]
+    },
+    {
+      "levelId": "L02",
+      "barTicks": 1920,
+      "motifTicks": 1920,
+      "motifSeconds": 3.3333333333333335,
+      "N": 3,
+      "playN": 12,
+      "gateCount": 2,
+      "restCount": 2,
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960,
+        1440
+      ]
+    },
+    {
+      "levelId": "L03",
+      "barTicks": 1920,
+      "motifTicks": 3840,
+      "motifSeconds": 6.666666666666667,
+      "N": 4,
+      "playN": 16,
+      "gateCount": 2,
+      "restCount": 3,
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960,
+        1440
+      ]
+    },
+    {
+      "levelId": "L04",
+      "barTicks": 1920,
+      "motifTicks": 1920,
+      "motifSeconds": 3,
+      "N": 4,
+      "playN": 16,
+      "gateCount": 2,
+      "restCount": 2,
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960,
+        1440
+      ]
+    },
+    {
+      "levelId": "L05",
+      "barTicks": 1440,
+      "motifTicks": 2880,
+      "motifSeconds": 4,
+      "N": 5,
+      "playN": 20,
+      "gateCount": 4,
+      "restCount": 2,
+      "bigBeatTicksPerBar": [
+        0,
+        720
+      ]
+    },
+    {
+      "levelId": "L06",
+      "barTicks": 1440,
+      "motifTicks": 1440,
+      "motifSeconds": 2,
+      "N": 6,
+      "playN": 24,
+      "gateCount": 6,
+      "restCount": 0,
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960
+      ]
+    },
+    {
+      "levelId": "L07",
+      "barTicks": 1440,
+      "motifTicks": 1440,
+      "motifSeconds": 2,
+      "N": 6,
+      "playN": 24,
+      "gateCount": 6,
+      "restCount": 0,
+      "bigBeatTicksPerBar": [
+        0,
+        720
+      ]
+    },
+    {
+      "levelId": "L08",
+      "barTicks": 1920,
+      "motifTicks": 1920,
+      "motifSeconds": 3.3333333333333335,
+      "N": 4,
+      "playN": 16,
+      "gateCount": 4,
+      "restCount": 4,
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960,
+        1440
+      ]
+    },
+    {
+      "levelId": "L09",
+      "barTicks": 1920,
+      "motifTicks": 1920,
+      "motifSeconds": 2.2222222222222223,
+      "N": 4,
+      "playN": 16,
+      "gateCount": 4,
+      "restCount": 4,
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960,
+        1440
+      ]
+    }
+  ],
+  "assetApproval": {
+    "releaseApprovedFalse": 92,
+    "humanReview": "pending"
+  },
+  "details": [
+    {
+      "id": "source/parsed/promptpack-01-level-schema.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-01-level-schema.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-02-level-array.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-02-level-array.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-03-runtimeRasterFallbacks.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-03-runtimeRasterFallbacks.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-04-compiledLevelGolden.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-04-compiledLevelGolden.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-05-expandedPlay.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-05-expandedPlay.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-06-judgeWindows.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-06-judgeWindows.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-07-judgeBoundaries.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-07-judgeBoundaries.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-08-halfMicrosecondSymmetry.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-08-halfMicrosecondSymmetry.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-09-L02InputReplay.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-09-L02InputReplay.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-10-edgeCases.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-10-edgeCases.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-11-calibrationAndScore.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-11-calibrationAndScore.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-12-invalidLevelMutations.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-12-invalidLevelMutations.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-13-layoutTokens.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-13-layoutTokens.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-14-sessionEnvelope.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-14-sessionEnvelope.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/promptpack-15-initialProgressExample.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/promptpack-15-initialProgressExample.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/design-01-level-schema.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/design-01-level-schema.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/design-02-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/design-02-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/design-03-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/design-03-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/design-04-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/design-04-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/design-05-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/design-05-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/design-06-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/design-06-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/design-07-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/design-07-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/design-08-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/design-08-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/design-09-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/design-09-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "source/parsed/design-10-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "excerpt-hash/design-10-object.source.json",
+      "pass": true
+    },
+    {
+      "id": "schema/design-promptpack-object-equality",
+      "pass": true
+    },
+    {
+      "id": "levels/design-promptpack/L01",
+      "pass": true
+    },
+    {
+      "id": "levels/design-promptpack/L02",
+      "pass": true
+    },
+    {
+      "id": "levels/design-promptpack/L03",
+      "pass": true
+    },
+    {
+      "id": "levels/design-promptpack/L04",
+      "pass": true
+    },
+    {
+      "id": "levels/design-promptpack/L05",
+      "pass": true
+    },
+    {
+      "id": "levels/design-promptpack/L06",
+      "pass": true
+    },
+    {
+      "id": "levels/design-promptpack/L07",
+      "pass": true
+    },
+    {
+      "id": "levels/design-promptpack/L08",
+      "pass": true
+    },
+    {
+      "id": "levels/design-promptpack/L09",
+      "pass": true
+    },
+    {
+      "id": "L01/a/at",
+      "pass": true
+    },
+    {
+      "id": "L01/a/duration",
+      "pass": true
+    },
+    {
+      "id": "L01/a/unique",
+      "pass": true
+    },
+    {
+      "id": "L01/b/at",
+      "pass": true
+    },
+    {
+      "id": "L01/b/duration",
+      "pass": true
+    },
+    {
+      "id": "L01/b/unique",
+      "pass": true
+    },
+    {
+      "id": "L01/c/at",
+      "pass": true
+    },
+    {
+      "id": "L01/c/duration",
+      "pass": true
+    },
+    {
+      "id": "L01/c/unique",
+      "pass": true
+    },
+    {
+      "id": "L01/bar-0/ticks",
+      "pass": true
+    },
+    {
+      "id": "L01/golden-bar",
+      "pass": true
+    },
+    {
+      "id": "L01/golden-motif",
+      "pass": true
+    },
+    {
+      "id": "L01/golden-seconds-fraction",
+      "pass": true
+    },
+    {
+      "id": "L01/golden-N",
+      "pass": true
+    },
+    {
+      "id": "L01/golden-N-play",
+      "pass": true
+    },
+    {
+      "id": "L01/golden-gates",
+      "pass": true
+    },
+    {
+      "id": "L01/golden-rests",
+      "pass": true
+    },
+    {
+      "id": "L01/golden-big-beats",
+      "pass": true
+    },
+    {
+      "id": "L01/golden-onset-us",
+      "pass": true
+    },
+    {
+      "id": "L02/a/at",
+      "pass": true
+    },
+    {
+      "id": "L02/a/duration",
+      "pass": true
+    },
+    {
+      "id": "L02/a/unique",
+      "pass": true
+    },
+    {
+      "id": "L02/b/at",
+      "pass": true
+    },
+    {
+      "id": "L02/b/duration",
+      "pass": true
+    },
+    {
+      "id": "L02/b/unique",
+      "pass": true
+    },
+    {
+      "id": "L02/c/at",
+      "pass": true
+    },
+    {
+      "id": "L02/c/duration",
+      "pass": true
+    },
+    {
+      "id": "L02/c/unique",
+      "pass": true
+    },
+    {
+      "id": "L02/d/at",
+      "pass": true
+    },
+    {
+      "id": "L02/d/duration",
+      "pass": true
+    },
+    {
+      "id": "L02/d/unique",
+      "pass": true
+    },
+    {
+      "id": "L02/e/at",
+      "pass": true
+    },
+    {
+      "id": "L02/e/duration",
+      "pass": true
+    },
+    {
+      "id": "L02/e/unique",
+      "pass": true
+    },
+    {
+      "id": "L02/bar-0/ticks",
+      "pass": true
+    },
+    {
+      "id": "L02/b/tie-contiguous",
+      "pass": true
+    },
+    {
+      "id": "L02/b/tie-midi",
+      "pass": true
+    },
+    {
+      "id": "L02/golden-bar",
+      "pass": true
+    },
+    {
+      "id": "L02/golden-motif",
+      "pass": true
+    },
+    {
+      "id": "L02/golden-seconds-fraction",
+      "pass": true
+    },
+    {
+      "id": "L02/golden-N",
+      "pass": true
+    },
+    {
+      "id": "L02/golden-N-play",
+      "pass": true
+    },
+    {
+      "id": "L02/golden-gates",
+      "pass": true
+    },
+    {
+      "id": "L02/golden-rests",
+      "pass": true
+    },
+    {
+      "id": "L02/golden-big-beats",
+      "pass": true
+    },
+    {
+      "id": "L02/golden-onset-us",
+      "pass": true
+    },
+    {
+      "id": "L03/a/at",
+      "pass": true
+    },
+    {
+      "id": "L03/a/duration",
+      "pass": true
+    },
+    {
+      "id": "L03/a/unique",
+      "pass": true
+    },
+    {
+      "id": "L03/b/at",
+      "pass": true
+    },
+    {
+      "id": "L03/b/duration",
+      "pass": true
+    },
+    {
+      "id": "L03/b/unique",
+      "pass": true
+    },
+    {
+      "id": "L03/c/at",
+      "pass": true
+    },
+    {
+      "id": "L03/c/duration",
+      "pass": true
+    },
+    {
+      "id": "L03/c/unique",
+      "pass": true
+    },
+    {
+      "id": "L03/bar-0/ticks",
+      "pass": true
+    },
+    {
+      "id": "L03/d/at",
+      "pass": true
+    },
+    {
+      "id": "L03/d/duration",
+      "pass": true
+    },
+    {
+      "id": "L03/d/unique",
+      "pass": true
+    },
+    {
+      "id": "L03/e/at",
+      "pass": true
+    },
+    {
+      "id": "L03/e/duration",
+      "pass": true
+    },
+    {
+      "id": "L03/e/unique",
+      "pass": true
+    },
+    {
+      "id": "L03/f/at",
+      "pass": true
+    },
+    {
+      "id": "L03/f/duration",
+      "pass": true
+    },
+    {
+      "id": "L03/f/unique",
+      "pass": true
+    },
+    {
+      "id": "L03/bar-1/ticks",
+      "pass": true
+    },
+    {
+      "id": "L03/d/tie-contiguous",
+      "pass": true
+    },
+    {
+      "id": "L03/d/tie-midi",
+      "pass": true
+    },
+    {
+      "id": "L03/golden-bar",
+      "pass": true
+    },
+    {
+      "id": "L03/golden-motif",
+      "pass": true
+    },
+    {
+      "id": "L03/golden-seconds-fraction",
+      "pass": true
+    },
+    {
+      "id": "L03/golden-N",
+      "pass": true
+    },
+    {
+      "id": "L03/golden-N-play",
+      "pass": true
+    },
+    {
+      "id": "L03/golden-gates",
+      "pass": true
+    },
+    {
+      "id": "L03/golden-rests",
+      "pass": true
+    },
+    {
+      "id": "L03/golden-big-beats",
+      "pass": true
+    },
+    {
+      "id": "L03/golden-onset-us",
+      "pass": true
+    },
+    {
+      "id": "L04/a/at",
+      "pass": true
+    },
+    {
+      "id": "L04/a/duration",
+      "pass": true
+    },
+    {
+      "id": "L04/a/unique",
+      "pass": true
+    },
+    {
+      "id": "L04/b/at",
+      "pass": true
+    },
+    {
+      "id": "L04/b/duration",
+      "pass": true
+    },
+    {
+      "id": "L04/b/unique",
+      "pass": true
+    },
+    {
+      "id": "L04/c/at",
+      "pass": true
+    },
+    {
+      "id": "L04/c/duration",
+      "pass": true
+    },
+    {
+      "id": "L04/c/unique",
+      "pass": true
+    },
+    {
+      "id": "L04/d/at",
+      "pass": true
+    },
+    {
+      "id": "L04/d/duration",
+      "pass": true
+    },
+    {
+      "id": "L04/d/unique",
+      "pass": true
+    },
+    {
+      "id": "L04/bar-0/ticks",
+      "pass": true
+    },
+    {
+      "id": "L04/golden-bar",
+      "pass": true
+    },
+    {
+      "id": "L04/golden-motif",
+      "pass": true
+    },
+    {
+      "id": "L04/golden-seconds-fraction",
+      "pass": true
+    },
+    {
+      "id": "L04/golden-N",
+      "pass": true
+    },
+    {
+      "id": "L04/golden-N-play",
+      "pass": true
+    },
+    {
+      "id": "L04/golden-gates",
+      "pass": true
+    },
+    {
+      "id": "L04/golden-rests",
+      "pass": true
+    },
+    {
+      "id": "L04/golden-big-beats",
+      "pass": true
+    },
+    {
+      "id": "L04/golden-onset-us",
+      "pass": true
+    },
+    {
+      "id": "L05/a/at",
+      "pass": true
+    },
+    {
+      "id": "L05/a/duration",
+      "pass": true
+    },
+    {
+      "id": "L05/a/unique",
+      "pass": true
+    },
+    {
+      "id": "L05/b/at",
+      "pass": true
+    },
+    {
+      "id": "L05/b/duration",
+      "pass": true
+    },
+    {
+      "id": "L05/b/unique",
+      "pass": true
+    },
+    {
+      "id": "L05/c/at",
+      "pass": true
+    },
+    {
+      "id": "L05/c/duration",
+      "pass": true
+    },
+    {
+      "id": "L05/c/unique",
+      "pass": true
+    },
+    {
+      "id": "L05/d/at",
+      "pass": true
+    },
+    {
+      "id": "L05/d/duration",
+      "pass": true
+    },
+    {
+      "id": "L05/d/unique",
+      "pass": true
+    },
+    {
+      "id": "L05/bar-0/ticks",
+      "pass": true
+    },
+    {
+      "id": "L05/e/at",
+      "pass": true
+    },
+    {
+      "id": "L05/e/duration",
+      "pass": true
+    },
+    {
+      "id": "L05/e/unique",
+      "pass": true
+    },
+    {
+      "id": "L05/f/at",
+      "pass": true
+    },
+    {
+      "id": "L05/f/duration",
+      "pass": true
+    },
+    {
+      "id": "L05/f/unique",
+      "pass": true
+    },
+    {
+      "id": "L05/bar-1/ticks",
+      "pass": true
+    },
+    {
+      "id": "L05/golden-bar",
+      "pass": true
+    },
+    {
+      "id": "L05/golden-motif",
+      "pass": true
+    },
+    {
+      "id": "L05/golden-seconds-fraction",
+      "pass": true
+    },
+    {
+      "id": "L05/golden-N",
+      "pass": true
+    },
+    {
+      "id": "L05/golden-N-play",
+      "pass": true
+    },
+    {
+      "id": "L05/golden-gates",
+      "pass": true
+    },
+    {
+      "id": "L05/golden-rests",
+      "pass": true
+    },
+    {
+      "id": "L05/golden-big-beats",
+      "pass": true
+    },
+    {
+      "id": "L05/golden-onset-us",
+      "pass": true
+    },
+    {
+      "id": "L06/a/at",
+      "pass": true
+    },
+    {
+      "id": "L06/a/duration",
+      "pass": true
+    },
+    {
+      "id": "L06/a/unique",
+      "pass": true
+    },
+    {
+      "id": "L06/b/at",
+      "pass": true
+    },
+    {
+      "id": "L06/b/duration",
+      "pass": true
+    },
+    {
+      "id": "L06/b/unique",
+      "pass": true
+    },
+    {
+      "id": "L06/c/at",
+      "pass": true
+    },
+    {
+      "id": "L06/c/duration",
+      "pass": true
+    },
+    {
+      "id": "L06/c/unique",
+      "pass": true
+    },
+    {
+      "id": "L06/d/at",
+      "pass": true
+    },
+    {
+      "id": "L06/d/duration",
+      "pass": true
+    },
+    {
+      "id": "L06/d/unique",
+      "pass": true
+    },
+    {
+      "id": "L06/e/at",
+      "pass": true
+    },
+    {
+      "id": "L06/e/duration",
+      "pass": true
+    },
+    {
+      "id": "L06/e/unique",
+      "pass": true
+    },
+    {
+      "id": "L06/f/at",
+      "pass": true
+    },
+    {
+      "id": "L06/f/duration",
+      "pass": true
+    },
+    {
+      "id": "L06/f/unique",
+      "pass": true
+    },
+    {
+      "id": "L06/bar-0/ticks",
+      "pass": true
+    },
+    {
+      "id": "L06/golden-bar",
+      "pass": true
+    },
+    {
+      "id": "L06/golden-motif",
+      "pass": true
+    },
+    {
+      "id": "L06/golden-seconds-fraction",
+      "pass": true
+    },
+    {
+      "id": "L06/golden-N",
+      "pass": true
+    },
+    {
+      "id": "L06/golden-N-play",
+      "pass": true
+    },
+    {
+      "id": "L06/golden-gates",
+      "pass": true
+    },
+    {
+      "id": "L06/golden-rests",
+      "pass": true
+    },
+    {
+      "id": "L06/golden-big-beats",
+      "pass": true
+    },
+    {
+      "id": "L06/golden-onset-us",
+      "pass": true
+    },
+    {
+      "id": "L07/a/at",
+      "pass": true
+    },
+    {
+      "id": "L07/a/duration",
+      "pass": true
+    },
+    {
+      "id": "L07/a/unique",
+      "pass": true
+    },
+    {
+      "id": "L07/b/at",
+      "pass": true
+    },
+    {
+      "id": "L07/b/duration",
+      "pass": true
+    },
+    {
+      "id": "L07/b/unique",
+      "pass": true
+    },
+    {
+      "id": "L07/c/at",
+      "pass": true
+    },
+    {
+      "id": "L07/c/duration",
+      "pass": true
+    },
+    {
+      "id": "L07/c/unique",
+      "pass": true
+    },
+    {
+      "id": "L07/d/at",
+      "pass": true
+    },
+    {
+      "id": "L07/d/duration",
+      "pass": true
+    },
+    {
+      "id": "L07/d/unique",
+      "pass": true
+    },
+    {
+      "id": "L07/e/at",
+      "pass": true
+    },
+    {
+      "id": "L07/e/duration",
+      "pass": true
+    },
+    {
+      "id": "L07/e/unique",
+      "pass": true
+    },
+    {
+      "id": "L07/f/at",
+      "pass": true
+    },
+    {
+      "id": "L07/f/duration",
+      "pass": true
+    },
+    {
+      "id": "L07/f/unique",
+      "pass": true
+    },
+    {
+      "id": "L07/bar-0/ticks",
+      "pass": true
+    },
+    {
+      "id": "L07/golden-bar",
+      "pass": true
+    },
+    {
+      "id": "L07/golden-motif",
+      "pass": true
+    },
+    {
+      "id": "L07/golden-seconds-fraction",
+      "pass": true
+    },
+    {
+      "id": "L07/golden-N",
+      "pass": true
+    },
+    {
+      "id": "L07/golden-N-play",
+      "pass": true
+    },
+    {
+      "id": "L07/golden-gates",
+      "pass": true
+    },
+    {
+      "id": "L07/golden-rests",
+      "pass": true
+    },
+    {
+      "id": "L07/golden-big-beats",
+      "pass": true
+    },
+    {
+      "id": "L07/golden-onset-us",
+      "pass": true
+    },
+    {
+      "id": "L08/a/at",
+      "pass": true
+    },
+    {
+      "id": "L08/a/duration",
+      "pass": true
+    },
+    {
+      "id": "L08/a/unique",
+      "pass": true
+    },
+    {
+      "id": "L08/b/at",
+      "pass": true
+    },
+    {
+      "id": "L08/b/duration",
+      "pass": true
+    },
+    {
+      "id": "L08/b/unique",
+      "pass": true
+    },
+    {
+      "id": "L08/c/at",
+      "pass": true
+    },
+    {
+      "id": "L08/c/duration",
+      "pass": true
+    },
+    {
+      "id": "L08/c/unique",
+      "pass": true
+    },
+    {
+      "id": "L08/d/at",
+      "pass": true
+    },
+    {
+      "id": "L08/d/duration",
+      "pass": true
+    },
+    {
+      "id": "L08/d/unique",
+      "pass": true
+    },
+    {
+      "id": "L08/e/at",
+      "pass": true
+    },
+    {
+      "id": "L08/e/duration",
+      "pass": true
+    },
+    {
+      "id": "L08/e/unique",
+      "pass": true
+    },
+    {
+      "id": "L08/f/at",
+      "pass": true
+    },
+    {
+      "id": "L08/f/duration",
+      "pass": true
+    },
+    {
+      "id": "L08/f/unique",
+      "pass": true
+    },
+    {
+      "id": "L08/g/at",
+      "pass": true
+    },
+    {
+      "id": "L08/g/duration",
+      "pass": true
+    },
+    {
+      "id": "L08/g/unique",
+      "pass": true
+    },
+    {
+      "id": "L08/h/at",
+      "pass": true
+    },
+    {
+      "id": "L08/h/duration",
+      "pass": true
+    },
+    {
+      "id": "L08/h/unique",
+      "pass": true
+    },
+    {
+      "id": "L08/bar-0/ticks",
+      "pass": true
+    },
+    {
+      "id": "L08/golden-bar",
+      "pass": true
+    },
+    {
+      "id": "L08/golden-motif",
+      "pass": true
+    },
+    {
+      "id": "L08/golden-seconds-fraction",
+      "pass": true
+    },
+    {
+      "id": "L08/golden-N",
+      "pass": true
+    },
+    {
+      "id": "L08/golden-N-play",
+      "pass": true
+    },
+    {
+      "id": "L08/golden-gates",
+      "pass": true
+    },
+    {
+      "id": "L08/golden-rests",
+      "pass": true
+    },
+    {
+      "id": "L08/golden-big-beats",
+      "pass": true
+    },
+    {
+      "id": "L08/golden-onset-us",
+      "pass": true
+    },
+    {
+      "id": "L09/a/at",
+      "pass": true
+    },
+    {
+      "id": "L09/a/duration",
+      "pass": true
+    },
+    {
+      "id": "L09/a/unique",
+      "pass": true
+    },
+    {
+      "id": "L09/b/at",
+      "pass": true
+    },
+    {
+      "id": "L09/b/duration",
+      "pass": true
+    },
+    {
+      "id": "L09/b/unique",
+      "pass": true
+    },
+    {
+      "id": "L09/c/at",
+      "pass": true
+    },
+    {
+      "id": "L09/c/duration",
+      "pass": true
+    },
+    {
+      "id": "L09/c/unique",
+      "pass": true
+    },
+    {
+      "id": "L09/d/at",
+      "pass": true
+    },
+    {
+      "id": "L09/d/duration",
+      "pass": true
+    },
+    {
+      "id": "L09/d/unique",
+      "pass": true
+    },
+    {
+      "id": "L09/e/at",
+      "pass": true
+    },
+    {
+      "id": "L09/e/duration",
+      "pass": true
+    },
+    {
+      "id": "L09/e/unique",
+      "pass": true
+    },
+    {
+      "id": "L09/f/at",
+      "pass": true
+    },
+    {
+      "id": "L09/f/duration",
+      "pass": true
+    },
+    {
+      "id": "L09/f/unique",
+      "pass": true
+    },
+    {
+      "id": "L09/g/at",
+      "pass": true
+    },
+    {
+      "id": "L09/g/duration",
+      "pass": true
+    },
+    {
+      "id": "L09/g/unique",
+      "pass": true
+    },
+    {
+      "id": "L09/h/at",
+      "pass": true
+    },
+    {
+      "id": "L09/h/duration",
+      "pass": true
+    },
+    {
+      "id": "L09/h/unique",
+      "pass": true
+    },
+    {
+      "id": "L09/bar-0/ticks",
+      "pass": true
+    },
+    {
+      "id": "L09/golden-bar",
+      "pass": true
+    },
+    {
+      "id": "L09/golden-motif",
+      "pass": true
+    },
+    {
+      "id": "L09/golden-seconds-fraction",
+      "pass": true
+    },
+    {
+      "id": "L09/golden-N",
+      "pass": true
+    },
+    {
+      "id": "L09/golden-N-play",
+      "pass": true
+    },
+    {
+      "id": "L09/golden-gates",
+      "pass": true
+    },
+    {
+      "id": "L09/golden-rests",
+      "pass": true
+    },
+    {
+      "id": "L09/golden-big-beats",
+      "pass": true
+    },
+    {
+      "id": "L09/golden-onset-us",
+      "pass": true
+    },
+    {
+      "id": "asset/scene_a_thread_bridge/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/scene_a_thread_bridge/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/scene_a_thread_bridge/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/scene_a_thread_bridge/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/scene_b_crescent_greenhouse/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/scene_b_crescent_greenhouse/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/scene_b_crescent_greenhouse/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/scene_b_crescent_greenhouse/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/scene_c_folding_room/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/scene_c_folding_room/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/scene_c_folding_room/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/scene_c_folding_room/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/scene_d_cloud_post_station/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/scene_d_cloud_post_station/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/scene_d_cloud_post_station/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/scene_d_cloud_post_station/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/character.yeoul.idle/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/character.yeoul.idle/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/character.yeoul.idle/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/character.yeoul.idle/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/character.yeoul.prepare/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/character.yeoul.prepare/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/character.yeoul.prepare/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/character.yeoul.prepare/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/character.yeoul.release/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/character.yeoul.release/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/character.yeoul.release/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/character.yeoul.release/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/character.yeoul.press/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/character.yeoul.press/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/character.yeoul.press/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/character.yeoul.press/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/character.yeoul.hold/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/character.yeoul.hold/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/character.yeoul.hold/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/character.yeoul.hold/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/character.yeoul.miss/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/character.yeoul.miss/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/character.yeoul.miss/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/character.yeoul.miss/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/object.greenhouse.flower_closed/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/object.greenhouse.flower_closed/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/object.greenhouse.flower_closed/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/object.greenhouse.flower_closed/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/object.greenhouse.flower_opening_2/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/object.greenhouse.flower_opening_2/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/object.greenhouse.flower_opening_2/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/object.greenhouse.flower_opening_2/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/object.greenhouse.flower_open/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/object.greenhouse.flower_open/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/object.greenhouse.flower_open/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/object.greenhouse.flower_open/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/object.greenhouse.flower_opening_1/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/object.greenhouse.flower_opening_1/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/object.greenhouse.flower_opening_1/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/object.greenhouse.flower_opening_1/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/somsae_count/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/somsae_count/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/somsae_count/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/somsae_count/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/somsae_demo/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/somsae_demo/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/somsae_demo/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/somsae_demo/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/somsae_encourage/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/somsae_encourage/sha256",
+      "pass": true
+    },
+    {
+      "id": "fallback/somsae_encourage/bytes",
+      "pass": true
+    },
+    {
+      "id": "fallback/somsae_encourage/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_onset/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_onset/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_release/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_release/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_tie_knot/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_tie_knot/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_onset_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_onset_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_release_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_release_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_tie_knot_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_tie_knot_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_bar_pillar/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_bar_pillar/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_needle_eye/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_needle_eye/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_spool/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_spool/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_ribbon_tile/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_ribbon_tile/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_ribbon_broken/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_ribbon_broken/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_lantern_idle/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_lantern_idle/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_lantern_active/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/bridge_lantern_active/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_container_2u/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_container_2u/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_container_1u/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_container_1u/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_time_strip_3u/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_time_strip_3u/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_rest_cover/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_rest_cover/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_dew_idle/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_dew_idle/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_dew_active/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_dew_active/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_flower_0/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_flower_0/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_flower_1/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_flower_1/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_flower_2/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_flower_2/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_flower_3/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/greenhouse_flower_3/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/room_tile_idle/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/room_tile_idle/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/room_tile_active/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/room_tile_active/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/room_hinge_2u/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/room_hinge_2u/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/room_hinge_3u/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/room_hinge_3u/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/room_brackets_222/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/room_brackets_222/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/room_floor_222/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/room_floor_222/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/room_brackets_33/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/room_brackets_33/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/room_floor_33/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/room_floor_33/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/post_letter_idle/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/post_letter_idle/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/post_letter_folded/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/post_letter_folded/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/post_letter_success_star/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/post_letter_success_star/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/post_counter/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/post_counter/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_press/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_press/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_press_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_press_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_hold/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_hold/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_hold_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_hold_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_release/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_release/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_release_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_release_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_wait/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_wait/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_wait_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_wait_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_sound/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_sound/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_sound_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_sound_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_pause/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_pause/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_pause_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_pause_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_resume/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_resume/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_resume_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_resume_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_retry/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_retry/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_retry_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_retry_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_home/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_home/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_home_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_home_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_help/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_help/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_help_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_help_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_contrast/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_contrast/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_contrast_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_contrast_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_reduced_motion/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_reduced_motion/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_reduced_motion_hc/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/icon_reduced_motion_hc/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/button_normal/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/button_normal/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/button_pressed/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/button_pressed/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/button_focus/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/button_focus/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/button_disabled/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/button_disabled/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/feedback_knot_success/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/feedback_knot_success/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/feedback_knot_miss/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/feedback_knot_miss/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/education_duration/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/education_duration/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/education_duration_advanced/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/education_duration_advanced/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/education_tie/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/education_tie/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/education_tie_advanced/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/education_tie_advanced/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/education_dot/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/education_dot/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/education_dot_advanced/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/education_dot_advanced/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/education_dotted_rest/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/education_dotted_rest/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/education_dotted_rest_advanced/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/education_dotted_rest_advanced/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/education_meter/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/education_meter/sha256",
+      "pass": true
+    },
+    {
+      "id": "asset/education_tempo/bytes",
+      "pass": true
+    },
+    {
+      "id": "asset/education_tempo/sha256",
+      "pass": true
+    },
+    {
+      "id": "assets/logical-count",
+      "pass": true
+    },
+    {
+      "id": "assets/webp-count",
+      "pass": true
+    },
+    {
+      "id": "assets/svg-count",
+      "pass": true
+    },
+    {
+      "id": "assets/primary-bytes",
+      "pass": true
+    },
+    {
+      "id": "assets/unapproved-preserved",
+      "pass": true
+    },
+    {
+      "id": "source-hash/reference/design.md",
+      "pass": true
+    },
+    {
+      "id": "source-hash/reference/mobile-assets.zip",
+      "pass": true
+    },
+    {
+      "id": "source-hash/reference/assets/night_thread_mobile_runtime_v1/runtime_manifest.json",
+      "pass": true
+    },
+    {
+      "id": "source-hash/docs/reference-fixtures/promptpack-01-level-schema.source.json",
+      "pass": true
+    },
+    {
+      "id": "source-hash/docs/reference-fixtures/promptpack-02-level-array.source.json",
+      "pass": true
+    }
+  ]
+}

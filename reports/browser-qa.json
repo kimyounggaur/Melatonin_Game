@@ -1,0 +1,431 @@
+{
+  "scope": "Isolated headless automation; no user browser tabs, physical device, acoustic listening, educator approval, or public deployment performed by this audit. Earlier baseline and final targeted regressions are separate runs, not a claim that all original13 passed. Initial raw13 aggregate was overwritten by an interrupted eight-skipped run; individual artifacts survive, and final main cases are rerun for a new complete raw aggregate.",
+  "counts": {
+    "passed": 21,
+    "expectedSelectedPasses": 21,
+    "environmentBlocked": 0,
+    "failed": 0,
+    "skipped": 0
+  },
+  "runs": [
+    {
+      "file": "browser-cross-browser-round.json",
+      "stats": {
+        "startTime": "2026-10-18T16:16:22.858Z",
+        "duration": 115.03099999999995,
+        "expected": 0,
+        "skipped": 8,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "file": "browser-corrected-input.json",
+      "stats": {
+        "startTime": "2026-10-18T16:22:04.556Z",
+        "duration": 55886.992000000006,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "file": "browser-eight-levels-first-webkit-static.json",
+      "stats": {
+        "startTime": "2026-10-18T16:23:52.415Z",
+        "duration": 370334.956,
+        "expected": 9,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      }
+    },
+    {
+      "file": "browser-final-levels-webkit.json",
+      "stats": {
+        "startTime": "2026-10-18T16:36:31.696Z",
+        "duration": 114383.395,
+        "expected": 3,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "file": "browser-final-firefox-regression.json",
+      "stats": {
+        "startTime": "2026-10-18T16:38:40.144Z",
+        "duration": 54459.697,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "file": "browser-final-main-calibration.json",
+      "stats": {
+        "startTime": "2026-10-18T16:42:27.630Z",
+        "duration": 301959.563,
+        "expected": 10,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      }
+    },
+    {
+      "file": "browser-final-firefox-owner-rerun.json",
+      "stats": {
+        "startTime": "2026-10-18T16:49:05.701Z",
+        "duration": 64879.99500000001,
+        "expected": 0,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      }
+    },
+    {
+      "file": "browser-final-firefox-owner-lead.json",
+      "stats": {
+        "startTime": "2026-10-18T16:52:01.355Z",
+        "duration": 58829.877,
+        "expected": 0,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      }
+    },
+    {
+      "file": "browser-final-firefox-owner-lead30.json",
+      "stats": {
+        "startTime": "2026-10-18T16:54:35.527Z",
+        "duration": 57094.565,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    }
+  ],
+  "tests": [
+    {
+      "browser": "chromium",
+      "file": "night-thread.spec.ts",
+      "title": "E02 E03 E04: trusted keyboard and pointer hold/release, secondary owner ignored, pause/resume fresh count-in",
+      "status": "passed",
+      "durationSec": 52.872,
+      "evidence": "browser-final-main-calibration.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "all-levels.spec.ts",
+      "title": "L01: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+      "status": "passed",
+      "durationSec": 48.365,
+      "evidence": "browser-eight-levels-first-webkit-static.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "all-levels.spec.ts",
+      "title": "L03: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+      "status": "passed",
+      "durationSec": 99.824,
+      "evidence": "browser-final-levels-webkit.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "all-levels.spec.ts",
+      "title": "L04: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+      "status": "passed",
+      "durationSec": 42.57,
+      "evidence": "browser-eight-levels-first-webkit-static.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "all-levels.spec.ts",
+      "title": "L05: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+      "status": "passed",
+      "durationSec": 46.401,
+      "evidence": "browser-eight-levels-first-webkit-static.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "all-levels.spec.ts",
+      "title": "L06: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+      "status": "passed",
+      "durationSec": 29.756,
+      "evidence": "browser-eight-levels-first-webkit-static.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "all-levels.spec.ts",
+      "title": "L07: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+      "status": "passed",
+      "durationSec": 29.7,
+      "evidence": "browser-eight-levels-first-webkit-static.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "all-levels.spec.ts",
+      "title": "L08: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+      "status": "passed",
+      "durationSec": 48.317,
+      "evidence": "browser-eight-levels-first-webkit-static.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "all-levels.spec.ts",
+      "title": "L09: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+      "status": "passed",
+      "durationSec": 34.046,
+      "evidence": "browser-eight-levels-first-webkit-static.json",
+      "error": null
+    },
+    {
+      "browser": "webkit",
+      "file": "webkit-static.spec.ts",
+      "title": "WebKit Windows capability: absent Web Audio gives retry guidance and never silently enters PLAY",
+      "status": "passed",
+      "durationSec": 1.786,
+      "evidence": "browser-final-levels-webkit.json",
+      "error": null
+    },
+    {
+      "browser": "webkit",
+      "file": "webkit-static.spec.ts",
+      "title": "WebKit rendering: legitimate map link opens nine source-notation lessons, five viewport layouts and 200% text",
+      "status": "passed",
+      "durationSec": 8.908,
+      "evidence": "browser-final-levels-webkit.json",
+      "error": null
+    },
+    {
+      "browser": "firefox",
+      "file": "night-thread.spec.ts",
+      "title": "E01 E14: real-time L02 listen → practice → PLAY no-input earns zero and emits no lead/player attacks",
+      "status": "passed",
+      "durationSec": 48.725,
+      "evidence": "browser-final-main-calibration.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "calibration.spec.ts",
+      "title": "E12 calibration -250ms: real keyboard reaches first onset, every hold/release and standard 100 without changing targets",
+      "status": "passed",
+      "durationSec": 45.277,
+      "evidence": "browser-final-main-calibration.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "calibration.spec.ts",
+      "title": "E12 calibration 250ms: real keyboard reaches first onset, every hold/release and standard 100 without changing targets",
+      "status": "passed",
+      "durationSec": 43.582,
+      "evidence": "browser-final-main-calibration.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "night-thread.spec.ts",
+      "title": "E01 E08 E09: nine lessons expose exact source notation, pitch, ties, grouping and tempo",
+      "status": "passed",
+      "durationSec": 4.419,
+      "evidence": "browser-final-main-calibration.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "night-thread.spec.ts",
+      "title": "E06: five viewport layouts, readable 200% text, keyboard settings and semantic controls",
+      "status": "passed",
+      "durationSec": 5.442,
+      "evidence": "browser-final-main-calibration.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "night-thread.spec.ts",
+      "title": "E01 E14: real-time L02 listen → practice → PLAY no-input earns zero and emits no lead/player attacks",
+      "status": "passed",
+      "durationSec": 46.84,
+      "evidence": "browser-final-main-calibration.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "night-thread.spec.ts",
+      "title": "E05: real browser screen orientation change interrupts and user resume starts a fresh count-in",
+      "status": "passed",
+      "durationSec": 1.358,
+      "evidence": "browser-final-main-calibration.json",
+      "error": null
+    },
+    {
+      "browser": "firefox",
+      "file": "night-thread.spec.ts",
+      "title": "E01 E08 E09: nine lessons expose exact source notation, pitch, ties, grouping and tempo",
+      "status": "passed",
+      "durationSec": 7.582,
+      "evidence": "browser-final-main-calibration.json",
+      "error": null
+    },
+    {
+      "browser": "firefox",
+      "file": "night-thread.spec.ts",
+      "title": "E06: five viewport layouts, readable 200% text, keyboard settings and semantic controls",
+      "status": "passed",
+      "durationSec": 5.915,
+      "evidence": "browser-final-main-calibration.json",
+      "error": null
+    },
+    {
+      "browser": "firefox",
+      "file": "night-thread.spec.ts",
+      "title": "E02 E03 E04: trusted keyboard and pointer hold/release, secondary owner ignored, pause/resume fresh count-in",
+      "status": "passed",
+      "durationSec": 55.058,
+      "evidence": "browser-final-firefox-owner-lead30.json",
+      "error": null
+    }
+  ],
+  "remainingEight": [
+    {
+      "levelId": "L01",
+      "outcome": "passed",
+      "score": 0,
+      "N": 16,
+      "phrases": 4,
+      "elapsedWallSec": 47.985,
+      "evidence": "browser-all-levels-L01.json"
+    },
+    {
+      "levelId": "L03",
+      "outcome": "passed",
+      "score": 0,
+      "N": 16,
+      "phrases": 4,
+      "elapsedWallSec": 99.251,
+      "evidence": "browser-all-levels-L03.json"
+    },
+    {
+      "levelId": "L04",
+      "outcome": "passed",
+      "score": 0,
+      "N": 16,
+      "phrases": 4,
+      "elapsedWallSec": 42.164,
+      "evidence": "browser-all-levels-L04.json"
+    },
+    {
+      "levelId": "L05",
+      "outcome": "passed",
+      "score": 0,
+      "N": 20,
+      "phrases": 4,
+      "elapsedWallSec": 46.02,
+      "evidence": "browser-all-levels-L05.json"
+    },
+    {
+      "levelId": "L06",
+      "outcome": "passed",
+      "score": 0,
+      "N": 24,
+      "phrases": 4,
+      "elapsedWallSec": 29.309,
+      "evidence": "browser-all-levels-L06.json"
+    },
+    {
+      "levelId": "L07",
+      "outcome": "passed",
+      "score": 0,
+      "N": 24,
+      "phrases": 4,
+      "elapsedWallSec": 29.291,
+      "evidence": "browser-all-levels-L07.json"
+    },
+    {
+      "levelId": "L08",
+      "outcome": "passed",
+      "score": 0,
+      "N": 16,
+      "phrases": 4,
+      "elapsedWallSec": 47.913,
+      "evidence": "browser-all-levels-L08.json"
+    },
+    {
+      "levelId": "L09",
+      "outcome": "passed",
+      "score": 0,
+      "N": 16,
+      "phrases": 4,
+      "elapsedWallSec": 33.624,
+      "evidence": "browser-all-levels-L09.json"
+    }
+  ],
+  "calibration": [
+    {
+      "offsetMs": -250,
+      "score": 100,
+      "earned": 16,
+      "N": 16,
+      "notes": 8,
+      "pageErrors": []
+    },
+    {
+      "offsetMs": 250,
+      "score": 100,
+      "earned": 16,
+      "N": 16,
+      "notes": 8,
+      "pageErrors": []
+    }
+  ],
+  "focusedPractice": {
+    "bars": [
+      0,
+      1
+    ],
+    "repeats": 2,
+    "expectationCount": 8,
+    "ledgerUnchanged": true,
+    "canonicalLessonRestored": true,
+    "educationBasicAdvanced": true
+  },
+  "hover": {
+    "observed": {
+      "background": "rgb(239, 202, 122)",
+      "color": "rgb(20, 42, 53)",
+      "label": "누르기",
+      "rect": {
+        "x": 343,
+        "y": 575.984375,
+        "width": 680,
+        "height": 80
+      },
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      }
+    },
+    "contrastRatio": 9.487374457267407,
+    "errors": [],
+    "passed": true,
+    "scope": "Actual browser hover style and viewport geometry; not a complete accessibility audit"
+  },
+  "webkitCapability": {
+    "AudioContext": "undefined",
+    "webkitAudioContext": "undefined",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15"
+  }
+}

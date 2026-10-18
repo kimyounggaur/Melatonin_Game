@@ -1,0 +1,34 @@
+{
+  "fixtureKind": "sessionEnvelope",
+  "attemptId": "test-attempt-L02-001",
+  "sessionId": "test-session-epoch-2",
+  "phase": "PLAY",
+  "phraseId": "L02:PLAY:1",
+  "transportGeneration": 2,
+  "calibrationRevision": 1,
+  "committedPhrases": [
+    {
+      "phraseId": "L02:PLAY:0",
+      "sourceSessionId": "test-session-epoch-1",
+      "N": 3,
+      "earned": 3,
+      "extra": 0,
+      "valid": true
+    }
+  ],
+  "provisionalPhrase": {
+    "phraseId": "L02:PLAY:1",
+    "N": 3,
+    "earned": 1,
+    "extra": 0,
+    "valid": true
+  },
+  "expectedAfterInterrupt": {
+    "committedPhraseCount": 1,
+    "provisionalEarned": 0,
+    "provisionalExtra": 0,
+    "resumePhraseId": "L02:PLAY:1",
+    "resumeStartsWithCountInBars": 1,
+    "requiresPhysicalRearm": true
+  }
+}

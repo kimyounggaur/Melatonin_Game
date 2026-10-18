@@ -1,0 +1,268 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/night-thread/level.schema.json",
+  "title": "NightThreadLevelV1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "title",
+    "scene",
+    "ppq",
+    "meter",
+    "quarterBpm",
+    "sourceIds",
+    "skillIds",
+    "sequence",
+    "bars",
+    "reviewState"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^L[0-9]{2}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scene": {
+      "enum": [
+        "thread-bridge",
+        "crescent-greenhouse",
+        "folding-room",
+        "cloud-post"
+      ]
+    },
+    "ppq": {
+      "const": 480
+    },
+    "meter": {
+      "oneOf": [
+        {
+          "const": {
+            "n": 4,
+            "d": 4,
+            "groupingEighths": [
+              2,
+              2,
+              2,
+              2
+            ]
+          }
+        },
+        {
+          "const": {
+            "n": 3,
+            "d": 4,
+            "groupingEighths": [
+              2,
+              2,
+              2
+            ]
+          }
+        },
+        {
+          "const": {
+            "n": 6,
+            "d": 8,
+            "groupingEighths": [
+              3,
+              3
+            ]
+          }
+        }
+      ]
+    },
+    "quarterBpm": {
+      "type": "number",
+      "minimum": 50,
+      "maximum": 140
+    },
+    "sourceIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "skillIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "duration",
+          "tie",
+          "cross-bar-tie",
+          "dot",
+          "dotted-rest",
+          "simple-triple",
+          "compound-duple",
+          "tempo"
+        ]
+      }
+    },
+    "sequence": {
+      "const": {
+        "countInBars": 1,
+        "listenRepeats": 2,
+        "listenTailBars": 1,
+        "practiceRepeats": 2,
+        "playRepeats": 4,
+        "outroBars": 1
+      }
+    },
+    "bars": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "events"
+        ],
+        "properties": {
+          "events": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/event"
+            }
+          }
+        }
+      }
+    },
+    "reviewState": {
+      "const": "math_checked_art_audio_review_pending"
+    }
+  },
+  "$defs": {
+    "notation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "denominator",
+        "dots"
+      ],
+      "properties": {
+        "denominator": {
+          "enum": [
+            1,
+            2,
+            4,
+            8,
+            16
+          ]
+        },
+        "dots": {
+          "enum": [
+            0,
+            1
+          ]
+        }
+      }
+    },
+    "event": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "at",
+            "ticks",
+            "kind",
+            "notation"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "at": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "ticks": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "kind": {
+              "const": "rest"
+            },
+            "notation": {
+              "$ref": "#/$defs/notation"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "at",
+            "ticks",
+            "kind",
+            "notation",
+            "pitchName",
+            "midi",
+            "interaction"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "at": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "ticks": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "kind": {
+              "const": "note"
+            },
+            "notation": {
+              "$ref": "#/$defs/notation"
+            },
+            "pitchName": {
+              "enum": [
+                "C5",
+                "D5",
+                "E5",
+                "G5"
+              ]
+            },
+            "midi": {
+              "enum": [
+                72,
+                74,
+                76,
+                79
+              ]
+            },
+            "interaction": {
+              "enum": [
+                "tap",
+                "hold"
+              ]
+            },
+            "tieGroup": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      ]
+    }
+  }
+}

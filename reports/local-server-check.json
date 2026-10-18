@@ -1,0 +1,31 @@
+[
+  {
+    "path": "/",
+    "status": 200
+  },
+  {
+    "path": "./assets/night-thread/ui/icon_home.svg",
+    "status": 200,
+    "bytes": 654
+  },
+  {
+    "path": "./assets/index-CBWB2tjp.js",
+    "status": 200,
+    "bytes": 366693
+  },
+  {
+    "path": "./assets/index-DvP_QEwd.css",
+    "status": 200,
+    "bytes": 17393
+  },
+  {
+    "path": "/assets/night-thread/backgrounds/scene_a_thread_bridge.webp",
+    "status": 200,
+    "bytes": 78478
+  },
+  {
+    "path": "/assets/night-thread/runtime_manifest.json",
+    "status": 200,
+    "bytes": 137823
+  }
+]

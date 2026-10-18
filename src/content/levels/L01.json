@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "L01",
+  "title": "짧은 실과 긴 실",
+  "scene": "thread-bridge",
+  "ppq": 480,
+  "meter": {
+    "n": 4,
+    "d": 4,
+    "groupingEighths": [
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "quarterBpm": 72,
+  "sourceIds": [
+    "004"
+  ],
+  "skillIds": [
+    "duration"
+  ],
+  "sequence": {
+    "countInBars": 1,
+    "listenRepeats": 2,
+    "listenTailBars": 1,
+    "practiceRepeats": 2,
+    "playRepeats": 4,
+    "outroBars": 1
+  },
+  "bars": [
+    {
+      "events": [
+        {
+          "id": "a",
+          "at": 0,
+          "ticks": 480,
+          "kind": "note",
+          "notation": {
+            "denominator": 4,
+            "dots": 0
+          },
+          "pitchName": "C5",
+          "midi": 72,
+          "interaction": "hold"
+        },
+        {
+          "id": "b",
+          "at": 480,
+          "ticks": 480,
+          "kind": "rest",
+          "notation": {
+            "denominator": 4,
+            "dots": 0
+          }
+        },
+        {
+          "id": "c",
+          "at": 960,
+          "ticks": 960,
+          "kind": "note",
+          "notation": {
+            "denominator": 2,
+            "dots": 0
+          },
+          "pitchName": "C5",
+          "midi": 72,
+          "interaction": "hold"
+        }
+      ]
+    }
+  ],
+  "reviewState": "math_checked_art_audio_review_pending"
+}

@@ -1,0 +1,519 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\playwright.config.ts",
+    "rootDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [
+          "/all-levels\\.spec\\.ts/",
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "/webkit-static\\.spec\\.ts/"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "all-levels.spec.ts",
+      "file": "all-levels.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "E01 E14: remaining eight complete real-time Chrome sessions",
+          "file": "all-levels.spec.ts",
+          "line": 116,
+          "column": 6,
+          "specs": [
+            {
+              "title": "L01: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 48365,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-18T16:23:53.342Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5b31b6d9b2d22abbd823-024716b3981ba1388373",
+              "file": "all-levels.spec.ts",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "L03: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 75399,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-18T16:24:41.998Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5b31b6d9b2d22abbd823-01bbfde43a486d874945",
+              "file": "all-levels.spec.ts",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "L04: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 42570,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-18T16:25:57.419Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5b31b6d9b2d22abbd823-3fc971ab42ec5b1d5a75",
+              "file": "all-levels.spec.ts",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "L05: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 46401,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-18T16:26:40.012Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5b31b6d9b2d22abbd823-5caf25750e85fb4925ac",
+              "file": "all-levels.spec.ts",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "L06: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 29756,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-18T16:27:26.435Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5b31b6d9b2d22abbd823-72bdc2a582eb1d93f21a",
+              "file": "all-levels.spec.ts",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "L07: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 29700,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-18T16:27:56.217Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5b31b6d9b2d22abbd823-7bc5d4ff075ba33811ce",
+              "file": "all-levels.spec.ts",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "L08: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 48317,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-18T16:28:25.938Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5b31b6d9b2d22abbd823-ba0b4b498ab392a18b65",
+              "file": "all-levels.spec.ts",
+              "line": 122,
+              "column": 5
+            },
+            {
+              "title": "L09: LISTEN 2 + tail -> practice 100% 2 -> PLAY 4 + OUTRO -> one zero-score result",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 34046,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-18T16:29:14.275Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "5b31b6d9b2d22abbd823-a295d346b731cfa51841",
+              "file": "all-levels.spec.ts",
+              "line": 122,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "webkit-static.spec.ts",
+      "file": "webkit-static.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "WebKit Windows capability: absent Web Audio gives retry guidance and never silently enters PLAY",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1795,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:29:50.662Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4a9e2cb1beefb2afad72-a664da9cdf2b9121fe6d",
+          "file": "webkit-static.spec.ts",
+          "line": 32,
+          "column": 1
+        },
+        {
+          "title": "WebKit rendering: legitimate map link opens nine source-notation lessons, five viewport layouts and 200% text",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 9649,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m391\u001b[39m\nReceived:    \u001b[31m423\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m391\u001b[39m\nReceived:    \u001b[31m423\u001b[39m\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\webkit-static.spec.ts:59:150",
+                    "location": {
+                      "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\webkit-static.spec.ts",
+                      "column": 150,
+                      "line": 59
+                    },
+                    "snippet": "  57 |   await page.setViewportSize({width:390,height:844});\n  58 |   await page.addStyleTag({content:'html { font-size:200% !important; } body { font-size:200% !important; } button,input,select,summary,p,small { font-size:inherit !important; }'});\n> 59 |   const zoom=await page.evaluate(()=>({width:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth}));expect(zoom.scroll).toBeLessThanOrEqual(zoom.width+1);\n     |                                                                                                                                                      ^\n  60 |   await action(page,'settings').click();await expect(page.getByRole('dialog')).toBeVisible();\n  61 |   const inputOffset=page.locator('[data-setting=\"inputOffsetMs\"]');\n  62 |   await inputOffset.fill('1000');await inputOffset.press('Tab');await expect(inputOffset).toHaveValue('250');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\webkit-static.spec.ts",
+                        "column": 150,
+                        "line": 59
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m391\u001b[39m\nReceived:    \u001b[31m423\u001b[39m\n\n  57 |   await page.setViewportSize({width:390,height:844});\n  58 |   await page.addStyleTag({content:'html { font-size:200% !important; } body { font-size:200% !important; } button,input,select,summary,p,small { font-size:inherit !important; }'});\n> 59 |   const zoom=await page.evaluate(()=>({width:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth}));expect(zoom.scroll).toBeLessThanOrEqual(zoom.width+1);\n     |                                                                                                                                                      ^\n  60 |   await action(page,'settings').click();await expect(page.getByRole('dialog')).toBeVisible();\n  61 |   const inputOffset=page.locator('[data-setting=\"inputOffsetMs\"]');\n  62 |   await inputOffset.fill('1000');await inputOffset.press('Tab');await expect(inputOffset).toHaveValue('250');\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\webkit-static.spec.ts:59:150"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T16:29:52.593Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\webkit-static-WebKit-rende-4fdcb-ewport-layouts-and-200-text-webkit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\webkit-static-WebKit-rende-4fdcb-ewport-layouts-and-200-text-webkit\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\webkit-static-WebKit-rende-4fdcb-ewport-layouts-and-200-text-webkit\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\webkit-static.spec.ts",
+                    "column": 150,
+                    "line": 59
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "4a9e2cb1beefb2afad72-36beced28b9f3bf1b513",
+          "file": "webkit-static.spec.ts",
+          "line": 72,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-18T16:23:52.415Z",
+    "duration": 370334.956,
+    "expected": 9,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

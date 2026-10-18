@@ -1,0 +1,46 @@
+{
+  "observedAt": "2026-10-18T16:45:32.091Z",
+  "basis": "Source frozen during final main/calibration eleven-case run; hashes observed during the run, not a signature for earlier eight-level runs.",
+  "files": [
+    {
+      "path": "src/main.ts",
+      "bytes": 52674,
+      "sha256": "33a3dfd82df8637db9f921c0ccdfc9c4c406667a364aabc793472ac436eef5f5"
+    },
+    {
+      "path": "src/core/judge.ts",
+      "bytes": 13485,
+      "sha256": "35ba1494d38e67951df1ece4e884ce33ca8af430bfea128ceb13c91b24b7f15e"
+    },
+    {
+      "path": "src/audio.ts",
+      "bytes": 22373,
+      "sha256": "66506720fb612147ce328e70b7604528a125bf571df2a24b9683297e91b1a91f"
+    },
+    {
+      "path": "playwright.config.ts",
+      "bytes": 1387,
+      "sha256": "5ffa8097fe8dc668eb91e2d6c4961db4354dd8d15870103f7223ebb0977fcbb3"
+    },
+    {
+      "path": "tests/e2e/night-thread.spec.ts",
+      "bytes": 18949,
+      "sha256": "07d7f2a93bff563f27e31a712a541eaa40674bddc5bdc46c443c3f95e85556ec"
+    },
+    {
+      "path": "tests/e2e/all-levels.spec.ts",
+      "bytes": 16337,
+      "sha256": "09c2c39aa0afd7451aa922a932fb7df2e74b8a89008d59baf6715631e96a6616"
+    },
+    {
+      "path": "tests/e2e/calibration.spec.ts",
+      "bytes": 4860,
+      "sha256": "c3f4409d9c6538280b95bbfa32fb9699cc495452d4537eea7393daf17c2be1e3"
+    },
+    {
+      "path": "tests/e2e/webkit-static.spec.ts",
+      "bytes": 5979,
+      "sha256": "d2ba62ffaedaf5e9ddbe419af28ef1da01f0cf546b81112638df4cca68339646"
+    }
+  ]
+}

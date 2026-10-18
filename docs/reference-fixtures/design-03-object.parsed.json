@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "L02",
+  "title": "중간 매듭에서는 계속",
+  "scene": "thread-bridge",
+  "ppq": 480,
+  "meter": {
+    "n": 4,
+    "d": 4,
+    "groupingEighths": [
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "quarterBpm": 72,
+  "sourceIds": [
+    "004",
+    "017"
+  ],
+  "skillIds": [
+    "tie"
+  ],
+  "sequence": {
+    "countInBars": 1,
+    "listenRepeats": 2,
+    "listenTailBars": 1,
+    "practiceRepeats": 2,
+    "playRepeats": 4,
+    "outroBars": 1
+  },
+  "reviewState": "math_checked_art_audio_review_pending",
+  "bars": [
+    {
+      "events": [
+        {
+          "id": "a",
+          "at": 0,
+          "ticks": 480,
+          "kind": "note",
+          "notation": {
+            "denominator": 4,
+            "dots": 0
+          },
+          "pitchName": "C5",
+          "midi": 72,
+          "interaction": "hold",
+          "tieGroup": "t1"
+        },
+        {
+          "id": "b",
+          "at": 480,
+          "ticks": 480,
+          "kind": "note",
+          "notation": {
+            "denominator": 4,
+            "dots": 0
+          },
+          "pitchName": "C5",
+          "midi": 72,
+          "interaction": "hold",
+          "tieGroup": "t1"
+        },
+        {
+          "id": "c",
+          "at": 960,
+          "ticks": 480,
+          "kind": "rest",
+          "notation": {
+            "denominator": 4,
+            "dots": 0
+          }
+        },
+        {
+          "id": "d",
+          "at": 1440,
+          "ticks": 240,
+          "kind": "note",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          },
+          "pitchName": "E5",
+          "midi": 76,
+          "interaction": "tap"
+        },
+        {
+          "id": "e",
+          "at": 1680,
+          "ticks": 240,
+          "kind": "rest",
+          "notation": {
+            "denominator": 8,
+            "dots": 0
+          }
+        }
+      ]
+    }
+  ]
+}

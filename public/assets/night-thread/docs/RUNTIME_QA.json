@@ -1,0 +1,551 @@
+{
+  "checks": [
+    {
+      "assetId": "scene_a_thread_bridge",
+      "check": "background-psnr-at-least-32dB",
+      "passed": true
+    },
+    {
+      "assetId": "scene_b_crescent_greenhouse",
+      "check": "background-psnr-at-least-32dB",
+      "passed": true
+    },
+    {
+      "assetId": "scene_c_folding_room",
+      "check": "background-psnr-at-least-32dB",
+      "passed": true
+    },
+    {
+      "assetId": "scene_d_cloud_post_station",
+      "check": "background-psnr-at-least-32dB",
+      "passed": true
+    },
+    {
+      "assetId": "character.yeoul.idle",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "character.yeoul.idle",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "character.yeoul.prepare",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "character.yeoul.prepare",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "character.yeoul.release",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "character.yeoul.release",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "character.yeoul.press",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "character.yeoul.press",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "character.yeoul.hold",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "character.yeoul.hold",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "character.yeoul.miss",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "character.yeoul.miss",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "object.greenhouse.flower_closed",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "object.greenhouse.flower_closed",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "object.greenhouse.flower_opening_2",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "object.greenhouse.flower_opening_2",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "object.greenhouse.flower_open",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "object.greenhouse.flower_open",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "object.greenhouse.flower_opening_1",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "object.greenhouse.flower_opening_1",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "somsae_count",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "somsae_count",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "somsae_demo",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "somsae_demo",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "somsae_encourage",
+      "check": "lossless-rgba-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "somsae_encourage",
+      "check": "alpha-roundtrip",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_onset",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_release",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_tie_knot",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_onset_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_release_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_tie_knot_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_bar_pillar",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_needle_eye",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_spool",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_ribbon_tile",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_ribbon_broken",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_lantern_idle",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "bridge_lantern_active",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "greenhouse_container_2u",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "greenhouse_container_1u",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "greenhouse_time_strip_3u",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "greenhouse_rest_cover",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "greenhouse_dew_idle",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "greenhouse_dew_active",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "greenhouse_flower_0",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "greenhouse_flower_1",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "greenhouse_flower_2",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "greenhouse_flower_3",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "room_tile_idle",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "room_tile_active",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "room_hinge_2u",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "room_hinge_3u",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "room_brackets_222",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "room_floor_222",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "room_brackets_33",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "room_floor_33",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "post_letter_idle",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "post_letter_folded",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "post_letter_success_star",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "post_counter",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_press",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_press_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_hold",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_hold_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_release",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_release_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_wait",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_wait_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_sound",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_sound_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_pause",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_pause_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_resume",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_resume_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_retry",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_retry_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_home",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_home_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_help",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_help_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_contrast",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_contrast_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_reduced_motion",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "icon_reduced_motion_hc",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "button_normal",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "button_pressed",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "button_focus",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "button_disabled",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "feedback_knot_success",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "feedback_knot_miss",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "education_duration",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "education_duration_advanced",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "education_tie",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "education_tie_advanced",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "education_dot",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "education_dot_advanced",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "education_dotted_rest",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "education_dotted_rest_advanced",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "education_meter",
+      "check": "svg-master-byte-match",
+      "passed": true
+    },
+    {
+      "assetId": "education_tempo",
+      "check": "svg-master-byte-match",
+      "passed": true
+    }
+  ],
+  "passed": 105,
+  "total": 105,
+  "masterFilesModified": false,
+  "notRun": [
+    "browser feature detection and WebP decode",
+    "physical iPhone/Android tests",
+    "animation switching and timing",
+    "audio",
+    "GPU memory profiling"
+  ],
+  "staticVisualReview": "passed",
+  "independentReview": {
+    "assetCount": 92,
+    "webpCount": 17,
+    "svgCount": 75,
+    "sourceHashesUnchanged": 92,
+    "sourceResamplingRederived": 17,
+    "rgbaLosslessVerified": 13,
+    "scaledCropsAndAnchors": "passed",
+    "profiles": "passed",
+    "noBlockingInconsistencies": true
+  }
+}

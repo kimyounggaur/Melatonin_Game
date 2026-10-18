@@ -1,0 +1,686 @@
+{
+  "fixtureKind": "compiledLevelGolden",
+  "ppq": 480,
+  "levels": [
+    {
+      "levelId": "L01",
+      "barTicks": 1920,
+      "motifTicks": 1920,
+      "motifSecondsFraction": [
+        10,
+        3
+      ],
+      "scoreDenominatorPerMotif": 4,
+      "scoreDenominatorPlay4": 16,
+      "onsetMicrosecondsFromMotifStart": [
+        0,
+        1666667
+      ],
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960,
+        1440
+      ],
+      "gates": [
+        {
+          "id": "L01:a",
+          "onsetTick": 0,
+          "endTick": 480,
+          "interaction": "hold",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "a"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L01:c",
+          "onsetTick": 960,
+          "endTick": 1920,
+          "interaction": "hold",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "c"
+          ],
+          "tieBoundaryTicks": []
+        }
+      ],
+      "rests": [
+        {
+          "sourceNotationId": "b",
+          "startTick": 480,
+          "endTick": 960
+        }
+      ]
+    },
+    {
+      "levelId": "L02",
+      "barTicks": 1920,
+      "motifTicks": 1920,
+      "motifSecondsFraction": [
+        10,
+        3
+      ],
+      "scoreDenominatorPerMotif": 3,
+      "scoreDenominatorPlay4": 12,
+      "onsetMicrosecondsFromMotifStart": [
+        0,
+        2500000
+      ],
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960,
+        1440
+      ],
+      "gates": [
+        {
+          "id": "L02:a",
+          "onsetTick": 0,
+          "endTick": 960,
+          "interaction": "hold",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "a",
+            "b"
+          ],
+          "tieBoundaryTicks": [
+            480
+          ]
+        },
+        {
+          "id": "L02:d",
+          "onsetTick": 1440,
+          "endTick": 1680,
+          "interaction": "tap",
+          "pitchMidi": 76,
+          "sourceNotationIds": [
+            "d"
+          ],
+          "tieBoundaryTicks": []
+        }
+      ],
+      "rests": [
+        {
+          "sourceNotationId": "c",
+          "startTick": 960,
+          "endTick": 1440
+        },
+        {
+          "sourceNotationId": "e",
+          "startTick": 1680,
+          "endTick": 1920
+        }
+      ]
+    },
+    {
+      "levelId": "L03",
+      "barTicks": 1920,
+      "motifTicks": 3840,
+      "motifSecondsFraction": [
+        20,
+        3
+      ],
+      "scoreDenominatorPerMotif": 4,
+      "scoreDenominatorPlay4": 16,
+      "onsetMicrosecondsFromMotifStart": [
+        2500000,
+        5833333
+      ],
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960,
+        1440
+      ],
+      "gates": [
+        {
+          "id": "L03:c",
+          "onsetTick": 1440,
+          "endTick": 2880,
+          "interaction": "hold",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "c",
+            "d"
+          ],
+          "tieBoundaryTicks": [
+            1920
+          ]
+        },
+        {
+          "id": "L03:f",
+          "onsetTick": 3360,
+          "endTick": 3840,
+          "interaction": "hold",
+          "pitchMidi": 76,
+          "sourceNotationIds": [
+            "f"
+          ],
+          "tieBoundaryTicks": []
+        }
+      ],
+      "rests": [
+        {
+          "sourceNotationId": "a",
+          "startTick": 0,
+          "endTick": 960
+        },
+        {
+          "sourceNotationId": "b",
+          "startTick": 960,
+          "endTick": 1440
+        },
+        {
+          "sourceNotationId": "e",
+          "startTick": 2880,
+          "endTick": 3360
+        }
+      ]
+    },
+    {
+      "levelId": "L04",
+      "barTicks": 1920,
+      "motifTicks": 1920,
+      "motifSecondsFraction": [
+        3,
+        1
+      ],
+      "scoreDenominatorPerMotif": 4,
+      "scoreDenominatorPlay4": 16,
+      "onsetMicrosecondsFromMotifStart": [
+        0,
+        1500000
+      ],
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960,
+        1440
+      ],
+      "gates": [
+        {
+          "id": "L04:a",
+          "onsetTick": 0,
+          "endTick": 720,
+          "interaction": "hold",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "a"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L04:c",
+          "onsetTick": 960,
+          "endTick": 1680,
+          "interaction": "hold",
+          "pitchMidi": 76,
+          "sourceNotationIds": [
+            "c"
+          ],
+          "tieBoundaryTicks": []
+        }
+      ],
+      "rests": [
+        {
+          "sourceNotationId": "b",
+          "startTick": 720,
+          "endTick": 960
+        },
+        {
+          "sourceNotationId": "d",
+          "startTick": 1680,
+          "endTick": 1920
+        }
+      ]
+    },
+    {
+      "levelId": "L05",
+      "barTicks": 1440,
+      "motifTicks": 2880,
+      "motifSecondsFraction": [
+        4,
+        1
+      ],
+      "scoreDenominatorPerMotif": 5,
+      "scoreDenominatorPlay4": 20,
+      "onsetMicrosecondsFromMotifStart": [
+        1000000,
+        1333333,
+        1666667,
+        2000000
+      ],
+      "bigBeatTicksPerBar": [
+        0,
+        720
+      ],
+      "gates": [
+        {
+          "id": "L05:b",
+          "onsetTick": 720,
+          "endTick": 960,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "b"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L05:c",
+          "onsetTick": 960,
+          "endTick": 1200,
+          "interaction": "tap",
+          "pitchMidi": 74,
+          "sourceNotationIds": [
+            "c"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L05:d",
+          "onsetTick": 1200,
+          "endTick": 1440,
+          "interaction": "tap",
+          "pitchMidi": 76,
+          "sourceNotationIds": [
+            "d"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L05:e",
+          "onsetTick": 1440,
+          "endTick": 2160,
+          "interaction": "hold",
+          "pitchMidi": 79,
+          "sourceNotationIds": [
+            "e"
+          ],
+          "tieBoundaryTicks": []
+        }
+      ],
+      "rests": [
+        {
+          "sourceNotationId": "a",
+          "startTick": 0,
+          "endTick": 720
+        },
+        {
+          "sourceNotationId": "f",
+          "startTick": 2160,
+          "endTick": 2880
+        }
+      ]
+    },
+    {
+      "levelId": "L06",
+      "barTicks": 1440,
+      "motifTicks": 1440,
+      "motifSecondsFraction": [
+        2,
+        1
+      ],
+      "scoreDenominatorPerMotif": 6,
+      "scoreDenominatorPlay4": 24,
+      "onsetMicrosecondsFromMotifStart": [
+        0,
+        333333,
+        666667,
+        1000000,
+        1333333,
+        1666667
+      ],
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960
+      ],
+      "gates": [
+        {
+          "id": "L06:a",
+          "onsetTick": 0,
+          "endTick": 240,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "a"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L06:b",
+          "onsetTick": 240,
+          "endTick": 480,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "b"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L06:c",
+          "onsetTick": 480,
+          "endTick": 720,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "c"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L06:d",
+          "onsetTick": 720,
+          "endTick": 960,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "d"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L06:e",
+          "onsetTick": 960,
+          "endTick": 1200,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "e"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L06:f",
+          "onsetTick": 1200,
+          "endTick": 1440,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "f"
+          ],
+          "tieBoundaryTicks": []
+        }
+      ],
+      "rests": []
+    },
+    {
+      "levelId": "L07",
+      "barTicks": 1440,
+      "motifTicks": 1440,
+      "motifSecondsFraction": [
+        2,
+        1
+      ],
+      "scoreDenominatorPerMotif": 6,
+      "scoreDenominatorPlay4": 24,
+      "onsetMicrosecondsFromMotifStart": [
+        0,
+        333333,
+        666667,
+        1000000,
+        1333333,
+        1666667
+      ],
+      "bigBeatTicksPerBar": [
+        0,
+        720
+      ],
+      "gates": [
+        {
+          "id": "L07:a",
+          "onsetTick": 0,
+          "endTick": 240,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "a"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L07:b",
+          "onsetTick": 240,
+          "endTick": 480,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "b"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L07:c",
+          "onsetTick": 480,
+          "endTick": 720,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "c"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L07:d",
+          "onsetTick": 720,
+          "endTick": 960,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "d"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L07:e",
+          "onsetTick": 960,
+          "endTick": 1200,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "e"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L07:f",
+          "onsetTick": 1200,
+          "endTick": 1440,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "f"
+          ],
+          "tieBoundaryTicks": []
+        }
+      ],
+      "rests": []
+    },
+    {
+      "levelId": "L08",
+      "barTicks": 1920,
+      "motifTicks": 1920,
+      "motifSecondsFraction": [
+        10,
+        3
+      ],
+      "scoreDenominatorPerMotif": 4,
+      "scoreDenominatorPlay4": 16,
+      "onsetMicrosecondsFromMotifStart": [
+        0,
+        833333,
+        1666667,
+        2500000
+      ],
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960,
+        1440
+      ],
+      "gates": [
+        {
+          "id": "L08:a",
+          "onsetTick": 0,
+          "endTick": 240,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "a"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L08:c",
+          "onsetTick": 480,
+          "endTick": 720,
+          "interaction": "tap",
+          "pitchMidi": 74,
+          "sourceNotationIds": [
+            "c"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L08:e",
+          "onsetTick": 960,
+          "endTick": 1200,
+          "interaction": "tap",
+          "pitchMidi": 76,
+          "sourceNotationIds": [
+            "e"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L08:g",
+          "onsetTick": 1440,
+          "endTick": 1680,
+          "interaction": "tap",
+          "pitchMidi": 79,
+          "sourceNotationIds": [
+            "g"
+          ],
+          "tieBoundaryTicks": []
+        }
+      ],
+      "rests": [
+        {
+          "sourceNotationId": "b",
+          "startTick": 240,
+          "endTick": 480
+        },
+        {
+          "sourceNotationId": "d",
+          "startTick": 720,
+          "endTick": 960
+        },
+        {
+          "sourceNotationId": "f",
+          "startTick": 1200,
+          "endTick": 1440
+        },
+        {
+          "sourceNotationId": "h",
+          "startTick": 1680,
+          "endTick": 1920
+        }
+      ]
+    },
+    {
+      "levelId": "L09",
+      "barTicks": 1920,
+      "motifTicks": 1920,
+      "motifSecondsFraction": [
+        20,
+        9
+      ],
+      "scoreDenominatorPerMotif": 4,
+      "scoreDenominatorPlay4": 16,
+      "onsetMicrosecondsFromMotifStart": [
+        0,
+        555556,
+        1111111,
+        1666667
+      ],
+      "bigBeatTicksPerBar": [
+        0,
+        480,
+        960,
+        1440
+      ],
+      "gates": [
+        {
+          "id": "L09:a",
+          "onsetTick": 0,
+          "endTick": 240,
+          "interaction": "tap",
+          "pitchMidi": 72,
+          "sourceNotationIds": [
+            "a"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L09:c",
+          "onsetTick": 480,
+          "endTick": 720,
+          "interaction": "tap",
+          "pitchMidi": 74,
+          "sourceNotationIds": [
+            "c"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L09:e",
+          "onsetTick": 960,
+          "endTick": 1200,
+          "interaction": "tap",
+          "pitchMidi": 76,
+          "sourceNotationIds": [
+            "e"
+          ],
+          "tieBoundaryTicks": []
+        },
+        {
+          "id": "L09:g",
+          "onsetTick": 1440,
+          "endTick": 1680,
+          "interaction": "tap",
+          "pitchMidi": 79,
+          "sourceNotationIds": [
+            "g"
+          ],
+          "tieBoundaryTicks": []
+        }
+      ],
+      "rests": [
+        {
+          "sourceNotationId": "b",
+          "startTick": 240,
+          "endTick": 480
+        },
+        {
+          "sourceNotationId": "d",
+          "startTick": 720,
+          "endTick": 960
+        },
+        {
+          "sourceNotationId": "f",
+          "startTick": 1200,
+          "endTick": 1440
+        },
+        {
+          "sourceNotationId": "h",
+          "startTick": 1680,
+          "endTick": 1920
+        }
+      ]
+    }
+  ]
+}

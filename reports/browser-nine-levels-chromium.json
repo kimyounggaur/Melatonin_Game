@@ -1,0 +1,368 @@
+[
+  {
+    "levelId": "L01",
+    "events": [
+      {
+        "id": "a",
+        "at": 0,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "b",
+        "at": 480,
+        "kind": "rest",
+        "dots": 0
+      },
+      {
+        "id": "c",
+        "at": 960,
+        "kind": "note",
+        "dots": 0
+      }
+    ],
+    "meter": "4/4 · 4분음표=72 · 2+2+2+2 묶음"
+  },
+  {
+    "levelId": "L02",
+    "events": [
+      {
+        "id": "a",
+        "at": 0,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "b",
+        "at": 480,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "c",
+        "at": 960,
+        "kind": "rest",
+        "dots": 0
+      },
+      {
+        "id": "d",
+        "at": 1440,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "e",
+        "at": 1680,
+        "kind": "rest",
+        "dots": 0
+      }
+    ],
+    "meter": "4/4 · 4분음표=72 · 2+2+2+2 묶음"
+  },
+  {
+    "levelId": "L03",
+    "events": [
+      {
+        "id": "a",
+        "at": 0,
+        "kind": "rest",
+        "dots": 0
+      },
+      {
+        "id": "b",
+        "at": 960,
+        "kind": "rest",
+        "dots": 0
+      },
+      {
+        "id": "c",
+        "at": 1440,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "d",
+        "at": 1920,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "e",
+        "at": 2880,
+        "kind": "rest",
+        "dots": 0
+      },
+      {
+        "id": "f",
+        "at": 3360,
+        "kind": "note",
+        "dots": 0
+      }
+    ],
+    "meter": "4/4 · 4분음표=72 · 2+2+2+2 묶음"
+  },
+  {
+    "levelId": "L04",
+    "events": [
+      {
+        "id": "a",
+        "at": 0,
+        "kind": "note",
+        "dots": 1
+      },
+      {
+        "id": "b",
+        "at": 720,
+        "kind": "rest",
+        "dots": 0
+      },
+      {
+        "id": "c",
+        "at": 960,
+        "kind": "note",
+        "dots": 1
+      },
+      {
+        "id": "d",
+        "at": 1680,
+        "kind": "rest",
+        "dots": 0
+      }
+    ],
+    "meter": "4/4 · 4분음표=80 · 2+2+2+2 묶음"
+  },
+  {
+    "levelId": "L05",
+    "events": [
+      {
+        "id": "a",
+        "at": 0,
+        "kind": "rest",
+        "dots": 1
+      },
+      {
+        "id": "b",
+        "at": 720,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "c",
+        "at": 960,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "d",
+        "at": 1200,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "e",
+        "at": 1440,
+        "kind": "note",
+        "dots": 1
+      },
+      {
+        "id": "f",
+        "at": 2160,
+        "kind": "rest",
+        "dots": 1
+      }
+    ],
+    "meter": "6/8 · 점4분음표=60 · 3+3 묶음"
+  },
+  {
+    "levelId": "L06",
+    "events": [
+      {
+        "id": "a",
+        "at": 0,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "b",
+        "at": 240,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "c",
+        "at": 480,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "d",
+        "at": 720,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "e",
+        "at": 960,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "f",
+        "at": 1200,
+        "kind": "note",
+        "dots": 0
+      }
+    ],
+    "meter": "3/4 · 4분음표=90 · 2+2+2 묶음"
+  },
+  {
+    "levelId": "L07",
+    "events": [
+      {
+        "id": "a",
+        "at": 0,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "b",
+        "at": 240,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "c",
+        "at": 480,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "d",
+        "at": 720,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "e",
+        "at": 960,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "f",
+        "at": 1200,
+        "kind": "note",
+        "dots": 0
+      }
+    ],
+    "meter": "6/8 · 점4분음표=60 · 3+3 묶음"
+  },
+  {
+    "levelId": "L08",
+    "events": [
+      {
+        "id": "a",
+        "at": 0,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "b",
+        "at": 240,
+        "kind": "rest",
+        "dots": 0
+      },
+      {
+        "id": "c",
+        "at": 480,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "d",
+        "at": 720,
+        "kind": "rest",
+        "dots": 0
+      },
+      {
+        "id": "e",
+        "at": 960,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "f",
+        "at": 1200,
+        "kind": "rest",
+        "dots": 0
+      },
+      {
+        "id": "g",
+        "at": 1440,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "h",
+        "at": 1680,
+        "kind": "rest",
+        "dots": 0
+      }
+    ],
+    "meter": "4/4 · 4분음표=72 · 2+2+2+2 묶음"
+  },
+  {
+    "levelId": "L09",
+    "events": [
+      {
+        "id": "a",
+        "at": 0,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "b",
+        "at": 240,
+        "kind": "rest",
+        "dots": 0
+      },
+      {
+        "id": "c",
+        "at": 480,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "d",
+        "at": 720,
+        "kind": "rest",
+        "dots": 0
+      },
+      {
+        "id": "e",
+        "at": 960,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "f",
+        "at": 1200,
+        "kind": "rest",
+        "dots": 0
+      },
+      {
+        "id": "g",
+        "at": 1440,
+        "kind": "note",
+        "dots": 0
+      },
+      {
+        "id": "h",
+        "at": 1680,
+        "kind": "rest",
+        "dots": 0
+      }
+    ],
+    "meter": "4/4 · 4분음표=108 · 2+2+2+2 묶음"
+  }
+]

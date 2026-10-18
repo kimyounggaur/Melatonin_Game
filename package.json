@@ -1,0 +1,26 @@
+{
+  "name": "bamsil-night-thread",
+  "version": "1.0.0-preview",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5286 --strictPort",
+    "typecheck": "tsc --noEmit",
+    "test:unit": "vitest run tests/core tests/audio tests/assets tests/notation",
+    "test:integration": "vitest run tests/integration",
+    "test:e2e": "playwright test",
+    "validate:content": "vitest run tests/core-content tests/assets",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4286 --strictPort",
+    "gate:education": "node scripts/education-gate.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/node": "24.10.0",
+    "ajv": "8.17.1",
+    "typescript": "5.9.3",
+    "vite": "7.2.2",
+    "vitest": "3.2.4"
+  }
+}

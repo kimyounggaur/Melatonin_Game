@@ -1,0 +1,487 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\playwright.config.ts",
+    "rootDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "night-thread.spec.ts",
+      "file": "night-thread.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "E01 E08 E09: nine lessons expose exact source notation, pitch, ties, grouping and tempo",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 946,
+                  "error": {
+                    "message": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n",
+                    "stack": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n\n    at openMap (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:27:14)\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:70:9",
+                    "location": {
+                      "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                      "column": 14,
+                      "line": 27
+                    },
+                    "snippet": "  25 |\n  26 | async function openMap(page: Page): Promise<void> {\n> 27 |   await page.goto('/');\n     |              ^\n  28 |   await expect(action(page, 'unlock')).toBeVisible();\n  29 |   await action(page, 'unlock').click();\n  30 |   await expect(page.locator('h1')).toHaveText('오늘은 어떤 꿈을 이을까요?');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                        "column": 14,
+                        "line": 27
+                      },
+                      "message": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n\n\n  25 |\n  26 | async function openMap(page: Page): Promise<void> {\n> 27 |   await page.goto('/');\n     |              ^\n  28 |   await expect(action(page, 'unlock')).toBeVisible();\n  29 |   await action(page, 'unlock').click();\n  30 |   await expect(page.locator('h1')).toHaveText('오늘은 어떤 꿈을 이을까요?');\n    at openMap (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:27:14)\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:70:9"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T15:59:22.799Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E01-E08-E09-n-dc35b-tch-ties-grouping-and-tempo-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E01-E08-E09-n-dc35b-tch-ties-grouping-and-tempo-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E01-E08-E09-n-dc35b-tch-ties-grouping-and-tempo-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                    "column": 14,
+                    "line": 27
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-88ab5487ca7fa96d683a",
+          "file": "night-thread.spec.ts",
+          "line": 73,
+          "column": 1
+        },
+        {
+          "title": "E06: five viewport layouts, readable 200% text, keyboard settings and semantic controls",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1828,
+                  "error": {
+                    "message": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n",
+                    "stack": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n\n    at openMap (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:27:14)\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:92:9",
+                    "location": {
+                      "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                      "column": 14,
+                      "line": 27
+                    },
+                    "snippet": "  25 |\n  26 | async function openMap(page: Page): Promise<void> {\n> 27 |   await page.goto('/');\n     |              ^\n  28 |   await expect(action(page, 'unlock')).toBeVisible();\n  29 |   await action(page, 'unlock').click();\n  30 |   await expect(page.locator('h1')).toHaveText('오늘은 어떤 꿈을 이을까요?');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                        "column": 14,
+                        "line": 27
+                      },
+                      "message": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n\n\n  25 |\n  26 | async function openMap(page: Page): Promise<void> {\n> 27 |   await page.goto('/');\n     |              ^\n  28 |   await expect(action(page, 'unlock')).toBeVisible();\n  29 |   await action(page, 'unlock').click();\n  30 |   await expect(page.locator('h1')).toHaveText('오늘은 어떤 꿈을 이을까요?');\n    at openMap (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:27:14)\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:92:9"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T15:59:31.710Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E06-five-view-5d92e-tings-and-semantic-controls-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E06-five-view-5d92e-tings-and-semantic-controls-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E06-five-view-5d92e-tings-and-semantic-controls-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                    "column": 14,
+                    "line": 27
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-4425ad27c8fb3143a5ac",
+          "file": "night-thread.spec.ts",
+          "line": 110,
+          "column": 1
+        },
+        {
+          "title": "E01 E14: real-time L02 listen → practice → PLAY no-input earns zero and emits no lead/player attacks",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1105,
+                  "error": {
+                    "message": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n",
+                    "stack": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n\n    at openMap (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:27:14)\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:132:9",
+                    "location": {
+                      "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                      "column": 14,
+                      "line": 27
+                    },
+                    "snippet": "  25 |\n  26 | async function openMap(page: Page): Promise<void> {\n> 27 |   await page.goto('/');\n     |              ^\n  28 |   await expect(action(page, 'unlock')).toBeVisible();\n  29 |   await action(page, 'unlock').click();\n  30 |   await expect(page.locator('h1')).toHaveText('오늘은 어떤 꿈을 이을까요?');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                        "column": 14,
+                        "line": 27
+                      },
+                      "message": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n\n\n  25 |\n  26 | async function openMap(page: Page): Promise<void> {\n> 27 |   await page.goto('/');\n     |              ^\n  28 |   await expect(action(page, 'unlock')).toBeVisible();\n  29 |   await action(page, 'unlock').click();\n  30 |   await expect(page.locator('h1')).toHaveText('오늘은 어떤 꿈을 이을까요?');\n    at openMap (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:27:14)\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:132:9"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T15:59:40.831Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E01-E14-real--7ebf0-mits-no-lead-player-attacks-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E01-E14-real--7ebf0-mits-no-lead-player-attacks-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E01-E14-real--7ebf0-mits-no-lead-player-attacks-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                    "column": 14,
+                    "line": 27
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-5900bc68a06a6873e35f",
+          "file": "night-thread.spec.ts",
+          "line": 174,
+          "column": 1
+        },
+        {
+          "title": "E02 E03 E04: trusted keyboard and pointer hold/release, secondary owner ignored, pause/resume fresh count-in",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1328,
+                  "error": {
+                    "message": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n",
+                    "stack": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n\n    at openMap (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:27:14)\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:161:9",
+                    "location": {
+                      "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                      "column": 14,
+                      "line": 27
+                    },
+                    "snippet": "  25 |\n  26 | async function openMap(page: Page): Promise<void> {\n> 27 |   await page.goto('/');\n     |              ^\n  28 |   await expect(action(page, 'unlock')).toBeVisible();\n  29 |   await action(page, 'unlock').click();\n  30 |   await expect(page.locator('h1')).toHaveText('오늘은 어떤 꿈을 이을까요?');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                        "column": 14,
+                        "line": 27
+                      },
+                      "message": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n\n\n  25 |\n  26 | async function openMap(page: Page): Promise<void> {\n> 27 |   await page.goto('/');\n     |              ^\n  28 |   await expect(action(page, 'unlock')).toBeVisible();\n  29 |   await action(page, 'unlock').click();\n  30 |   await expect(page.locator('h1')).toHaveText('오늘은 어떤 꿈을 이을까요?');\n    at openMap (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:27:14)\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:161:9"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T15:59:49.685Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E02-E03-E04-t-c3cab-pause-resume-fresh-count-in-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E02-E03-E04-t-c3cab-pause-resume-fresh-count-in-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E02-E03-E04-t-c3cab-pause-resume-fresh-count-in-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                    "column": 14,
+                    "line": 27
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-1b36037b140347cb0d20",
+          "file": "night-thread.spec.ts",
+          "line": 240,
+          "column": 1
+        },
+        {
+          "title": "E05: real browser screen orientation change interrupts and user resume starts a fresh count-in",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1343,
+                  "error": {
+                    "message": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n",
+                    "stack": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n\n    at openMap (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:27:14)\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:203:9",
+                    "location": {
+                      "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                      "column": 14,
+                      "line": 27
+                    },
+                    "snippet": "  25 |\n  26 | async function openMap(page: Page): Promise<void> {\n> 27 |   await page.goto('/');\n     |              ^\n  28 |   await expect(action(page, 'unlock')).toBeVisible();\n  29 |   await action(page, 'unlock').click();\n  30 |   await expect(page.locator('h1')).toHaveText('오늘은 어떤 꿈을 이을까요?');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                        "column": 14,
+                        "line": 27
+                      },
+                      "message": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:5286/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:5286/\", waiting until \"load\"\u001b[22m\n\n\n  25 |\n  26 | async function openMap(page: Page): Promise<void> {\n> 27 |   await page.goto('/');\n     |              ^\n  28 |   await expect(action(page, 'unlock')).toBeVisible();\n  29 |   await action(page, 'unlock').click();\n  30 |   await expect(page.locator('h1')).toHaveText('오늘은 어떤 꿈을 이을까요?');\n    at openMap (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:27:14)\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts:203:9"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T15:59:59.386Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E05-real-brow-f3dd2-ume-starts-a-fresh-count-in-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E05-real-brow-f3dd2-ume-starts-a-fresh-count-in-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\output\\playwright\\test-results\\night-thread-E05-real-brow-f3dd2-ume-starts-a-fresh-count-in-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\tests\\e2e\\night-thread.spec.ts",
+                    "column": 14,
+                    "line": 27
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "27a4be643247ef394ae5-f00341a8479afacb622f",
+          "file": "night-thread.spec.ts",
+          "line": 340,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-18T15:59:20.686Z",
+    "duration": 45103.381,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 5,
+    "flaky": 0
+  }
+}

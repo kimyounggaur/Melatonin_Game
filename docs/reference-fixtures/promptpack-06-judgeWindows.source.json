@@ -1,0 +1,95 @@
+{
+  "fixtureKind": "judgeWindows",
+  "cases": [
+    {
+      "type": "onset",
+      "neighborOrHoldDurationMs": null,
+      "assistMultiplier": 1,
+      "windowMsFraction": [
+        140,
+        1
+      ],
+      "thresholdsUs": [
+        45000,
+        90000,
+        140000
+      ]
+    },
+    {
+      "type": "onset",
+      "neighborOrHoldDurationMs": 200.0,
+      "assistMultiplier": 1,
+      "windowMsFraction": [
+        90,
+        1
+      ],
+      "thresholdsUs": [
+        28929,
+        57857,
+        90000
+      ]
+    },
+    {
+      "type": "onset",
+      "neighborOrHoldDurationMs": 333.3333333333333,
+      "assistMultiplier": 1.35,
+      "windowMsFraction": [
+        150,
+        1
+      ],
+      "thresholdsUs": [
+        48214,
+        96429,
+        150000
+      ]
+    },
+    {
+      "type": "release",
+      "neighborOrHoldDurationMs": null,
+      "assistMultiplier": 1,
+      "windowMsFraction": [
+        160,
+        1
+      ],
+      "thresholdsUs": [
+        60000,
+        110000,
+        160000
+      ]
+    },
+    {
+      "type": "release",
+      "neighborOrHoldDurationMs": 200.0,
+      "assistMultiplier": 1,
+      "windowMsFraction": [
+        90,
+        1
+      ],
+      "thresholdsUs": [
+        33750,
+        61875,
+        90000
+      ]
+    },
+    {
+      "type": "release",
+      "neighborOrHoldDurationMs": 200.0,
+      "assistMultiplier": 1.35,
+      "windowMsFraction": [
+        90,
+        1
+      ],
+      "thresholdsUs": [
+        33750,
+        61875,
+        90000
+      ]
+    }
+  ],
+  "gradeMultipliers": [
+    1,
+    0.75,
+    0.4,
+    0
+  ]
+}

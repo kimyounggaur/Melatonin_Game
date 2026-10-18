@@ -1,0 +1,21 @@
+{
+  "observed": {
+    "background": "rgb(239, 202, 122)",
+    "color": "rgb(20, 42, 53)",
+    "label": "누르기",
+    "rect": {
+      "x": 343,
+      "y": 575.984375,
+      "width": 680,
+      "height": 80
+    },
+    "viewport": {
+      "width": 1366,
+      "height": 768
+    }
+  },
+  "contrastRatio": 9.487374457267407,
+  "errors": [],
+  "passed": true,
+  "scope": "Actual browser hover style and viewport geometry; not a complete accessibility audit"
+}

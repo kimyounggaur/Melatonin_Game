@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "L03",
+  "title": "기둥을 넘어 잇기",
+  "scene": "thread-bridge",
+  "ppq": 480,
+  "meter": {"n": 4, "d": 4, "groupingEighths": [2, 2, 2, 2]},
+  "quarterBpm": 72,
+  "sourceIds": ["004", "017"],
+  "skillIds": ["cross-bar-tie"],
+  "sequence": {"countInBars": 1, "listenRepeats": 2, "listenTailBars": 1, "practiceRepeats": 2, "playRepeats": 4, "outroBars": 1},
+  "reviewState": "math_checked_art_audio_review_pending",
+  "bars": [
+    {"events": [
+      {"id": "a", "at": 0, "ticks": 960, "kind": "rest", "notation": {"denominator": 2, "dots": 0}},
+      {"id": "b", "at": 960, "ticks": 480, "kind": "rest", "notation": {"denominator": 4, "dots": 0}},
+      {"id": "c", "at": 1440, "ticks": 480, "kind": "note", "notation": {"denominator": 4, "dots": 0}, "pitchName": "C5", "midi": 72, "interaction": "hold", "tieGroup": "t2"}
+    ]},
+    {"events": [
+      {"id": "d", "at": 0, "ticks": 960, "kind": "note", "notation": {"denominator": 2, "dots": 0}, "pitchName": "C5", "midi": 72, "interaction": "hold", "tieGroup": "t2"},
+      {"id": "e", "at": 960, "ticks": 480, "kind": "rest", "notation": {"denominator": 4, "dots": 0}},
+      {"id": "f", "at": 1440, "ticks": 480, "kind": "note", "notation": {"denominator": 4, "dots": 0}, "pitchName": "E5", "midi": 76, "interaction": "hold"}
+    ]}
+  ]
+}

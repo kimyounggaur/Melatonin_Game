@@ -1,0 +1,32 @@
+{
+  "fixtureKind": "initialProgressExample",
+  "storageKey": "night-thread.progress.v1",
+  "value": {
+    "schemaVersion": 1,
+    "contentVersion": "night-thread-mvp/1.0.0",
+    "settings": {
+      "locale": "ko-KR",
+      "volumes": {
+        "metronome": 0.7,
+        "guide": 0.8,
+        "bgm": 0.45,
+        "sfx": 0.6
+      },
+      "reducedMotion": false,
+      "highContrast": false,
+      "inputCode": "Space",
+      "assistMode": "standard"
+    },
+    "calibration": {
+      "inputOffsetMs": 0,
+      "visualOffsetMs": 0,
+      "method": "unconfirmed",
+      "confirmedAt": null,
+      "revision": 0
+    },
+    "levels": {},
+    "recentAttempts": [],
+    "bestScoreEvidence": {},
+    "lastLessonId": null
+  }
+}

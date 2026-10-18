@@ -1,0 +1,3973 @@
+{
+  "schemaVersion": 1,
+  "packVersion": "night-thread-mobile-runtime/1.0.0",
+  "createdDate": "2026-10-18",
+  "masterPackVersion": "night-thread-art/1.0.0",
+  "masterManifestSha256": "13d1170008ecac9bf653120a53e1464f452e8497a8328dfc77416832f7626e2f",
+  "logicalAssetCount": 92,
+  "designBudgets": {
+    "initialTransferBytes": 8000000,
+    "essentialAudioBytes": 2000000,
+    "decodedTextureBudgetSpecified": false,
+    "note": "Targets from design11.2. Memory estimates below are planning figures; no source-design GPU-memory limit was specified."
+  },
+  "rasterPresets": {
+    "background": [
+      1152,
+      768
+    ],
+    "yeoulAndFlower": [
+      512,
+      512
+    ],
+    "somsae": [
+      384,
+      384
+    ]
+  },
+  "cropPolicy": "Central4:3=1024x768; central16:9=1152x648. Use runtime cropRects; do not apply master-pixel crop to derivative.",
+  "loadProfiles": {
+    "thread-bridge": {
+      "assetIds": [
+        "character.yeoul.idle",
+        "character.yeoul.prepare",
+        "character.yeoul.release",
+        "character.yeoul.press",
+        "character.yeoul.hold",
+        "character.yeoul.miss",
+        "somsae_count",
+        "somsae_demo",
+        "somsae_encourage",
+        "icon_press",
+        "icon_press_hc",
+        "icon_hold",
+        "icon_hold_hc",
+        "icon_release",
+        "icon_release_hc",
+        "icon_wait",
+        "icon_wait_hc",
+        "icon_sound",
+        "icon_sound_hc",
+        "icon_pause",
+        "icon_pause_hc",
+        "icon_resume",
+        "icon_resume_hc",
+        "icon_retry",
+        "icon_retry_hc",
+        "icon_home",
+        "icon_home_hc",
+        "icon_help",
+        "icon_help_hc",
+        "icon_contrast",
+        "icon_contrast_hc",
+        "icon_reduced_motion",
+        "icon_reduced_motion_hc",
+        "button_normal",
+        "button_pressed",
+        "button_focus",
+        "button_disabled",
+        "feedback_knot_success",
+        "feedback_knot_miss",
+        "scene_a_thread_bridge",
+        "bridge_onset",
+        "bridge_release",
+        "bridge_tie_knot",
+        "bridge_onset_hc",
+        "bridge_release_hc",
+        "bridge_tie_knot_hc",
+        "bridge_bar_pillar",
+        "bridge_needle_eye",
+        "bridge_spool",
+        "bridge_ribbon_tile",
+        "bridge_ribbon_broken",
+        "bridge_lantern_idle",
+        "bridge_lantern_active"
+      ],
+      "primaryAssetFileBytes": 1021110,
+      "pngFallbackAssetFileBytes": 2526858,
+      "decodedRGBABytesEstimate": 14491648,
+      "decodedMiBEstimate": 13.82,
+      "withOneEducationDiagramBytesEstimate": 17113088,
+      "withMipmapsBytesEstimate": 19322198,
+      "rasterizationScaleForSVG": 1,
+      "audioReserveBytes": 2000000,
+      "primaryAssetsPlusAudioReserveBytes": 3021110,
+      "under8MBBeforeAppCodeAndHeaders": true,
+      "notes": [
+        "Choose either WebP or fallback PNG, never both.",
+        "Includes all common key poses and both normal/high-contrast UI as a conservative resident estimate.",
+        "No simultaneous old/new background transition texture; unload unused scene textures.",
+        "One diagram allocated on results only; do not preload all ten."
+      ]
+    },
+    "crescent-greenhouse": {
+      "assetIds": [
+        "character.yeoul.idle",
+        "character.yeoul.prepare",
+        "character.yeoul.release",
+        "character.yeoul.press",
+        "character.yeoul.hold",
+        "character.yeoul.miss",
+        "somsae_count",
+        "somsae_demo",
+        "somsae_encourage",
+        "icon_press",
+        "icon_press_hc",
+        "icon_hold",
+        "icon_hold_hc",
+        "icon_release",
+        "icon_release_hc",
+        "icon_wait",
+        "icon_wait_hc",
+        "icon_sound",
+        "icon_sound_hc",
+        "icon_pause",
+        "icon_pause_hc",
+        "icon_resume",
+        "icon_resume_hc",
+        "icon_retry",
+        "icon_retry_hc",
+        "icon_home",
+        "icon_home_hc",
+        "icon_help",
+        "icon_help_hc",
+        "icon_contrast",
+        "icon_contrast_hc",
+        "icon_reduced_motion",
+        "icon_reduced_motion_hc",
+        "button_normal",
+        "button_pressed",
+        "button_focus",
+        "button_disabled",
+        "feedback_knot_success",
+        "feedback_knot_miss",
+        "scene_b_crescent_greenhouse",
+        "object.greenhouse.flower_closed",
+        "object.greenhouse.flower_opening_2",
+        "object.greenhouse.flower_open",
+        "object.greenhouse.flower_opening_1",
+        "greenhouse_container_2u",
+        "greenhouse_container_1u",
+        "greenhouse_time_strip_3u",
+        "greenhouse_rest_cover",
+        "greenhouse_dew_idle",
+        "greenhouse_dew_active"
+      ],
+      "primaryAssetFileBytes": 1564633,
+      "pngFallbackAssetFileBytes": 3384578,
+      "decodedRGBABytesEstimate": 18128896,
+      "decodedMiBEstimate": 17.289,
+      "withOneEducationDiagramBytesEstimate": 20750336,
+      "withMipmapsBytesEstimate": 24171862,
+      "rasterizationScaleForSVG": 1,
+      "audioReserveBytes": 2000000,
+      "primaryAssetsPlusAudioReserveBytes": 3564633,
+      "under8MBBeforeAppCodeAndHeaders": true,
+      "notes": [
+        "Choose either WebP or fallback PNG, never both.",
+        "Includes all common key poses and both normal/high-contrast UI as a conservative resident estimate.",
+        "No simultaneous old/new background transition texture; unload unused scene textures.",
+        "One diagram allocated on results only; do not preload all ten."
+      ]
+    },
+    "folding-room": {
+      "assetIds": [
+        "character.yeoul.idle",
+        "character.yeoul.prepare",
+        "character.yeoul.release",
+        "character.yeoul.press",
+        "character.yeoul.hold",
+        "character.yeoul.miss",
+        "somsae_count",
+        "somsae_demo",
+        "somsae_encourage",
+        "icon_press",
+        "icon_press_hc",
+        "icon_hold",
+        "icon_hold_hc",
+        "icon_release",
+        "icon_release_hc",
+        "icon_wait",
+        "icon_wait_hc",
+        "icon_sound",
+        "icon_sound_hc",
+        "icon_pause",
+        "icon_pause_hc",
+        "icon_resume",
+        "icon_resume_hc",
+        "icon_retry",
+        "icon_retry_hc",
+        "icon_home",
+        "icon_home_hc",
+        "icon_help",
+        "icon_help_hc",
+        "icon_contrast",
+        "icon_contrast_hc",
+        "icon_reduced_motion",
+        "icon_reduced_motion_hc",
+        "button_normal",
+        "button_pressed",
+        "button_focus",
+        "button_disabled",
+        "feedback_knot_success",
+        "feedback_knot_miss",
+        "scene_c_folding_room",
+        "room_tile_idle",
+        "room_tile_active",
+        "room_hinge_2u",
+        "room_hinge_3u",
+        "room_brackets_222",
+        "room_floor_222",
+        "room_brackets_33",
+        "room_floor_33"
+      ],
+      "primaryAssetFileBytes": 989896,
+      "pngFallbackAssetFileBytes": 2475674,
+      "decodedRGBABytesEstimate": 14616576,
+      "decodedMiBEstimate": 13.939,
+      "withOneEducationDiagramBytesEstimate": 17238016,
+      "withMipmapsBytesEstimate": 19488768,
+      "rasterizationScaleForSVG": 1,
+      "audioReserveBytes": 2000000,
+      "primaryAssetsPlusAudioReserveBytes": 2989896,
+      "under8MBBeforeAppCodeAndHeaders": true,
+      "notes": [
+        "Choose either WebP or fallback PNG, never both.",
+        "Includes all common key poses and both normal/high-contrast UI as a conservative resident estimate.",
+        "No simultaneous old/new background transition texture; unload unused scene textures.",
+        "One diagram allocated on results only; do not preload all ten."
+      ]
+    },
+    "cloud-post": {
+      "assetIds": [
+        "character.yeoul.idle",
+        "character.yeoul.prepare",
+        "character.yeoul.release",
+        "character.yeoul.press",
+        "character.yeoul.hold",
+        "character.yeoul.miss",
+        "somsae_count",
+        "somsae_demo",
+        "somsae_encourage",
+        "icon_press",
+        "icon_press_hc",
+        "icon_hold",
+        "icon_hold_hc",
+        "icon_release",
+        "icon_release_hc",
+        "icon_wait",
+        "icon_wait_hc",
+        "icon_sound",
+        "icon_sound_hc",
+        "icon_pause",
+        "icon_pause_hc",
+        "icon_resume",
+        "icon_resume_hc",
+        "icon_retry",
+        "icon_retry_hc",
+        "icon_home",
+        "icon_home_hc",
+        "icon_help",
+        "icon_help_hc",
+        "icon_contrast",
+        "icon_contrast_hc",
+        "icon_reduced_motion",
+        "icon_reduced_motion_hc",
+        "button_normal",
+        "button_pressed",
+        "button_focus",
+        "button_disabled",
+        "feedback_knot_success",
+        "feedback_knot_miss",
+        "scene_d_cloud_post_station",
+        "post_letter_idle",
+        "post_letter_folded",
+        "post_letter_success_star",
+        "post_counter"
+      ],
+      "primaryAssetFileBytes": 1022222,
+      "pngFallbackAssetFileBytes": 2704965,
+      "decodedRGBABytesEstimate": 14311424,
+      "decodedMiBEstimate": 13.648,
+      "withOneEducationDiagramBytesEstimate": 16932864,
+      "withMipmapsBytesEstimate": 19081899,
+      "rasterizationScaleForSVG": 1,
+      "audioReserveBytes": 2000000,
+      "primaryAssetsPlusAudioReserveBytes": 3022222,
+      "under8MBBeforeAppCodeAndHeaders": true,
+      "notes": [
+        "Choose either WebP or fallback PNG, never both.",
+        "Includes all common key poses and both normal/high-contrast UI as a conservative resident estimate.",
+        "No simultaneous old/new background transition texture; unload unused scene textures.",
+        "One diagram allocated on results only; do not preload all ten."
+      ]
+    }
+  },
+  "levelSceneBindings": {
+    "L01": "thread-bridge",
+    "L02": "thread-bridge",
+    "L03": "thread-bridge",
+    "L04": "crescent-greenhouse",
+    "L05": "crescent-greenhouse",
+    "L06": "folding-room",
+    "L07": "folding-room",
+    "L08": "cloud-post",
+    "L09": "cloud-post"
+  },
+  "assets": [
+    {
+      "assetId": "scene_a_thread_bridge",
+      "category": "background",
+      "scene": "thread-bridge",
+      "state": "static",
+      "usage": "Opaque decorative scene; never contains hit detection or answer data.",
+      "masterPath": "backgrounds/scene_a_thread_bridge.png",
+      "masterSha256": "58f6a24f1bce9d06507e92327d5d23efa304987f1992499b3c2d3c7585d7080d",
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "backgrounds/scene_a_thread_bridge.webp",
+      "format": "image/webp",
+      "width": 1152,
+      "height": 768,
+      "bytes": 78478,
+      "sha256": "01aed7244d6f0c366281d941cff551cdef913cd830138d9dcd1bf4f13f1a5efa",
+      "pngFallbackPath": "png_fallbacks/backgrounds/scene_a_thread_bridge.png",
+      "pngFallbackBytes": 1161342,
+      "pngFallbackSha256": "21b270f9e8dbc8a656b78dc5ba487eb4947d37982803f23483566b7a63d1321a",
+      "resample": "RGB Lanczos",
+      "codec": {
+        "quality": 82,
+        "method": 6
+      },
+      "anchorPx": [
+        576.0,
+        384.0
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alpha": {
+        "opaque": true
+      },
+      "codecValidation": {
+        "rgbPSNRdBvsResizedPNG": 35.183,
+        "note": "Codec fidelity measurement only, not device display quality."
+      },
+      "decodedRGBABytesEstimate": 3538944,
+      "cropRects": {
+        "mobile4x3": [
+          64.0,
+          0.0,
+          1024.0,
+          768.0
+        ],
+        "desktop16x9": [
+          0.0,
+          60.0,
+          1152.0,
+          648.0
+        ]
+      },
+      "safeGameplayMasterNormalized": [
+        0.22,
+        0.36,
+        0.56,
+        0.3
+      ],
+      "reducedMotionPath": "backgrounds/scene_a_thread_bridge.webp"
+    },
+    {
+      "assetId": "scene_b_crescent_greenhouse",
+      "category": "background",
+      "scene": "crescent-greenhouse",
+      "state": "static",
+      "usage": "Opaque decorative scene; never contains hit detection or answer data.",
+      "masterPath": "backgrounds/scene_b_crescent_greenhouse.png",
+      "masterSha256": "7f6df5c200d231421b1135f20c790dbe264166c12c72277ce846d56426ded4c7",
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "backgrounds/scene_b_crescent_greenhouse.webp",
+      "format": "image/webp",
+      "width": 1152,
+      "height": 768,
+      "bytes": 99964,
+      "sha256": "4cb7dcaa11fd74b7e73d573940beadc2135f4399e6544c0366f33bd185d9f9aa",
+      "pngFallbackPath": "png_fallbacks/backgrounds/scene_b_crescent_greenhouse.png",
+      "pngFallbackBytes": 1265263,
+      "pngFallbackSha256": "900ccc80cab3477e9155361a9a6f70571f1b52da56786ffd6bd5294f85ed6475",
+      "resample": "RGB Lanczos",
+      "codec": {
+        "quality": 82,
+        "method": 6
+      },
+      "anchorPx": [
+        576.0,
+        384.0
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alpha": {
+        "opaque": true
+      },
+      "codecValidation": {
+        "rgbPSNRdBvsResizedPNG": 35.382,
+        "note": "Codec fidelity measurement only, not device display quality."
+      },
+      "decodedRGBABytesEstimate": 3538944,
+      "cropRects": {
+        "mobile4x3": [
+          64.0,
+          0.0,
+          1024.0,
+          768.0
+        ],
+        "desktop16x9": [
+          0.0,
+          60.0,
+          1152.0,
+          648.0
+        ]
+      },
+      "safeGameplayMasterNormalized": [
+        0.22,
+        0.36,
+        0.56,
+        0.3
+      ],
+      "reducedMotionPath": "backgrounds/scene_b_crescent_greenhouse.webp"
+    },
+    {
+      "assetId": "scene_c_folding_room",
+      "category": "background",
+      "scene": "folding-room",
+      "state": "static",
+      "usage": "Opaque decorative scene; never contains hit detection or answer data.",
+      "masterPath": "backgrounds/scene_c_folding_room.png",
+      "masterSha256": "1171d05e012170e7d5d59290ec9f7e13393ee46c0f2865fc89aaf3fb55f7845c",
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "backgrounds/scene_c_folding_room.webp",
+      "format": "image/webp",
+      "width": 1152,
+      "height": 768,
+      "bytes": 48422,
+      "sha256": "55b741184f780ed9b2f66d3834ea2fe43be0766a1ebb619de870a72f97e10265",
+      "pngFallbackPath": "png_fallbacks/backgrounds/scene_c_folding_room.png",
+      "pngFallbackBytes": 1111316,
+      "pngFallbackSha256": "12651e79fb9c3717cd60f69937b06cde954ddda29c105715ec79f8c5562b490b",
+      "resample": "RGB Lanczos",
+      "codec": {
+        "quality": 82,
+        "method": 6
+      },
+      "anchorPx": [
+        576.0,
+        384.0
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alpha": {
+        "opaque": true
+      },
+      "codecValidation": {
+        "rgbPSNRdBvsResizedPNG": 37.182,
+        "note": "Codec fidelity measurement only, not device display quality."
+      },
+      "decodedRGBABytesEstimate": 3538944,
+      "cropRects": {
+        "mobile4x3": [
+          64.0,
+          0.0,
+          1024.0,
+          768.0
+        ],
+        "desktop16x9": [
+          0.0,
+          60.0,
+          1152.0,
+          648.0
+        ]
+      },
+      "safeGameplayMasterNormalized": [
+        0.22,
+        0.36,
+        0.56,
+        0.3
+      ],
+      "reducedMotionPath": "backgrounds/scene_c_folding_room.webp"
+    },
+    {
+      "assetId": "scene_d_cloud_post_station",
+      "category": "background",
+      "scene": "cloud-post",
+      "state": "static",
+      "usage": "Opaque decorative scene; never contains hit detection or answer data.",
+      "masterPath": "backgrounds/scene_d_cloud_post_station.png",
+      "masterSha256": "cbe71c79aed4952528faffc5d44dc69914fe2131ec666f55ce305ae584075efc",
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "backgrounds/scene_d_cloud_post_station.webp",
+      "format": "image/webp",
+      "width": 1152,
+      "height": 768,
+      "bytes": 86912,
+      "sha256": "1d2f39fd1863a1199fb065d280418d6a55538f735efae5826e5a70e826480676",
+      "pngFallbackPath": "png_fallbacks/backgrounds/scene_d_cloud_post_station.png",
+      "pngFallbackBytes": 1346771,
+      "pngFallbackSha256": "970dc8d49ed539bfb8810ba14d3ae937c10b4683a65e3688233cd949e6278268",
+      "resample": "RGB Lanczos",
+      "codec": {
+        "quality": 82,
+        "method": 6
+      },
+      "anchorPx": [
+        576.0,
+        384.0
+      ],
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "alpha": {
+        "opaque": true
+      },
+      "codecValidation": {
+        "rgbPSNRdBvsResizedPNG": 34.373,
+        "note": "Codec fidelity measurement only, not device display quality."
+      },
+      "decodedRGBABytesEstimate": 3538944,
+      "cropRects": {
+        "mobile4x3": [
+          64.0,
+          0.0,
+          1024.0,
+          768.0
+        ],
+        "desktop16x9": [
+          0.0,
+          60.0,
+          1152.0,
+          648.0
+        ]
+      },
+      "safeGameplayMasterNormalized": [
+        0.22,
+        0.36,
+        0.56,
+        0.3
+      ],
+      "reducedMotionPath": "backgrounds/scene_d_cloud_post_station.webp"
+    },
+    {
+      "assetId": "character.yeoul.idle",
+      "category": "character",
+      "scene": "shared",
+      "state": "idle",
+      "usage": "Static Yeoul key pose; switch from engine events, not timing authority.",
+      "masterPath": "characters/yeoul_idle.png",
+      "masterSha256": "d6e62285860470f3c5aeb82d8fa649a8383f7a503663ddb708cb7e3ca4807d42",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "characters/yeoul_idle.webp",
+      "format": "image/webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 117704,
+      "sha256": "cafe470bb5d6a72e8ad81ad8b349848b1e230e806767d45166864b5666d94f17",
+      "pngFallbackPath": "png_fallbacks/characters/yeoul_idle.png",
+      "pngFallbackBytes": 171503,
+      "pngFallbackSha256": "d08c965771a7a548ab2d00b6975766c26e2f76d9e46b81f83680a5ae15983600",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        273.5566,
+        480.9697
+      ],
+      "anchorNormalized": [
+        0.53429,
+        0.939394
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          46,
+          1,
+          406,
+          483
+        ],
+        "visibleBoundsAlpha128": [
+          145,
+          40,
+          362,
+          480
+        ],
+        "fullyTransparentFraction": 0.759865
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 1048576
+    },
+    {
+      "assetId": "character.yeoul.prepare",
+      "category": "character",
+      "scene": "shared",
+      "state": "prepare",
+      "usage": "Static Yeoul key pose; switch from engine events, not timing authority.",
+      "masterPath": "characters/yeoul_prepare.png",
+      "masterSha256": "964ad1478c995528f67d3dbcbd16b6bdcb8f2db08c06891a68ece5db3429974e",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "characters/yeoul_prepare.webp",
+      "format": "image/webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 120934,
+      "sha256": "1206a96d12fb224bf1ab3eb0bdc85adfdb9bd88d65da8c65a45cb8cfc50d2b4a",
+      "pngFallbackPath": "png_fallbacks/characters/yeoul_prepare.png",
+      "pngFallbackBytes": 173626,
+      "pngFallbackSha256": "484ea7235952430c06d740caed07a4f14d4aeb73ab6b4446f1eee199b34108b3",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        273.5566,
+        480.9697
+      ],
+      "anchorNormalized": [
+        0.53429,
+        0.939394
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          139,
+          35,
+          391,
+          485
+        ],
+        "visibleBoundsAlpha128": [
+          141,
+          44,
+          371,
+          481
+        ],
+        "fullyTransparentFraction": 0.74934
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 1048576
+    },
+    {
+      "assetId": "character.yeoul.release",
+      "category": "character",
+      "scene": "shared",
+      "state": "release",
+      "usage": "Static Yeoul key pose; switch from engine events, not timing authority.",
+      "masterPath": "characters/yeoul_release.png",
+      "masterSha256": "0f1d96415eecf69db0930b474ce0a7d24075e0a072d3b980cc1a7aa1bceb5ed0",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "characters/yeoul_release.webp",
+      "format": "image/webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 121680,
+      "sha256": "7bacf48c8a645a5a8cfb2a6f7c492250c076a8aebe0b13cc105ed87e41c32745",
+      "pngFallbackPath": "png_fallbacks/characters/yeoul_release.png",
+      "pngFallbackBytes": 174549,
+      "pngFallbackSha256": "50cb6c77b396dd24f875853e038ba7e084040248faefb57e554c640dd091bca5",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        273.5566,
+        480.9697
+      ],
+      "anchorNormalized": [
+        0.53429,
+        0.939394
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          96,
+          37,
+          406,
+          483
+        ],
+        "visibleBoundsAlpha128": [
+          142,
+          40,
+          403,
+          481
+        ],
+        "fullyTransparentFraction": 0.749733
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 1048576
+    },
+    {
+      "assetId": "character.yeoul.press",
+      "category": "character",
+      "scene": "shared",
+      "state": "press",
+      "usage": "Static Yeoul key pose; switch from engine events, not timing authority.",
+      "masterPath": "characters/yeoul_press.png",
+      "masterSha256": "e81f54d313f5f36f38fcbf0417c8dd9e827467dd03d79bdf03ce6b2f727bab2e",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "characters/yeoul_press.webp",
+      "format": "image/webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 116658,
+      "sha256": "3891a981183337e6763d570c9e4d28cb8d27cb8c8dba250bf0e80ec1072ca595",
+      "pngFallbackPath": "png_fallbacks/characters/yeoul_press.png",
+      "pngFallbackBytes": 170856,
+      "pngFallbackSha256": "aec5ea7e148e3d6ab9cbc90697f44224c0f804e193e9e7f32d29740f52ff9c18",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        273.5566,
+        480.9697
+      ],
+      "anchorNormalized": [
+        0.53429,
+        0.939394
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          40,
+          23,
+          463,
+          492
+        ],
+        "visibleBoundsAlpha128": [
+          141,
+          35,
+          363,
+          482
+        ],
+        "fullyTransparentFraction": 0.750935
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 1048576
+    },
+    {
+      "assetId": "character.yeoul.hold",
+      "category": "character",
+      "scene": "shared",
+      "state": "hold",
+      "usage": "Static Yeoul key pose; switch from engine events, not timing authority.",
+      "masterPath": "characters/yeoul_hold.png",
+      "masterSha256": "3d0f9946df63c26ab20f44db092cd97e1820c314773b6b8084f433dbfd4fa820",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "characters/yeoul_hold.webp",
+      "format": "image/webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 119338,
+      "sha256": "69b38c193ecfa7ea61f4c83baf498dcfd82fd547d17b280b6505a0ef22959461",
+      "pngFallbackPath": "png_fallbacks/characters/yeoul_hold.png",
+      "pngFallbackBytes": 173852,
+      "pngFallbackSha256": "0499112fed78d30aec7b5fd995bc13e145188badf09b46dc92ed53710f820721",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        273.5566,
+        480.9697
+      ],
+      "anchorNormalized": [
+        0.53429,
+        0.939394
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          108,
+          7,
+          438,
+          483
+        ],
+        "visibleBoundsAlpha128": [
+          141,
+          41,
+          403,
+          480
+        ],
+        "fullyTransparentFraction": 0.751404
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 1048576
+    },
+    {
+      "assetId": "character.yeoul.miss",
+      "category": "character",
+      "scene": "shared",
+      "state": "miss",
+      "usage": "Static Yeoul key pose; switch from engine events, not timing authority.",
+      "masterPath": "characters/yeoul_miss.png",
+      "masterSha256": "098dfc56c91e33ec8d6add7e33ef04c27e4c8dd833de1ec3fabcc1f94a6b199b",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "characters/yeoul_miss.webp",
+      "format": "image/webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 108610,
+      "sha256": "a1be8454cb58aab2c67138b60348271297a2d0cd0a634900fbcb3c7d41d04213",
+      "pngFallbackPath": "png_fallbacks/characters/yeoul_miss.png",
+      "pngFallbackBytes": 158685,
+      "pngFallbackSha256": "1c469271e6622eb21fe35657eb7c1518bf2ed940b7243f35eadab47a81073355",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        273.5566,
+        480.9697
+      ],
+      "anchorNormalized": [
+        0.53429,
+        0.939394
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          36,
+          37,
+          477,
+          485
+        ],
+        "visibleBoundsAlpha128": [
+          149,
+          40,
+          359,
+          481
+        ],
+        "fullyTransparentFraction": 0.770626
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 1048576
+    },
+    {
+      "assetId": "object.greenhouse.flower_closed",
+      "category": "decorative-object",
+      "scene": "crescent-greenhouse",
+      "state": "closed",
+      "usage": "Decorative flower state; exact duration always represented by separate three-unit strip.",
+      "masterPath": "objects/flower_closed.png",
+      "masterSha256": "13ed4fc925b5c204d3f3bfb136da1e0657fa60c887b6b99312fcdae7124937ad",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/flower_closed.webp",
+      "format": "image/webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 121488,
+      "sha256": "277d0367b8645f632aa153c4755ede475dabfe2fae0b87a055925e5beae8b2c6",
+      "pngFallbackPath": "png_fallbacks/objects/flower_closed.png",
+      "pngFallbackBytes": 178366,
+      "pngFallbackSha256": "0ba887830b8e950ba7d6b5a6e1abe4510f400242de8eb2a30a70f8fdb3cbbe7e",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        272.3317,
+        477.7033
+      ],
+      "anchorNormalized": [
+        0.531898,
+        0.933014
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          0,
+          11,
+          477,
+          482
+        ],
+        "visibleBoundsAlpha128": [
+          99,
+          47,
+          420,
+          477
+        ],
+        "fullyTransparentFraction": 0.739708
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 1048576
+    },
+    {
+      "assetId": "object.greenhouse.flower_opening_2",
+      "category": "decorative-object",
+      "scene": "crescent-greenhouse",
+      "state": "opening_2",
+      "usage": "Decorative flower state; exact duration always represented by separate three-unit strip.",
+      "masterPath": "objects/flower_opening_2.png",
+      "masterSha256": "852e3d4d8e998c16b16c451dedb9a21db1b17d8a969651305500a1bb6840d79d",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/flower_opening_2.webp",
+      "format": "image/webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 133186,
+      "sha256": "c441b9583bf1da43d28e316a06bddf3036aba6f578864e19ab041798d0952201",
+      "pngFallbackPath": "png_fallbacks/objects/flower_opening_2.png",
+      "pngFallbackBytes": 192087,
+      "pngFallbackSha256": "432f82196da560747f5b1f33a34298859d2aa6a0bd758b5965df662bc7eda4c4",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        272.3317,
+        477.7033
+      ],
+      "anchorNormalized": [
+        0.531898,
+        0.933014
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          33,
+          48,
+          490,
+          480
+        ],
+        "visibleBoundsAlpha128": [
+          99,
+          52,
+          421,
+          477
+        ],
+        "fullyTransparentFraction": 0.716347
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 1048576
+    },
+    {
+      "assetId": "object.greenhouse.flower_open",
+      "category": "decorative-object",
+      "scene": "crescent-greenhouse",
+      "state": "open",
+      "usage": "Decorative flower state; exact duration always represented by separate three-unit strip.",
+      "masterPath": "objects/flower_open.png",
+      "masterSha256": "c106e4d99b3c0eaad8b6bc063f8b195811880e961e265d25b1950575020fd1c1",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/flower_open.webp",
+      "format": "image/webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 149326,
+      "sha256": "6fb14a66cff17ecc40f39afc0da23304655a236a44c7b43979a7efdcd74489fd",
+      "pngFallbackPath": "png_fallbacks/objects/flower_open.png",
+      "pngFallbackBytes": 212308,
+      "pngFallbackSha256": "3d5483ce2dae11ae4e81eb99b9fdd8fd169160688720ed483f90c8ef3eb199db",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        272.3317,
+        477.7033
+      ],
+      "anchorNormalized": [
+        0.531898,
+        0.933014
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          69,
+          40,
+          473,
+          482
+        ],
+        "visibleBoundsAlpha128": [
+          99,
+          44,
+          425,
+          477
+        ],
+        "fullyTransparentFraction": 0.675213
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 1048576
+    },
+    {
+      "assetId": "object.greenhouse.flower_opening_1",
+      "category": "decorative-object",
+      "scene": "crescent-greenhouse",
+      "state": "opening_1",
+      "usage": "Decorative flower state; exact duration always represented by separate three-unit strip.",
+      "masterPath": "objects/flower_opening_1.png",
+      "masterSha256": "1f20920f0f16e14a60e74865a44c15fdb484cfbdfa7b0e3300e9e30ca5cee7b5",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/flower_opening_1.webp",
+      "format": "image/webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 123098,
+      "sha256": "f2cbe74e02eed2f9cf1399f52bec4e84e70ed8eb50b73ef8773e866f5ee2b9f1",
+      "pngFallbackPath": "png_fallbacks/objects/flower_opening_1.png",
+      "pngFallbackBytes": 176099,
+      "pngFallbackSha256": "bc9eb9dcda96f166282d788890f8f5d476f282c9fc82c07694433e08512d19a1",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        272.3317,
+        477.7033
+      ],
+      "anchorNormalized": [
+        0.531898,
+        0.933014
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          24,
+          44,
+          491,
+          480
+        ],
+        "visibleBoundsAlpha128": [
+          100,
+          46,
+          420,
+          477
+        ],
+        "fullyTransparentFraction": 0.736481
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 1048576
+    },
+    {
+      "assetId": "somsae_count",
+      "category": "character",
+      "scene": "shared",
+      "state": "count",
+      "usage": "Static Somsae demonstration/encouragement key pose; keep away from exact timing target.",
+      "masterPath": "characters/somsae_count.png",
+      "masterSha256": "3995622cdf19965f63b43514ae0dc03265be53334efcab13e89382caf42b89b0",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "characters/somsae_count.webp",
+      "format": "image/webp",
+      "width": 384,
+      "height": 384,
+      "bytes": 67152,
+      "sha256": "78a37e5edbfc7d0b1d340e13b904c31b5d6bd424ab5a92453cbc17b6e8aae4c0",
+      "pngFallbackPath": "png_fallbacks/characters/somsae_count.png",
+      "pngFallbackBytes": 100513,
+      "pngFallbackSha256": "a0bd9a9ef6723179647bc8204ff5dc8bee4709e23b65d786e6fc77b3eed044b7",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        208.2297,
+        350.622
+      ],
+      "anchorNormalized": [
+        0.542265,
+        0.913078
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          378,
+          367
+        ],
+        "visibleBoundsAlpha128": [
+          67,
+          40,
+          306,
+          350
+        ],
+        "fullyTransparentFraction": 0.743544
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 589824
+    },
+    {
+      "assetId": "somsae_demo",
+      "category": "character",
+      "scene": "shared",
+      "state": "demo",
+      "usage": "Static Somsae demonstration/encouragement key pose; keep away from exact timing target.",
+      "masterPath": "characters/somsae_demo.png",
+      "masterSha256": "da10f4023cc7601258b5a7468208e5d7302ecd2d66c9fc3209e86dd8b8a00f10",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "characters/somsae_demo.webp",
+      "format": "image/webp",
+      "width": 384,
+      "height": 384,
+      "bytes": 75180,
+      "sha256": "b48ccfd357c6b550a683366c9b093422ba1908b65877a278a4feee0db6eb5559",
+      "pngFallbackPath": "png_fallbacks/characters/somsae_demo.png",
+      "pngFallbackBytes": 112653,
+      "pngFallbackSha256": "2188e16324f423e3690bd132503da174e388850e6515ebd1b98e469da998ec90",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        208.2297,
+        357.0526
+      ],
+      "anchorNormalized": [
+        0.542265,
+        0.929825
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          42,
+          27,
+          378,
+          360
+        ],
+        "visibleBoundsAlpha128": [
+          67,
+          30,
+          325,
+          357
+        ],
+        "fullyTransparentFraction": 0.704047
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 589824
+    },
+    {
+      "assetId": "somsae_encourage",
+      "category": "character",
+      "scene": "shared",
+      "state": "encourage",
+      "usage": "Static Somsae demonstration/encouragement key pose; keep away from exact timing target.",
+      "masterPath": "characters/somsae_encourage.png",
+      "masterSha256": "6a62c291751b76ee4af55ad87b34a40df52be4de8ba363f740bdb3ca93e96cda",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "characters/somsae_encourage.webp",
+      "format": "image/webp",
+      "width": 384,
+      "height": 384,
+      "bytes": 66230,
+      "sha256": "1e811c6cf7241b2ac87ffa1b2f37e6df37eb9bb2a0916c2227dc77b4a90036ca",
+      "pngFallbackPath": "png_fallbacks/characters/somsae_encourage.png",
+      "pngFallbackBytes": 100133,
+      "pngFallbackSha256": "406723b0f6340e8ece4c4a20ee13c51ad26e72443f0fbc457bb44278148634cf",
+      "resample": "premultiplied-alpha Lanczos",
+      "codec": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true,
+        "alpha_quality": 100
+      },
+      "anchorPx": [
+        208.2297,
+        350.622
+      ],
+      "anchorNormalized": [
+        0.542265,
+        0.913078
+      ],
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "alphaBounds": [
+          41,
+          11,
+          356,
+          358
+        ],
+        "visibleBoundsAlpha128": [
+          66,
+          38,
+          303,
+          351
+        ],
+        "fullyTransparentFraction": 0.730374
+      },
+      "codecValidation": {
+        "losslessPixelIdenticalToResizedPNG": true,
+        "alphaPixelIdenticalToResizedPNG": true
+      },
+      "decodedRGBABytesEstimate": 589824
+    },
+    {
+      "assetId": "bridge_onset",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "ready",
+      "usage": "Filled circle marks a new onset. No inner hole.",
+      "masterPath": "objects/bridge_onset.svg",
+      "masterSha256": "f892c88fb73f6c9e67aa2afcd31ce200d2c91132facd2b04425beecb50db3e0d",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_onset.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 315,
+      "sha256": "f892c88fb73f6c9e67aa2afcd31ce200d2c91132facd2b04425beecb50db3e0d",
+      "anchors": {
+        "hit": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "bridge_release",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "ready",
+      "usage": "Hollow ring marks release; center remains transparent.",
+      "masterPath": "objects/bridge_release.svg",
+      "masterSha256": "647c6f65cc13cf79dbef27a249cf33698f73cdbf6a605652f4700378957b8232",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_release.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 353,
+      "sha256": "647c6f65cc13cf79dbef27a249cf33698f73cdbf6a605652f4700378957b8232",
+      "anchors": {
+        "hit": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "bridge_tie_knot",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "continuous",
+      "usage": "Flattened woven knot marks uninterrupted hold. Never trigger onset, click, pulse or sparkle.",
+      "masterPath": "objects/bridge_tie_knot.svg",
+      "masterSha256": "c337e97127e6ef6d8c9c5c8294c2ca2abe36490fa2e5909a72343c5e3f1e140b",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_tie_knot.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 800,
+      "sha256": "c337e97127e6ef6d8c9c5c8294c2ca2abe36490fa2e5909a72343c5e3f1e140b",
+      "anchors": {
+        "boundary": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "bridge_onset_hc",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "high-contrast",
+      "usage": "Filled circle marks a new onset. No inner hole.",
+      "masterPath": "objects/bridge_onset_hc.svg",
+      "masterSha256": "d17a862219580b9c47d59023d59245ccb6a4fdff327d8394a7833c0440d85b36",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_onset_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 318,
+      "sha256": "d17a862219580b9c47d59023d59245ccb6a4fdff327d8394a7833c0440d85b36",
+      "anchors": {
+        "hit": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "bridge_release_hc",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "high-contrast",
+      "usage": "Hollow ring marks release; center remains transparent.",
+      "masterPath": "objects/bridge_release_hc.svg",
+      "masterSha256": "83dcb7b39b8f06a0858c204e93f08e5f88cb2ebc70e32aaa28a70ac284a40323",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_release_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 356,
+      "sha256": "83dcb7b39b8f06a0858c204e93f08e5f88cb2ebc70e32aaa28a70ac284a40323",
+      "anchors": {
+        "hit": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "bridge_tie_knot_hc",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "high-contrast",
+      "usage": "Flattened woven knot marks uninterrupted hold. Never trigger onset, click, pulse or sparkle.",
+      "masterPath": "objects/bridge_tie_knot_hc.svg",
+      "masterSha256": "b86d9626bc144607ca4aa1479edb2c1c0188bdf31d2077c000b16c40755ba188",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_tie_knot_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 803,
+      "sha256": "b86d9626bc144607ca4aa1479edb2c1c0188bdf31d2077c000b16c40755ba188",
+      "anchors": {
+        "boundary": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "bridge_bar_pillar",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "behind-ribbon",
+      "usage": "Render below continuous ribbon. Crossing a barline does not split its gate.",
+      "masterPath": "objects/bridge_bar_pillar.svg",
+      "masterSha256": "d5dbc3a9770ff47c8a71dd5784a0b92e95090afe84ea6b29f0fedd0e0737fc4f",
+      "masterDimensions": [
+        128,
+        320
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_bar_pillar.svg",
+      "format": "image/svg+xml",
+      "width": 128,
+      "height": 320,
+      "bytes": 720,
+      "sha256": "d5dbc3a9770ff47c8a71dd5784a0b92e95090afe84ea6b29f0fedd0e0737fc4f",
+      "anchors": {
+        "barline": [
+          64,
+          160
+        ],
+        "base": [
+          64,
+          304
+        ]
+      },
+      "decodedRGBABytesEstimate": 163840,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "bridge_needle_eye",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "open",
+      "usage": "Fixed target needle eye stays open at internal tie boundaries.",
+      "masterPath": "objects/bridge_needle_eye.svg",
+      "masterSha256": "409afb6dc4250e42f5ac9f738a11a83e008c896235a391ba615641066aba0bd7",
+      "masterDimensions": [
+        256,
+        256
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_needle_eye.svg",
+      "format": "image/svg+xml",
+      "width": 256,
+      "height": 256,
+      "bytes": 672,
+      "sha256": "409afb6dc4250e42f5ac9f738a11a83e008c896235a391ba615641066aba0bd7",
+      "anchors": {
+        "hit": [
+          128,
+          112
+        ],
+        "tip": [
+          128,
+          246
+        ]
+      },
+      "decodedRGBABytesEstimate": 262144,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "bridge_spool",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "idle",
+      "usage": "Stationary thread spool at the left-side anchor.",
+      "masterPath": "objects/bridge_spool.svg",
+      "masterSha256": "f8e5d04d0134a57e035d6b78f1c635cac43fab31184821d35dfdb1edd945bb00",
+      "masterDimensions": [
+        256,
+        256
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_spool.svg",
+      "format": "image/svg+xml",
+      "width": 256,
+      "height": 256,
+      "bytes": 2051,
+      "sha256": "f8e5d04d0134a57e035d6b78f1c635cac43fab31184821d35dfdb1edd945bb00",
+      "anchors": {
+        "ribbonExit": [
+          198,
+          124
+        ],
+        "base": [
+          128,
+          228
+        ]
+      },
+      "decodedRGBABytesEstimate": 262144,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "bridge_ribbon_tile",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "continuous",
+      "usage": "Horizontal repeat tile. Equal internal cells; no onset marker in the tile.",
+      "masterPath": "objects/bridge_ribbon_tile.svg",
+      "masterSha256": "30193ceec163ce99cb9ec6afca4a4d1dd94913da17c406238f874be6387724f7",
+      "masterDimensions": [
+        128,
+        64
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_ribbon_tile.svg",
+      "format": "image/svg+xml",
+      "width": 128,
+      "height": 64,
+      "bytes": 995,
+      "sha256": "30193ceec163ce99cb9ec6afca4a4d1dd94913da17c406238f874be6387724f7",
+      "anchors": {
+        "left": [
+          0,
+          32
+        ],
+        "right": [
+          128,
+          32
+        ]
+      },
+      "decodedRGBABytesEstimate": 32768,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "bridge_ribbon_broken",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "miss",
+      "usage": "Broken visible edge followed by a dashed remainder; time continues.",
+      "masterPath": "objects/bridge_ribbon_broken.svg",
+      "masterSha256": "b9544b843dbc6201a3b72fc5c8aeacb3b4a9d5e35d8d093b79b62c4cf834a1c8",
+      "masterDimensions": [
+        256,
+        80
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_ribbon_broken.svg",
+      "format": "image/svg+xml",
+      "width": 256,
+      "height": 80,
+      "bytes": 688,
+      "sha256": "b9544b843dbc6201a3b72fc5c8aeacb3b4a9d5e35d8d093b79b62c4cf834a1c8",
+      "anchors": {
+        "break": [
+          120,
+          41
+        ],
+        "left": [
+          4,
+          41
+        ],
+        "right": [
+          250,
+          41
+        ]
+      },
+      "decodedRGBABytesEstimate": 81920,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "bridge_lantern_idle",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "idle",
+      "usage": "Instantiate four times behind the ribbon as a basic-beat cue. State follows the beat, never an internal tie boundary. Static pose; no flashing animation supplied.",
+      "masterPath": "objects/bridge_lantern_idle.svg",
+      "masterSha256": "fd64edcde43ff753f041a1a27439c2622a340b57396e58cbd780c9d9b2e3893e",
+      "masterDimensions": [
+        128,
+        160
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_lantern_idle.svg",
+      "format": "image/svg+xml",
+      "width": 128,
+      "height": 160,
+      "bytes": 1102,
+      "sha256": "fd64edcde43ff753f041a1a27439c2622a340b57396e58cbd780c9d9b2e3893e",
+      "anchors": {
+        "lightCenter": [
+          64,
+          86
+        ],
+        "hang": [
+          64,
+          12
+        ],
+        "base": [
+          64,
+          140
+        ]
+      },
+      "decodedRGBABytesEstimate": 81920,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "bridge_lantern_active",
+      "category": "gameplay-object",
+      "scene": "thread-bridge",
+      "state": "active",
+      "usage": "Instantiate four times behind the ribbon as a basic-beat cue. State follows the beat, never an internal tie boundary. Static pose; no flashing animation supplied.",
+      "masterPath": "objects/bridge_lantern_active.svg",
+      "masterSha256": "6b887d543412035581bdf2b86b344307cc8e70b1942c35b4ef389a791ffb0777",
+      "masterDimensions": [
+        128,
+        160
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/bridge_lantern_active.svg",
+      "format": "image/svg+xml",
+      "width": 128,
+      "height": 160,
+      "bytes": 1620,
+      "sha256": "6b887d543412035581bdf2b86b344307cc8e70b1942c35b4ef389a791ffb0777",
+      "anchors": {
+        "lightCenter": [
+          64,
+          86
+        ],
+        "hang": [
+          64,
+          12
+        ],
+        "base": [
+          64,
+          140
+        ]
+      },
+      "decodedRGBABytesEstimate": 81920,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "greenhouse_container_2u",
+      "category": "gameplay-object",
+      "scene": "crescent-greenhouse",
+      "state": "filled",
+      "usage": "Equal unit width and fill height. Compare water area, not outer bottle silhouette.",
+      "masterPath": "objects/greenhouse_container_2u.svg",
+      "masterSha256": "418da5ea99603b0d66831a7603b336349d945b66759c43dd245f5d01cee257e0",
+      "masterDimensions": [
+        176,
+        184
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/greenhouse_container_2u.svg",
+      "format": "image/svg+xml",
+      "width": 176,
+      "height": 184,
+      "bytes": 1240,
+      "sha256": "418da5ea99603b0d66831a7603b336349d945b66759c43dd245f5d01cee257e0",
+      "anchors": {
+        "base": [
+          88.0,
+          166
+        ],
+        "fillOrigin": [
+          24,
+          56
+        ]
+      },
+      "decodedRGBABytesEstimate": 129536,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "greenhouse_container_1u",
+      "category": "gameplay-object",
+      "scene": "crescent-greenhouse",
+      "state": "filled",
+      "usage": "Equal unit width and fill height. Compare water area, not outer bottle silhouette.",
+      "masterPath": "objects/greenhouse_container_1u.svg",
+      "masterSha256": "aaff7e13184cecf21df8290ab0b7abdd46832523d8a653fe23244eb91e5fc60e",
+      "masterDimensions": [
+        112,
+        184
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/greenhouse_container_1u.svg",
+      "format": "image/svg+xml",
+      "width": 112,
+      "height": 184,
+      "bytes": 1041,
+      "sha256": "aaff7e13184cecf21df8290ab0b7abdd46832523d8a653fe23244eb91e5fc60e",
+      "anchors": {
+        "base": [
+          56.0,
+          166
+        ],
+        "fillOrigin": [
+          24,
+          56
+        ]
+      },
+      "decodedRGBABytesEstimate": 82432,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "greenhouse_time_strip_3u",
+      "category": "gameplay-object",
+      "scene": "crescent-greenhouse",
+      "state": "hold",
+      "usage": "Three equal eighth-units, 720 ticks total. Internal boundaries are not new attacks.",
+      "masterPath": "objects/greenhouse_time_strip_3u.svg",
+      "masterSha256": "72509e09f466fe35dcb9f91a9380e3c5b9f837234432b77539ee10ce882b7ba7",
+      "masterDimensions": [
+        216,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/greenhouse_time_strip_3u.svg",
+      "format": "image/svg+xml",
+      "width": 216,
+      "height": 96,
+      "bytes": 872,
+      "sha256": "72509e09f466fe35dcb9f91a9380e3c5b9f837234432b77539ee10ce882b7ba7",
+      "anchors": {
+        "start": [
+          12,
+          44
+        ],
+        "release": [
+          204,
+          44
+        ]
+      },
+      "decodedRGBABytesEstimate": 82944,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "greenhouse_rest_cover",
+      "category": "gameplay-object",
+      "scene": "crescent-greenhouse",
+      "state": "closed",
+      "usage": "Closed flower cover means the player voice rests while the accompaniment and pulse continue.",
+      "masterPath": "objects/greenhouse_rest_cover.svg",
+      "masterSha256": "5ca19f99343b3938a0b4585e1015d9a53d54c4abe39c070c229d218acdd4c646",
+      "masterDimensions": [
+        256,
+        256
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/greenhouse_rest_cover.svg",
+      "format": "image/svg+xml",
+      "width": 256,
+      "height": 256,
+      "bytes": 1143,
+      "sha256": "5ca19f99343b3938a0b4585e1015d9a53d54c4abe39c070c229d218acdd4c646",
+      "anchors": {
+        "target": [
+          128,
+          115
+        ],
+        "base": [
+          128,
+          228
+        ]
+      },
+      "decodedRGBABytesEstimate": 262144,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "greenhouse_dew_idle",
+      "category": "gameplay-object",
+      "scene": "crescent-greenhouse",
+      "state": "idle",
+      "usage": "A single equal eighth-unit dew tile; active gains a check shape, not color alone.",
+      "masterPath": "objects/greenhouse_dew_idle.svg",
+      "masterSha256": "6be53c9df448f06f1b338141d5ccfd4217b3932f125fcff5e85fc7b0a932549d",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/greenhouse_dew_idle.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 623,
+      "sha256": "6be53c9df448f06f1b338141d5ccfd4217b3932f125fcff5e85fc7b0a932549d",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "greenhouse_dew_active",
+      "category": "gameplay-object",
+      "scene": "crescent-greenhouse",
+      "state": "active",
+      "usage": "A single equal eighth-unit dew tile; active gains a check shape, not color alone.",
+      "masterPath": "objects/greenhouse_dew_active.svg",
+      "masterSha256": "bf853abf7c87351f973dea24f096ceac0b18989b5bc44baa71666c0e1f134a19",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/greenhouse_dew_active.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 813,
+      "sha256": "bf853abf7c87351f973dea24f096ceac0b18989b5bc44baa71666c0e1f134a19",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "greenhouse_flower_0",
+      "category": "gameplay-object",
+      "scene": "crescent-greenhouse",
+      "state": "open-0-of-3",
+      "usage": "Three equal time-stage reveals. Petal area is decoration, not duration evidence.",
+      "masterPath": "objects/greenhouse_flower_0.svg",
+      "masterSha256": "1dfb1f93a1a786a0db4a39a55589d88006101e3ace3e7a13baabea07c1a5c1e2",
+      "masterDimensions": [
+        256,
+        256
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/greenhouse_flower_0.svg",
+      "format": "image/svg+xml",
+      "width": 256,
+      "height": 256,
+      "bytes": 923,
+      "sha256": "1dfb1f93a1a786a0db4a39a55589d88006101e3ace3e7a13baabea07c1a5c1e2",
+      "anchors": {
+        "target": [
+          128,
+          149
+        ],
+        "base": [
+          128,
+          239
+        ]
+      },
+      "decodedRGBABytesEstimate": 262144,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "greenhouse_flower_1",
+      "category": "gameplay-object",
+      "scene": "crescent-greenhouse",
+      "state": "open-1-of-3",
+      "usage": "Three equal time-stage reveals. Petal area is decoration, not duration evidence.",
+      "masterPath": "objects/greenhouse_flower_1.svg",
+      "masterSha256": "112f38da46de9d01113550fc3ab329b23308ba1e6c0ccedcc7149e4c5c46ed78",
+      "masterDimensions": [
+        256,
+        256
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/greenhouse_flower_1.svg",
+      "format": "image/svg+xml",
+      "width": 256,
+      "height": 256,
+      "bytes": 1617,
+      "sha256": "112f38da46de9d01113550fc3ab329b23308ba1e6c0ccedcc7149e4c5c46ed78",
+      "anchors": {
+        "target": [
+          128,
+          149
+        ],
+        "base": [
+          128,
+          239
+        ]
+      },
+      "decodedRGBABytesEstimate": 262144,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "greenhouse_flower_2",
+      "category": "gameplay-object",
+      "scene": "crescent-greenhouse",
+      "state": "open-2-of-3",
+      "usage": "Three equal time-stage reveals. Petal area is decoration, not duration evidence.",
+      "masterPath": "objects/greenhouse_flower_2.svg",
+      "masterSha256": "c8d43482bcd341a2ca26190112866f2a08c5a5ff261d5fe8dc4fd719d1f570b7",
+      "masterDimensions": [
+        256,
+        256
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/greenhouse_flower_2.svg",
+      "format": "image/svg+xml",
+      "width": 256,
+      "height": 256,
+      "bytes": 1435,
+      "sha256": "c8d43482bcd341a2ca26190112866f2a08c5a5ff261d5fe8dc4fd719d1f570b7",
+      "anchors": {
+        "target": [
+          128,
+          149
+        ],
+        "base": [
+          128,
+          239
+        ]
+      },
+      "decodedRGBABytesEstimate": 262144,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "greenhouse_flower_3",
+      "category": "gameplay-object",
+      "scene": "crescent-greenhouse",
+      "state": "open-3-of-3",
+      "usage": "Three equal time-stage reveals. Petal area is decoration, not duration evidence.",
+      "masterPath": "objects/greenhouse_flower_3.svg",
+      "masterSha256": "f6719be5f7c2f5483db2acc862e76eb0264120f31302327aaaaa779ae7888d30",
+      "masterDimensions": [
+        256,
+        256
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/greenhouse_flower_3.svg",
+      "format": "image/svg+xml",
+      "width": 256,
+      "height": 256,
+      "bytes": 1251,
+      "sha256": "f6719be5f7c2f5483db2acc862e76eb0264120f31302327aaaaa779ae7888d30",
+      "anchors": {
+        "target": [
+          128,
+          149
+        ],
+        "base": [
+          128,
+          239
+        ]
+      },
+      "decodedRGBABytesEstimate": 262144,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "room_tile_idle",
+      "category": "gameplay-object",
+      "scene": "folding-room",
+      "state": "idle",
+      "usage": "Identical width in both meters; action state adds a check mark.",
+      "masterPath": "objects/room_tile_idle.svg",
+      "masterSha256": "dc553d35039a3b087e156109f7868e08437281cd91873bb5396b18a913df395b",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/room_tile_idle.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 563,
+      "sha256": "dc553d35039a3b087e156109f7868e08437281cd91873bb5396b18a913df395b",
+      "anchors": {
+        "center": [
+          48,
+          44
+        ],
+        "left": [
+          8,
+          44
+        ],
+        "right": [
+          88,
+          44
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "room_tile_active",
+      "category": "gameplay-object",
+      "scene": "folding-room",
+      "state": "active",
+      "usage": "Identical width in both meters; action state adds a check mark.",
+      "masterPath": "objects/room_tile_active.svg",
+      "masterSha256": "ef89ded58de92c1dcd606fd862a4bfe3673811a8cef89da45562409516fa77b1",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/room_tile_active.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 691,
+      "sha256": "ef89ded58de92c1dcd606fd862a4bfe3673811a8cef89da45562409516fa77b1",
+      "anchors": {
+        "center": [
+          48,
+          44
+        ],
+        "left": [
+          8,
+          44
+        ],
+        "right": [
+          88,
+          44
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "room_hinge_2u",
+      "category": "gameplay-object",
+      "scene": "folding-room",
+      "state": "group-2",
+      "usage": "A single broad hinge spans the exact number of equal floor tiles.",
+      "masterPath": "objects/room_hinge_2u.svg",
+      "masterSha256": "4130d11a5adceefd8b172b2d1f59b908d4ea2792e62b4a3be86e372970957ed9",
+      "masterDimensions": [
+        184,
+        88
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/room_hinge_2u.svg",
+      "format": "image/svg+xml",
+      "width": 184,
+      "height": 88,
+      "bytes": 726,
+      "sha256": "4130d11a5adceefd8b172b2d1f59b908d4ea2792e62b4a3be86e372970957ed9",
+      "anchors": {
+        "left": [
+          12,
+          58
+        ],
+        "right": [
+          172,
+          58
+        ],
+        "hinge": [
+          92.0,
+          52
+        ]
+      },
+      "decodedRGBABytesEstimate": 64768,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "room_hinge_3u",
+      "category": "gameplay-object",
+      "scene": "folding-room",
+      "state": "group-3",
+      "usage": "A single broad hinge spans the exact number of equal floor tiles.",
+      "masterPath": "objects/room_hinge_3u.svg",
+      "masterSha256": "21333c588bc703f1651a26e8b4801aa429f725bf0b52c717821788a2dfcdbf53",
+      "masterDimensions": [
+        264,
+        88
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/room_hinge_3u.svg",
+      "format": "image/svg+xml",
+      "width": 264,
+      "height": 88,
+      "bytes": 730,
+      "sha256": "21333c588bc703f1651a26e8b4801aa429f725bf0b52c717821788a2dfcdbf53",
+      "anchors": {
+        "left": [
+          12,
+          58
+        ],
+        "right": [
+          252,
+          58
+        ],
+        "hinge": [
+          132.0,
+          52
+        ]
+      },
+      "decodedRGBABytesEstimate": 92928,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "room_brackets_222",
+      "category": "gameplay-object",
+      "scene": "folding-room",
+      "state": "grouped",
+      "usage": "Overlay on six unchanged 80 px tiles. Grouping is conveyed by curve count and span.",
+      "masterPath": "objects/room_brackets_222.svg",
+      "masterSha256": "bf56afb1a142780c123000bc37e00a4a5f608ddf5dcb1f26519350e7900d4468",
+      "masterDimensions": [
+        512,
+        104
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/room_brackets_222.svg",
+      "format": "image/svg+xml",
+      "width": 512,
+      "height": 104,
+      "bytes": 1490,
+      "sha256": "bf56afb1a142780c123000bc37e00a4a5f608ddf5dcb1f26519350e7900d4468",
+      "anchors": {
+        "floorOrigin": [
+          16,
+          88
+        ]
+      },
+      "decodedRGBABytesEstimate": 212992,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "room_floor_222",
+      "category": "gameplay-object",
+      "scene": "folding-room",
+      "state": "grouped",
+      "usage": "Six equal 80 px tiles with grouping overlay. Both assets have identical floor geometry.",
+      "masterPath": "objects/room_floor_222.svg",
+      "masterSha256": "df10514eaa75bbe5897a6f699b5ebff1d5962d68fb99075d9aab045e3ac52734",
+      "masterDimensions": [
+        512,
+        160
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/room_floor_222.svg",
+      "format": "image/svg+xml",
+      "width": 512,
+      "height": 160,
+      "bytes": 2246,
+      "sha256": "df10514eaa75bbe5897a6f699b5ebff1d5962d68fb99075d9aab045e3ac52734",
+      "anchors": {
+        "floorOrigin": [
+          16,
+          78
+        ]
+      },
+      "decodedRGBABytesEstimate": 327680,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "room_brackets_33",
+      "category": "gameplay-object",
+      "scene": "folding-room",
+      "state": "grouped",
+      "usage": "Overlay on six unchanged 80 px tiles. Grouping is conveyed by curve count and span.",
+      "masterPath": "objects/room_brackets_33.svg",
+      "masterSha256": "faadd6761ff2ff1c216db4fbc865a1542afd874eaff959c71fbd4fabc03c178d",
+      "masterDimensions": [
+        512,
+        104
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/room_brackets_33.svg",
+      "format": "image/svg+xml",
+      "width": 512,
+      "height": 104,
+      "bytes": 1070,
+      "sha256": "faadd6761ff2ff1c216db4fbc865a1542afd874eaff959c71fbd4fabc03c178d",
+      "anchors": {
+        "floorOrigin": [
+          16,
+          88
+        ]
+      },
+      "decodedRGBABytesEstimate": 212992,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "room_floor_33",
+      "category": "gameplay-object",
+      "scene": "folding-room",
+      "state": "grouped",
+      "usage": "Six equal 80 px tiles with grouping overlay. Both assets have identical floor geometry.",
+      "masterPath": "objects/room_floor_33.svg",
+      "masterSha256": "a4b57a000f8883ea23044c2f55d4b1a80b04afc85a017a4164969f1be85f5484",
+      "masterDimensions": [
+        512,
+        160
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/room_floor_33.svg",
+      "format": "image/svg+xml",
+      "width": 512,
+      "height": 160,
+      "bytes": 2119,
+      "sha256": "a4b57a000f8883ea23044c2f55d4b1a80b04afc85a017a4164969f1be85f5484",
+      "anchors": {
+        "floorOrigin": [
+          16,
+          78
+        ]
+      },
+      "decodedRGBABytesEstimate": 327680,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "post_letter_idle",
+      "category": "gameplay-object",
+      "scene": "cloud-post",
+      "state": "idle",
+      "usage": "Cloud-backed letter; identical for 72 and 108 quarter-note BPM.",
+      "masterPath": "objects/post_letter_idle.svg",
+      "masterSha256": "fc311bf13d2ee085d6ece25cf7f37a07fe8dc6729c339da4b79ad8617b094435",
+      "masterDimensions": [
+        256,
+        200
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/post_letter_idle.svg",
+      "format": "image/svg+xml",
+      "width": 256,
+      "height": 200,
+      "bytes": 893,
+      "sha256": "fc311bf13d2ee085d6ece25cf7f37a07fe8dc6729c339da4b79ad8617b094435",
+      "anchors": {
+        "hit": [
+          128,
+          106
+        ]
+      },
+      "decodedRGBABytesEstimate": 204800,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "post_letter_folded",
+      "category": "gameplay-object",
+      "scene": "cloud-post",
+      "state": "folded",
+      "usage": "Folded paper transition pose; no inferred timing change.",
+      "masterPath": "objects/post_letter_folded.svg",
+      "masterSha256": "1cb3ee9de7a81645cdd204cd9cf732d4060e3feaf3abc082180aeb3dcd805d3b",
+      "masterDimensions": [
+        256,
+        200
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/post_letter_folded.svg",
+      "format": "image/svg+xml",
+      "width": 256,
+      "height": 200,
+      "bytes": 638,
+      "sha256": "1cb3ee9de7a81645cdd204cd9cf732d4060e3feaf3abc082180aeb3dcd805d3b",
+      "anchors": {
+        "hit": [
+          128,
+          106
+        ]
+      },
+      "decodedRGBABytesEstimate": 204800,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "post_letter_success_star",
+      "category": "gameplay-object",
+      "scene": "cloud-post",
+      "state": "success",
+      "usage": "Star silhouette and check mark communicate success without reliance on color.",
+      "masterPath": "objects/post_letter_success_star.svg",
+      "masterSha256": "810b8a0530c1d6d9660b2378b09292eddcfe8271c8b9b047a918ca284eee918b",
+      "masterDimensions": [
+        256,
+        200
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/post_letter_success_star.svg",
+      "format": "image/svg+xml",
+      "width": 256,
+      "height": 200,
+      "bytes": 991,
+      "sha256": "810b8a0530c1d6d9660b2378b09292eddcfe8271c8b9b047a918ca284eee918b",
+      "anchors": {
+        "center": [
+          128,
+          101
+        ]
+      },
+      "decodedRGBABytesEstimate": 204800,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "post_counter",
+      "category": "gameplay-object",
+      "scene": "cloud-post",
+      "state": "idle",
+      "usage": "Stationary postal window. Keep target area clear for incoming letters.",
+      "masterPath": "objects/post_counter.svg",
+      "masterSha256": "6c8100a257f8e6bb30b006304620e12333373124a181a893536254b69225cc31",
+      "masterDimensions": [
+        384,
+        256
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "objects/post_counter.svg",
+      "format": "image/svg+xml",
+      "width": 384,
+      "height": 256,
+      "bytes": 949,
+      "sha256": "6c8100a257f8e6bb30b006304620e12333373124a181a893536254b69225cc31",
+      "anchors": {
+        "window": [
+          192,
+          105
+        ],
+        "counterTop": [
+          192,
+          158
+        ],
+        "base": [
+          192,
+          233
+        ]
+      },
+      "decodedRGBABytesEstimate": 393216,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_press",
+      "category": "ui",
+      "scene": "shared",
+      "state": "default",
+      "usage": "Press icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_press.svg",
+      "masterSha256": "90e724b55b97538c55f655ce652fea76bc034e6f0409df2991fa259c2997a689",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_press.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 617,
+      "sha256": "90e724b55b97538c55f655ce652fea76bc034e6f0409df2991fa259c2997a689",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_press_hc",
+      "category": "ui",
+      "scene": "shared",
+      "state": "high-contrast",
+      "usage": "Press icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_press_hc.svg",
+      "masterSha256": "fca2845e06a5087b324744c243cacc723a15640977ee0a1b88b4a16668d751b0",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_press_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 497,
+      "sha256": "fca2845e06a5087b324744c243cacc723a15640977ee0a1b88b4a16668d751b0",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_hold",
+      "category": "ui",
+      "scene": "shared",
+      "state": "default",
+      "usage": "Hold icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_hold.svg",
+      "masterSha256": "cfa2a9887a4790c3bee76f437638f62400da683a699ef16e39ea02d98dcef422",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_hold.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 715,
+      "sha256": "cfa2a9887a4790c3bee76f437638f62400da683a699ef16e39ea02d98dcef422",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_hold_hc",
+      "category": "ui",
+      "scene": "shared",
+      "state": "high-contrast",
+      "usage": "Hold icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_hold_hc.svg",
+      "masterSha256": "c161d58c9907c03b69fe05ae38554dda1dc1fd9c5a9b6b3ac9661c9fbc2c1b93",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_hold_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 595,
+      "sha256": "c161d58c9907c03b69fe05ae38554dda1dc1fd9c5a9b6b3ac9661c9fbc2c1b93",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_release",
+      "category": "ui",
+      "scene": "shared",
+      "state": "default",
+      "usage": "Release icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_release.svg",
+      "masterSha256": "0790c6b7e06048b4d193c9e5a6c39111174bbd3696cce7c07d3d9e66330510f5",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_release.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 652,
+      "sha256": "0790c6b7e06048b4d193c9e5a6c39111174bbd3696cce7c07d3d9e66330510f5",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_release_hc",
+      "category": "ui",
+      "scene": "shared",
+      "state": "high-contrast",
+      "usage": "Release icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_release_hc.svg",
+      "masterSha256": "e4d23f55d0da0bba5d264c289b01d4eeb5a7aff41d2096cb2565c2c4c2f89426",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_release_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 532,
+      "sha256": "e4d23f55d0da0bba5d264c289b01d4eeb5a7aff41d2096cb2565c2c4c2f89426",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_wait",
+      "category": "ui",
+      "scene": "shared",
+      "state": "default",
+      "usage": "Wait icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_wait.svg",
+      "masterSha256": "9f33eacd1c74a53b26f2852ad3fe57a0a0ef5e0a7d35cd873f26dca0799e1838",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_wait.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 676,
+      "sha256": "9f33eacd1c74a53b26f2852ad3fe57a0a0ef5e0a7d35cd873f26dca0799e1838",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_wait_hc",
+      "category": "ui",
+      "scene": "shared",
+      "state": "high-contrast",
+      "usage": "Wait icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_wait_hc.svg",
+      "masterSha256": "b306ab48033c42d7497226fc707ccd3ca2f200bae9ce80e729002f3f6a7abddd",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_wait_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 556,
+      "sha256": "b306ab48033c42d7497226fc707ccd3ca2f200bae9ce80e729002f3f6a7abddd",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_sound",
+      "category": "ui",
+      "scene": "shared",
+      "state": "default",
+      "usage": "Sound icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_sound.svg",
+      "masterSha256": "861d5c39e6da75add0a1ecbd288335cfa8a0f321dc050f2b0873bf75f4b842b2",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_sound.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 645,
+      "sha256": "861d5c39e6da75add0a1ecbd288335cfa8a0f321dc050f2b0873bf75f4b842b2",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_sound_hc",
+      "category": "ui",
+      "scene": "shared",
+      "state": "high-contrast",
+      "usage": "Sound icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_sound_hc.svg",
+      "masterSha256": "022fad01e521517c1d343937d1db12799bbad2917884ffca2aeb4620b5469507",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_sound_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 525,
+      "sha256": "022fad01e521517c1d343937d1db12799bbad2917884ffca2aeb4620b5469507",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_pause",
+      "category": "ui",
+      "scene": "shared",
+      "state": "default",
+      "usage": "Pause icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_pause.svg",
+      "masterSha256": "d90e6f4a149ddddea652d2fab166bf9a8a99724aace5e25818f98bee37a54695",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_pause.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 564,
+      "sha256": "d90e6f4a149ddddea652d2fab166bf9a8a99724aace5e25818f98bee37a54695",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_pause_hc",
+      "category": "ui",
+      "scene": "shared",
+      "state": "high-contrast",
+      "usage": "Pause icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_pause_hc.svg",
+      "masterSha256": "16a4e4fac731a3ddefce0a78d67ccadc1cc9f3e5f35df15e147c31d07c110c65",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_pause_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 444,
+      "sha256": "16a4e4fac731a3ddefce0a78d67ccadc1cc9f3e5f35df15e147c31d07c110c65",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_resume",
+      "category": "ui",
+      "scene": "shared",
+      "state": "default",
+      "usage": "Resume icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_resume.svg",
+      "masterSha256": "0019411a98c3f2cb880a777d1c01ec118929777754f31aab4a33b0172467f87d",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_resume.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 481,
+      "sha256": "0019411a98c3f2cb880a777d1c01ec118929777754f31aab4a33b0172467f87d",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_resume_hc",
+      "category": "ui",
+      "scene": "shared",
+      "state": "high-contrast",
+      "usage": "Resume icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_resume_hc.svg",
+      "masterSha256": "f80969e86253ecaa9926f7aaea04594ad998fcd3d41be879704384dbfd86fb29",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_resume_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 361,
+      "sha256": "f80969e86253ecaa9926f7aaea04594ad998fcd3d41be879704384dbfd86fb29",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_retry",
+      "category": "ui",
+      "scene": "shared",
+      "state": "default",
+      "usage": "Retry icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_retry.svg",
+      "masterSha256": "084494bd2f65781c3cc825701c7a2507ceba3454b4a1090281697fd347da587a",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_retry.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 687,
+      "sha256": "084494bd2f65781c3cc825701c7a2507ceba3454b4a1090281697fd347da587a",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_retry_hc",
+      "category": "ui",
+      "scene": "shared",
+      "state": "high-contrast",
+      "usage": "Retry icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_retry_hc.svg",
+      "masterSha256": "ca87d64b46f6e71c138feb4f7854629a5fc7b4946f5dc844dfd5b311108f3d2f",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_retry_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 567,
+      "sha256": "ca87d64b46f6e71c138feb4f7854629a5fc7b4946f5dc844dfd5b311108f3d2f",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_home",
+      "category": "ui",
+      "scene": "shared",
+      "state": "default",
+      "usage": "Dream map icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_home.svg",
+      "masterSha256": "6f28470264a35796262d93c8bca2c02dac709481808deb94748a49dfaf445704",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_home.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 654,
+      "sha256": "6f28470264a35796262d93c8bca2c02dac709481808deb94748a49dfaf445704",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_home_hc",
+      "category": "ui",
+      "scene": "shared",
+      "state": "high-contrast",
+      "usage": "Dream map icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_home_hc.svg",
+      "masterSha256": "9e07ef1257ed6d95813d2c8ec2125fb285c42d6f6c83916290f52e0b52eae3f8",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_home_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 534,
+      "sha256": "9e07ef1257ed6d95813d2c8ec2125fb285c42d6f6c83916290f52e0b52eae3f8",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_help",
+      "category": "ui",
+      "scene": "shared",
+      "state": "default",
+      "usage": "Help icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_help.svg",
+      "masterSha256": "f32874e26b7a070bb327fd1e678d539af6805f68a47830b014187f6cf8524007",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_help.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 702,
+      "sha256": "f32874e26b7a070bb327fd1e678d539af6805f68a47830b014187f6cf8524007",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_help_hc",
+      "category": "ui",
+      "scene": "shared",
+      "state": "high-contrast",
+      "usage": "Help icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_help_hc.svg",
+      "masterSha256": "fea4706cbf514ae93d1487fa8778517f7ce17f4579ee4a4d675d043fa0f8d392",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_help_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 582,
+      "sha256": "fea4706cbf514ae93d1487fa8778517f7ce17f4579ee4a4d675d043fa0f8d392",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_contrast",
+      "category": "ui",
+      "scene": "shared",
+      "state": "default",
+      "usage": "High contrast icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_contrast.svg",
+      "masterSha256": "3183e8a280884c6c48c1af1d48029200dff211ff2a59e6d01a3adb0f73a388e6",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_contrast.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 573,
+      "sha256": "3183e8a280884c6c48c1af1d48029200dff211ff2a59e6d01a3adb0f73a388e6",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_contrast_hc",
+      "category": "ui",
+      "scene": "shared",
+      "state": "high-contrast",
+      "usage": "High contrast icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_contrast_hc.svg",
+      "masterSha256": "0d282e43bd4a1277f2c9cf3c4a6f83742e527258eec432fc133abea2e7903efb",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_contrast_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 453,
+      "sha256": "0d282e43bd4a1277f2c9cf3c4a6f83742e527258eec432fc133abea2e7903efb",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_reduced_motion",
+      "category": "ui",
+      "scene": "shared",
+      "state": "default",
+      "usage": "Reduced motion icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_reduced_motion.svg",
+      "masterSha256": "2cca8b18bd042a7f9512a4288fef71097044573e65440ffd9d0f05b5bf9b7773",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_reduced_motion.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 717,
+      "sha256": "2cca8b18bd042a7f9512a4288fef71097044573e65440ffd9d0f05b5bf9b7773",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "icon_reduced_motion_hc",
+      "category": "ui",
+      "scene": "shared",
+      "state": "high-contrast",
+      "usage": "Reduced motion icon. Pair with real DOM label and keyboard-accessible control.",
+      "masterPath": "ui/icon_reduced_motion_hc.svg",
+      "masterSha256": "83e5c94260c57540de60975eba1294241a9c7043b08fd583039690fef5025d7d",
+      "masterDimensions": [
+        96,
+        96
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/icon_reduced_motion_hc.svg",
+      "format": "image/svg+xml",
+      "width": 96,
+      "height": 96,
+      "bytes": 597,
+      "sha256": "83e5c94260c57540de60975eba1294241a9c7043b08fd583039690fef5025d7d",
+      "anchors": {
+        "center": [
+          48,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 36864,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "button_normal",
+      "category": "ui",
+      "scene": "shared",
+      "state": "normal",
+      "usage": "Nine-slice surface. Keep DOM text and focus/disabled semantics outside this image.",
+      "masterPath": "ui/button_normal.svg",
+      "masterSha256": "d41807f738c0ac29f2415d03550cd41dd630a2ecfad6496bb0e59a7f89bf9302",
+      "masterDimensions": [
+        384,
+        112
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/button_normal.svg",
+      "format": "image/svg+xml",
+      "width": 384,
+      "height": 112,
+      "bytes": 557,
+      "sha256": "d41807f738c0ac29f2415d03550cd41dd630a2ecfad6496bb0e59a7f89bf9302",
+      "anchors": {
+        "labelCenter": [
+          192,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 172032,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "button_pressed",
+      "category": "ui",
+      "scene": "shared",
+      "state": "pressed",
+      "usage": "Nine-slice surface. Keep DOM text and focus/disabled semantics outside this image.",
+      "masterPath": "ui/button_pressed.svg",
+      "masterSha256": "72861573a0f1a1f21c5432623224855f20c3e799f496cfcd45fb300d8fd916bf",
+      "masterDimensions": [
+        384,
+        112
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/button_pressed.svg",
+      "format": "image/svg+xml",
+      "width": 384,
+      "height": 112,
+      "bytes": 550,
+      "sha256": "72861573a0f1a1f21c5432623224855f20c3e799f496cfcd45fb300d8fd916bf",
+      "anchors": {
+        "labelCenter": [
+          192,
+          55
+        ]
+      },
+      "decodedRGBABytesEstimate": 172032,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "button_focus",
+      "category": "ui",
+      "scene": "shared",
+      "state": "focus",
+      "usage": "Nine-slice surface. Keep DOM text and focus/disabled semantics outside this image.",
+      "masterPath": "ui/button_focus.svg",
+      "masterSha256": "fda6811f56621734862a5c4e045c5d47ec6d93b1356ed54d1a296b658fd54b17",
+      "masterDimensions": [
+        384,
+        112
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/button_focus.svg",
+      "format": "image/svg+xml",
+      "width": 384,
+      "height": 112,
+      "bytes": 753,
+      "sha256": "fda6811f56621734862a5c4e045c5d47ec6d93b1356ed54d1a296b658fd54b17",
+      "anchors": {
+        "labelCenter": [
+          192,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 172032,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "button_disabled",
+      "category": "ui",
+      "scene": "shared",
+      "state": "disabled",
+      "usage": "Nine-slice surface. Keep DOM text and focus/disabled semantics outside this image.",
+      "masterPath": "ui/button_disabled.svg",
+      "masterSha256": "7f3b2b34686c41c94a597f30e654ec55e88068388a95ddc5951609cc9513da06",
+      "masterDimensions": [
+        384,
+        112
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/button_disabled.svg",
+      "format": "image/svg+xml",
+      "width": 384,
+      "height": 112,
+      "bytes": 1048,
+      "sha256": "7f3b2b34686c41c94a597f30e654ec55e88068388a95ddc5951609cc9513da06",
+      "anchors": {
+        "labelCenter": [
+          192,
+          48
+        ]
+      },
+      "decodedRGBABytesEstimate": 172032,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "feedback_knot_success",
+      "category": "ui",
+      "scene": "shared",
+      "state": "success",
+      "usage": "Closed linked knot + check for success; separated frayed strands + exclamation for miss.",
+      "masterPath": "ui/feedback_knot_success.svg",
+      "masterSha256": "f00e325834de4d654e65c74e573464065ed279d2c3c721fe57e42683c383ae82",
+      "masterDimensions": [
+        128,
+        128
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/feedback_knot_success.svg",
+      "format": "image/svg+xml",
+      "width": 128,
+      "height": 128,
+      "bytes": 746,
+      "sha256": "f00e325834de4d654e65c74e573464065ed279d2c3c721fe57e42683c383ae82",
+      "anchors": {
+        "center": [
+          64,
+          64
+        ]
+      },
+      "decodedRGBABytesEstimate": 65536,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "feedback_knot_miss",
+      "category": "ui",
+      "scene": "shared",
+      "state": "miss",
+      "usage": "Closed linked knot + check for success; separated frayed strands + exclamation for miss.",
+      "masterPath": "ui/feedback_knot_miss.svg",
+      "masterSha256": "be028dd5b590fd8ea2f4caee699867f0398c8de75a24302d68d146da1865dd39",
+      "masterDimensions": [
+        128,
+        128
+      ],
+      "releaseApproved": false,
+      "notationReview": "notApplicable",
+      "listeningReview": "notApplicable",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "ui/feedback_knot_miss.svg",
+      "format": "image/svg+xml",
+      "width": 128,
+      "height": 128,
+      "bytes": 773,
+      "sha256": "be028dd5b590fd8ea2f4caee699867f0398c8de75a24302d68d146da1865dd39",
+      "anchors": {
+        "center": [
+          64,
+          64
+        ]
+      },
+      "decodedRGBABytesEstimate": 65536,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "education_duration",
+      "category": "education",
+      "scene": "education",
+      "state": "review-pending",
+      "usage": "8분·4분·2분 길이는 같은 작은 칸 1·2·4개입니다. 한 칸은 240 tick이며 실제 초는 빠르기에 따라 달라집니다.",
+      "masterPath": "education/education_duration.svg",
+      "masterSha256": "95e337d06ba7d5bff33ebe73aeba1ab65d734265b96144958d306283d7dc43f9",
+      "masterDimensions": [
+        1024,
+        640
+      ],
+      "releaseApproved": false,
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "education/education_duration.svg",
+      "format": "image/svg+xml",
+      "width": 1024,
+      "height": 640,
+      "bytes": 2902,
+      "sha256": "95e337d06ba7d5bff33ebe73aeba1ab65d734265b96144958d306283d7dc43f9",
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "decodedRGBABytesEstimate": 2621440,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "education_duration_advanced",
+      "category": "education",
+      "scene": "education",
+      "state": "review-pending",
+      "usage": "8분·4분·2분 길이는 같은 작은 칸 1·2·4개입니다. 한 칸은 240 tick이며 실제 초는 빠르기에 따라 달라집니다.",
+      "masterPath": "education/education_duration_advanced.svg",
+      "masterSha256": "b9b3602c8c5389a8e1a0690e3bdbd4cedd1b5e92770834da63da0029f2f5b1e8",
+      "masterDimensions": [
+        1024,
+        640
+      ],
+      "releaseApproved": false,
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "education/education_duration_advanced.svg",
+      "format": "image/svg+xml",
+      "width": 1024,
+      "height": 640,
+      "bytes": 6804,
+      "sha256": "b9b3602c8c5389a8e1a0690e3bdbd4cedd1b5e92770834da63da0029f2f5b1e8",
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "decodedRGBABytesEstimate": 2621440,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "education_tie",
+      "category": "education",
+      "scene": "education",
+      "state": "review-pending",
+      "usage": "위는 같은 C5의 4분+4분 붙임줄로 960 tick, 아래는 L03의 실제 마디선을 넘는 4분+2분 발췌로 1440 tick입니다. 두 경우 중간에 새로 누르지 않습니다.",
+      "masterPath": "education/education_tie.svg",
+      "masterSha256": "43e2b1e6f321be84f36f25fde73d052ccb925b4be8c078427b8410e2a9a30f2a",
+      "masterDimensions": [
+        1024,
+        640
+      ],
+      "releaseApproved": false,
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "education/education_tie.svg",
+      "format": "image/svg+xml",
+      "width": 1024,
+      "height": 640,
+      "bytes": 7972,
+      "sha256": "43e2b1e6f321be84f36f25fde73d052ccb925b4be8c078427b8410e2a9a30f2a",
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "decodedRGBABytesEstimate": 2621440,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "education_tie_advanced",
+      "category": "education",
+      "scene": "education",
+      "state": "review-pending",
+      "usage": "위는 같은 C5의 4분+4분 붙임줄로 960 tick, 아래는 L03의 실제 마디선을 넘는 4분+2분 발췌로 1440 tick입니다. 두 경우 중간에 새로 누르지 않습니다.",
+      "masterPath": "education/education_tie_advanced.svg",
+      "masterSha256": "9443c6971b655ebb03465ef31bc7f446c1e8c459e273de2ccb7b5ec54551d893",
+      "masterDimensions": [
+        1024,
+        640
+      ],
+      "releaseApproved": false,
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "education/education_tie_advanced.svg",
+      "format": "image/svg+xml",
+      "width": 1024,
+      "height": 640,
+      "bytes": 17076,
+      "sha256": "9443c6971b655ebb03465ef31bc7f446c1e8c459e273de2ccb7b5ec54551d893",
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "decodedRGBABytesEstimate": 2621440,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "education_dot",
+      "category": "education",
+      "scene": "education",
+      "state": "review-pending",
+      "usage": "4분음표 두 칸 480 tick에 그 절반인 한 칸 240 tick을 더해 점4분음표 세 칸 720 tick이 됩니다. 점을 언제나 반박이라고 부르지 않습니다.",
+      "masterPath": "education/education_dot.svg",
+      "masterSha256": "1854de2a38cd06423242055672a454b902fe1c6cdbcd827a5e37c1e39eab6b83",
+      "masterDimensions": [
+        1024,
+        640
+      ],
+      "releaseApproved": false,
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "education/education_dot.svg",
+      "format": "image/svg+xml",
+      "width": 1024,
+      "height": 640,
+      "bytes": 5272,
+      "sha256": "1854de2a38cd06423242055672a454b902fe1c6cdbcd827a5e37c1e39eab6b83",
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "decodedRGBABytesEstimate": 2621440,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "education_dot_advanced",
+      "category": "education",
+      "scene": "education",
+      "state": "review-pending",
+      "usage": "4분음표 두 칸 480 tick에 그 절반인 한 칸 240 tick을 더해 점4분음표 세 칸 720 tick이 됩니다. 점을 언제나 반박이라고 부르지 않습니다.",
+      "masterPath": "education/education_dot_advanced.svg",
+      "masterSha256": "bd58c418ce39ccf324cc7453dad1f41c17d6566061f96a0521159e8ba3ee2ca7",
+      "masterDimensions": [
+        1024,
+        640
+      ],
+      "releaseApproved": false,
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "education/education_dot_advanced.svg",
+      "format": "image/svg+xml",
+      "width": 1024,
+      "height": 640,
+      "bytes": 9139,
+      "sha256": "bd58c418ce39ccf324cc7453dad1f41c17d6566061f96a0521159e8ba3ee2ca7",
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "decodedRGBABytesEstimate": 2621440,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "education_dotted_rest",
+      "category": "education",
+      "scene": "education",
+      "state": "review-pending",
+      "usage": "L05 첫 마디: 6/8에서 점4분쉼표 720 tick 뒤 C5·D5·E5 8분음표 세 개입니다. 첫 세 작은 칸은 담당 성부만 쉬고, 반주와 작은 박은 계속 갑니다.",
+      "masterPath": "education/education_dotted_rest.svg",
+      "masterSha256": "523ac67a32009d03066ac5ff4b3715e22940d4b1e73b669f9c5540df2e4acb23",
+      "masterDimensions": [
+        1024,
+        640
+      ],
+      "releaseApproved": false,
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "education/education_dotted_rest.svg",
+      "format": "image/svg+xml",
+      "width": 1024,
+      "height": 640,
+      "bytes": 7586,
+      "sha256": "523ac67a32009d03066ac5ff4b3715e22940d4b1e73b669f9c5540df2e4acb23",
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "decodedRGBABytesEstimate": 2621440,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "education_dotted_rest_advanced",
+      "category": "education",
+      "scene": "education",
+      "state": "review-pending",
+      "usage": "L05 첫 마디: 6/8에서 점4분쉼표 720 tick 뒤 C5·D5·E5 8분음표 세 개입니다. 첫 세 작은 칸은 담당 성부만 쉬고, 반주와 작은 박은 계속 갑니다.",
+      "masterPath": "education/education_dotted_rest_advanced.svg",
+      "masterSha256": "733aeda9df20fea3711f449a9f1f91a9c82bd841a1e669b47edd296189381085",
+      "masterDimensions": [
+        1024,
+        640
+      ],
+      "releaseApproved": false,
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "education/education_dotted_rest_advanced.svg",
+      "format": "image/svg+xml",
+      "width": 1024,
+      "height": 640,
+      "bytes": 12169,
+      "sha256": "733aeda9df20fea3711f449a9f1f91a9c82bd841a1e669b47edd296189381085",
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "decodedRGBABytesEstimate": 2621440,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "education_meter",
+      "category": "education",
+      "scene": "education",
+      "state": "review-pending",
+      "usage": "3/4는 2+2+2로 세 큰박, 6/8은 이 수업에서 3+3으로 두 큰박입니다. 두 레벨은 모두 quarterBpm=90이므로 8분음표 길이와 여섯 번 입력은 같습니다.",
+      "masterPath": "education/education_meter.svg",
+      "masterSha256": "49fecd29a9d38e2c61c64c0a873ed13def401da344e2c937c106a1e9eed17f95",
+      "masterDimensions": [
+        1024,
+        640
+      ],
+      "releaseApproved": false,
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "education/education_meter.svg",
+      "format": "image/svg+xml",
+      "width": 1024,
+      "height": 640,
+      "bytes": 14937,
+      "sha256": "49fecd29a9d38e2c61c64c0a873ed13def401da344e2c937c106a1e9eed17f95",
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "decodedRGBABytesEstimate": 2621440,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    },
+    {
+      "assetId": "education_tempo",
+      "category": "education",
+      "scene": "education",
+      "state": "review-pending",
+      "usage": "L08과 L09는 같은 4/4의 8분음표·8분쉼표 네 쌍입니다. 같은 4분음표 기준 72와108 BPM에서 8분 길이는416.667 ms와277.778 ms, 한 마디는3.333 s와2.222 s입니다.",
+      "masterPath": "education/education_tempo.svg",
+      "masterSha256": "c6ea34070274df9389846b523838027d83c59fe22cf1abed30449813760c174d",
+      "masterDimensions": [
+        1024,
+        640
+      ],
+      "releaseApproved": false,
+      "notationReview": "pending",
+      "listeningReview": "pending",
+      "releaseGate": "Artwork user approval, music educator review where relevant, runtime and physical-device integration remain pending.",
+      "path": "education/education_tempo.svg",
+      "format": "image/svg+xml",
+      "width": 1024,
+      "height": 640,
+      "bytes": 24868,
+      "sha256": "c6ea34070274df9389846b523838027d83c59fe22cf1abed30449813760c174d",
+      "anchors": {
+        "contentTopLeft": [
+          100,
+          100
+        ]
+      },
+      "decodedRGBABytesEstimate": 2621440,
+      "memoryEstimateAssumption": "SVG rasterized once at intrinsic viewBox size; actual DPR/raster scale changes memory quadratically.",
+      "svgByteIdenticalToMaster": true
+    }
+  ],
+  "testStatus": {
+    "staticVisual": "passed",
+    "codecAndAlpha": "passed",
+    "humanNotation": "pending",
+    "listening": "pending",
+    "runtimeAnimation": "notRun",
+    "browserDecode": "notRun",
+    "physicalDevice": "notRun",
+    "releaseApproved": false,
+    "independentMetadataReview": "passed",
+    "visualReviewMethod": "Pillow decoded WebP versus equal-size PNG, rendered as static comparison; no browser runtime test."
+  }
+}

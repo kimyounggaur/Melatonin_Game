@@ -1,0 +1,83 @@
+{
+  "fixtureKind": "calibrationAndScore",
+  "calibration": {
+    "previewClicks": 4,
+    "measurementClicks": 16,
+    "discardFirstMeasurementClicks": 4,
+    "usedSamples": 12,
+    "sampleErrorsMs": [
+      60,
+      70,
+      75,
+      78,
+      80,
+      80,
+      80,
+      82,
+      84,
+      85,
+      90,
+      100
+    ],
+    "expectedMedianMs": 80,
+    "expectedMADMs": 4.5,
+    "maxMADMs": 45,
+    "maxAutomaticAbsoluteOffsetMs": 250,
+    "requiresUserConfirmation": true,
+    "signCases": [
+      {
+        "rawMs": 80,
+        "offsetMs": 80,
+        "expectedMs": 0
+      },
+      {
+        "rawMs": -80,
+        "offsetMs": -80,
+        "expectedMs": 0
+      }
+    ]
+  },
+  "scoreCases": [
+    {
+      "N": 4,
+      "earned": 3.5,
+      "extra": 1,
+      "expectedScore": 81
+    },
+    {
+      "N": 3,
+      "earned": 3,
+      "extra": 0,
+      "expectedScore": 100
+    },
+    {
+      "N": 3,
+      "earned": 0,
+      "extra": 9,
+      "expectedScore": 0
+    },
+    {
+      "N": 4,
+      "earned": 4,
+      "extra": 20,
+      "expectedScore": 75
+    }
+  ],
+  "meterQuiz": {
+    "defaultOrder": [
+      "3/4",
+      "6/8",
+      "6/8",
+      "3/4"
+    ],
+    "answers": [
+      "2+2+2",
+      "3+3",
+      "3+3",
+      "2+2+2"
+    ],
+    "requiredCorrect": 3,
+    "questions": 4,
+    "rhythmScoreDoesNotSubstitute": true
+  }
+}

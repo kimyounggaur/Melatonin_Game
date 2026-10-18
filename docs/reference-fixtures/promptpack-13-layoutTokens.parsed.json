@@ -1,0 +1,63 @@
+{
+  "fixtureKind": "layoutTokens",
+  "color": {
+    "background": "#142A35",
+    "paper": "#F3E8C9",
+    "thread": "#E3B85D",
+    "leaf": "#65A69A",
+    "errorOutline": "#D77467"
+  },
+  "typography": {
+    "bodyCssPx": 16,
+    "instructionCssPx": 18,
+    "lineHeight": 1.5
+  },
+  "targets": {
+    "actionMinHeightCssPx": 72,
+    "auxiliaryMinCssPx": 44,
+    "portraitActionRegionMinHeightCssPx": 128,
+    "targetCenterHorizontalRange": [
+      0.3,
+      0.7
+    ]
+  },
+  "portrait": {
+    "headerCssPxBeforeSafeArea": 56,
+    "stageAspect": [
+      4,
+      3
+    ],
+    "backgroundCropPx": [
+      64,
+      0,
+      1024,
+      768
+    ]
+  },
+  "landscape": {
+    "headerCssPxBeforeSafeArea": 56,
+    "stageAspect": [
+      16,
+      9
+    ],
+    "backgroundCropPx": [
+      0,
+      60,
+      1152,
+      648
+    ],
+    "compactStrategy": "stage-and-action-side-by-side"
+  },
+  "desktop": {
+    "headerCssPx": 64,
+    "stageMaxCssWidth": 1200,
+    "actionRegionCssHeight": 112
+  },
+  "initialBudgets": {
+    "sceneBackgrounds": 1,
+    "majorSceneObjects": 12,
+    "particles": 24,
+    "voices": 8,
+    "transitionMs": 600
+  }
+}

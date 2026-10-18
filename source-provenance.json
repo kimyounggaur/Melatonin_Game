@@ -1,0 +1,84 @@
+{
+  "project": "밤실 공방",
+  "contentVersion": "1.0.0",
+  "environment": {
+    "platform": "win32",
+    "node": "v24.14.0",
+    "location": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop",
+    "model": "Codex current session; no model or reasoning UI change was performed or claimed"
+  },
+  "files": [
+    {
+      "file": "reference/promptpack.md",
+      "driveId": "1d2Y0aORs0dQsA8s5JUicTApE7ci4ha6b",
+      "bytes": 218609,
+      "sha256": "0a1000132378d81cc771ddce5b5a8b631dc8237f316166bf79ed4c7b31ebd8a4",
+      "sourceModified": false
+    },
+    {
+      "file": "reference/design.md",
+      "driveId": "1JvydwaMM3ha5sgdayFlhabsHjfMjQcSv",
+      "bytes": 107601,
+      "sha256": "6a4b3db31f6288bde3924c4dc21bb64d49c12f518cc77c0d33404f55a654eedb",
+      "sourceModified": false
+    },
+    {
+      "file": "reference/mobile-assets.zip",
+      "driveId": "1vY7Wj3NcMg0uQvu2t8BgpTAcwDVE2GNY",
+      "bytes": 10123168,
+      "sha256": "67478bb9a7c96454cd0946aee9d1134c880c0c40ffb75a5eaa4052ef583c44ec",
+      "sourceModified": false
+    },
+    {
+      "file": "reference/assets/night_thread_mobile_runtime_v1/runtime_manifest.json",
+      "driveId": "1cx1KieOJzKACIqadGLTRs0P9DFrfydjU",
+      "bytes": 137823,
+      "sha256": "2c916a9a196990a1e9ddb2c61436733473879448301bc1f34af02b2d1582eb56",
+      "sourceModified": false
+    },
+    {
+      "file": "reference/original-asset-manifest.json",
+      "driveId": "1cOW2oCFFVkpBevj9Vvwiy7-eKc0SAOqI",
+      "bytes": 186449,
+      "sha256": "13d1170008ecac9bf653120a53e1464f452e8497a8328dfc77416832f7626e2f",
+      "sourceModified": false
+    },
+    {
+      "file": "reference/original-assets-README.md",
+      "driveId": "1JfxVv7UuDhAITj_BPbus6e38vRPVWerR",
+      "bytes": 7502,
+      "sha256": "2742ba0736ac52ef4eba2047020dff21904df830c3e604e6470ce1909098a6ca",
+      "sourceModified": false
+    },
+    {
+      "file": "reference/assets/night_thread_mobile_runtime_v1/README.md",
+      "driveId": "178WtBrrvk9LfokOhSc5kFtQfbiZTF8HD",
+      "bytes": 7946,
+      "sha256": "9fe8584a5c3dd23b117614a34e0477e11a91e898d97dc436d20df73539dbed57",
+      "sourceModified": false
+    }
+  ],
+  "assets": {
+    "logicalCount": 92,
+    "originalRuntimeIdsEqual": true,
+    "primaryBytes": 1916295,
+    "originalReviewStatus": {
+      "staticVisual": "passed",
+      "fileIntegrity": "passed",
+      "vectorGeometry": "see vector_QA.json",
+      "humanNotation": "pending",
+      "listening": "pending",
+      "runtimeAnimation": "notRun",
+      "browserDevice": "notRun",
+      "releaseApproved": false
+    },
+    "runtimeUnapprovedCount": 92
+  },
+  "review": {
+    "math": "automated passed; see test reports",
+    "humanNotation": "pending",
+    "physicalListening": "not run",
+    "physicalDevices": "not run",
+    "publicDeployment": "not requested; not performed"
+  }
+}
