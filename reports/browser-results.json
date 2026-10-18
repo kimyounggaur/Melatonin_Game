@@ -109,7 +109,7 @@
       "line": 0,
       "specs": [
         {
-          "title": "E02 E03 E04: trusted keyboard and pointer hold/release, secondary owner ignored, pause/resume fresh count-in",
+          "title": "E01 E14: real-time L02 listen → practice → PLAY no-input earns zero and emits no lead/player attacks",
           "ok": true,
           "tags": [],
           "tests": [
@@ -124,12 +124,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 55058,
+                  "duration": 50151,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-18T16:54:36.444Z",
+                  "startTime": "2026-10-18T17:16:21.914Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -137,9 +137,9 @@
               "status": "expected"
             }
           ],
-          "id": "27a4be643247ef394ae5-2f79a4f146a514baaed6",
+          "id": "27a4be643247ef394ae5-4b482684abda0ece5037",
           "file": "night-thread.spec.ts",
-          "line": 330,
+          "line": 252,
           "column": 1
         }
       ]
@@ -147,8 +147,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-18T16:54:35.527Z",
-    "duration": 57094.565,
+    "startTime": "2026-10-18T17:16:20.716Z",
+    "duration": 52964.572,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

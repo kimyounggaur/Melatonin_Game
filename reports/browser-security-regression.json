@@ -1,0 +1,656 @@
+{
+  "recordedAt": "2026-10-18T17:18:45.369Z",
+  "scope": "Post-dependency-security-patch regression: exactly Chrome main5, Firefox real-time L02 no-input1, Windows WebKit static2. The previous21 unique-case aggregate is retained as pre-patch evidence; these8 overlap that set and are not29 independent cases. The other8 full-level sessions and calibration2 were not rerun in this patch follow-up.",
+  "context": {
+    "observedAt": "2026-10-18T17:14:28.678Z",
+    "scope": "Installed dependency versions and unchanged game source hashes versus the retained pre-security browser baseline; no claim that all prior21 cases were rerun.",
+    "packageVersion": "1.0.1-preview",
+    "versions": {
+      "vite": "7.3.7",
+      "vitest": "4.1.11",
+      "ajv": "8.20.0",
+      "@playwright/test": "1.56.1"
+    },
+    "source": [
+      {
+        "path": "src/main.ts",
+        "baselineSha256": "33a3dfd82df8637db9f921c0ccdfc9c4c406667a364aabc793472ac436eef5f5",
+        "currentSha256": "33a3dfd82df8637db9f921c0ccdfc9c4c406667a364aabc793472ac436eef5f5",
+        "unchanged": true
+      },
+      {
+        "path": "src/core/judge.ts",
+        "baselineSha256": "35ba1494d38e67951df1ece4e884ce33ca8af430bfea128ceb13c91b24b7f15e",
+        "currentSha256": "35ba1494d38e67951df1ece4e884ce33ca8af430bfea128ceb13c91b24b7f15e",
+        "unchanged": true
+      },
+      {
+        "path": "src/audio.ts",
+        "baselineSha256": "66506720fb612147ce328e70b7604528a125bf571df2a24b9683297e91b1a91f",
+        "currentSha256": "66506720fb612147ce328e70b7604528a125bf571df2a24b9683297e91b1a91f",
+        "unchanged": true
+      }
+    ]
+  },
+  "scriptSha256": "d70c1a733cc95453ac3a246b73a71206d3947e64ea3607250c2946552acaf3e5",
+  "scriptFrozen": true,
+  "bundle": "./assets/index-BXdIF8kD.js",
+  "counts": {
+    "expectedCases": 8,
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0
+  },
+  "tests": [
+    {
+      "browser": "chromium",
+      "file": "night-thread.spec.ts",
+      "title": "E01 E08 E09: nine lessons expose exact source notation, pitch, ties, grouping and tempo",
+      "status": "passed",
+      "durationSec": 3.221,
+      "rawFile": "browser-security-chromium-webkit.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "night-thread.spec.ts",
+      "title": "E06: five viewport layouts, readable 200% text, keyboard settings and semantic controls",
+      "status": "passed",
+      "durationSec": 3.884,
+      "rawFile": "browser-security-chromium-webkit.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "night-thread.spec.ts",
+      "title": "E01 E14: real-time L02 listen → practice → PLAY no-input earns zero and emits no lead/player attacks",
+      "status": "passed",
+      "durationSec": 46.618,
+      "rawFile": "browser-security-chromium-webkit.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "night-thread.spec.ts",
+      "title": "E02 E03 E04: trusted keyboard and pointer hold/release, secondary owner ignored, pause/resume fresh count-in",
+      "status": "passed",
+      "durationSec": 52.937,
+      "rawFile": "browser-security-chromium-webkit.json",
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "file": "night-thread.spec.ts",
+      "title": "E05: real browser screen orientation change interrupts and user resume starts a fresh count-in",
+      "status": "passed",
+      "durationSec": 1.722,
+      "rawFile": "browser-security-chromium-webkit.json",
+      "error": null
+    },
+    {
+      "browser": "webkit",
+      "file": "webkit-static.spec.ts",
+      "title": "WebKit Windows capability: absent Web Audio gives retry guidance and never silently enters PLAY",
+      "status": "passed",
+      "durationSec": 1.404,
+      "rawFile": "browser-security-chromium-webkit.json",
+      "error": null
+    },
+    {
+      "browser": "webkit",
+      "file": "webkit-static.spec.ts",
+      "title": "WebKit rendering: legitimate map link opens nine source-notation lessons, five viewport layouts and 200% text",
+      "status": "passed",
+      "durationSec": 7.946,
+      "rawFile": "browser-security-chromium-webkit.json",
+      "error": null
+    },
+    {
+      "browser": "firefox",
+      "file": "night-thread.spec.ts",
+      "title": "E01 E14: real-time L02 listen → practice → PLAY no-input earns zero and emits no lead/player attacks",
+      "status": "passed",
+      "durationSec": 50.151,
+      "rawFile": "browser-security-firefox.json",
+      "error": null
+    }
+  ],
+  "localProductionPreflight": {
+    "file": "artifacts/browser-production-security-preflight.json",
+    "outcome": "passed"
+  },
+  "rawRuns": [
+    {
+      "file": "browser-security-chromium-webkit.json",
+      "raw": {
+        "config": {
+          "configFile": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\playwright.config.ts",
+          "rootDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+          "forbidOnly": false,
+          "fullyParallel": false,
+          "globalSetup": null,
+          "globalTeardown": null,
+          "globalTimeout": 0,
+          "grep": {},
+          "grepInvert": null,
+          "maxFailures": 0,
+          "metadata": {
+            "actualWorkers": 1
+          },
+          "preserveOutput": "always",
+          "reporter": [
+            [
+              "list",
+              null
+            ],
+            [
+              "json",
+              {
+                "outputFile": "reports/browser-results.json"
+              }
+            ],
+            [
+              "html",
+              {
+                "outputFolder": "reports/browser-report",
+                "open": "never"
+              }
+            ]
+          ],
+          "reportSlowTests": {
+            "max": 5,
+            "threshold": 300000
+          },
+          "quiet": false,
+          "projects": [
+            {
+              "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+              "repeatEach": 1,
+              "retries": 0,
+              "metadata": {
+                "actualWorkers": 1
+              },
+              "id": "chromium",
+              "name": "chromium",
+              "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+              "testIgnore": [
+                "/webkit-static\\.spec\\.ts/"
+              ],
+              "testMatch": [
+                "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+              ],
+              "timeout": 120000
+            },
+            {
+              "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+              "repeatEach": 1,
+              "retries": 0,
+              "metadata": {
+                "actualWorkers": 1
+              },
+              "id": "firefox",
+              "name": "firefox",
+              "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+              "testIgnore": [
+                "/all-levels\\.spec\\.ts/",
+                "/webkit-static\\.spec\\.ts/",
+                "/calibration\\.spec\\.ts/"
+              ],
+              "testMatch": [
+                "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+              ],
+              "timeout": 120000
+            },
+            {
+              "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+              "repeatEach": 1,
+              "retries": 0,
+              "metadata": {
+                "actualWorkers": 1
+              },
+              "id": "webkit",
+              "name": "webkit",
+              "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+              "testIgnore": [],
+              "testMatch": [
+                "/webkit-static\\.spec\\.ts/"
+              ],
+              "timeout": 120000
+            }
+          ],
+          "shard": null,
+          "updateSnapshots": "missing",
+          "updateSourceMethod": "patch",
+          "version": "1.56.1",
+          "workers": 1,
+          "webServer": null
+        },
+        "suites": [
+          {
+            "title": "night-thread.spec.ts",
+            "file": "night-thread.spec.ts",
+            "column": 0,
+            "line": 0,
+            "specs": [
+              {
+                "title": "E01 E08 E09: nine lessons expose exact source notation, pitch, ties, grouping and tempo",
+                "ok": true,
+                "tags": [],
+                "tests": [
+                  {
+                    "timeout": 120000,
+                    "annotations": [],
+                    "expectedStatus": "passed",
+                    "projectId": "chromium",
+                    "projectName": "chromium",
+                    "results": [
+                      {
+                        "workerIndex": 0,
+                        "parallelIndex": 0,
+                        "status": "passed",
+                        "duration": 3221,
+                        "errors": [],
+                        "stdout": [],
+                        "stderr": [],
+                        "retry": 0,
+                        "startTime": "2026-10-18T17:14:07.111Z",
+                        "annotations": [],
+                        "attachments": []
+                      }
+                    ],
+                    "status": "expected"
+                  }
+                ],
+                "id": "27a4be643247ef394ae5-88ab5487ca7fa96d683a",
+                "file": "night-thread.spec.ts",
+                "line": 133,
+                "column": 1
+              },
+              {
+                "title": "E06: five viewport layouts, readable 200% text, keyboard settings and semantic controls",
+                "ok": true,
+                "tags": [],
+                "tests": [
+                  {
+                    "timeout": 120000,
+                    "annotations": [],
+                    "expectedStatus": "passed",
+                    "projectId": "chromium",
+                    "projectName": "chromium",
+                    "results": [
+                      {
+                        "workerIndex": 0,
+                        "parallelIndex": 0,
+                        "status": "passed",
+                        "duration": 3884,
+                        "errors": [],
+                        "stdout": [],
+                        "stderr": [],
+                        "retry": 0,
+                        "startTime": "2026-10-18T17:14:10.600Z",
+                        "annotations": [],
+                        "attachments": []
+                      }
+                    ],
+                    "status": "expected"
+                  }
+                ],
+                "id": "27a4be643247ef394ae5-4425ad27c8fb3143a5ac",
+                "file": "night-thread.spec.ts",
+                "line": 172,
+                "column": 1
+              },
+              {
+                "title": "E01 E14: real-time L02 listen → practice → PLAY no-input earns zero and emits no lead/player attacks",
+                "ok": true,
+                "tags": [],
+                "tests": [
+                  {
+                    "timeout": 120000,
+                    "annotations": [],
+                    "expectedStatus": "passed",
+                    "projectId": "chromium",
+                    "projectName": "chromium",
+                    "results": [
+                      {
+                        "workerIndex": 0,
+                        "parallelIndex": 0,
+                        "status": "passed",
+                        "duration": 46618,
+                        "errors": [],
+                        "stdout": [],
+                        "stderr": [],
+                        "retry": 0,
+                        "startTime": "2026-10-18T17:14:14.495Z",
+                        "annotations": [],
+                        "attachments": []
+                      }
+                    ],
+                    "status": "expected"
+                  }
+                ],
+                "id": "27a4be643247ef394ae5-5900bc68a06a6873e35f",
+                "file": "night-thread.spec.ts",
+                "line": 252,
+                "column": 1
+              },
+              {
+                "title": "E02 E03 E04: trusted keyboard and pointer hold/release, secondary owner ignored, pause/resume fresh count-in",
+                "ok": true,
+                "tags": [],
+                "tests": [
+                  {
+                    "timeout": 120000,
+                    "annotations": [],
+                    "expectedStatus": "passed",
+                    "projectId": "chromium",
+                    "projectName": "chromium",
+                    "results": [
+                      {
+                        "workerIndex": 0,
+                        "parallelIndex": 0,
+                        "status": "passed",
+                        "duration": 52937,
+                        "errors": [],
+                        "stdout": [],
+                        "stderr": [],
+                        "retry": 0,
+                        "startTime": "2026-10-18T17:15:01.125Z",
+                        "annotations": [],
+                        "attachments": []
+                      }
+                    ],
+                    "status": "expected"
+                  }
+                ],
+                "id": "27a4be643247ef394ae5-1b36037b140347cb0d20",
+                "file": "night-thread.spec.ts",
+                "line": 330,
+                "column": 1
+              },
+              {
+                "title": "E05: real browser screen orientation change interrupts and user resume starts a fresh count-in",
+                "ok": true,
+                "tags": [],
+                "tests": [
+                  {
+                    "timeout": 120000,
+                    "annotations": [],
+                    "expectedStatus": "passed",
+                    "projectId": "chromium",
+                    "projectName": "chromium",
+                    "results": [
+                      {
+                        "workerIndex": 0,
+                        "parallelIndex": 0,
+                        "status": "passed",
+                        "duration": 1722,
+                        "errors": [],
+                        "stdout": [],
+                        "stderr": [],
+                        "retry": 0,
+                        "startTime": "2026-10-18T17:15:54.082Z",
+                        "annotations": [],
+                        "attachments": []
+                      }
+                    ],
+                    "status": "expected"
+                  }
+                ],
+                "id": "27a4be643247ef394ae5-f00341a8479afacb622f",
+                "file": "night-thread.spec.ts",
+                "line": 475,
+                "column": 1
+              }
+            ]
+          },
+          {
+            "title": "webkit-static.spec.ts",
+            "file": "webkit-static.spec.ts",
+            "column": 0,
+            "line": 0,
+            "specs": [
+              {
+                "title": "WebKit Windows capability: absent Web Audio gives retry guidance and never silently enters PLAY",
+                "ok": true,
+                "tags": [],
+                "tests": [
+                  {
+                    "timeout": 120000,
+                    "annotations": [],
+                    "expectedStatus": "passed",
+                    "projectId": "webkit",
+                    "projectName": "webkit",
+                    "results": [
+                      {
+                        "workerIndex": 1,
+                        "parallelIndex": 0,
+                        "status": "passed",
+                        "duration": 1404,
+                        "errors": [],
+                        "stdout": [],
+                        "stderr": [],
+                        "retry": 0,
+                        "startTime": "2026-10-18T17:15:57.478Z",
+                        "annotations": [],
+                        "attachments": []
+                      }
+                    ],
+                    "status": "expected"
+                  }
+                ],
+                "id": "4a9e2cb1beefb2afad72-a664da9cdf2b9121fe6d",
+                "file": "webkit-static.spec.ts",
+                "line": 32,
+                "column": 1
+              },
+              {
+                "title": "WebKit rendering: legitimate map link opens nine source-notation lessons, five viewport layouts and 200% text",
+                "ok": true,
+                "tags": [],
+                "tests": [
+                  {
+                    "timeout": 120000,
+                    "annotations": [],
+                    "expectedStatus": "passed",
+                    "projectId": "webkit",
+                    "projectName": "webkit",
+                    "results": [
+                      {
+                        "workerIndex": 1,
+                        "parallelIndex": 0,
+                        "status": "passed",
+                        "duration": 7946,
+                        "errors": [],
+                        "stdout": [],
+                        "stderr": [],
+                        "retry": 0,
+                        "startTime": "2026-10-18T17:15:58.996Z",
+                        "annotations": [],
+                        "attachments": []
+                      }
+                    ],
+                    "status": "expected"
+                  }
+                ],
+                "id": "4a9e2cb1beefb2afad72-36beced28b9f3bf1b513",
+                "file": "webkit-static.spec.ts",
+                "line": 72,
+                "column": 1
+              }
+            ]
+          }
+        ],
+        "errors": [],
+        "stats": {
+          "startTime": "2026-10-18T17:14:06.472Z",
+          "duration": 120588.112,
+          "expected": 7,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      }
+    },
+    {
+      "file": "browser-security-firefox.json",
+      "raw": {
+        "config": {
+          "configFile": "C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-2\\bamsil-workshop\\playwright.config.ts",
+          "rootDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+          "forbidOnly": false,
+          "fullyParallel": false,
+          "globalSetup": null,
+          "globalTeardown": null,
+          "globalTimeout": 0,
+          "grep": {},
+          "grepInvert": null,
+          "maxFailures": 0,
+          "metadata": {
+            "actualWorkers": 1
+          },
+          "preserveOutput": "always",
+          "reporter": [
+            [
+              "list",
+              null
+            ],
+            [
+              "json",
+              {
+                "outputFile": "reports/browser-results.json"
+              }
+            ],
+            [
+              "html",
+              {
+                "outputFolder": "reports/browser-report",
+                "open": "never"
+              }
+            ]
+          ],
+          "reportSlowTests": {
+            "max": 5,
+            "threshold": 300000
+          },
+          "quiet": false,
+          "projects": [
+            {
+              "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+              "repeatEach": 1,
+              "retries": 0,
+              "metadata": {
+                "actualWorkers": 1
+              },
+              "id": "chromium",
+              "name": "chromium",
+              "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+              "testIgnore": [
+                "/webkit-static\\.spec\\.ts/"
+              ],
+              "testMatch": [
+                "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+              ],
+              "timeout": 120000
+            },
+            {
+              "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+              "repeatEach": 1,
+              "retries": 0,
+              "metadata": {
+                "actualWorkers": 1
+              },
+              "id": "firefox",
+              "name": "firefox",
+              "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+              "testIgnore": [
+                "/all-levels\\.spec\\.ts/",
+                "/webkit-static\\.spec\\.ts/",
+                "/calibration\\.spec\\.ts/"
+              ],
+              "testMatch": [
+                "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+              ],
+              "timeout": 120000
+            },
+            {
+              "outputDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/output/playwright/test-results",
+              "repeatEach": 1,
+              "retries": 0,
+              "metadata": {
+                "actualWorkers": 1
+              },
+              "id": "webkit",
+              "name": "webkit",
+              "testDir": "C:/Users/kimyo/Documents/Codex/2026-10-19/task-2/bamsil-workshop/tests/e2e",
+              "testIgnore": [],
+              "testMatch": [
+                "/webkit-static\\.spec\\.ts/"
+              ],
+              "timeout": 120000
+            }
+          ],
+          "shard": null,
+          "updateSnapshots": "missing",
+          "updateSourceMethod": "patch",
+          "version": "1.56.1",
+          "workers": 1,
+          "webServer": null
+        },
+        "suites": [
+          {
+            "title": "night-thread.spec.ts",
+            "file": "night-thread.spec.ts",
+            "column": 0,
+            "line": 0,
+            "specs": [
+              {
+                "title": "E01 E14: real-time L02 listen → practice → PLAY no-input earns zero and emits no lead/player attacks",
+                "ok": true,
+                "tags": [],
+                "tests": [
+                  {
+                    "timeout": 120000,
+                    "annotations": [],
+                    "expectedStatus": "passed",
+                    "projectId": "firefox",
+                    "projectName": "firefox",
+                    "results": [
+                      {
+                        "workerIndex": 0,
+                        "parallelIndex": 0,
+                        "status": "passed",
+                        "duration": 50151,
+                        "errors": [],
+                        "stdout": [],
+                        "stderr": [],
+                        "retry": 0,
+                        "startTime": "2026-10-18T17:16:21.914Z",
+                        "annotations": [],
+                        "attachments": []
+                      }
+                    ],
+                    "status": "expected"
+                  }
+                ],
+                "id": "27a4be643247ef394ae5-4b482684abda0ece5037",
+                "file": "night-thread.spec.ts",
+                "line": 252,
+                "column": 1
+              }
+            ]
+          }
+        ],
+        "errors": [],
+        "stats": {
+          "startTime": "2026-10-18T17:16:20.716Z",
+          "duration": 52964.572,
+          "expected": 1,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        }
+      }
+    }
+  ]
+}

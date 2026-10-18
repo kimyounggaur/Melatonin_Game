@@ -1,0 +1,31 @@
+{
+  "observedAt": "2026-10-18T17:14:28.678Z",
+  "scope": "Installed dependency versions and unchanged game source hashes versus the retained pre-security browser baseline; no claim that all prior21 cases were rerun.",
+  "packageVersion": "1.0.1-preview",
+  "versions": {
+    "vite": "7.3.7",
+    "vitest": "4.1.11",
+    "ajv": "8.20.0",
+    "@playwright/test": "1.56.1"
+  },
+  "source": [
+    {
+      "path": "src/main.ts",
+      "baselineSha256": "33a3dfd82df8637db9f921c0ccdfc9c4c406667a364aabc793472ac436eef5f5",
+      "currentSha256": "33a3dfd82df8637db9f921c0ccdfc9c4c406667a364aabc793472ac436eef5f5",
+      "unchanged": true
+    },
+    {
+      "path": "src/core/judge.ts",
+      "baselineSha256": "35ba1494d38e67951df1ece4e884ce33ca8af430bfea128ceb13c91b24b7f15e",
+      "currentSha256": "35ba1494d38e67951df1ece4e884ce33ca8af430bfea128ceb13c91b24b7f15e",
+      "unchanged": true
+    },
+    {
+      "path": "src/audio.ts",
+      "baselineSha256": "66506720fb612147ce328e70b7604528a125bf571df2a24b9683297e91b1a91f",
+      "currentSha256": "66506720fb612147ce328e70b7604528a125bf571df2a24b9683297e91b1a91f",
+      "unchanged": true
+    }
+  ]
+}

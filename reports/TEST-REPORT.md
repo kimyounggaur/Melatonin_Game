@@ -7,12 +7,13 @@
 | 범위 | 결과 | 근거 |
 |---|---|---|
 | TypeScript strict + Vite 빌드 | 통과 | `npm run typecheck`, `npm run build` |
-| 단위·통합 | 244/244 통과, 실패/skip 0 | `unit-integration-final.json` |
+| 단위·통합 | 보안 교정 뒤 244/244 통과, 실패/skip 0 | `unit-integration-security-final.json` (이전 실행도 보존) |
+| 의존성 보안 교정 | 기존 5패키지/10권고 → 현재 audit 0건 | `DEPENDENCY-TRIAGE.md`, `dependency-audit-before.json`, `dependency-audit-after.json` |
 | 원문·정규 데이터·오라클·자산 해시 대조 | 540/540 통과 | `../docs/reference-fixtures/verification.json` |
 | 실제 Chrome 자산 검사 | 28/28 통과 | `assets-browser.json` |
-| 전체 UI·실제 시간 브라우저 경로 | 최신 고유 21/21 통과, 미해결 실패/skip 0 | `browser-qa.md`, `browser-qa.json` 및 원시 실행 기록 |
+| 전체 UI·실제 시간 브라우저 경로 | MVP 기능 고유 21/21 통과; 도구 교정 뒤 추가 8/8 통과 | `browser-qa.md`, `browser-security-regression.md` 및 원시 실행 기록 |
 | 설치 없는 로컬 서버 | HTML·JS·CSS·WebP·manifest 모두 HTTP 200 | `local-server-check.json` |
-| DEV getter 없는 로컬 production | 실제 키 반응·결과 0/100·1회 저장/재시작 보존·92종 HTTP/SHA 통과, 실행 오류 0 | `browser-production-preflight.json` |
+| DEV getter 없는 로컬 production | 도구 교정 뒤 실제 키 반응·결과 0/100·1회 저장/새로고침 보존·92종 HTTP/SHA 통과, 실행 오류 0 | `browser-production-security-preflight.json` (이전 preflight도 보존) |
 | 공개 교육 출고 gate | **차단됨, 예상 결과** | `npm run gate:education` exit 1, 92/92 승인 미완료 |
 | 테스트 러너 자체 오류 탐지 | 예상 실패 탐지 후 fixture 제거 | `runner-negative.json` exit 1. 최종 suite는 green |
 
@@ -32,8 +33,11 @@ Windows Playwright WebKit 26에는 `AudioContext`와 `webkitAudioContext`가 모
 
 Firefox의 최종 재개 검사는 새 세션의 카운트인 준비를 기다리도록 테스트 경쟁을 수정한 뒤, headless 명령 전달 지연을 고려한 고정 30ms 선행 입력으로 같은 판정창·보정 0·100점 기준을 통과했습니다. 앞선 90점·79점과 초기 실패·skip 기록은 삭제하지 않았습니다. 상세 이력과 각 최신 결과의 근거는 `browser-qa.md`, `browser-resume-readiness-harness.md`, `browser-firefox-transport.md`를 참조합니다. 이는 실제 사용자 입력/음향 지연의 보정 측정이 아닙니다.
 
+1.0.1-preview의 도구 교정 후에는 Chrome 주요 5개, Firefox L02 전체 경로 1개, WebKit 정적 2개를 같은 기준으로 다시 실행해 8/8 통과했습니다. Chrome의 실제 hold/release·일시정지 복구 100점도 유지했습니다. 이전 고유 21개와 새 8개를 29개의 서로 다른 검사로 더하지 않습니다. 게임의 `src/`, 자산과 정규 데이터는 이전 커밋과 동일하며, 새 번들의 직접 실행 결과를 별도 기록합니다.
+
 ## 발견 및 수정
 
+- 1.0.1-preview: 배포 빌드가 알린 취약점을 공식 권고와 대조해 Vite 7.3.7·Vitest 4.1.11·Ajv 8.20.0으로 교정했습니다. 강제 audit fix는 쓰지 않았고 새 audit는 0건입니다. 변경 전후 원시 결과와 노출 전제는 `DEPENDENCY-TRIAGE.md`에 있습니다. 게임의 main·judge·audio 소스 해시는 유지했습니다. 새 Vitest의 최초 sandbox 실행은 임시 캐시 rename EPERM으로 테스트 0개·success=false였고, 이를 별도 보존한 뒤 승인된 환경에서 같은 244개를 모두 실행·통과했습니다.
 - 초기 sandbox DNS/localhost 제한은 승인된 전용 파일 다운로드·서버·headless 실행으로 해결했습니다. 권한을 우회하지 않았습니다.
 - Windows에서 Vitest glob이 literal 필터로 전달되어 검사 0건이 되던 스크립트를 실제 prefix 필터로 수정했습니다. 최종 검사 244건이 실제 실행됐습니다.
 - D26: 허용된 ±250ms 입력 보정에서 정상 입력이 먼저 miss로 확정되던 문제를 수정했습니다. 양수 보정만큼 onset/release timeout과 프레이즈·최종 확정 대기를 늦추고, 첫 입력의 early 필터는 해당 시도에 고정된 보정값을 뺀 시각으로 비교합니다. 음악 목표·오디오 gate·판정창과 raw 전달 지연 200ms 기준은 유지했습니다. 양수/음수 완벽 연주·무입력·마지막 release 확정·늦은 정상 edge를 포함한 새 회귀 검사 11개가 모두 통과했습니다.
@@ -48,7 +52,7 @@ Firefox의 최종 재개 검사는 새 세션의 카운트인 준비를 기다�
 
 ## 성능
 
-`performance.json`과 `performance.md`는 2026-10-18T17:03:09Z에 favicon을 포함한 최종 build를 측정한 resource timing과 rAF 표본입니다. 첫 playable까지 production 전송은 **1,373,608B**로 8,000,000B 목표 아래입니다. 약 5초의 L02 듣기 표본에서 프레임 간격 mean 4.52ms / p95 7.50ms / max 53.60ms, 해당 구간 long task 0이었습니다. 전체 탐색 실행에는 long task 2개가 관측됐습니다. 개발 환경에서는 관측 voice 최대 3, 20회 전환 모두 정확한 현재 profile만 보유했습니다.
+`performance.json`과 `performance.md`는 2026-10-18T17:19:06Z에 보안 교정한 최종 build를 측정한 resource timing과 rAF 표본입니다. 첫 playable까지 production 전송은 **1,373,695B**로 8,000,000B 목표 아래입니다. 약 5초의 L02 듣기 표본에서 프레임 간격 mean 4.21ms / p95 7.10ms / max 50.10ms, 해당 구간 long task 0이었습니다. 전체 탐색 실행에는 long task 2개가 관측됐습니다. 개발 환경에서는 관측 voice 최대 3, 20회 전환 모두 정확한 현재 profile만 보유했습니다.
 
 이는 공유 데스크톱의 짧은 headless 측정입니다. GPU 렌더 시간, 실제 터치 지연, iPhone/Android의 메모리·온도·배터리 성능을 측정하지 않았습니다. 자산의 RGBA 예상 메모리는 실기기 GPU 측정이 아닙니다. ZIP 전체 크기는 초기 앱 전송량이 아닙니다. 세부 측정과 구간 구분은 JSON을 참조합니다.
 

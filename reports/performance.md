@@ -1,13 +1,13 @@
 # P22 로컬 성능 측정
 
-측정: 2026-10-18T17:03:09.194Z. Chrome 155.0.8059.80. Desktop headless Google Chrome on shared Windows host; no physical mobile device, direct listening, GPU profiling, or network throttling.
+측정: 2026-10-18T17:19:06.941Z. Chrome 155.0.8059.80. Desktop headless Google Chrome on shared Windows host; no physical mobile device, direct listening, GPU profiling, or network throttling.
 
 실제 UI에서 홈 → 소리 켜기 → 꿈 지도 → L02 수업 → 듣기를 진행했다. 별도 headless Chrome 임시 프로필을 사용했고 다른 게임·사용자 브라우저는 조작하지 않았다.
 
 | 실행 | 첫 playable 누적 HTTP 전송 bytes | 홈 mean / p95 / max ms | L02 듣기 mean / p95 / max ms | 듣기 long tasks | 관측 max voices |
 |---|---:|---|---|---:|---:|
-| production | 1,373,608 | 3.69 / 4.90 / 6.80 | 4.52 / 7.50 / 53.60 | 0 | production getter 없음 |
-| development | 2,462,104 | 3.60 / 4.80 / 6.80 | 4.27 / 7.40 / 11.00 | 0 | 3 |
+| production | 1,373,695 | 3.65 / 4.70 / 10.30 | 4.21 / 7.10 / 50.10 | 0 | production getter 없음 |
+| development | 2,462,800 | 3.72 / 4.50 / 6.80 | 4.28 / 7.40 / 10.10 | 0 | 3 |
 
 - production: 8,000,000B 초기 전송 목표 통과. production inspector intentionally absent; not directly observable here; development run and asset loader tests provide profile evidence.
 - development: 8,000,000B 초기 전송 목표 통과. 20/20 exact scene profiles; no accumulation observed in registry.

@@ -1,5 +1,8 @@
 # 브라우저 검증 보고서
 
+<!-- dependency-security-followup -->
+Dependency security follow-up (1.0.1-preview): the21-case results below are the retained pre-patch baseline. Exactly8 overlapping cases were rerun after Vite7.3.7/Vitest4.1.11/Ajv8.20.0: **8 passed / 0 failed / 0 skipped**. This is not29 unique cases or a claim that all21 were rerun. See `browser-security-regression.md` and its complete nested raw JSON.
+
 관측된 고유 항목: **21 passed / 0 environment blocked / 0 unresolved failed / 0 skipped**. 여러 실행의 최신 케이스 결과를 합친 수치다. 원래13개 전체가 한 번에 통과했다는 뜻이 아니다.
 
 실행은 전용 headless Chrome·Firefox·Windows Playwright WebKit에서 수행했다. 사용자 탭·프로필은 사용하지 않았다. 볼륨은 실제 설정에서0으로 두고 AudioContext·예약·판정은 실제 시간을 사용했다. 가짜 시계, 점수 호출, 게임 상태 주입, AudioContext 모방은 사용하지 않았다. 화면·상태 관측은 읽기 전용 `window.__nightThread.status()`를 사용했다.

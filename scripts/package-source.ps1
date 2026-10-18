@@ -1,4 +1,4 @@
-param([string]$Name = 'bamsil-workshop-mvp-1.0.0.zip')
+param([string]$Name = 'bamsil-workshop-mvp-1.0.1.zip')
 $ErrorActionPreference = 'Stop'
 $projectRoot = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 $artifactRoot = Join-Path $projectRoot 'artifacts'

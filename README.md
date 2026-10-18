@@ -49,6 +49,8 @@ npm run gate:education
 
 `gate:education`의 현재 **실패는 의도된 출고 차단**입니다. 승인 상태를 바꾸거나 사이트를 배포하는 명령은 없습니다. E2E는 전용 브라우저를 사용하며 최초에는 Playwright 브라우저 설치가 필요할 수 있습니다. 자세한 실제 결과와 한계는 `reports/TEST-REPORT.md`, 인수 항목은 `docs/acceptance-checklist.md`를 보세요.
 
+1.0.1-preview는 개발 도구 보안 교정을 포함합니다. Vite 7.3.7·Vitest 4.1.11·Ajv 8.20.0을 고정했고, 교정 뒤 `npm audit` 취약점 0건과 단위·통합 244개 통과를 확인했습니다. 변경 근거와 전후 원시 결과는 `reports/DEPENDENCY-TRIAGE.md`와 `reports/dependency-audit-*.json`에 있습니다.
+
 ## 구조와 데이터
 
 `src/core/`는 순수 음악 검증·컴파일·판정·입력·원장입니다. `src/audio.ts`가 유일한 음악 시계이며, `src/scene.ts`는 그 시각을 그리기만 합니다. `src/content/`는 원문과 객체가 같은 9레벨입니다. `public/assets/night-thread/`는 수정하지 않은 모바일 자산·manifest·라벨·라이선스입니다. `reference/`는 읽기 전용 원문이고 `docs/reference-fixtures/`는 원문에서 추출한 테스트 오라클입니다.

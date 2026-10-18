@@ -2,6 +2,8 @@
 
 이 문서는 원 설계13장·프롬프트팩 부록G의 U01~U46/I01~I17/E01~E15 및 D 결정을 추적한다. 아래 상태는 이 문서 작성자의 실행 증거 범위를 표시한다. `planned`는 통과가 아니며, 구현팀의 실제 테스트 결과는 최종 QA 보고서에서 명령·케이스·로그와 연결해야 한다. 자동 검사와 사람/실기기 검사를 서로 대체하지 않는다.
 
+최신 수행 상태는 `reports/TEST-REPORT.md`와 별도 Git·Vercel·Drive 인수 보고서를 기준으로 한다. 아래 planned 행과 체크박스는 원문 정적 감사 시점의 검증 계획으로 보존했으며, 실행 실패를 뜻하지 않는다. 후속 사용자 요청으로 Git push와 P27 Vercel 검토용 MVP 호스팅은 승인됐다. P26·유료 기능과 사람의 교육·청음 승인은 확대하지 않았다.
+
 ## 현재 확인된 자료 검사
 
 | 항목 | 상태 | 증거 |
@@ -13,10 +15,10 @@
 |9레벨 gate/시간/N/rest/큰박 golden 일치 | passed (정적) | `node docs/reference-fixtures/verify-reference.mjs` |
 |92기본+17폴백 파일 bytes/SHA | passed (정적) | 같은 verifier의 asset/fallback 항목 |
 | 위 독립 정적 검사 합계 |540 passed /0 failed | `reference-fixtures/verification.json` |
-| 게임 구현 type/unit/integration/browser/build | audit에서 미실행 | 구현팀의 실제 QA 로그로 판정 |
+| 게임 구현 type/unit/integration/browser/build | 원문 정적 감사 시점에는 미실행 | 최신 수행 결과는 `reports/TEST-REPORT.md` 및 원시 QA 로그로 판정 |
 |92자산 공개 승인 | pending | 원본 runtime manifest 모두 releaseApproved=false |
 | 실제 청음·모바일·교육자·초보 관찰 | not run / pending | 아래 사람 검수표 |
-| V2/공개배포 | 범위 밖·차단 | P26/P27 별도 승인 없음 |
+| V2 / 검토용 호스팅 / 교육 출고 | V2 미실행 · P27 후속 승인 · 교육 출고 차단 유지 | Git·Vercel 인수 보고서와 92자산 pending 상태를 구분 |
 
 ## 단위 U01~U46
 

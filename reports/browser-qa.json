@@ -427,5 +427,29 @@
     "AudioContext": "undefined",
     "webkitAudioContext": "undefined",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15"
+  },
+  "countsScope": "Previous21-case pre-security dependency baseline; not all21 were rerun after the security patch. See postSecurityPatch for the exact8-case follow-up. Do not add21+8 as distinct cases.",
+  "postSecurityPatch": {
+    "packageVersion": "1.0.1-preview",
+    "versions": {
+      "vite": "7.3.7",
+      "vitest": "4.1.11",
+      "ajv": "8.20.0",
+      "@playwright/test": "1.56.1"
+    },
+    "counts": {
+      "expectedCases": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0
+    },
+    "raw": "browser-security-regression.json",
+    "context": "browser-security-context.json",
+    "localProductionPreflight": {
+      "file": "artifacts/browser-production-security-preflight.json",
+      "outcome": "passed"
+    },
+    "scriptFrozen": true,
+    "relationship": "8 repeated cases from the earlier21; previous13 not rerun for this patch."
   }
 }

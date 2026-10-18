@@ -3,9 +3,9 @@
     "screen": "game",
     "selectedId": "L03",
     "mode": "listen",
-    "epoch": 3.9833333333333334,
-    "audioNow": 0.40737800000596047,
-    "contextTime": 0.45066666666666666,
+    "epoch": 4.084666666666667,
+    "audioNow": 0.5209479999955297,
+    "contextTime": 0.5706666666666667,
     "snapshot": null,
     "paused": false,
     "ready": null,
@@ -149,12 +149,12 @@
       {
         "event": "unlocked",
         "contextSec": 0,
-        "perfMs": 421.19999999552965
+        "perfMs": 545
       },
       {
         "event": "unlocked",
-        "contextSec": 0.392,
-        "perfMs": 825.1999999955297
+        "contextSec": 0.48,
+        "perfMs": 1045.7000000029802
       }
     ],
     "config": {
@@ -181,7 +181,7 @@
     "logicalHold": null,
     "focusBars": null,
     "restartSec": 0,
-    "countStart": 0.65,
+    "countStart": 0.7513333333333333,
     "mappingMethod": "output-timestamp",
     "voices": 0,
     "pending": 54,
@@ -457,9 +457,9 @@
     "screen": "game",
     "selectedId": "L03",
     "mode": "listen",
-    "epoch": 4.124666666666667,
-    "audioNow": 0.5281770000029802,
-    "contextTime": 0.5813333333333334,
+    "epoch": 4.263333333333334,
+    "audioNow": 0.6773409999999999,
+    "contextTime": 0.72,
     "snapshot": null,
     "paused": false,
     "ready": null,
@@ -603,17 +603,17 @@
       {
         "event": "unlocked",
         "contextSec": 0,
-        "perfMs": 421.19999999552965
+        "perfMs": 545
       },
       {
         "event": "unlocked",
-        "contextSec": 0.392,
-        "perfMs": 825.1999999955297
+        "contextSec": 0.48,
+        "perfMs": 1045.7000000029802
       },
       {
         "event": "unlocked",
-        "contextSec": 0.5306666666666666,
-        "perfMs": 971.3999999985099
+        "contextSec": 0.672,
+        "perfMs": 1239.5
       }
     ],
     "config": {
@@ -640,7 +640,7 @@
     "logicalHold": null,
     "focusBars": null,
     "restartSec": 0,
-    "countStart": 0.7913333333333333,
+    "countStart": 0.93,
     "mappingMethod": "output-timestamp",
     "voices": 0,
     "pending": 54,
